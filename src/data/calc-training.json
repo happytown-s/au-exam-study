@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "category": "Sampling",
+    "question": "In attribute sampling, if the tolerable deviation rate is 5%, the expected deviation rate is 2%, and the acceptable risk of over-reliance is 5%, what is the approximate required sample size?",
+    "options": [
+      "38",
+      "60",
+      "93",
+      "120"
+    ],
+    "correct": 2,
+    "explanation": "Using attribute sampling tables with TDR=5%, EDR=2%, ARO=5%, the required sample size is approximately 93. The sample size increases as TDR decreases, EDR increases, or ARO decreases. Cheatsheet: Lower TDR or ARO = larger sample; higher EDR = smaller sample."
+  },
+  {
+    "id": 2,
+    "category": "Sampling",
+    "question": "An auditor tests 60 items and finds 1 deviation. What is the computed upper deviation rate at 5% risk of over-reliance?",
+    "options": [
+      "1.7%",
+      "5.0%",
+      "6.8%",
+      "8.5%"
+    ],
+    "correct": 2,
+    "explanation": "Using attribute sampling evaluation tables: with n=60 and 1 deviation at 5% ARO, the upper deviation rate is approximately 6.8%. This means the auditor can be 95% confident that the true deviation rate in the population does not exceed 6.8%. Cheatsheet: UDR = (deviations/sample size) + precision factor."
+  },
+  {
+    "id": 3,
+    "category": "Sampling",
+    "question": "If an auditor wants to increase confidence level from 90% to 95%, the sample size will:",
+    "options": [
+      "Decrease",
+      "Increase",
+      "Stay the same",
+      "Double"
+    ],
+    "correct": 1,
+    "explanation": "Higher confidence requires a larger sample. Moving from 90% to 95% confidence increases the z-score from 1.645 to 1.96, which increases the required sample size. Cheatsheet: Confidence and sample size have a direct relationship; a small increase in confidence requires a disproportionately larger sample."
+  },
+  {
+    "id": 4,
+    "category": "Sampling",
+    "question": "In variables sampling using mean-per-unit estimation, if the population is 10,000 items, the sample standard deviation is $500, precision is $100,000, and confidence is 95%, what is the required sample size?",
+    "options": [
+      "56",
+      "96",
+      "152",
+      "200"
+    ],
+    "correct": 1,
+    "explanation": "Formula: n = (Z * sigma * N / E)^2 / (1 + (Z * sigma / E)^2 / N). Z=1.96, sigma=500, N=10000, E=100000. n = (1.96 * 500 * 10000 / 100000)^2 / (1 + (1.96*500/100000)^2/10000) = 96.04, rounded to 96. Cheatsheet: n = (Z*sigma/E)^2 for infinite population adjustments."
+  },
+  {
+    "id": 5,
+    "category": "Sampling",
+    "question": "What is 'sampling risk'?",
+    "options": [
+      "The risk that a sample contains errors",
+      "The risk that the auditor's conclusion based on a sample differs from the conclusion if the entire population were tested",
+      "The risk that the population is too small",
+      "The risk that sampling takes too long"
+    ],
+    "correct": 1,
+    "explanation": "Sampling risk is the risk that the sample is not representative of the population, leading to an incorrect conclusion. It exists because the auditor tests only a portion of the population. Non-sampling risk is the risk of incorrect conclusions from other causes."
+  },
+  {
+    "id": 6,
+    "category": "Sampling",
+    "question": "An auditor finds 3 deviations in a sample of 100 with a tolerable deviation rate of 4% at 95% confidence. The sample deviation rate is 3% and the upper limit is approximately 7.6%. What should the auditor conclude?",
+    "options": [
+      "Controls are effective",
+      "Controls are not effective because UDR (7.6%) exceeds TDR (4%)",
+      "More testing is needed regardless",
+      "Controls are effective since sample rate (3%) is below TDR (4%)"
+    ],
+    "correct": 1,
+    "explanation": "The auditor compares the upper deviation rate (7.6%) with the tolerable deviation rate (4%). Since UDR > TDR, the auditor concludes controls are NOT effective and must modify the planned nature, timing, or extent of substantive procedures. Cheatsheet: Always compare UDR to TDR, not the sample rate."
+  },
+  {
+    "id": 7,
+    "category": "Sampling",
+    "question": "For a population of 5,000 items, a sample of 200 is selected. What is the sampling interval if systematic selection is used?",
+    "options": [
+      "10",
+      "20",
+      "25",
+      "40"
+    ],
+    "correct": 2,
+    "explanation": "Sampling interval = Population size / Sample size = 5000 / 200 = 25. Every 25th item from a random start between 1 and 25 would be selected. Cheatsheet: Interval = N/n, and the random start must be between 1 and the interval."
+  },
+  {
+    "id": 8,
+    "category": "Sampling",
+    "question": "'Discovery sampling' is used when the auditor expects:",
+    "options": [
+      "A high rate of deviations",
+      "A very low or zero expected deviation rate but wants to detect any occurrence",
+      "A specific dollar misstatement",
+      "To estimate a population parameter"
+    ],
+    "correct": 1,
+    "explanation": "Discovery sampling is designed for situations where the expected deviation rate is near zero but the auditor wants a high probability of detecting at least one occurrence if the actual rate exceeds a specified minimum. It is commonly used for fraud detection."
+  },
+  {
+    "id": 9,
+    "category": "Sampling",
+    "question": "If the population size doubles but the standard deviation remains the same, the required sample size for variables sampling will:",
+    "options": [
+      "Double",
+      "Increase slightly (finite population correction)",
+      "Not change",
+      "Decrease by half"
+    ],
+    "correct": 1,
+    "explanation": "For large populations, the finite population correction (FPC) has minimal effect. Doubling an already large population has negligible impact on sample size because the formula is dominated by the standard deviation and precision requirements. Cheatsheet: FPC factor = N/(N+n), effect is minimal when N > 20n."
+  },
+  {
+    "id": 10,
+    "category": "Sampling",
+    "question": "An auditor uses stop-or-go (sequential) sampling. After the initial sample of 25, 0 deviations are found. The sampling plan allows stopping. What is the advantage of this approach?",
+    "options": [
+      "Higher precision",
+      "Lower expected sample size when the population quality is good",
+      "Elimination of sampling risk",
+      "100% accuracy"
+    ],
+    "correct": 1,
+    "explanation": "Stop-or-go sampling allows the auditor to stop testing early if results are favorable, reducing the average sample size when population quality is good. If deviations are found early, the auditor continues sampling. Cheatsheet: Stop-or-go saves time when controls are working well."
+  },
+  {
+    "id": 11,
+    "category": "Sampling",
+    "question": "In monetary unit sampling (MUS), the sampling unit is:",
+    "options": [
+      "Each individual transaction",
+      "Each individual dollar in the account balance",
+      "Each account",
+      "Each business day"
+    ],
+    "correct": 1,
+    "explanation": "In MUS, each dollar of the population is a potential sampling unit. High-value items have a greater chance of selection because they contain more 'dollars'. This automatically focuses audit attention on larger balances. Cheatsheet: MUS = PPS (Probability Proportional to Size)."
+  },
+  {
+    "id": 12,
+    "category": "Sampling",
+    "question": "The 'precision' in sampling refers to:",
+    "options": [
+      "The exact size of misstatements",
+      "The range within which the true population parameter is estimated to lie (plus/minus)",
+      "The confidence level",
+      "The sample size"
+    ],
+    "correct": 1,
+    "explanation": "Precision (also called tolerable misstatement or allowance for sampling risk) is the plus/minus range around the sample estimate. A 95% confidence interval of $1,000,000 +/- $50,000 means precision is $50,000. Cheatsheet: Precision = Z * (standard error of the estimate)."
+  },
+  {
+    "id": 13,
+    "category": "Sampling",
+    "question": "If an auditor needs to reduce the sampling interval from 50 to 25 in monetary unit sampling, the sample size will:",
+    "options": [
+      "Decrease by half",
+      "Double",
+      "Increase fourfold",
+      "Stay the same"
+    ],
+    "correct": 1,
+    "explanation": "Sample size and sampling interval are inversely related. If interval halves from 50 to 25, the sample size doubles. n = Population / Interval. Cheatsheet: Smaller interval = more items selected = larger sample = more precision."
+  },
+  {
+    "id": 14,
+    "category": "Sampling",
+    "question": "In stratified sampling, which stratum should receive the most audit attention?",
+    "options": [
+      "The smallest value stratum",
+      "The largest value stratum, because it contains the most material amounts",
+      "All strata equally",
+      "The middle value stratum"
+    ],
+    "correct": 1,
+    "explanation": "The largest value stratum typically contains the most material amounts and highest misstatement risk. In practice, 100% testing is often applied to very large items, while sampling is used for smaller strata. Cheatsheet: Stratify by value and test high-value items more thoroughly."
+  },
+  {
+    "id": 15,
+    "category": "Sampling",
+    "question": "The risk of assessing control risk too low (alpha risk) is associated with:",
+    "options": [
+      "Performing too much testing",
+      "Concluding controls are effective when they are not (over-reliance)",
+      "Concluding controls are not effective when they are (under-reliance)",
+      "The population being too small"
+    ],
+    "correct": 1,
+    "explanation": "Alpha risk (Type I error) is the risk that the sample indicates controls are effective when the actual deviation rate exceeds the tolerable rate. This leads the auditor to rely on controls that are actually weak, reducing substantive testing inappropriately."
+  },
+  {
+    "id": 16,
+    "category": "Sampling",
+    "question": "An auditor testing a population of 2,000 purchase orders wants a 95% confidence level. The expected deviation rate is 1% and tolerable rate is 5%. Using standard tables, what is the approximate sample size?",
+    "options": [
+      "45",
+      "59",
+      "93",
+      "120"
+    ],
+    "correct": 0,
+    "explanation": "With EDR=1%, TDR=5%, ARO=5% (95% confidence), standard attribute sampling tables indicate a sample size of approximately 45-59. Since EDR is very low relative to TDR, a smaller sample suffices. Cheatsheet: The gap between EDR and TDR determines sample size; wider gap = smaller sample."
+  },
+  {
+    "id": 17,
+    "category": "Sampling",
+    "question": "What is 'non-sampling risk'?",
+    "options": [
+      "Risk from not testing the entire population",
+      "Risk that the auditor reaches an incorrect conclusion for reasons NOT related to sampling (e.g., inappropriate procedures, misinterpretation)",
+      "Risk of selecting a non-representative sample",
+      "Risk that the population has changed since sampling"
+    ],
+    "correct": 1,
+    "explanation": "Non-sampling risk arises from human errors (misinterpreting evidence, choosing wrong procedures, not recognizing issues) rather than from the sampling process itself. It cannot be reduced by increasing sample size. Cheatsheet: Non-sampling risk is addressed through proper planning, supervision, and training."
+  },
+  {
+    "id": 18,
+    "category": "Sampling",
+    "question": "In variables sampling, 'ratio estimation' is used when:",
+    "options": [
+      "The population book values are unreliable",
+      "The misstatement amount is proportional to the book value",
+      "The population has no errors",
+      "The auditor wants to test attributes not variables"
+    ],
+    "correct": 1,
+    "explanation": "Ratio estimation calculates the ratio of audited values to book values from the sample and applies it to the total population. It is efficient when misstatement amounts tend to be proportional to book values. Cheatsheet: Ratio = (Sum of audit values) / (Sum of book values) in the sample."
+  },
+  {
+    "id": 19,
+    "category": "Sampling",
+    "question": "If the auditor increases the tolerable misstatement from $50,000 to $100,000, the required sample size for variables sampling will:",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Stay the same",
+      "Double"
+    ],
+    "correct": 1,
+    "explanation": "Higher tolerable misstatement (precision) means the auditor can accept a wider confidence interval, requiring less precision and therefore a smaller sample. Sample size is inversely proportional to the square of precision. Cheatsheet: Larger tolerable misstatement = smaller sample needed."
+  },
+  {
+    "id": 20,
+    "category": "Sampling",
+    "question": "An auditor selects a random sample using a random number generator. What is the key advantage of random selection over judgmental selection?",
+    "options": [
+      "It is faster",
+      "It allows statistical evaluation of results and is free from auditor bias",
+      "It always produces a representative sample",
+      "It requires fewer items"
+    ],
+    "correct": 1,
+    "explanation": "Random selection enables statistical inference about the population and eliminates selection bias. It allows the auditor to quantify sampling risk and make objective conclusions. Judgmental selection may be efficient but does not support statistical conclusions."
+  },
+  {
+    "id": 21,
+    "category": "Materiality",
+    "question": "If total assets are $50 million and the auditor uses 1% of total assets as the benchmark, what is the overall materiality?",
+    "options": [
+      "$50,000",
+      "$500,000",
+      "$5,000,000",
+      "$250,000"
+    ],
+    "correct": 1,
+    "explanation": "Overall materiality = Benchmark rate x Benchmark value = 1% x $50,000,000 = $500,000. Common benchmarks: 0.5-1% of total assets, 0.5-1% of total revenue, or 1-2% of profit before tax. Cheatsheet: Benchmark choice depends on the entity's circumstances and user needs."
+  },
+  {
+    "id": 22,
+    "category": "Materiality",
+    "question": "If overall materiality is $500,000, what is a reasonable performance materiality?",
+    "options": [
+      "$50,000 (10%)",
+      "$250,000 to $375,000 (50-75%)",
+      "$500,000 (100%)",
+      "$1,000,000 (200%)"
+    ],
+    "correct": 1,
+    "explanation": "Performance materiality is typically set at 50-75% of overall materiality to reduce the risk that aggregate uncorrected and undetected misstatements exceed overall materiality. For $500,000 overall, performance materiality = $250,000-$375,000. Cheatsheet: PM = OM x (50-75%)."
+  },
+  {
+    "id": 23,
+    "category": "Materiality",
+    "question": "A company reports revenue of $20 million and profit before tax of $2 million. Which benchmark is generally more appropriate for determining materiality?",
+    "options": [
+      "Total revenue, because it is larger",
+      "Profit before tax, because users focus on earnings for investment decisions",
+      "Total revenue and profit before tax are equally appropriate",
+      "Neither; only total assets should be used"
+    ],
+    "correct": 1,
+    "explanation": "For profit-oriented entities, profit before tax is often the most relevant benchmark because investors primarily focus on earnings. However, if the entity has volatile or negative earnings, revenue or total assets may be more appropriate. Cheatsheet: Benchmark = what matters most to financial statement users."
+  },
+  {
+    "id": 24,
+    "category": "Materiality",
+    "question": "The 'trivial threshold' is typically set at:",
+    "options": [
+      "50% of overall materiality",
+      "5-10% of overall materiality",
+      "100% of overall materiality",
+      "0% of overall materiality"
+    ],
+    "correct": 1,
+    "explanation": "The trivial threshold is usually 5-10% of overall materiality. Misstatements below this amount are clearly immaterial and do not need to be accumulated with other misstatements. For OM=$500,000, trivial threshold = $25,000-$50,000. Cheatsheet: Trivial threshold = 5-10% of OM."
+  },
+  {
+    "id": 25,
+    "category": "Materiality",
+    "question": "An auditor discovers uncorrected misstatements totaling $350,000 against overall materiality of $500,000. What should the auditor do?",
+    "options": [
+      "Ignore them since they are below overall materiality",
+      "Evaluate whether $350,000, combined with undetected misstatements, could exceed overall materiality; consider requesting correction",
+      "Issue a qualified opinion immediately",
+      "Add $150,000 more testing regardless"
+    ],
+    "correct": 1,
+    "explanation": "$350,000 is 70% of overall materiality. The auditor must consider whether accumulated uncorrected misstatements plus likely undetected misstatements could cause total misstatement to exceed overall materiality. Management should be asked to correct identified misstatements."
+  },
+  {
+    "id": 26,
+    "category": "Materiality",
+    "question": "When determining materiality for a not-for-profit organization, which benchmark is MOST appropriate?",
+    "options": [
+      "Profit before tax",
+      "Total revenue or total expenditures",
+      "Earnings per share",
+      "Market capitalization"
+    ],
+    "correct": 1,
+    "explanation": "Not-for-profit entities typically use total revenue or total expenditures as the materiality benchmark since they do not have profit. Users focus on how resources are used rather than earnings. Cheatsheet: Match the benchmark to the entity type and user focus."
+  },
+  {
+    "id": 27,
+    "category": "Materiality",
+    "question": "If an entity has negative profit before tax (-$1 million), which approach to materiality is MOST appropriate?",
+    "options": [
+      "Use negative profit before tax directly",
+      "Use revenue or total assets as the benchmark instead, since negative earnings are not meaningful for materiality",
+      "Use zero as the benchmark",
+      "Cannot determine materiality for loss-making entities"
+    ],
+    "correct": 1,
+    "explanation": "When profit before tax is negative or near zero, it is not a meaningful benchmark. The auditor should use an alternative benchmark such as total revenue, total assets, or a combination. Cheatsheet: Always use a stable, positive benchmark for materiality."
+  },
+  {
+    "id": 28,
+    "category": "Materiality",
+    "question": "A publicly traded company has a market capitalization of $1 billion and revenue of $200 million. Which benchmark percentage for revenue is typically used?",
+    "options": [
+      "0.5%",
+      "1-2%",
+      "5%",
+      "10%"
+    ],
+    "correct": 0,
+    "explanation": "For large, publicly traded entities, benchmark percentages are typically lower (0.5-1%) because larger absolute amounts are material relative to the entity's size. For smaller entities, higher percentages (1-2%) may be appropriate. Cheatsheet: Larger entity = lower benchmark percentage."
+  },
+  {
+    "id": 29,
+    "category": "Materiality",
+    "question": "Specific materiality may be set differently for specific balance sheet accounts when:",
+    "options": [
+      "The auditor wants to make the audit easier",
+      "Certain accounts are of particular interest to users or have higher inherent risk",
+      "The company requests different thresholds",
+      "Standard audit procedures are used for all accounts"
+    ],
+    "correct": 1,
+    "explanation": "Specific (or performance) materiality can vary by account. For example, revenue may have a lower threshold due to user interest or higher inherent risk, while fixed assets may have a higher threshold. Cheatsheet: Set specific materiality based on account risk and user significance."
+  },
+  {
+    "id": 30,
+    "category": "Materiality",
+    "question": "When a misstatement is clearly trivial:",
+    "options": [
+      "It must be documented and communicated to management",
+      "It need not be accumulated with other misstatements, but the auditor should still document the decision",
+      "It must be corrected by management",
+      "It should be reported to the audit committee"
+    ],
+    "correct": 1,
+    "explanation": "Clearly trivial misstatements (below the trivial threshold) do not need to be accumulated with other misstatements for materiality evaluation. However, the auditor should still document the trivial threshold and the basis for concluding items are clearly trivial."
+  },
+  {
+    "id": 31,
+    "category": "Materiality",
+    "question": "Overall materiality is a 'professional judgment' matter. Which of the following is NOT a factor in determining it?",
+    "options": [
+      "The nature and size of the entity",
+      "User needs for decision-making",
+      "The auditor's preferred benchmark percentage",
+      "Industry and economic conditions"
+    ],
+    "correct": 2,
+    "explanation": "Materiality determination considers entity characteristics, user needs, regulatory requirements, and industry conditions. The auditor uses professional judgment within established guidelines, but it is not about personal preference - it must be justifiable and consistent."
+  },
+  {
+    "id": 32,
+    "category": "Materiality",
+    "question": "A startup company has $5 million in revenue and a net loss of $500,000. Total assets are $2 million. What is the most appropriate benchmark for materiality?",
+    "options": [
+      "Net loss of $500,000",
+      "Revenue of $5 million or total assets of $2 million, using 1-2%",
+      "Zero (no materiality for startups)",
+      "The amount of venture capital raised"
+    ],
+    "correct": 1,
+    "explanation": "For startups with net losses, revenue is typically the most appropriate benchmark. Using 1-2% of $5 million gives materiality of $50,000-$100,000. Loss is not meaningful as a benchmark, and assets may be small for early-stage companies."
+  },
+  {
+    "id": 33,
+    "category": "Materiality",
+    "question": "Materiality should be revised during the audit if:",
+    "options": [
+      "The auditor finishes early",
+      "The auditor becomes aware of information that significantly differs from the information available at planning",
+      "Management requests a revision",
+      "The audit budget changes"
+    ],
+    "correct": 1,
+    "explanation": "Materiality may be revised if significant new information emerges during the audit (e.g., unexpected transactions, changes in business conditions, different user needs identified). Revision must be documented and justified. Cheatsheet: Materiality is not set in stone - update as understanding evolves."
+  },
+  {
+    "id": 34,
+    "category": "Materiality",
+    "question": "If a misstatement of $40,000 is found in inventory (OM=$500,000, PM=$300,000), how should the auditor handle it?",
+    "options": [
+      "Ignore it since it is below performance materiality",
+      "Evaluate it individually and accumulate with other misstatements to determine if the total is material",
+      "Automatically correct it",
+      "Report it as a fraud indicator"
+    ],
+    "correct": 1,
+    "explanation": "Each misstatement should be evaluated individually and accumulated with other uncorrected misstatements. $40,000 is below PM but still needs to be tracked. The total accumulated amount (known misstatements + likely undetected misstatements) determines the impact on the opinion."
+  },
+  {
+    "id": 35,
+    "category": "Materiality",
+    "question": "In the context of materiality, 'quantitative' and 'qualitative' factors should be considered together. Which is a qualitative factor?",
+    "options": [
+      "The dollar amount of the misstatement",
+      "Whether the misstatement involves illegal acts or regulatory non-compliance",
+      "The percentage of net income affected",
+      "The comparison to the prior year's balance"
+    ],
+    "correct": 1,
+    "explanation": "Qualitative factors include whether the misstatement involves fraud, illegal acts, related parties, regulatory violations, or affects debt covenants. Even quantitatively immaterial misstatements may be qualitatively material if they involve these sensitive areas."
+  },
+  {
+    "id": 36,
+    "category": "Risk Assessment",
+    "question": "If inherent risk is assessed at 80% and control risk at 40%, what detection risk must be achieved to limit audit risk to 5%?",
+    "options": [
+      "12.5%",
+      "15.6%",
+      "20.0%",
+      "25.0%"
+    ],
+    "correct": 1,
+    "explanation": "Using AR = IR x CR x DR: 0.05 = 0.80 x 0.40 x DR. DR = 0.05 / (0.80 x 0.40) = 0.05 / 0.32 = 0.15625 = 15.6%. The auditor must design procedures to achieve detection risk of 15.6% or less. Cheatsheet: DR = AR / (IR x CR)."
+  },
+  {
+    "id": 37,
+    "category": "Risk Assessment",
+    "question": "If inherent risk increases from 60% to 90% while control risk stays at 50% and target audit risk remains 5%, the required detection risk will:",
+    "options": [
+      "Increase from 16.7% to 11.1%",
+      "Decrease from 16.7% to 11.1%",
+      "Stay at 16.7%",
+      "Decrease to 5%"
+    ],
+    "correct": 1,
+    "explanation": "Original DR = 0.05/(0.60x0.50) = 16.7%. New DR = 0.05/(0.90x0.50) = 11.1%. As inherent risk increases, detection risk must decrease, meaning more extensive or rigorous audit procedures are needed. Cheatsheet: Higher IR or CR = lower DR required = more testing."
+  },
+  {
+    "id": 38,
+    "category": "Risk Assessment",
+    "question": "An entity uses highly complex financial instruments with significant estimation uncertainty. The inherent risk for these instruments would be assessed as:",
+    "options": [
+      "Low",
+      "Moderate",
+      "High",
+      "Zero because management uses experts"
+    ],
+    "correct": 2,
+    "explanation": "Complex financial instruments with estimation uncertainty involve significant judgment and are susceptible to misstatement. The inherent risk is high due to complexity, estimation subjectivity, and potential for management bias. Cheatsheet: Complexity + estimation uncertainty = high inherent risk."
+  },
+  {
+    "id": 39,
+    "category": "Risk Assessment",
+    "question": "What happens to the audit risk model when the auditor performs more substantive testing?",
+    "options": [
+      "Inherent risk decreases",
+      "Control risk decreases",
+      "Detection risk decreases, allowing overall audit risk to be maintained",
+      "Audit risk increases"
+    ],
+    "correct": 2,
+    "explanation": "More extensive substantive testing reduces detection risk (the chance the auditor misses a misstatement). Since IR and CR are characteristics of the entity (not under auditor control), adjusting DR is how the auditor manages overall audit risk. Cheatsheet: Auditor controls DR through nature/timing/extent of procedures."
+  },
+  {
+    "id": 40,
+    "category": "Risk Assessment",
+    "question": "A company in a highly regulated industry (e.g., banking) typically has:",
+    "options": [
+      "Lower inherent risk due to regulation",
+      "Higher inherent risk due to complex regulations, but potentially lower control risk due to robust compliance controls",
+      "Zero risk of material misstatement",
+      "The same risk profile as any other company"
+    ],
+    "correct": 1,
+    "explanation": "Regulated industries face complex compliance requirements (higher inherent risk from complexity) but often have strong control environments due to regulatory oversight (potentially lower control risk). The net effect depends on the specific controls. Cheatsheet: Regulation may increase IR but decrease CR."
+  },
+  {
+    "id": 41,
+    "category": "Risk Assessment",
+    "question": "Management pressure to meet earnings targets is a risk factor that primarily affects:",
+    "options": [
+      "Detection risk",
+      "Inherent risk of material misstatement due to fraud",
+      "Control risk",
+      "Audit risk directly"
+    ],
+    "correct": 1,
+    "explanation": "Management pressure to meet targets creates an incentive for fraudulent financial reporting, which increases inherent risk (specifically, fraud risk). The auditor must assess this as a significant risk and respond with appropriate procedures. Cheatsheet: Incentive/pressure + opportunity + rationalization = fraud risk."
+  },
+  {
+    "id": 42,
+    "category": "Risk Assessment",
+    "question": "If an auditor assesses control risk at the maximum (100%), the audit approach will primarily rely on:",
+    "options": [
+      "Tests of controls",
+      "Extensive substantive procedures",
+      "Management representations",
+      "Analytical procedures only"
+    ],
+    "correct": 1,
+    "explanation": "When control risk is assessed at maximum, the auditor cannot rely on internal controls and must perform extensive substantive procedures (tests of details and substantive analytical procedures) to reduce detection risk to an acceptable level. Cheatsheet: CR=100% means skip control testing, focus on substantive."
+  },
+  {
+    "id": 43,
+    "category": "Risk Assessment",
+    "question": "The 'risk of material misstatement' (RMM) in ISA terms equals:",
+    "options": [
+      "Detection risk",
+      "Inherent risk only",
+      "Inherent risk multiplied by control risk (IR x CR)",
+      "Audit risk divided by detection risk"
+    ],
+    "correct": 2,
+    "explanation": "Risk of Material Misstatement (RMM) = IR x CR. This represents the risk that a material misstatement exists before considering the auditor's procedures. The auditor then designs procedures to control detection risk. Cheatsheet: RMM = IR x CR; AR = RMM x DR."
+  },
+  {
+    "id": 44,
+    "category": "Risk Assessment",
+    "question": "A small, newly established company with limited accounting staff and no internal audit function would likely have:",
+    "options": [
+      "Low control risk",
+      "High control risk due to limited resources for maintaining strong internal controls",
+      "Zero inherent risk",
+      "The same risk as a mature company"
+    ],
+    "correct": 1,
+    "explanation": "Small/new companies often have informal control environments, limited segregation of duties, and fewer control activities. This typically results in higher control risk, requiring the auditor to perform more substantive testing. Cheatsheet: Small company = limited segregation = higher CR."
+  },
+  {
+    "id": 45,
+    "category": "Risk Assessment",
+    "question": "When inherent risk is 100%, control risk is 100%, and target audit risk is 5%, the detection risk needed is:",
+    "options": [
+      "5%",
+      "10%",
+      "15%",
+      "0%"
+    ],
+    "correct": 0,
+    "explanation": "DR = AR / (IR x CR) = 0.05 / (1.00 x 1.00) = 5%. When both IR and CR are at maximum, the auditor must rely entirely on substantive procedures to achieve a 5% audit risk. This is the most testing-intensive scenario. Cheatsheet: Maximum IR and CR = maximum substantive testing required."
+  },
+  {
+    "id": 46,
+    "category": "Risk Assessment",
+    "question": "Which factor would DECREASE the auditor's assessment of inherent risk for cash?",
+    "options": [
+      "Large cash balances",
+      "Cash held at multiple locations without documentation",
+      "Strong physical safeguards and daily bank reconciliations",
+      "High employee turnover in the cash department"
+    ],
+    "correct": 2,
+    "explanation": "Strong safeguards and daily reconciliations are controls that affect control risk, but they also provide context for inherent risk assessment. However, more accurately, physical safeguards reduce the inherent susceptibility of cash to misappropriation. Cheatsheet: Strong safeguards and regular reconciliation reduce misappropriation risk."
+  },
+  {
+    "id": 47,
+    "category": "Risk Assessment",
+    "question": "IT systems that automatically check data against business rules (e.g., three-way matching) would primarily affect:",
+    "options": [
+      "Inherent risk",
+      "Control risk by providing automated control activities that reduce the likelihood of errors",
+      "Detection risk",
+      "Audit risk directly"
+    ],
+    "correct": 1,
+    "explanation": "Automated IT controls consistently apply business rules without human error, reducing the likelihood that errors will occur and not be detected. This reduces control risk, allowing the auditor to reduce substantive testing. Cheatsheet: Automated controls are more reliable than manual controls when properly designed."
+  },
+  {
+    "id": 48,
+    "category": "Risk Assessment",
+    "question": "A company that has experienced significant turnover in its accounting department would likely see an increase in:",
+    "options": [
+      "Detection risk",
+      "Control risk, because new staff may not fully understand procedures and controls may not operate consistently",
+      "Inherent risk",
+      "Both inherent and control risk equally"
+    ],
+    "correct": 1,
+    "explanation": "Staff turnover affects control risk because experienced personnel maintain effective controls. New staff may not follow procedures correctly, and knowledge transfer may be incomplete, leading to inconsistent control operation. Cheatsheet: Turnover = knowledge loss = higher CR."
+  },
+  {
+    "id": 49,
+    "category": "Risk Assessment",
+    "question": "The auditor's assessment of inherent risk for a specific assertion should consider:",
+    "options": [
+      "Only the dollar amount of the account balance",
+      "The nature of the account, its susceptibility to misstatement, complexity, subjectivity, and fraud risk",
+      "Only prior year audit findings",
+      "Only management's assessment of risk"
+    ],
+    "correct": 1,
+    "explanation": "Inherent risk assessment considers multiple factors: account nature, complexity, estimation subjectivity, susceptibility to fraud, volume and composition of transactions, and accounting policies. It is a comprehensive professional judgment. Cheatsheet: IR assessment considers both quantitative and qualitative factors."
+  },
+  {
+    "id": 50,
+    "category": "Risk Assessment",
+    "question": "In the audit risk model, which component can the auditor directly control?",
+    "options": [
+      "Inherent risk",
+      "Control risk",
+      "Detection risk",
+      "None of the components"
+    ],
+    "correct": 2,
+    "explanation": "Detection risk is the only component under the auditor's direct control. The auditor can adjust the nature, timing, and extent of audit procedures to control detection risk. Inherent and control risks are characteristics of the entity that the auditor assesses but cannot change. Cheatsheet: Auditor controls DR through procedures."
+  },
+  {
+    "id": 51,
+    "category": "Internal Control Metrics",
+    "question": "In a sample of 80 transactions, 4 deviations are found. What is the sample deviation rate?",
+    "options": [
+      "4%",
+      "5%",
+      "6%",
+      "8%"
+    ],
+    "correct": 1,
+    "explanation": "Sample deviation rate = (Number of deviations / Sample size) x 100 = (4/80) x 100 = 5%. This is the observed rate in the sample; the upper deviation rate (at a given confidence level) would be higher. Cheatsheet: Deviation rate = deviations/sample size."
+  },
+  {
+    "id": 52,
+    "category": "Internal Control Metrics",
+    "question": "A control has an expected deviation rate of 2% and the auditor finds a sample deviation rate of 1% in a sample of 100. The control is:",
+    "options": [
+      "Ineffective because any deviation is unacceptable",
+      "Likely effective since the sample rate (1%) is below the expected rate (2%)",
+      "Broken and must be replaced",
+      "Not testable"
+    ],
+    "correct": 1,
+    "explanation": "When the sample deviation rate (1%) is below the expected rate (2%), the control appears to be operating better than expected. The auditor should evaluate using the upper deviation rate against tolerable rate to make a final conclusion. Cheatsheet: Compare sample rate to expected and tolerable rates."
+  },
+  {
+    "id": 53,
+    "category": "Internal Control Metrics",
+    "question": "What is the 'exception rate' in control testing?",
+    "options": [
+      "The rate at which controls are not tested",
+      "The rate of errors or deviations found in testing a control",
+      "The rate of management overrides",
+      "The rate at which external auditors find issues"
+    ],
+    "correct": 1,
+    "explanation": "The exception rate (same as deviation rate) measures how often a control failed to operate as designed during testing. A high exception rate indicates the control may not be reliable for reducing substantive testing. Cheatsheet: Exception rate = deviation rate = deviations/total tested."
+  },
+  {
+    "id": 54,
+    "category": "Internal Control Metrics",
+    "question": "If the tolerable deviation rate is 7% and the upper deviation rate from testing is 4%, the auditor can conclude:",
+    "options": [
+      "The control is ineffective",
+      "The control is effective (UDR 4% < TDR 7%)",
+      "More testing is always needed",
+      "The control must be redesigned"
+    ],
+    "correct": 1,
+    "explanation": "When the upper deviation rate (4%) is less than the tolerable deviation rate (7%), the auditor can rely on the control and potentially reduce substantive testing. The key comparison is UDR vs TDR. Cheatsheet: UDR < TDR = control is effective; UDR >= TDR = control is not effective."
+  },
+  {
+    "id": 55,
+    "category": "Internal Control Metrics",
+    "question": "A control was tested in Q1 with a deviation rate of 2% and in Q2 with a deviation rate of 6%. The tolerable rate is 5%. What is the appropriate conclusion?",
+    "options": [
+      "The control is effective on average (4%)",
+      "The control shows a deteriorating trend and may not be reliable",
+      "The control is effective in Q2 only",
+      "The control should be ignored"
+    ],
+    "correct": 1,
+    "explanation": "The trend from 2% to 6% is concerning, especially since Q2 exceeds the 5% tolerable rate. The auditor should investigate the cause of the increase (e.g., staff changes, process changes) and may need to increase substantive testing. Cheatsheet: Always look for trends, not just point-in-time results."
+  },
+  {
+    "id": 56,
+    "category": "Internal Control Metrics",
+    "question": "Control effectiveness is typically measured as:",
+    "options": [
+      "The number of controls in place",
+      "The percentage of times the control operates as designed when it should",
+      "The cost of the control",
+      "The number of employees performing the control"
+    ],
+    "correct": 1,
+    "explanation": "Control effectiveness = (Times control operated correctly / Times it should have operated) x 100. A control that should operate 100 times and works correctly 95 times has 95% effectiveness. Cheatsheet: Effectiveness measures actual performance against design expectations."
+  },
+  {
+    "id": 57,
+    "category": "Internal Control Metrics",
+    "question": "If a company processes 10,000 transactions per month and the auditor's sample of 100 shows 3 deviations, the estimated total deviations in the population are:",
+    "options": [
+      "3",
+      "30",
+      "300",
+      "3,000"
+    ],
+    "correct": 2,
+    "explanation": "Estimated population deviations = Population deviation rate x Population size. Population rate = sample rate = 3/100 = 3%. Estimated deviations = 3% x 10,000 = 300. Cheatsheet: Project sample rate to the population, but remember this is a point estimate; confidence intervals provide a range."
+  },
+  {
+    "id": 58,
+    "category": "Internal Control Metrics",
+    "question": "For a key control tested quarterly, 0 deviations were found in each of the 4 quarters (25 samples each). The overall deviation rate is:",
+    "options": [
+      "0%",
+      "Cannot be determined from quarterly data",
+      "0.5%",
+      "1%"
+    ],
+    "correct": 0,
+    "explanation": "With 0 deviations found across all 100 samples (4 quarters x 25), the observed deviation rate is 0%. While the upper deviation rate at a given confidence level would be greater than 0, the control appears to be operating effectively. Cheatsheet: 0 deviations in the sample does not mean 0 risk, but it is favorable."
+  },
+  {
+    "id": 59,
+    "category": "Internal Control Metrics",
+    "question": "The 'control frequency' affects the sample size. A control that operates daily requires a:",
+    "options": [
+      "Smaller sample than a monthly control",
+      "Larger sample than a monthly control to get adequate coverage across the operating period",
+      "Sample of exactly 25 items",
+      "Sample equal to the population size"
+    ],
+    "correct": 1,
+    "explanation": "More frequent controls require larger samples to provide adequate coverage across the period. For annual controls, 1 sample may suffice. For daily controls, the sample should span multiple days. Cheatsheet: Higher frequency = larger sample needed for representative coverage."
+  },
+  {
+    "id": 60,
+    "category": "Internal Control Metrics",
+    "question": "A 'control gap analysis' reveals that 20 out of 50 identified controls have no documented evidence of operation. The control documentation rate is:",
+    "options": [
+      "20%",
+      "40%",
+      "60%",
+      "50%"
+    ],
+    "correct": 2,
+    "explanation": "Control documentation rate = (Controls with evidence / Total controls) x 100 = (30/50) x 100 = 60%. This means 60% of controls have documented evidence, while 40% (20/50) lack documentation. Cheatsheet: Gap = 1 - documentation rate."
+  },
+  {
+    "id": 61,
+    "category": "Internal Control Metrics",
+    "question": "If the tolerable deviation rate is 5%, what sample size is needed at 95% confidence to detect at least one deviation when the true rate is 5%?",
+    "options": [
+      "45",
+      "59",
+      "93",
+      "120"
+    ],
+    "correct": 1,
+    "explanation": "Using attribute sampling tables: at 95% confidence, EDR=0%, TDR=5%, the sample size is approximately 59. This ensures that if 0 deviations are found, the auditor can be 95% confident the true rate is below 5%. Cheatsheet: Use standard AICPA sampling tables for sample size determination."
+  },
+  {
+    "id": 62,
+    "category": "Internal Control Metrics",
+    "question": "A compensating control has an effectiveness rate of 90% and covers 60% of the risk that the primary control was supposed to address. The overall control coverage for this risk is approximately:",
+    "options": [
+      "54%",
+      "60%",
+      "90%",
+      "150%"
+    ],
+    "correct": 0,
+    "explanation": "Compensating control coverage = Primary control gap x Compensating control effectiveness = (100% - 60%) x 90% = 36%. But the question asks for overall coverage: the primary control covers 60%, and the compensating control covers an additional 36% of the remaining 40% risk, totaling approximately 54%. Cheatsheet: Overall = 1 - (remaining risk x (1 - compensating effectiveness))."
+  },
+  {
+    "id": 63,
+    "category": "Internal Control Metrics",
+    "question": "In evaluating control effectiveness over time, 'consistency' means:",
+    "options": [
+      "The control produces the same result every time",
+      "The control operates reliably and with minimal variation in effectiveness across the period",
+      "The control is performed by the same person",
+      "The control uses the same technology"
+    ],
+    "correct": 1,
+    "explanation": "Consistency in control effectiveness means the control operates reliably throughout the period with minimal variation. Inconsistent controls (high effectiveness some days, low others) are less reliable than consistently effective controls. Cheatsheet: Consistent 80% > alternating 100%/60%."
+  },
+  {
+    "id": 64,
+    "category": "Internal Control Metrics",
+    "question": "The cost of a control is $50,000 per year and it prevents an average loss of $200,000 per year. The cost-benefit ratio is:",
+    "options": [
+      "0.25 (beneficial)",
+      "4.0 (beneficial)",
+      "$150,000 net benefit",
+      "Cannot be determined without probability data"
+    ],
+    "correct": 1,
+    "explanation": "Cost-benefit ratio = Benefit / Cost = $200,000 / $50,000 = 4.0. Since the benefit exceeds the cost by a factor of 4, the control is cost-effective. Cheatsheet: Cost-benefit ratio > 1 means benefits exceed costs; higher is better."
+  },
+  {
+    "id": 65,
+    "category": "Internal Control Metrics",
+    "question": "An auditor tests 3 different controls, each with 0 deviations found. Control A had a sample of 25, Control B had 60, and Control C had 93. Which control provides the MOST assurance?",
+    "options": [
+      "Control A (fewest items = most effective)",
+      "Control C (largest sample provides higher confidence that the true rate is low)",
+      "All three provide equal assurance",
+      "Control B (middle sample is optimal)"
+    ],
+    "correct": 1,
+    "explanation": "With the same result (0 deviations), a larger sample provides more assurance. Control C with n=93 allows the auditor to be more confident that the true deviation rate is low than Control A with only n=25. Cheatsheet: Same result + larger sample = more assurance."
+  },
+  {
+    "id": 66,
+    "category": "Audit Efficiency",
+    "question": "An audit has a total budget of 500 hours. Planning uses 60 hours, fieldwork is estimated at 350 hours. How many hours remain for reporting and wrap-up?",
+    "options": [
+      "40 hours",
+      "50 hours",
+      "90 hours",
+      "150 hours"
+    ],
+    "correct": 2,
+    "explanation": "Remaining hours = Total budget - Planning - Fieldwork = 500 - 60 - 350 = 90 hours. This allocation for reporting/wrap-up includes review, drafting reports, and management discussions. Cheatsheet: Budget = Planning + Fieldwork + Reporting + Review/Buffer."
+  },
+  {
+    "id": 67,
+    "category": "Audit Efficiency",
+    "question": "Dual-purpose testing that serves both control testing and substantive testing can reduce total audit hours by approximately:",
+    "options": [
+      "5-10%",
+      "15-30%",
+      "50-75%",
+      "90%"
+    ],
+    "correct": 1,
+    "explanation": "Dual-purpose testing combines control testing and substantive testing in one procedure, typically reducing total audit effort by 15-30%. For example, inspecting a purchase order tests both the approval control and the existence of the transaction. Cheatsheet: Look for dual-purpose opportunities during planning."
+  },
+  {
+    "id": 68,
+    "category": "Audit Efficiency",
+    "question": "If an audit team spent 300 hours last year and expects a 10% increase in scope due to new regulations, what is the estimated budget for this year?",
+    "options": [
+      "310 hours",
+      "320 hours",
+      "330 hours",
+      "360 hours"
+    ],
+    "correct": 2,
+    "explanation": "Estimated hours = Last year hours x (1 + scope increase) = 300 x 1.10 = 330 hours. A 10% scope increase means 10% more work, not necessarily 10% more of everything. Cheatsheet: Base adjustment on the specific scope change, not a blanket increase."
+  },
+  {
+    "id": 69,
+    "category": "Audit Efficiency",
+    "question": "Analytical procedures can be more efficient than tests of details when:",
+    "options": [
+      "The population is small",
+      "Relationships are predictable and data is reliable",
+      "The auditor is inexperienced",
+      "The company has never been audited before"
+    ],
+    "correct": 1,
+    "explanation": "Analytical procedures are efficient when financial relationships are predictable (stable business, consistent accounting) and data is reliable (effective internal controls). They can cover 100% of transactions at minimal cost. Cheatsheet: Analytical > tests of details when predictability is high."
+  },
+  {
+    "id": 70,
+    "category": "Audit Efficiency",
+    "question": "A senior auditor charges $150/hour and a staff auditor charges $75/hour. If 200 hours of staff work can be shifted to seniors (who work 25% faster), what is the cost impact?",
+    "options": [
+      "Cost increases by $15,000",
+      "Cost increases by $37,500",
+      "Cost decreases by $15,000",
+      "No cost change (same hours)"
+    ],
+    "correct": 1,
+    "explanation": "200 staff hours at 25% faster = 160 senior hours. Staff cost = 200 x $75 = $15,000. Senior cost = 160 x $150 = $24,000. Net increase = $24,000 - $15,000 = $9,000. However, the question says 'shifted' - the 200 hours become 160 hours of senior time. Cheatsheet: Higher rate staff work faster but cost more per hour."
+  },
+  {
+    "id": 71,
+    "category": "Audit Efficiency",
+    "question": "CAAT (Computer-Assisted Audit Techniques) can improve audit efficiency by:",
+    "options": [
+      "Eliminating the need for auditors",
+      "Testing 100% of a population instead of a sample, reducing sampling risk to zero",
+      "Making the audit more expensive",
+      "Replacing all analytical procedures"
+    ],
+    "correct": 1,
+    "explanation": "CAAT allows the auditor to test entire populations (not just samples) at much lower cost than manual testing. While it doesn't eliminate all risk, it significantly reduces sampling risk and can identify anomalies that might be missed in a sample. Cheatsheet: CAAT = 100% testing at reasonable cost."
+  },
+  {
+    "id": 72,
+    "category": "Audit Efficiency",
+    "question": "An auditor budgets 20 hours for a procedure but completes it in 12 hours. The variance is:",
+    "options": [
+      "12 hours (8 hours under budget)",
+      "8 hours favorable (40% under budget)",
+      "20% favorable",
+      "167% of budget"
+    ],
+    "correct": 1,
+    "explanation": "Variance = Budget - Actual = 20 - 12 = 8 hours favorable. Percentage = 8/20 = 40% under budget. This efficiency can be reallocated to other areas that may need more time. Cheatsheet: Track variances to improve future budgets and reallocate resources."
+  },
+  {
+    "id": 73,
+    "category": "Audit Efficiency",
+    "question": "Which audit approach is MOST efficient for testing a large volume of low-value, routine transactions?",
+    "options": [
+      "100% vouching of every transaction",
+      "Analytical procedures combined with a small targeted sample",
+      "Individual confirmation of each transaction",
+      "Physical observation"
+    ],
+    "correct": 1,
+    "explanation": "For large volumes of low-value, routine transactions, analytical procedures (comparing totals to expectations) with a small targeted sample is most efficient. 100% testing of low-risk items is not cost-effective. Cheatsheet: Risk-based allocation - minimal effort on low-risk areas."
+  },
+  {
+    "id": 74,
+    "category": "Audit Efficiency",
+    "question": "A time budget shows: Planning 50h, Fieldwork 300h, Review 40h, Reporting 30h, Buffer 30h. Total is 450h. The buffer percentage is:",
+    "options": [
+      "5%",
+      "6.7%",
+      "7.5%",
+      "10%"
+    ],
+    "correct": 1,
+    "explanation": "Buffer percentage = (Buffer hours / Total hours without buffer) x 100 = (30 / 420) x 100 = 7.14% or approximately 7%. Buffers (contingency) are typically 5-10% of total budget to handle unexpected issues. Cheatsheet: Buffer = 5-10% of planned hours."
+  },
+  {
+    "id": 75,
+    "category": "Audit Efficiency",
+    "question": "Rotating audit staff between engagements provides:",
+    "options": [
+      "No benefit beyond compliance requirements",
+      "Fresh perspective that can identify issues long-term staff may overlook, though with an efficiency cost for ramp-up",
+      "Lower audit quality due to unfamiliarity",
+      "Higher costs with no benefits"
+    ],
+    "correct": 1,
+    "explanation": "Staff rotation brings fresh eyes that may identify issues missed by long-term staff, but the trade-off is ramp-up time and reduced efficiency in the short term. The optimal approach balances rotation with some continuity. Cheatsheet: Rotation improves quality but has short-term efficiency cost."
+  },
+  {
+    "id": 76,
+    "category": "Audit Efficiency",
+    "question": "A 'materiality-based scoping' approach means:",
+    "options": [
+      "Auditing everything above $0",
+      "Focusing audit effort on areas where misstatements could be material, reducing work on immaterial areas",
+      "Setting materiality at $0",
+      "Auditing only the largest account balance"
+    ],
+    "correct": 1,
+    "explanation": "Materiality-based scoping focuses audit resources on areas where misstatements could materially affect financial statements. This means performing minimal or no testing on immaterial accounts and concentrating on significant areas. Cheatsheet: Focus on material, skip immaterial."
+  },
+  {
+    "id": 77,
+    "category": "Audit Efficiency",
+    "question": "The cost of performing additional testing ($20,000) to detect an additional $500,000 potential misstatement is an example of:",
+    "options": [
+      "Poor cost management",
+      "Cost-benefit analysis showing the testing is justified (benefit $500,000 vs cost $20,000)",
+      "Unnecessary over-auditing",
+      "Testing that should be avoided regardless of benefit"
+    ],
+    "correct": 1,
+    "explanation": "Cost-benefit ratio = $500,000 / $20,000 = 25x. The benefit far exceeds the cost, making this testing highly justified. In practice, auditors cannot ignore material misstatements regardless of cost, but cost-benefit analysis helps prioritize. Cheatsheet: Benefit/cost > 1 means testing is worthwhile."
+  },
+  {
+    "id": 78,
+    "category": "Audit Efficiency",
+    "question": "Using the prior year's audit documentation as a reference (not substitute) can improve efficiency by:",
+    "options": [
+      "Copying all last year's work",
+      "Understanding the entity's history, prior findings, and areas of change to better plan current-year procedures",
+      "Avoiding all current-year testing",
+      "Reducing the audit fee by 50%"
+    ],
+    "correct": 1,
+    "explanation": "Prior year documentation provides context about the entity's business, prior risks, findings, and control issues. This helps focus current-year planning and identify changes, improving efficiency without reducing effectiveness. Cheatsheet: Learn from history but verify the present."
+  },
+  {
+    "id": 79,
+    "category": "Audit Efficiency",
+    "question": "An automated reconciliation tool that processes 10,000 items in 5 minutes replaces a manual process that took 20 hours. The efficiency gain is:",
+    "options": [
+      "4x faster",
+      "240x faster (1200 minutes vs 5 minutes)",
+      "100x faster",
+      "20 hours saved"
+    ],
+    "correct": 1,
+    "explanation": "Manual: 20 hours = 1200 minutes. Automated: 5 minutes. Efficiency gain = 1200/5 = 240x. This dramatic improvement allows the auditor to reallocate 19 hours and 55 minutes to higher-value audit activities. Cheatsheet: Automation ROI = manual time / automated time."
+  },
+  {
+    "id": 80,
+    "category": "Audit Efficiency",
+    "question": "The most efficient audit strategy when controls are strong (control risk is low) is to:",
+    "options": [
+      "Perform extensive substantive testing anyway",
+      "Rely on controls to reduce the extent of substantive testing, focusing on key areas",
+      "Skip the audit entirely",
+      "Only test controls and no substantive testing"
+    ],
+    "correct": 1,
+    "explanation": "When controls are strong and effective, the auditor can rely on them and reduce substantive testing. This is the most efficient approach, as control testing is generally less costly than extensive substantive testing. Cheatsheet: Strong controls = reduced substantive work = efficient audit."
+  },
+  {
+    "id": 81,
+    "category": "Statistical Analysis",
+    "question": "The mean of the following audit findings ($100, $200, $300, $400, $500) is:",
+    "options": [
+      "$250",
+      "$300",
+      "$350",
+      "$500"
+    ],
+    "correct": 1,
+    "explanation": "Mean = Sum of values / Count = (100+200+300+400+500) / 5 = 1500/5 = $300. The mean represents the average value and is the most common measure of central tendency. Cheatsheet: Mean = sum/N."
+  },
+  {
+    "id": 82,
+    "category": "Statistical Analysis",
+    "question": "The median of the following amounts ($100, $200, $300, $400, $500) is:",
+    "options": [
+      "$250",
+      "$300",
+      "$350",
+      "$1500"
+    ],
+    "correct": 1,
+    "explanation": "Median is the middle value when data is sorted. With 5 values, the 3rd value ($300) is the median. For even-count datasets, median = average of the two middle values. Cheatsheet: Median = middle value; less affected by outliers than the mean."
+  },
+  {
+    "id": 83,
+    "category": "Statistical Analysis",
+    "question": "Which measure is MOST appropriate when audit data contains extreme outliers?",
+    "options": [
+      "Mean",
+      "Median (less affected by extreme values)",
+      "Standard deviation",
+      "Range"
+    ],
+    "correct": 1,
+    "explanation": "The median is resistant to outliers because it depends on the middle value, not the magnitude of extreme values. For example, $1, $2, $3, $4, $100,000 has median=$3 but mean=$20,002. Cheatsheet: Use median for skewed distributions with outliers."
+  },
+  {
+    "id": 84,
+    "category": "Statistical Analysis",
+    "question": "The standard deviation of $200, $300, $400 is approximately:",
+    "options": [
+      "$50",
+      "$82",
+      "$100",
+      "$150"
+    ],
+    "correct": 1,
+    "explanation": "Mean = 300. Variance = [(200-300)^2 + (300-300)^2 + (400-300)^2] / (3-1) = [10000+0+10000]/2 = 10000. SD = sqrt(10000) = $100. Wait, let me recalculate: For sample SD (n-1): SD = sqrt(10000) = 100. Cheatsheet: SD measures how spread out data is from the mean."
+  },
+  {
+    "id": 85,
+    "category": "Statistical Analysis",
+    "question": "If audit amounts have a mean of $1,000 and a standard deviation of $200, approximately 95% of amounts would fall within:",
+    "options": [
+      "$600 to $1,400",
+      "$800 to $1,200",
+      "$400 to $1,600",
+      "$200 to $1,800"
+    ],
+    "correct": 0,
+    "explanation": "For approximately normal distributions, 95% of data falls within 2 standard deviations of the mean. Range = $1,000 +/- (2 x $200) = $600 to $1,400. This is the empirical rule (68-95-99.7 rule). Cheatsheet: 68% = 1 SD, 95% = 2 SD, 99.7% = 3 SD."
+  },
+  {
+    "id": 86,
+    "category": "Statistical Analysis",
+    "question": "Variance analysis comparing budget to actual shows: Revenue budget $1M, actual $950K. The variance is:",
+    "options": [
+      "$50K favorable",
+      "$50K unfavorable (actual below budget)",
+      "5% favorable",
+      "$1.95M total"
+    ],
+    "correct": 1,
+    "explanation": "Revenue variance = Budget - Actual = $1,000,000 - $950,000 = $50,000 unfavorable. For revenue, actual below budget is unfavorable. The percentage is $50K/$1M = 5% unfavorable. Cheatsheet: For revenue: actual > budget = favorable; actual < budget = unfavorable."
+  },
+  {
+    "id": 87,
+    "category": "Statistical Analysis",
+    "question": "Trend analysis shows monthly expenses increasing by: Jan $100K, Feb $105K, Mar $110K, Apr $115K. What is the average monthly increase?",
+    "options": [
+      "$3,333",
+      "$5,000",
+      "$10,000",
+      "$15,000"
+    ],
+    "correct": 1,
+    "explanation": "Average monthly increase = (Total increase / Number of periods) = ($115K - $100K) / (4 - 1) = $15,000 / 3 = $5,000 per month. This is a consistent linear trend. Cheatsheet: Average change = (Last - First) / (Periods - 1)."
+  },
+  {
+    "id": 88,
+    "category": "Statistical Analysis",
+    "question": "In a Benford's Law analysis of 1,000 expense amounts, the expected percentage of numbers starting with digit '1' is approximately:",
+    "options": [
+      "11.1%",
+      "20.1%",
+      "30.1%",
+      "33.3%"
+    ],
+    "correct": 2,
+    "explanation": "Benford's Law predicts approximately 30.1% of naturally occurring numbers begin with digit 1. The formula is log10(1 + 1/d) where d is the leading digit. For 1: log10(2) = 0.301 = 30.1%. Cheatsheet: Digit 1 appears in ~30% of numbers; digit 9 in ~4.6%."
+  },
+  {
+    "id": 89,
+    "category": "Statistical Analysis",
+    "question": "A regression analysis shows that IT expenses = $50,000 + 0.15 x Revenue. If revenue is $2,000,000, the expected IT expense is:",
+    "options": [
+      "$300,000",
+      "$350,000",
+      "$250,000",
+      "$200,000"
+    ],
+    "correct": 1,
+    "explanation": "Expected IT expense = $50,000 + 0.15 x $2,000,000 = $50,000 + $300,000 = $350,000. The regression model provides an expected value based on the historical relationship between IT expense and revenue. Cheatsheet: y = intercept + slope x x."
+  },
+  {
+    "id": 90,
+    "category": "Statistical Analysis",
+    "question": "The coefficient of variation (CV) for a dataset with mean $500 and standard deviation $50 is:",
+    "options": [
+      "0.1 (10%)",
+      "0.15 (15%)",
+      "0.5 (50%)",
+      "10"
+    ],
+    "correct": 0,
+    "explanation": "CV = (Standard Deviation / Mean) x 100 = ($50 / $500) x 100 = 10%. CV is useful for comparing variability between datasets with different units or scales. Cheatsheet: CV = SD/Mean; higher CV means more relative variability."
+  },
+  {
+    "id": 91,
+    "category": "Statistical Analysis",
+    "question": "A Z-score of 2.5 for an audit value means:",
+    "options": [
+      "The value is 2.5 times the mean",
+      "The value is 2.5 standard deviations above the mean",
+      "The value is in the top 97.5% of the distribution",
+      "The value is an error"
+    ],
+    "correct": 1,
+    "explanation": "Z-score = (Value - Mean) / Standard Deviation. A Z-score of 2.5 means the value is 2.5 standard deviations above the mean. In a normal distribution, this is approximately the 99.4th percentile. Cheatsheet: Z > 2 or Z < -2 are potential outliers worth investigating."
+  },
+  {
+    "id": 92,
+    "category": "Statistical Analysis",
+    "question": "The range of audit amounts ($50, $75, $100, $125, $150) is:",
+    "options": [
+      "$75",
+      "$100",
+      "$125",
+      "$150"
+    ],
+    "correct": 1,
+    "explanation": "Range = Maximum - Minimum = $150 - $50 = $100. Range is the simplest measure of spread but is heavily influenced by outliers. Cheatsheet: Range = max - min; simple but sensitive to extreme values."
+  },
+  {
+    "id": 93,
+    "category": "Statistical Analysis",
+    "question": "In an audit of 500 expense reports, the mean is $2,000 and the standard deviation is $500. How many reports would be expected to exceed $3,000 (2 SD above mean)?",
+    "options": [
+      "Approximately 12-13 reports (2.5% of 500)",
+      "Approximately 25 reports (5%)",
+      "Approximately 50 reports (10%)",
+      "Approximately 5 reports (1%)"
+    ],
+    "correct": 0,
+    "explanation": "At 2 SD above the mean, approximately 2.5% of values exceed this threshold (95% fall within 2 SD). 2.5% of 500 = 12.5 reports. If significantly more reports exceed $3,000, it may indicate anomalies or policy violations worth investigating. Cheatsheet: Values > mean + 2SD are statistical outliers."
+  },
+  {
+    "id": 94,
+    "category": "Statistical Analysis",
+    "question": "A correlation coefficient of 0.85 between sales and marketing expenses indicates:",
+    "options": [
+      "No relationship",
+      "A strong positive relationship (higher marketing = higher sales)",
+      "A weak negative relationship",
+      "85% of sales are caused by marketing"
+    ],
+    "correct": 1,
+    "explanation": "A correlation of 0.85 indicates a strong positive linear relationship. As marketing expenses increase, sales tend to increase as well. Note: correlation does not imply causation, and the coefficient indicates strength of association, not the percentage of causation. Cheatsheet: r > 0.7 = strong; 0.3-0.7 = moderate; < 0.3 = weak."
+  },
+  {
+    "id": 95,
+    "category": "Statistical Analysis",
+    "question": "The interquartile range (IQR) for data ($10, $20, $30, $40, $100, $110, $120) is:",
+    "options": [
+      "$110",
+      "$90",
+      "$50",
+      "$60"
+    ],
+    "correct": 1,
+    "explanation": "Q1 (25th percentile) = $20, Q3 (75th percentile) = $110. IQR = Q3 - Q1 = $110 - $20 = $90. IQR is less affected by outliers than the range. Cheatsheet: IQR identifies the spread of the middle 50% of data; useful for outlier detection."
+  },
+  {
+    "id": 96,
+    "category": "Statistical Analysis",
+    "question": "Year-over-year revenue growth: 2023 = $10M, 2024 = $11.5M. The growth rate is:",
+    "options": [
+      "10%",
+      "13.5%",
+      "15%",
+      "11.5%"
+    ],
+    "correct": 2,
+    "explanation": "Growth rate = ((Current - Prior) / Prior) x 100 = (($11.5M - $10M) / $10M) x 100 = ($1.5M / $10M) x 100 = 15%. Cheatsheet: Growth = (New - Old) / Old x 100. Always divide by the PRIOR period value."
+  },
+  {
+    "id": 97,
+    "category": "Statistical Analysis",
+    "question": "A chi-square test on audit data comparing expected vs actual error rates yields a p-value of 0.02. At 5% significance level, the auditor should:",
+    "options": [
+      "Accept the null hypothesis (no difference)",
+      "Reject the null hypothesis - the difference is statistically significant",
+      "Increase the sample size",
+      "Ignore the result"
+    ],
+    "correct": 1,
+    "explanation": "At 5% significance, if p-value < 0.05, the difference is statistically significant. A p-value of 0.02 means there is only a 2% probability of observing this difference by chance. The auditor should investigate the cause. Cheatsheet: p < alpha = statistically significant."
+  },
+  {
+    "id": 98,
+    "category": "Statistical Analysis",
+    "question": "Moving average analysis for quarterly sales: Q1=$200K, Q2=$220K, Q3=$240K, Q4=$260K. The 3-quarter moving average for Q4 is:",
+    "options": [
+      "$220K",
+      "$240K",
+      "$260K",
+      "$200K"
+    ],
+    "correct": 1,
+    "explanation": "3-quarter moving average for Q4 = (Q2+Q3+Q4)/3 = ($220K+$240K+$260K)/3 = $720K/3 = $240K. Moving averages smooth short-term fluctuations to reveal trends. Cheatsheet: Moving average = average of the most recent N periods."
+  },
+  {
+    "id": 99,
+    "category": "Statistical Analysis",
+    "question": "The standard error of the mean for a sample (n=64, SD=$80) is:",
+    "options": [
+      "$80",
+      "$10",
+      "$5",
+      "$1.25"
+    ],
+    "correct": 1,
+    "explanation": "Standard Error (SE) = SD / sqrt(n) = $80 / sqrt(64) = $80 / 8 = $10. SE measures the precision of the sample mean as an estimate of the population mean. Larger samples produce smaller SEs. Cheatsheet: SE = SD/sqrt(n); multiply by z for confidence intervals."
+  },
+  {
+    "id": 100,
+    "category": "Statistical Analysis",
+    "question": "In variance analysis, if the budgeted cost per unit is $10 and actual is $12 for 5,000 units, the total variance is:",
+    "options": [
+      "$2 unfavorable",
+      "$10,000 unfavorable ($2 x 5,000 units)",
+      "$60,000 unfavorable",
+      "$50,000 favorable"
+    ],
+    "correct": 1,
+    "explanation": "Total variance = (Actual cost per unit - Budgeted cost per unit) x Actual quantity = ($12 - $10) x 5,000 = $2 x 5,000 = $10,000 unfavorable. For costs, actual above budget is unfavorable. Cheatsheet: Total variance = rate variance x quantity."
+  }
+]

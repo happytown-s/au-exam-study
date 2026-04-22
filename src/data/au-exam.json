@@ -1,0 +1,3252 @@
+[
+  {
+    "id": 1,
+    "category": "Audit Planning",
+    "question": "What is the primary purpose of determining materiality during audit planning?",
+    "options": [
+      "To calculate audit fees",
+      "To identify the threshold above which misstatements influence user decisions",
+      "To determine the number of audit staff needed",
+      "To select the audit methodology"
+    ],
+    "correct": 1,
+    "explanation": "Materiality is the threshold above which misstatements are considered material to users' decisions. It helps auditors focus on significant areas and plan the nature, timing, and extent of audit procedures."
+  },
+  {
+    "id": 2,
+    "category": "Audit Planning",
+    "question": "Which risk assessment approach evaluates the likelihood and impact of identified risks to prioritize audit efforts?",
+    "options": [
+      "Sampling-based approach",
+      "Risk-based auditing",
+      "Compliance-based auditing",
+      "Financial-only auditing"
+    ],
+    "correct": 1,
+    "explanation": "Risk-based auditing assesses both likelihood and impact of risks to allocate audit resources effectively. It focuses audit effort on areas with higher risk, improving efficiency and effectiveness."
+  },
+  {
+    "id": 3,
+    "category": "Audit Planning",
+    "question": "In an audit program, what does 'dual-purpose testing' refer to?",
+    "options": [
+      "Testing two departments simultaneously",
+      "Testing that serves both control testing and substantive testing objectives",
+      "Conducting both internal and external audits",
+      "Using both manual and automated procedures"
+    ],
+    "correct": 1,
+    "explanation": "Dual-purpose testing is when a single audit procedure serves both tests of controls (to evaluate operating effectiveness) and substantive tests (to detect material misstatements), improving audit efficiency."
+  },
+  {
+    "id": 4,
+    "category": "Audit Planning",
+    "question": "What is the audit risk model formula?",
+    "options": [
+      "AR = IR x CR + DR",
+      "AR = IR + CR - DR",
+      "AR = IR x CR x DR",
+      "AR = IR / (CR x DR)"
+    ],
+    "correct": 2,
+    "explanation": "Audit Risk (AR) = Inherent Risk (IR) x Control Risk (CR) x Detection Risk (DR). This model shows that when inherent and control risks are high, detection risk must be reduced through more extensive substantive testing."
+  },
+  {
+    "id": 5,
+    "category": "Audit Planning",
+    "question": "When planning an IS audit, which factor should be assessed FIRST?",
+    "options": [
+      "The complexity of the IT infrastructure",
+      "The organization's business objectives and IT-related risks",
+      "The qualifications of the IT audit staff",
+      "The budget allocated for the audit"
+    ],
+    "correct": 1,
+    "explanation": "Understanding business objectives and IT-related risks is the foundation of audit planning. All other factors, including scope and resource allocation, derive from this risk assessment."
+  },
+  {
+    "id": 6,
+    "category": "Audit Planning",
+    "question": "What is the purpose of an audit planning memorandum?",
+    "options": [
+      "To communicate audit fees to management",
+      "To document the audit strategy, scope, and timing decisions",
+      "To record all audit findings",
+      "To serve as the final audit report"
+    ],
+    "correct": 1,
+    "explanation": "The audit planning memorandum documents key decisions about audit strategy, scope, timing, and resource allocation. It serves as a roadmap for the audit and provides evidence of the auditor's planning process."
+  },
+  {
+    "id": 7,
+    "category": "Audit Planning",
+    "question": "Which sampling method is most appropriate when the auditor wants to estimate the dollar amount of misstatement?",
+    "options": [
+      "Attribute sampling",
+      "Stop-or-go sampling",
+      "Variables sampling",
+      "Discovery sampling"
+    ],
+    "correct": 2,
+    "explanation": "Variables sampling is used to estimate the dollar amount of misstatement in a population. It measures quantitative characteristics (like account balances) rather than qualitative characteristics (like error rates)."
+  },
+  {
+    "id": 8,
+    "category": "Audit Planning",
+    "question": "In audit planning, what does 'analytical procedures' primarily help with?",
+    "options": [
+      "Identifying unusual transactions or relationships",
+      "Calculating exact misstatement amounts",
+      "Replacing substantive testing entirely",
+      "Determining employee fraud"
+    ],
+    "correct": 0,
+    "explanation": "Analytical procedures in planning help identify unusual relationships or transactions that may indicate risks of material misstatement. They involve comparing financial data with expectations based on industry trends, prior periods, or budgets."
+  },
+  {
+    "id": 9,
+    "category": "Audit Planning",
+    "question": "When should preliminary materiality be set?",
+    "options": [
+      "At the end of the audit",
+      "During the reporting phase",
+      "During the planning phase",
+      "After testing controls"
+    ],
+    "correct": 2,
+    "explanation": "Preliminary materiality is established during the planning phase to guide audit procedures. It may be revised as the auditor gains more understanding of the entity, but setting it early ensures resources are focused on significant areas."
+  },
+  {
+    "id": 10,
+    "category": "Audit Planning",
+    "question": "What is the purpose of a 'walkthrough' in audit planning?",
+    "options": [
+      "To physically inspect the premises",
+      "To trace a transaction from initiation to recording to understand controls",
+      "To interview all employees",
+      "To calculate financial ratios"
+    ],
+    "correct": 1,
+    "explanation": "A walkthrough involves tracing a single transaction through the entire process to verify that controls are in place and operating as designed. It is a key risk assessment procedure that combines observation, inquiry, and inspection."
+  },
+  {
+    "id": 11,
+    "category": "Audit Planning",
+    "question": "Which of the following is NOT a component of audit planning under ISA standards?",
+    "options": [
+      "Understanding the entity and its environment",
+      "Determining materiality and performance materiality",
+      "Forming an audit opinion",
+      "Identifying and assessing risks of material misstatement"
+    ],
+    "correct": 2,
+    "explanation": "Forming an audit opinion is the final step of the audit, not a planning activity. Audit planning includes understanding the entity, assessing risks, determining materiality, and developing an overall audit strategy."
+  },
+  {
+    "id": 12,
+    "category": "Audit Planning",
+    "question": "What is 'performance materiality'?",
+    "options": [
+      "The maximum fee an auditor can charge",
+      "An amount below overall materiality to reduce the risk of aggregate misstatements exceeding materiality",
+      "The minimum profit threshold for a company",
+      "The standard deviation of audit samples"
+    ],
+    "correct": 1,
+    "explanation": "Performance materiality is set below overall materiality to reduce the probability that the aggregate of uncorrected and undetected misstatements exceeds overall materiality. It is applied to specific account balances or disclosures."
+  },
+  {
+    "id": 13,
+    "category": "Audit Planning",
+    "question": "In IS audit planning, which document defines the audit scope, objectives, and methodology?",
+    "options": [
+      "Audit charter",
+      "Audit program",
+      "Audit plan",
+      "Audit report"
+    ],
+    "correct": 2,
+    "explanation": "The audit plan defines scope, objectives, methodology, timeline, and resource allocation. It is more strategic than the audit program, which details specific procedures. The charter establishes the audit function's authority."
+  },
+  {
+    "id": 14,
+    "category": "Audit Planning",
+    "question": "What is the risk of over-reliance in audit sampling?",
+    "options": [
+      "The auditor tests too few items",
+      "The auditor concludes controls are effective when they are not",
+      "The auditor spends too much time on testing",
+      "The auditor misses significant misstatements in financial statements"
+    ],
+    "correct": 1,
+    "explanation": "Risk of over-reliance (also called alpha risk or Type I error in control testing) occurs when the auditor concludes that controls are operating effectively when they actually are not, leading to insufficient substantive testing."
+  },
+  {
+    "id": 15,
+    "category": "Audit Planning",
+    "question": "Which type of risk is most directly under the auditor's control?",
+    "options": [
+      "Inherent risk",
+      "Control risk",
+      "Detection risk",
+      "Business risk"
+    ],
+    "correct": 2,
+    "explanation": "Detection risk is the risk that the auditor's procedures will not detect a misstatement that exists. Unlike inherent and control risk (which relate to the entity), detection risk can be controlled by the auditor through the nature, timing, and extent of audit procedures."
+  },
+  {
+    "id": 16,
+    "category": "Audit Planning",
+    "question": "When using stratified sampling, the population is divided into subgroups (strata) to:",
+    "options": [
+      "Increase the sample size required",
+      "Improve sampling efficiency by ensuring representation of different value ranges",
+      "Eliminate sampling risk entirely",
+      "Focus only on high-value items"
+    ],
+    "correct": 1,
+    "explanation": "Stratification divides the population into subgroups based on characteristics (usually value). This ensures all significant segments are represented, improves precision, and often reduces the total sample size needed for a given confidence level."
+  },
+  {
+    "id": 17,
+    "category": "Audit Planning",
+    "question": "What is the primary objective of an entrance conference in the audit process?",
+    "options": [
+      "To negotiate the audit fee",
+      "To establish communication with auditee management, confirm scope, and resolve concerns",
+      "To present audit findings",
+      "To select audit team members"
+    ],
+    "correct": 1,
+    "explanation": "The entrance conference opens the audit by communicating with management, confirming the audit scope and timeline, identifying key contacts, discussing potential issues, and establishing expectations for cooperation and access."
+  },
+  {
+    "id": 18,
+    "category": "Audit Planning",
+    "question": "Which factor would MOST likely cause an auditor to increase the assessed level of control risk?",
+    "options": [
+      "The entity has strong segregation of duties",
+      "Management overrides established controls",
+      "The IT system has been recently upgraded",
+      "Internal audit reports are favorable"
+    ],
+    "correct": 1,
+    "explanation": "Management override of controls is a significant risk factor. When management can bypass controls, the system of internal control is unreliable, leading to a higher assessment of control risk and increased substantive testing."
+  },
+  {
+    "id": 19,
+    "category": "Audit Planning",
+    "question": "What is 'trivial threshold' in the context of materiality?",
+    "options": [
+      "The minimum audit fee",
+      "A threshold below which misstatements are clearly immaterial and do not need to be accumulated",
+      "The threshold for reporting fraud",
+      "The maximum amount of sampling error allowed"
+    ],
+    "correct": 1,
+    "explanation": "The trivial threshold is an amount below which misstatements are clearly immaterial individually. These need not be accumulated with other misstatements for materiality evaluation, simplifying the auditor's work on very small items."
+  },
+  {
+    "id": 20,
+    "category": "Audit Planning",
+    "question": "In audit planning, a 'preliminary analytical review' is performed to:",
+    "options": [
+      "Replace all substantive procedures",
+      "Identify areas of potential risk and unusual fluctuations",
+      "Calculate the exact audit budget",
+      "Determine the final audit opinion"
+    ],
+    "correct": 1,
+    "explanation": "Preliminary analytical review involves comparing current financial data with prior periods, budgets, and industry data to identify unusual fluctuations or relationships that may indicate areas of higher risk requiring more audit attention."
+  },
+  {
+    "id": 21,
+    "category": "Audit Planning",
+    "question": "Which of the following best describes 'tolerable error' in sampling?",
+    "options": [
+      "The maximum error the auditor expects to find",
+      "The maximum error rate the auditor is willing to accept and still conclude the population is acceptable",
+      "The actual error rate found in the sample",
+      "The error rate reported to management"
+    ],
+    "correct": 1,
+    "explanation": "Tolerable error (tolerable deviation rate in attribute sampling) is the maximum rate of deviation from prescribed controls that the auditor is willing to accept and still rely on the control. It directly influences sample size."
+  },
+  {
+    "id": 22,
+    "category": "Audit Planning",
+    "question": "When planning an audit of a newly established IT system, which approach is MOST appropriate?",
+    "options": [
+      "Rely entirely on the vendor's documentation",
+      "Focus heavily on general IT controls and change management",
+      "Skip control testing since the system is new",
+      "Only perform substantive testing"
+    ],
+    "correct": 1,
+    "explanation": "New IT systems require emphasis on general IT controls and change management, as these are critical to ensuring the system operates as intended. Controls may be immature, so the auditor should assess both design and implementation thoroughly."
+  },
+  {
+    "id": 23,
+    "category": "Audit Planning",
+    "question": "What is the purpose of determining the audit team's competence and independence?",
+    "options": [
+      "To justify the audit fee",
+      "To ensure ethical requirements are met and the team has appropriate skills",
+      "To assign work equally among team members",
+      "To comply with tax regulations"
+    ],
+    "correct": 1,
+    "explanation": "Evaluating competence and independence ensures the audit team has the necessary skills and is free from conflicts of interest. This is fundamental to audit quality and is required by professional standards and ethical guidelines."
+  },
+  {
+    "id": 24,
+    "category": "Audit Planning",
+    "question": "In a risk-based audit approach, which area should receive the MOST audit attention?",
+    "options": [
+      "Areas with the lowest risk of material misstatement",
+      "Areas with the highest assessed risk of material misstatement",
+      "Areas that are easiest to audit",
+      "Areas suggested by management"
+    ],
+    "correct": 1,
+    "explanation": "Risk-based auditing directs effort to areas with the highest assessed risk of material misstatement. This is the core principle - allocate scarce audit resources where they have the greatest impact on audit quality."
+  },
+  {
+    "id": 25,
+    "category": "Audit Planning",
+    "question": "What is a 'time budget' in audit planning?",
+    "options": [
+      "The total time available to complete the audit",
+      "An estimate of hours required for each audit phase to manage resources and track progress",
+      "The deadline for submitting the audit report",
+      "The time between planning and fieldwork"
+    ],
+    "correct": 1,
+    "explanation": "A time budget estimates hours for each audit phase and procedure. It helps manage resources, track progress, identify overruns early, and improve future planning by comparing actual vs. budgeted time."
+  },
+  {
+    "id": 26,
+    "category": "Audit Planning",
+    "question": "Which of the following would be considered a 'significant risk' under ISA 315?",
+    "options": [
+      "A routine accounting error",
+      "A complex accounting estimate involving significant judgment",
+      "A minor clerical mistake",
+      "An immaterial rounding difference"
+    ],
+    "correct": 1,
+    "explanation": "Significant risks are those requiring special audit consideration, typically involving complex or unusual transactions, significant judgment, or areas susceptible to fraud. Routine errors and immaterial items are not significant risks."
+  },
+  {
+    "id": 27,
+    "category": "Audit Planning",
+    "question": "What is 'block sampling'?",
+    "options": [
+      "Selecting every nth item from the population",
+      "Selecting all items within a contiguous block of time or transactions",
+      "Dividing the population into equal-sized groups",
+      "Randomly selecting individual items"
+    ],
+    "correct": 1,
+    "explanation": "Block sampling selects all items in a defined block (e.g., all transactions in a specific week). While simple, it has statistical limitations because blocks may not be representative of the entire population."
+  },
+  {
+    "id": 28,
+    "category": "Audit Planning",
+    "question": "During audit planning, understanding the entity's internal control system is necessary to:",
+    "options": [
+      "Eliminate the need for substantive testing",
+      "Identify controls relevant to the audit and plan the nature and extent of further procedures",
+      "Determine the exact dollar amount of misstatements",
+      "Prepare the financial statements"
+    ],
+    "correct": 1,
+    "explanation": "Understanding internal controls allows the auditor to identify relevant controls, assess control risk, and determine whether controls testing can reduce substantive testing. It does not eliminate substantive testing but may reduce its extent."
+  },
+  {
+    "id": 29,
+    "category": "Audit Planning",
+    "question": "What does 'audit universe' refer to?",
+    "options": [
+      "All possible audit procedures",
+      "The complete set of auditable units within an organization that could be subject to audit",
+      "All audit standards and regulations",
+      "The total budget allocated for all audits"
+    ],
+    "correct": 1,
+    "explanation": "The audit universe is the complete inventory of auditable units (departments, processes, systems, locations) within the organization. It is used for risk-based audit planning to prioritize which areas to audit."
+  },
+  {
+    "id": 30,
+    "category": "Audit Planning",
+    "question": "When planning to use the work of internal auditors, the external auditor must assess:",
+    "options": [
+      "The internal auditors' years of experience only",
+      "The competence, objectivity, and work quality of the internal audit function",
+      "Whether internal auditors report to the same person as external auditors",
+      "The internal audit department's budget allocation"
+    ],
+    "correct": 1,
+    "explanation": "The external auditor must evaluate the internal audit function's competence (skills and training), objectivity (organizational independence), and the quality of their work (methodology and supervision) before relying on their work."
+  },
+  {
+    "id": 31,
+    "category": "Internal Control",
+    "question": "According to the COSO framework, how many components of internal control exist?",
+    "options": [
+      "Three",
+      "Four",
+      "Five",
+      "Six"
+    ],
+    "correct": 2,
+    "explanation": "The COSO framework defines five components of internal control: Control Environment, Risk Assessment, Control Activities, Information & Communication, and Monitoring Activities. These are interrelated and provide a comprehensive framework for evaluating controls."
+  },
+  {
+    "id": 32,
+    "category": "Internal Control",
+    "question": "Which COSO component is considered the foundation of all other components?",
+    "options": [
+      "Control Activities",
+      "Risk Assessment",
+      "Control Environment",
+      "Monitoring Activities"
+    ],
+    "correct": 2,
+    "explanation": "The Control Environment sets the tone at the top and is the foundation for all other components. It includes integrity, ethical values, management's philosophy, organizational structure, and commitment to competence."
+  },
+  {
+    "id": 33,
+    "category": "Internal Control",
+    "question": "What is 'segregation of duties' primarily designed to prevent?",
+    "options": [
+      "System downtime",
+      "Errors and fraud by a single individual having too much control over a process",
+      "Incomplete documentation",
+      "Slow transaction processing"
+    ],
+    "correct": 1,
+    "explanation": "Segregation of duties divides critical functions (authorization, recording, custody) among different individuals. This prevents any single person from having enough control to both perpetrate and conceal errors or fraud."
+  },
+  {
+    "id": 34,
+    "category": "Internal Control",
+    "question": "Under J-SOX, which management assertion is NOT required in internal control reporting?",
+    "options": [
+      "Existence or occurrence",
+      "Completeness",
+      "Market share analysis",
+      "Rights and obligations"
+    ],
+    "correct": 2,
+    "explanation": "J-SOX management assertions include existence/occurrence, completeness, rights/obligations, valuation/allocation, presentation/disclosure, and accuracy. Market share analysis is not a financial statement assertion."
+  },
+  {
+    "id": 35,
+    "category": "Internal Control",
+    "question": "What is a 'compensating control'?",
+    "options": [
+      "A control that compensates employees for extra work",
+      "A control that mitigates a risk when a primary control is absent or ineffective",
+      "A financial control that reduces tax liability",
+      "A backup control for IT system failures"
+    ],
+    "correct": 1,
+    "explanation": "A compensating control reduces risk to an acceptable level when a primary control is absent or not operating effectively. For example, management review of reports can compensate for weak automated controls."
+  },
+  {
+    "id": 36,
+    "category": "Internal Control",
+    "question": "Which type of control detects errors that have already occurred?",
+    "options": [
+      "Preventive control",
+      "Detective control",
+      "Corrective control",
+      "Directive control"
+    ],
+    "correct": 1,
+    "explanation": "Detective controls identify errors or irregularities after they occur. Examples include reconciliations, variance analyses, and periodic physical inventory counts. They complement preventive controls by catching what preventive controls missed."
+  },
+  {
+    "id": 37,
+    "category": "Internal Control",
+    "question": "In the context of J-SOX, what is a 'key control'?",
+    "options": [
+      "The most expensive control in the organization",
+      "A control designed to prevent or detect material misstatement in financial reporting",
+      "A control only used by executive management",
+      "A control that has never failed"
+    ],
+    "correct": 1,
+    "explanation": "A key control under J-SOX is one specifically designed to prevent or detect material misstatement of financial statement assertions. These are the controls that management must test and report on for compliance."
+  },
+  {
+    "id": 38,
+    "category": "Internal Control",
+    "question": "What does 'monitoring activities' in the COSO framework involve?",
+    "options": [
+      "Supervising employees' daily work activities only",
+      "Ongoing assessments and separate evaluations of whether internal controls are present and functioning",
+      "Monitoring IT system performance metrics",
+      "Tracking competitors' financial performance"
+    ],
+    "correct": 1,
+    "explanation": "Monitoring activities assess whether internal controls operate effectively over time. This includes ongoing monitoring (management reviews, internal audit) and separate evaluations (periodic control self-assessments, external reviews)."
+  },
+  {
+    "id": 39,
+    "category": "Internal Control",
+    "question": "An 'entity-level control' is BEST described as a control that:",
+    "options": [
+      "Only applies to a single transaction",
+      "Operates across the entire organization and sets the tone for control consciousness",
+      "Is used exclusively in manufacturing environments",
+      "Controls only IT system access"
+    ],
+    "correct": 1,
+    "explanation": "Entity-level controls operate across the organization and affect the control environment broadly. Examples include management's risk assessment process, code of conduct, internal audit function, and control culture."
+  },
+  {
+    "id": 40,
+    "category": "Internal Control",
+    "question": "Which of the following is an example of a preventive control?",
+    "options": [
+      "Monthly bank reconciliation",
+      "Physical inventory count",
+      "Requirement for supervisory approval of purchases exceeding a threshold",
+      "Investigation of variance reports"
+    ],
+    "correct": 2,
+    "explanation": "Preventive controls stop errors or irregularities before they occur. Requiring supervisory approval for large purchases prevents unauthorized or inappropriate transactions from being processed."
+  },
+  {
+    "id": 41,
+    "category": "Internal Control",
+    "question": "In evaluating internal controls, 'effective design' means:",
+    "options": [
+      "The control has been implemented correctly",
+      "The control, if operating as designed, would prevent or detect material misstatements",
+      "The control has never had any deviations",
+      "The control is automated"
+    ],
+    "correct": 1,
+    "explanation": "Effective design means the control is suitably designed to prevent or detect material misstatements. This is assessed by understanding how the control operates and whether it addresses the relevant risk, regardless of actual operating results."
+  },
+  {
+    "id": 42,
+    "category": "Internal Control",
+    "question": "What is 'IT general controls' (ITGC) testing primarily concerned with?",
+    "options": [
+      "Application-specific business logic",
+      "The overall IT environment that supports the reliable operation of applications",
+      "End-user computing procedures",
+      "Network speed optimization"
+    ],
+    "correct": 1,
+    "explanation": "ITGC covers the overall IT environment: access controls, change management, operations, and system development. These ensure that application controls function reliably and data integrity is maintained across the IT infrastructure."
+  },
+  {
+    "id": 43,
+    "category": "Internal Control",
+    "question": "A 'change management' control in IT ensures:",
+    "options": [
+      "Employees adapt to organizational changes",
+      "System changes are authorized, tested, and documented before implementation",
+      "Software is updated to the latest version automatically",
+      "Budget changes are approved by management"
+    ],
+    "correct": 1,
+    "explanation": "IT change management controls ensure that system changes are properly authorized, tested, approved, and documented before being moved to production. This prevents unauthorized changes that could compromise data integrity or system availability."
+  },
+  {
+    "id": 44,
+    "category": "Internal Control",
+    "question": "What is the 'control environment' component of COSO primarily concerned with?",
+    "options": [
+      "IT hardware and software",
+      "The attitude and actions of management regarding internal control and ethical values",
+      "Physical security of buildings",
+      "Environmental sustainability initiatives"
+    ],
+    "correct": 1,
+    "explanation": "The control environment encompasses the organization's integrity, ethical values, management philosophy, operating style, organizational structure, and competence standards. It is the 'tone at the top' that influences control consciousness."
+  },
+  {
+    "id": 45,
+    "category": "Internal Control",
+    "question": "Which of the following best describes 'application controls'?",
+    "options": [
+      "Controls over the IT department's budget",
+      "Controls embedded in business applications to ensure transaction accuracy and completeness",
+      "Controls for software licensing",
+      "Controls over end-user workstation hardware"
+    ],
+    "correct": 1,
+    "explanation": "Application controls are automated or manual controls built into applications to ensure transactions are processed accurately, completely, and authorized. Examples include input validation, matching checks, and three-way matching in purchasing."
+  },
+  {
+    "id": 46,
+    "category": "Internal Control",
+    "question": "Under J-SOX, who is primarily responsible for maintaining effective internal controls over financial reporting?",
+    "options": [
+      "The external auditor",
+      "The board of directors only",
+      "Management (CEO and CFO)",
+      "The IT department"
+    ],
+    "correct": 2,
+    "explanation": "Under J-SOX (and SOX), management, specifically the CEO and CFO, bears primary responsibility for establishing, maintaining, and assessing the effectiveness of internal controls over financial reporting (ICFR)."
+  },
+  {
+    "id": 47,
+    "category": "Internal Control",
+    "question": "What is 'incompatible duties'?",
+    "options": [
+      "Duties that require different skill sets",
+      "Duties that, if performed by the same person, could allow errors or fraud to occur and go undetected",
+      "Duties that are assigned to temporary employees",
+      "Duties that overlap between departments"
+    ],
+    "correct": 1,
+    "explanation": "Incompatible duties are functions that should not be performed by the same person to maintain adequate internal control. For example, the person who authorizes payments should not be the same person who records them."
+  },
+  {
+    "id": 48,
+    "category": "Internal Control",
+    "question": "Which type of control is a reconciliation between two independent records?",
+    "options": [
+      "Preventive control only",
+      "Detective control",
+      "Corrective control only",
+      "Directive control"
+    ],
+    "correct": 1,
+    "explanation": "Reconciliations compare two independent records (e.g., bank statement to ledger) to detect discrepancies. They are detective controls because they identify errors or irregularities that have already occurred."
+  },
+  {
+    "id": 49,
+    "category": "Internal Control",
+    "question": "What is 'management override of controls'?",
+    "options": [
+      "Management disabling all controls during an emergency",
+      "Management manipulating records or bypassing established controls for personal gain or to meet targets",
+      "Management delegating authority to subordinates",
+      "Management updating control policies regularly"
+    ],
+    "correct": 1,
+    "explanation": "Management override is when individuals in positions of authority manipulate records or bypass internal controls. It represents a significant fraud risk that is difficult to prevent and requires specific auditor attention."
+  },
+  {
+    "id": 50,
+    "category": "Internal Control",
+    "question": "In the COSO ERM framework, what is 'risk appetite'?",
+    "options": [
+      "The amount of food the risk management team consumes",
+      "The level of risk an organization is willing to accept in pursuit of its objectives",
+      "The maximum dollar loss acceptable in a year",
+      "The number of risks identified in a risk assessment"
+    ],
+    "correct": 1,
+    "explanation": "Risk appetite is the amount and type of risk an organization is willing to accept in pursuit of its objectives. It guides risk management strategy and helps determine which risks to accept, mitigate, avoid, or transfer."
+  },
+  {
+    "id": 51,
+    "category": "Internal Control",
+    "question": "What is a 'control deficiency'?",
+    "options": [
+      "A control that operates too slowly",
+      "A design or operating deficiency that does not allow management or employees to prevent or detect misstatements on a timely basis",
+      "A control that costs more than its benefit",
+      "A control that is not automated"
+    ],
+    "correct": 1,
+    "explanation": "A control deficiency exists when a control is designed or operating such that it is unable to prevent or detect misstatements in a timely manner. Deficiencies are classified as significant deficiencies or material weaknesses based on severity."
+  },
+  {
+    "id": 52,
+    "category": "Internal Control",
+    "question": "Which of the following is an example of an 'information and communication' component in COSO?",
+    "options": [
+      "Hiring qualified IT staff",
+      "The accounting system that captures and processes transaction data accurately",
+      "Physical locks on doors",
+      "Annual performance reviews"
+    ],
+    "correct": 1,
+    "explanation": "The information and communication component covers the systems (like accounting software) that support the identification, capture, and exchange of information in a timely manner, enabling people to carry out their responsibilities."
+  },
+  {
+    "id": 53,
+    "category": "Internal Control",
+    "question": "What is a 'material weakness' in internal control?",
+    "options": [
+      "A control that requires significant investment to fix",
+      "A deficiency or combination of deficiencies resulting in a reasonable possibility that a material misstatement will not be prevented or detected",
+      "A control that is only partially automated",
+      "A control that has been identified but not yet tested"
+    ],
+    "correct": 1,
+    "explanation": "A material weakness is the most severe category of control deficiency. It means there is a reasonable possibility that a material misstatement of the financial statements will not be prevented or detected on a timely basis."
+  },
+  {
+    "id": 54,
+    "category": "Internal Control",
+    "question": "Continuous monitoring of controls using technology is an example of which COSO component?",
+    "options": [
+      "Control Environment",
+      "Risk Assessment",
+      "Control Activities",
+      "Monitoring Activities"
+    ],
+    "correct": 3,
+    "explanation": "Continuous monitoring uses automated tools to assess control effectiveness in real-time. It falls under the Monitoring Activities component, which evaluates whether controls operate effectively over time."
+  },
+  {
+    "id": 55,
+    "category": "Internal Control",
+    "question": "Which control activity ensures that only authorized transactions are processed?",
+    "options": [
+      "Reconciliation",
+      "Physical inventory count",
+      "Authorization and approval procedures",
+      "Employee training programs"
+    ],
+    "correct": 2,
+    "explanation": "Authorization and approval procedures ensure that transactions are processed only by authorized personnel within established limits. This is a fundamental control activity that prevents unauthorized transactions from entering the system."
+  },
+  {
+    "id": 56,
+    "category": "Internal Control",
+    "question": "What is 'segregation of duties' in the context of IT systems?",
+    "options": [
+      "Having separate IT and accounting departments only",
+      "Separating the roles of system development, operations, and security administration",
+      "Using different programming languages for different systems",
+      "Having backup systems at separate locations"
+    ],
+    "correct": 1,
+    "explanation": "IT segregation of duties separates development (creating systems), operations (running systems), and security (controlling access) functions. This prevents any single person from having excessive control over IT systems."
+  },
+  {
+    "id": 57,
+    "category": "Internal Control",
+    "question": "A 'self-assessment' of internal controls by department managers is an example of:",
+    "options": [
+      "External audit procedure",
+      "Monitoring activity",
+      "Preventive control",
+      "Corrective control"
+    ],
+    "correct": 1,
+    "explanation": "Control self-assessment (CSA) is a monitoring activity where business unit managers evaluate their own controls. It promotes ownership of controls and provides management and auditors with information about control effectiveness."
+  },
+  {
+    "id": 58,
+    "category": "Internal Control",
+    "question": "What does 'reasonable assurance' mean in the context of internal controls?",
+    "options": [
+      "Controls provide absolute certainty that misstatements will be prevented",
+      "Controls provide a high (but not absolute) level of assurance that objectives will be achieved",
+      "Controls only need to be 50% effective",
+      "Controls are reasonable in cost compared to benefit"
+    ],
+    "correct": 1,
+    "explanation": "Reasonable assurance means internal controls provide a high but not absolute level of assurance. Limitations exist due to human error, collusion, management override, and cost considerations. Absolute assurance is neither achievable nor cost-effective."
+  },
+  {
+    "id": 59,
+    "category": "Internal Control",
+    "question": "Which of the following is a 'corrective control'?",
+    "options": [
+      "Input validation checks",
+      "Error correction procedures after a detective control identifies a problem",
+      "Monthly budget reviews",
+      "Password complexity requirements"
+    ],
+    "correct": 1,
+    "explanation": "Corrective controls fix problems identified by detective controls. When a reconciliation reveals a discrepancy, the error correction process is a corrective control that resolves the identified issue."
+  },
+  {
+    "id": 60,
+    "category": "Internal Control",
+    "question": "In evaluating the design effectiveness of a control, the auditor should consider whether:",
+    "options": [
+      "The control has been operating for at least one year",
+      "The control has the potential to prevent or detect material misstatements relevant to the assertion",
+      "The control is approved by the board of directors",
+      "The control has zero cost associated with it"
+    ],
+    "correct": 1,
+    "explanation": "Design effectiveness assessment determines whether a control, if operating properly, would be capable of preventing or detecting material misstatements. The focus is on the control's relevance and design, not its operating history."
+  },
+  {
+    "id": 61,
+    "category": "IT Governance",
+    "question": "COBIT is primarily a framework for:",
+    "options": [
+      "Software development methodology",
+      "IT governance and management, providing guidance on aligning IT with business objectives",
+      "Network security standards",
+      "Database management"
+    ],
+    "correct": 1,
+    "explanation": "COBIT (Control Objectives for Information and Related Technologies) is an IT governance framework that helps organizations align IT strategy with business goals, manage risk, and ensure value delivery from IT investments."
+  },
+  {
+    "id": 62,
+    "category": "IT Governance",
+    "question": "In COBIT 2019, how many governance and management objectives are defined?",
+    "options": [
+      "20",
+      "34",
+      "37",
+      "40"
+    ],
+    "correct": 2,
+    "explanation": "COBIT 2019 defines 40 governance and management objectives organized across 5 domains. The governance domain has 3 objectives (EDM01-03) and the management domains have 37 objectives (APO, BAI, DSS, and MEA)."
+  },
+  {
+    "id": 63,
+    "category": "IT Governance",
+    "question": "Which COBIT principle states that IT governance should cover the enterprise end-to-end?",
+    "options": [
+      "Meeting stakeholder needs",
+      "Covering the enterprise end-to-end",
+      "Applying a single integrated framework",
+      "Enabling a holistic approach"
+    ],
+    "correct": 1,
+    "explanation": "COBIT's principle of covering the enterprise end-to-end means IT governance should address all functions and processes within the organization, not just the IT department. IT is an integral part of the enterprise."
+  },
+  {
+    "id": 64,
+    "category": "IT Governance",
+    "question": "ITIL is primarily concerned with:",
+    "options": [
+      "IT governance and strategy",
+      "IT service management best practices for delivering value to customers",
+      "Information security standards",
+      "Software quality assurance"
+    ],
+    "correct": 1,
+    "explanation": "ITIL (Information Technology Infrastructure Library) provides best practices for IT service management, focusing on delivering value to customers through effective service design, transition, operation, and improvement."
+  },
+  {
+    "id": 65,
+    "category": "IT Governance",
+    "question": "Which ITIL service lifecycle stage includes incident management and problem management?",
+    "options": [
+      "Service Strategy",
+      "Service Design",
+      "Service Transition",
+      "Service Operation"
+    ],
+    "correct": 3,
+    "explanation": "Service Operation in ITIL includes day-to-day management of services, covering incident management, problem management, request fulfillment, and access management. It ensures services are delivered as agreed."
+  },
+  {
+    "id": 66,
+    "category": "IT Governance",
+    "question": "ISO 27001 specifies requirements for:",
+    "options": [
+      "Software quality management",
+      "Information security management systems (ISMS)",
+      "IT service management",
+      "Project management"
+    ],
+    "correct": 1,
+    "explanation": "ISO 27001 is the international standard for information security management systems (ISMS). It provides a framework for establishing, implementing, maintaining, and continually improving information security within an organization."
+  },
+  {
+    "id": 67,
+    "category": "IT Governance",
+    "question": "Which of the following is a key difference between COBIT and ITIL?",
+    "options": [
+      "COBIT is for IT, ITIL is for business",
+      "COBIT focuses on governance and control, ITIL focuses on service management processes",
+      "COBIT is older than ITIL",
+      "COBIT is free, ITIL is paid only"
+    ],
+    "correct": 1,
+    "explanation": "COBIT focuses on IT governance, providing a framework for aligning IT with business objectives and ensuring proper controls. ITIL focuses on IT service management, providing detailed processes for delivering and managing IT services."
+  },
+  {
+    "id": 68,
+    "category": "IT Governance",
+    "question": "The COBIT 'MEAN' principle stands for meeting stakeholder needs through:",
+    "options": [
+      "Money, Efficiency, Assets, and Network",
+      "Meeting enterprise needs by optimizing value delivery while balancing resources, risk, and benefits",
+      "Managing every aspect of network operations",
+      "Maximizing enterprise application needs"
+    ],
+    "correct": 1,
+    "explanation": "The MEAN principle (Meeting Stakeholder Needs) uses a Goals Cascade to translate stakeholder needs into enterprise goals, IT-related goals, and governance/management objectives, ensuring IT delivers value while managing risk and resources."
+  },
+  {
+    "id": 69,
+    "category": "IT Governance",
+    "question": "An Information Security Policy according to ISO 27001 should be:",
+    "options": [
+      "Technical and specific to each system",
+      "Approved by management, communicated to employees, and periodically reviewed",
+      "Only accessible to the IT department",
+      "Created by external consultants only"
+    ],
+    "correct": 1,
+    "explanation": "ISO 27001 requires the information security policy to be approved by management, communicated throughout the organization, periodically reviewed, and updated as needed. Management commitment is a fundamental ISMS requirement."
+  },
+  {
+    "id": 70,
+    "category": "IT Governance",
+    "question": "In IT governance, 'value delivery' refers to:",
+    "options": [
+      "Delivering software on time",
+      "Ensuring IT investments deliver optimal value at optimal cost while balancing risk",
+      "Delivering physical goods to customers",
+      "The speed of network data transfer"
+    ],
+    "correct": 1,
+    "explanation": "Value delivery in IT governance ensures that the organization receives the optimal value from its IT investments. This includes optimizing costs, delivering on-time projects, and ensuring IT services align with business needs."
+  },
+  {
+    "id": 71,
+    "category": "IT Governance",
+    "question": "Which ISO 27001 annex category addresses access control?",
+    "options": [
+      "A.5 - Information Security Policies",
+      "A.8 - Cryptography",
+      "A.9 - Access Control",
+      "A.12 - Operations Security"
+    ],
+    "correct": 2,
+    "explanation": "ISO 27001 Annex A.9 specifically addresses access control, including user access management, user responsibilities, and system access control. It ensures that only authorized individuals have access to information and systems."
+  },
+  {
+    "id": 72,
+    "category": "IT Governance",
+    "question": "What is 'IT strategy alignment' in the context of IT governance?",
+    "options": [
+      "Making all departments use the same software",
+      "Ensuring IT plans and activities are consistent with and support the organization's overall business strategy",
+      "Aligning IT staff schedules with business hours",
+      "Ensuring IT hardware is standardized"
+    ],
+    "correct": 1,
+    "explanation": "IT strategy alignment ensures that IT plans, investments, and activities directly support and advance the organization's business strategy. This is a core principle of effective IT governance frameworks like COBIT."
+  },
+  {
+    "id": 73,
+    "category": "IT Governance",
+    "question": "A 'risk treatment' option in information security includes all EXCEPT:",
+    "options": [
+      "Risk avoidance",
+      "Risk transfer",
+      "Risk ignorance",
+      "Risk acceptance"
+    ],
+    "correct": 2,
+    "explanation": "Risk treatment options include: avoid (eliminate the risk), transfer (share with third parties like insurance), mitigate (reduce likelihood or impact), and accept (acknowledge and live with the risk). 'Risk ignorance' is not a valid treatment option."
+  },
+  {
+    "id": 74,
+    "category": "IT Governance",
+    "question": "COBIT's 'EDM' domain stands for:",
+    "options": [
+      "Enterprise Data Management",
+      "Evaluate, Direct, and Monitor",
+      "Engineering Development Model",
+      "Electronic Document Management"
+    ],
+    "correct": 1,
+    "explanation": "EDM (Evaluate, Direct, and Monitor) is COBIT's governance domain. It covers evaluating stakeholder needs, directing strategy and priorities, and monitoring performance and compliance. The other four domains (APO, BAI, DSS, MEA) are management domains."
+  },
+  {
+    "id": 75,
+    "category": "IT Governance",
+    "question": "Which ITIL process is responsible for minimizing the adverse impact of incidents?",
+    "options": [
+      "Change Management",
+      "Problem Management",
+      "Incident Management",
+      "Service Level Management"
+    ],
+    "correct": 2,
+    "explanation": "Incident Management aims to restore normal service operation as quickly as possible while minimizing adverse impact on business operations. It handles the immediate resolution of incidents regardless of root cause."
+  },
+  {
+    "id": 76,
+    "category": "IT Governance",
+    "question": "In the context of IT governance, what is a 'balanced scorecard' used for?",
+    "options": [
+      "Financial accounting only",
+      "Measuring IT performance from multiple perspectives: financial, customer, internal process, and learning/growth",
+      "Balancing the IT budget",
+      "Scoring vendor performance"
+    ],
+    "correct": 1,
+    "explanation": "The balanced scorecard measures performance from four perspectives: financial, customer, internal processes, and learning/growth. In IT governance, it provides a comprehensive view of IT's contribution to organizational objectives."
+  },
+  {
+    "id": 77,
+    "category": "IT Governance",
+    "question": "ISO 27001 requires a 'Statement of Applicability' (SoA) which:",
+    "options": [
+      "Lists all employees who must comply with the ISMS",
+      "Documents which security controls are applicable and their implementation status",
+      "Describes the organization's financial position",
+      "Lists all IT assets and their locations"
+    ],
+    "correct": 1,
+    "explanation": "The Statement of Applicability is a mandatory ISO 27001 document that lists all Annex A controls, identifies which are applicable based on the risk assessment, and describes how each applicable control is implemented (or why some are excluded)."
+  },
+  {
+    "id": 78,
+    "category": "IT Governance",
+    "question": "IT governance is MOST effective when it is:",
+    "options": [
+      "Delegated entirely to the IT department",
+      "A board-level responsibility with clear accountability across the organization",
+      "Handled only by external consultants",
+      "Focused exclusively on cost reduction"
+    ],
+    "correct": 1,
+    "explanation": "Effective IT governance requires board-level oversight and clear accountability throughout the organization. While IT plays a crucial role, governance must be an enterprise-wide responsibility to ensure alignment with business objectives."
+  },
+  {
+    "id": 79,
+    "category": "IT Governance",
+    "question": "Which COBIT process area includes managing IT risk?",
+    "options": [
+      "APO01 - Manage the IT Management Framework",
+      "APO12 - Manage Risk",
+      "DSS05 - Manage Security Services",
+      "MEA01 - Monitor, Evaluate, and Assess Performance and Conformance"
+    ],
+    "correct": 1,
+    "explanation": "COBIT APO12 (Manage Risk) covers establishing and maintaining a risk management framework, maintaining a risk profile, and treating identified risks. It is the dedicated risk management process within COBIT's management domains."
+  },
+  {
+    "id": 80,
+    "category": "IT Governance",
+    "question": "ITIL's 'continual service improvement' (CSI) stage focuses on:",
+    "options": [
+      "Designing new services from scratch",
+      "Measuring and improving IT services and processes to increase efficiency and effectiveness",
+      "Responding to security incidents",
+      "Managing IT budgets"
+    ],
+    "correct": 1,
+    "explanation": "CSI focuses on maintaining and improving service quality through a cycle of identifying improvement opportunities, defining metrics, gathering data, analyzing results, and implementing improvements. It drives continuous organizational learning."
+  },
+  {
+    "id": 81,
+    "category": "IT Governance",
+    "question": "An 'IT steering committee' is primarily responsible for:",
+    "options": [
+      "Day-to-day IT operations",
+      "Strategic IT decision-making, priority setting, and ensuring IT-business alignment",
+      "Writing software code",
+      "Fixing hardware failures"
+    ],
+    "correct": 1,
+    "explanation": "The IT steering committee provides strategic direction for IT, sets priorities for IT initiatives, allocates resources, and ensures IT investments align with business strategy. It typically includes senior management from both business and IT."
+  },
+  {
+    "id": 82,
+    "category": "IT Governance",
+    "question": "What is the purpose of an 'IT balanced scorecard' in governance?",
+    "options": [
+      "To balance the IT budget between hardware and software",
+      "To provide a multi-perspective view of IT performance that aligns with business strategy",
+      "To compare IT costs with competitors",
+      "To score employee performance in IT"
+    ],
+    "correct": 1,
+    "explanation": "The IT balanced scorecard adapts the traditional balanced scorecard to IT governance, providing metrics across financial, business user, internal process, and learning/growth perspectives to evaluate IT's contribution to the business."
+  },
+  {
+    "id": 83,
+    "category": "IT Governance",
+    "question": "In ISO 27001, a 'risk assessment' must be performed to:",
+    "options": [
+      "Eliminate all security risks",
+      "Identify, evaluate, and prioritize risks to determine appropriate treatment",
+      "Comply with tax regulations",
+      "Assess employee performance"
+    ],
+    "correct": 1,
+    "explanation": "ISO 27001 requires a systematic risk assessment to identify information security risks, evaluate their likelihood and impact, prioritize them, and determine appropriate treatment strategies. This is fundamental to establishing effective controls."
+  },
+  {
+    "id": 84,
+    "category": "IT Governance",
+    "question": "Which of the following is a key metric in IT governance for 'resource management'?",
+    "options": [
+      "Number of social media followers",
+      "IT staff utilization rate and skill development",
+      "Customer satisfaction scores only",
+      "Office temperature"
+    ],
+    "correct": 1,
+    "explanation": "Resource management metrics in IT governance include staff utilization rates, skill development tracking, training hours, and competency assessments. These metrics ensure IT has the right people with the right skills to deliver value."
+  },
+  {
+    "id": 85,
+    "category": "IT Governance",
+    "question": "The 'separation of duties' principle in IT governance is MOST important for:",
+    "options": [
+      "Reducing IT costs",
+      "Preventing conflicts of interest and reducing the risk of fraud or error",
+      "Improving system performance",
+      "Simplifying organizational structure"
+    ],
+    "correct": 1,
+    "explanation": "Separation of duties in IT governance prevents any single individual from having excessive control over critical IT functions. This reduces fraud risk, ensures oversight, and maintains integrity of IT operations and data."
+  },
+  {
+    "id": 86,
+    "category": "Audit Procedures",
+    "question": "'Vouching' as an audit procedure involves:",
+    "options": [
+      "Testing the mathematical accuracy of records",
+      "Tracing entries from accounting records back to source documents",
+      "Tracing source documents forward to accounting records",
+      "Interviewing management about controls"
+    ],
+    "correct": 1,
+    "explanation": "Vouching traces recorded amounts from the accounting records (ledgers, journals) back to supporting source documents (invoices, receipts). It tests for existence/occurrence assertion by verifying that recorded transactions actually occurred."
+  },
+  {
+    "id": 87,
+    "category": "Audit Procedures",
+    "question": "'Tracing' as an audit procedure tests which assertion?",
+    "options": [
+      "Existence",
+      "Completeness",
+      "Valuation",
+      "Rights and obligations"
+    ],
+    "correct": 1,
+    "explanation": "Tracing goes from source documents forward to accounting records. It tests the completeness assertion by verifying that all valid transactions and events have been captured and recorded in the financial statements."
+  },
+  {
+    "id": 88,
+    "category": "Audit Procedures",
+    "question": "What is 'reperformance' in auditing?",
+    "options": [
+      "Re-auditing the prior year's work",
+      "Independently re-executing a procedure or control that was originally performed by the entity",
+      "Performing the audit a second time",
+      "Reviewing another auditor's work"
+    ],
+    "correct": 1,
+    "explanation": "Reperformance involves the auditor independently executing a procedure or control that the entity has already performed. It provides highly reliable evidence because the auditor personally verifies the control's effectiveness."
+  },
+  {
+    "id": 89,
+    "category": "Audit Procedures",
+    "question": "CAAT (Computer-Assisted Audit Techniques) is used to:",
+    "options": [
+      "Replace manual audit procedures entirely",
+      "Automate and enhance audit procedures using technology to analyze large volumes of data",
+      "Manage audit team schedules",
+      "Create audit reports automatically"
+    ],
+    "correct": 1,
+    "explanation": "CAAT encompasses various techniques using technology to perform audit procedures more efficiently and effectively. It includes data extraction, analysis, querying, and testing of large datasets that would be impractical to examine manually."
+  },
+  {
+    "id": 90,
+    "category": "Audit Procedures",
+    "question": "Which audit procedure provides the HIGHEST level of reliability for evidence of fixed assets?",
+    "options": [
+      "Inquiry of management",
+      "External confirmation from a third party",
+      "Observation of physical assets",
+      "Review of depreciation calculations"
+    ],
+    "correct": 1,
+    "explanation": "External confirmation from independent third parties provides the highest reliability because it comes from an external source with no bias. For fixed assets, this could include confirmation from custodians or valuers."
+  },
+  {
+    "id": 91,
+    "category": "Audit Procedures",
+    "question": "'Observation' as an audit procedure is most appropriate for:",
+    "options": [
+      "Verifying the mathematical accuracy of large transaction volumes",
+      "Confirming the physical existence of inventory",
+      "Testing the authorization of recorded transactions",
+      "Evaluating long-term debt balances"
+    ],
+    "correct": 1,
+    "explanation": "Observation involves the auditor witnessing processes or physically viewing items. For inventory, observing the physical count provides evidence of existence, although it has limitations because the auditor observes only the moment of the count."
+  },
+  {
+    "id": 92,
+    "category": "Audit Procedures",
+    "question": "What is the primary limitation of 'inquiry' as an audit procedure?",
+    "options": [
+      "It takes too much time",
+      "It cannot be documented",
+      "It cannot be relied upon as the sole audit procedure because responses may be unreliable or biased",
+      "It can only be used in planning, not execution"
+    ],
+    "correct": 2,
+    "explanation": "Inquiry involves asking questions of management and employees. While useful, it cannot be the sole source of evidence because responses may be inaccurate, incomplete, or intentionally misleading. It must be corroborated with other procedures."
+  },
+  {
+    "id": 93,
+    "category": "Audit Procedures",
+    "question": "In substantive testing, 'cutoff testing' is performed to verify:",
+    "options": [
+      "That employees are paid correctly",
+      "That transactions are recorded in the correct accounting period",
+      "That the audit is completed on time",
+      "That the company's fiscal year end is appropriate"
+    ],
+    "correct": 1,
+    "explanation": "Cutoff testing verifies that transactions are recorded in the correct accounting period. It is especially important at year-end to ensure revenue and expenses are not prematurely recognized or deferred to manipulate financial results."
+  },
+  {
+    "id": 94,
+    "category": "Audit Procedures",
+    "question": "Which CAAT technique involves analyzing data to identify patterns, anomalies, or outliers?",
+    "options": [
+      "Data extraction only",
+      "Data analysis / data mining",
+      "System documentation review",
+      "Physical inspection"
+    ],
+    "correct": 1,
+    "explanation": "Data analysis and data mining use statistical techniques and algorithms to identify patterns, anomalies, relationships, and outliers in large datasets. This helps auditors focus on high-risk areas and potential fraud indicators."
+  },
+  {
+    "id": 95,
+    "category": "Audit Procedures",
+    "question": "'Dual testing' in IS auditing refers to:",
+    "options": [
+      "Testing two systems simultaneously",
+      "Testing both the technical implementation and the business logic of a control",
+      "Having two auditors test the same control",
+      "Testing both input and output of a system"
+    ],
+    "correct": 1,
+    "explanation": "Dual testing in IS auditing evaluates both the technical implementation (e.g., access control configuration) and the business logic (e.g., approval workflow) of a control. This ensures the control operates effectively from both perspectives."
+  },
+  {
+    "id": 96,
+    "category": "Audit Procedures",
+    "question": "When performing a test of details for accounts receivable, the most appropriate procedure is:",
+    "options": [
+      "Observing the mail room",
+      "Circularization (confirmation of balances directly from debtors)",
+      "Reviewing the sales budget",
+      "Interviewing the sales manager"
+    ],
+    "correct": 1,
+    "explanation": "Circularization (external confirmation) involves sending letters directly to debtors asking them to confirm their account balances. This provides highly reliable external evidence for the existence and accuracy of accounts receivable."
+  },
+  {
+    "id": 97,
+    "category": "Audit Procedures",
+    "question": "Which procedure would be MOST effective for detecting unauthorized access to a system?",
+    "options": [
+      "Reviewing user manuals",
+      "Analyzing system access logs for unusual patterns or times",
+      "Interviewing system users",
+      "Checking hardware specifications"
+    ],
+    "correct": 1,
+    "explanation": "Analyzing system access logs is the most direct way to detect unauthorized access. Logs show who accessed the system, when, what actions were performed, and from where. Unusual patterns (access at odd hours, failed attempts) may indicate unauthorized access."
+  },
+  {
+    "id": 98,
+    "category": "Audit Procedures",
+    "question": "What is 'Benford's Law' used for in auditing?",
+    "options": [
+      "Calculating depreciation",
+      "Detecting potential fraud by analyzing the distribution of leading digits in financial data",
+      "Determining materiality thresholds",
+      "Testing inventory valuation methods"
+    ],
+    "correct": 1,
+    "explanation": "Benford's Law states that in naturally occurring datasets, the leading digit is more likely to be small. Deviations from this expected distribution may indicate data manipulation or fraud, making it a useful analytical tool for auditors."
+  },
+  {
+    "id": 99,
+    "category": "Audit Procedures",
+    "question": "A 'gap analysis' in IS auditing is used to:",
+    "options": [
+      "Find unused disk space on servers",
+      "Identify differences between the current state and desired state of controls or standards",
+      "Calculate the time gap between transactions",
+      "Measure network latency"
+    ],
+    "correct": 1,
+    "explanation": "Gap analysis compares the current state of controls, processes, or configurations against a desired state (such as a standard or best practice). The gaps identified represent areas needing improvement to meet the target."
+  },
+  {
+    "id": 100,
+    "category": "Audit Procedures",
+    "question": "Which audit procedure provides evidence about the 'valuation' assertion?",
+    "options": [
+      "Confirming account balances with third parties",
+      "Reviewing subsequent events after the balance sheet date",
+      "Tracing transactions from source documents to the ledger",
+      "Observing physical inventory counts"
+    ],
+    "correct": 1,
+    "explanation": "Reviewing subsequent events (events after the balance sheet date) provides evidence about valuation because cash receipts after year-end may confirm the realizable value of receivables, and subsequent sales may confirm inventory valuation."
+  },
+  {
+    "id": 101,
+    "category": "Audit Procedures",
+    "question": "What is 'test data' in the context of IS audit?",
+    "options": [
+      "Data collected during the audit",
+      "Prepared data submitted to a system to verify that it processes correctly according to specified rules",
+      "Data that has been tested and approved for production",
+      "Sample data from the general ledger"
+    ],
+    "correct": 1,
+    "explanation": "Test data is fictitious or specifically prepared data submitted to a system to verify that it correctly processes transactions according to business rules. It tests whether application controls function as designed."
+  },
+  {
+    "id": 102,
+    "category": "Audit Procedures",
+    "question": "'Recomputation' as an audit procedure involves:",
+    "options": [
+      "Recomputing the audit fee",
+      "Independently checking the mathematical accuracy of calculations performed by the entity",
+      "Calculating the company's tax liability",
+      "Estimating future profits"
+    ],
+    "correct": 1,
+    "explanation": "Recomputation involves the auditor independently recalculating amounts (like depreciation, interest, accrued expenses) to verify the entity's calculations are mathematically accurate. It provides reliable evidence for the accuracy assertion."
+  },
+  {
+    "id": 103,
+    "category": "Audit Procedures",
+    "question": "For testing the completeness of revenue transactions, which procedure is MOST effective?",
+    "options": [
+      "Vouching from the ledger to source documents",
+      "Tracing from shipping documents to the sales journal and ledger",
+      "Reviewing the accounts receivable aging report",
+      "Confirming balances with customers"
+    ],
+    "correct": 1,
+    "explanation": "Tracing from source documents (shipping documents) forward to the sales journal and general ledger tests completeness - ensuring that all shipped goods were recorded as revenue. Vouching backward would test existence instead."
+  },
+  {
+    "id": 104,
+    "category": "Audit Procedures",
+    "question": "An 'integrated test facility' (ITF) is:",
+    "options": [
+      "A physical facility where IT systems are tested",
+      "A technique that processes test transactions alongside live production data within the same system",
+      "A software testing tool for unit testing",
+      "A facility for training IT auditors"
+    ],
+    "correct": 1,
+    "explanation": "ITF creates dummy entities (departments, customers, vendors) within the live production system and processes test transactions alongside real ones. This tests application controls in the actual production environment without affecting real data."
+  },
+  {
+    "id": 105,
+    "category": "Audit Procedures",
+    "question": "Which type of analytical procedure compares current data with budgeted amounts?",
+    "options": [
+      "Horizontal analysis only",
+      "Vertical analysis only",
+      "Budget vs. actual analysis",
+      "Trend analysis only"
+    ],
+    "correct": 2,
+    "explanation": "Budget vs. actual analysis compares actual results with budgeted expectations. Significant variances may indicate misstatements, operational issues, or changes in business conditions that require further audit investigation."
+  },
+  {
+    "id": 106,
+    "category": "Audit Procedures",
+    "question": "When auditing password controls, which procedure would provide the BEST evidence?",
+    "options": [
+      "Asking users about their passwords",
+      "Reviewing the password policy document",
+      "Attempting to log in using common weak passwords",
+      "Reviewing the IT budget for security spending"
+    ],
+    "correct": 2,
+    "explanation": "Actually attempting to log in using common weak passwords directly tests the effectiveness of password controls. This active testing approach provides better evidence than reviewing policies or asking questions about compliance."
+  },
+  {
+    "id": 107,
+    "category": "Audit Procedures",
+    "question": "'Scanning' as a security audit procedure is used to:",
+    "options": [
+      "Scan paper documents into digital format",
+      "Identify vulnerabilities, open ports, and security weaknesses in IT systems",
+      "Scan employee attendance records",
+      "Scan financial statements for errors"
+    ],
+    "correct": 1,
+    "explanation": "Security scanning uses automated tools to identify vulnerabilities, open ports, misconfigurations, and security weaknesses in IT systems. Common types include vulnerability scanning, port scanning, and network scanning."
+  },
+  {
+    "id": 108,
+    "category": "Audit Procedures",
+    "question": "What is the purpose of 'substantive analytical procedures'?",
+    "options": [
+      "To test the design of internal controls",
+      "To detect material misstatements at the assertion level by evaluating financial information through relationships",
+      "To prepare the audit plan",
+      "To communicate with management"
+    ],
+    "correct": 1,
+    "explanation": "Substantive analytical procedures use financial and non-financial data relationships to detect material misstatements at the assertion level. They can be effective when relationships are predictable and data is reliable."
+  },
+  {
+    "id": 109,
+    "category": "Audit Procedures",
+    "question": "In auditing IT change management, examining the change log for unauthorized changes is an example of:",
+    "options": [
+      "Inquiry",
+      "Inspection of records/documents",
+      "Observation",
+      "Reperformance"
+    ],
+    "correct": 1,
+    "explanation": "Examining the change log involves inspecting records/documents. It provides evidence about whether changes followed proper authorization, testing, and approval procedures, and whether any unauthorized changes occurred."
+  },
+  {
+    "id": 110,
+    "category": "Audit Procedures",
+    "question": "Which procedure is MOST appropriate for verifying the 'rights and obligations' assertion for accounts payable?",
+    "options": [
+      "Confirming balances with suppliers",
+      "Reviewing vendor contracts and purchase orders",
+      "Observing the receiving department",
+      "Recalculating purchase amounts"
+    ],
+    "correct": 1,
+    "explanation": "Rights and obligations assertions are best tested by reviewing underlying contracts, agreements, and legal documents. For accounts payable, reviewing vendor contracts and purchase orders confirms the entity has a legal obligation to pay."
+  },
+  {
+    "id": 111,
+    "category": "Audit Procedures",
+    "question": "'Journal entry testing' as a fraud detection procedure focuses on:",
+    "options": [
+      "All normal recurring journal entries",
+      "Non-standard, unusual, or end-of-period journal entries that may indicate management override",
+      "Only year-end adjusting entries",
+      "Automatically generated entries only"
+    ],
+    "correct": 1,
+    "explanation": "Journal entry testing targets non-standard entries (unusual timing, round amounts, entries by unauthorized personnel, entries affecting revenue/earnings) because these are common vehicles for management override and fraudulent financial reporting."
+  },
+  {
+    "id": 112,
+    "category": "Audit Procedures",
+    "question": "What is 'parallel simulation' in CAAT?",
+    "options": [
+      "Running two identical systems simultaneously",
+      "Using auditor-developed software to reprocess client data and compare results with the client system output",
+      "Simulating a disaster recovery scenario",
+      "Testing network bandwidth in parallel"
+    ],
+    "correct": 1,
+    "explanation": "Parallel simulation involves the auditor creating a program that replicates the client's application logic, processing the client's data through this program, and comparing results with the client system's output to verify accuracy."
+  },
+  {
+    "id": 113,
+    "category": "Audit Procedures",
+    "question": "Which evidence type from external confirmation is MOST reliable?",
+    "options": [
+      "Confirmation received by the client and forwarded to the auditor",
+      "Confirmation sent and received directly by the auditor",
+      "Oral confirmation from the third party",
+      "Email confirmation to the client's email address"
+    ],
+    "correct": 1,
+    "explanation": "External confirmation is most reliable when the auditor controls the entire process - sending and receiving the confirmation directly. This eliminates the possibility of the client intercepting or altering the response."
+  },
+  {
+    "id": 114,
+    "category": "Audit Procedures",
+    "question": "'Inquiry of legal counsel' is performed primarily to:",
+    "options": [
+      "Get legal advice for the auditor",
+      "Identify pending or threatened litigation and claims against the entity",
+      "Verify the entity's compliance with tax laws",
+      "Determine the entity's legal structure"
+    ],
+    "correct": 1,
+    "explanation": "Inquiry of legal counsel is an audit procedure to identify and evaluate pending or threatened litigation, claims, and assessments that may result in a material loss or contingent liability requiring disclosure or adjustment in the financial statements."
+  },
+  {
+    "id": 115,
+    "category": "Audit Procedures",
+    "question": "For detecting overstatement of inventory, which combination of procedures is MOST effective?",
+    "options": [
+      "Vouching from the ledger to invoices only",
+      "Physical observation of inventory counts and cutoff testing of receiving and shipping records",
+      "Reviewing inventory reports only",
+      "Analyzing inventory turnover ratios only"
+    ],
+    "correct": 1,
+    "explanation": "Physical observation confirms existence, while cutoff testing ensures transactions are recorded in the correct period. Together, they effectively detect inventory overstatement through fictitious items or premature recognition of purchases."
+  },
+  {
+    "id": 116,
+    "category": "Audit Evidence",
+    "question": "Audit evidence is considered sufficient when it is:",
+    "options": [
+      "Completely accurate in all respects",
+      "Available in adequate quantity to support the audit conclusion",
+      "Obtained from external sources only",
+      "Documented in the audit report"
+    ],
+    "correct": 1,
+    "explanation": "Sufficiency relates to the quantity of evidence - whether enough evidence has been gathered to support the auditor's conclusion. It depends on the risk of misstatement, materiality, and quality of available evidence."
+  },
+  {
+    "id": 117,
+    "category": "Audit Evidence",
+    "question": "Which of the following provides the MOST reliable audit evidence?",
+    "options": [
+      "Internal documents prepared by the client",
+      "External confirmations received directly by the auditor",
+      "Oral representations from management",
+      "Client-prepared analysis spreadsheets"
+    ],
+    "correct": 1,
+    "explanation": "External confirmations received directly by the auditor are the most reliable because they come from independent third parties and the auditor controls the process, reducing the risk of client manipulation."
+  },
+  {
+    "id": 118,
+    "category": "Audit Evidence",
+    "question": "'Appropriateness' of audit evidence relates to its:",
+    "options": [
+      "Quantity",
+      "Relevance and reliability",
+      "Cost-effectiveness",
+      "Date of creation"
+    ],
+    "correct": 1,
+    "explanation": "Appropriateness is a measure of the quality of evidence, encompassing relevance (whether the evidence relates to the assertion being tested) and reliability (whether the evidence can be depended upon)."
+  },
+  {
+    "id": 119,
+    "category": "Audit Evidence",
+    "question": "Which type of audit evidence has the LOWEST reliability?",
+    "options": [
+      "External confirmations",
+      "Physically examined documents",
+      "Oral representations from client management",
+      "Auditor's recalculation"
+    ],
+    "correct": 2,
+    "explanation": "Oral representations are the least reliable form of evidence because they cannot be objectively verified, may be inaccurate, and are not documented independently. They must always be corroborated with other, more reliable evidence."
+  },
+  {
+    "id": 120,
+    "category": "Audit Evidence",
+    "question": "Audit working papers serve to:",
+    "options": [
+      "Replace the audit report",
+      "Document the audit procedures performed, evidence obtained, and conclusions reached",
+      "Provide legal protection for the auditor exclusively",
+      "Communicate audit results to the public"
+    ],
+    "correct": 1,
+    "explanation": "Working papers provide the primary record of the audit, documenting procedures performed, evidence obtained, conclusions reached, and the basis for the audit opinion. They support quality review and provide a reference for future audits."
+  },
+  {
+    "id": 121,
+    "category": "Audit Evidence",
+    "question": "The concept of 'corroborating evidence' means:",
+    "options": [
+      "Evidence that contradicts the audit findings",
+      "Additional evidence from a different source that supports or confirms the same conclusion",
+      "Evidence that is stored in a secure location",
+      "Evidence that is more than one year old"
+    ],
+    "correct": 1,
+    "explanation": "Corroborating evidence is additional evidence from a different source that supports the same conclusion. Multiple sources confirming the same finding increase the auditor's confidence in the conclusion."
+  },
+  {
+    "id": 122,
+    "category": "Audit Evidence",
+    "question": "Which of the following factors does NOT affect the reliability of audit evidence?",
+    "options": [
+      "Source of the evidence (external vs. internal)",
+      "Nature of the evidence (visual, documentary, testimonial)",
+      "The auditor's personal preference",
+      "Timeliness of the evidence"
+    ],
+    "correct": 2,
+    "explanation": "The auditor's personal preference does not affect the objective reliability of evidence. Reliability is determined by source, nature, timeliness, and the circumstances under which evidence was obtained."
+  },
+  {
+    "id": 123,
+    "category": "Audit Evidence",
+    "question": "When audit evidence obtained from different sources is inconsistent, the auditor should:",
+    "options": [
+      "Disregard the conflicting evidence",
+      "Investigate the inconsistency and perform additional procedures to resolve it",
+      "Choose the evidence that supports the audit opinion",
+      "Report only to management, not the audit committee"
+    ],
+    "correct": 1,
+    "explanation": "When evidence is inconsistent, the auditor must investigate the inconsistency by performing additional procedures. Resolving conflicts is essential before reaching conclusions, as unreliable evidence cannot support an audit opinion."
+  },
+  {
+    "id": 124,
+    "category": "Audit Evidence",
+    "question": "'Best evidence' (original documents) is generally required when:",
+    "options": [
+      "Any amount of financial data is involved",
+      "The document is the primary record of a transaction (e.g., contracts, certificates)",
+      "Evidence is obtained from external sources",
+      "The audit is conducted remotely"
+    ],
+    "correct": 1,
+    "explanation": "Best evidence refers to original documents rather than copies. Original documents (contracts, stock certificates, title deeds) are required when they represent the primary evidence of rights, obligations, or existence of assets."
+  },
+  {
+    "id": 125,
+    "category": "Audit Evidence",
+    "question": "Electronic audit evidence requires special consideration for:",
+    "options": [
+      "Only the format of the file",
+      "Authenticity, integrity, and completeness of the electronic data",
+      "Only the storage location",
+      "Only the file size"
+    ],
+    "correct": 1,
+    "explanation": "Electronic evidence must be verified for authenticity (is it what it claims to be?), integrity (has it been altered?), and completeness (are all relevant data included?). Chain of custody and metadata preservation are critical."
+  },
+  {
+    "id": 126,
+    "category": "Audit Evidence",
+    "question": "Which working paper is typically considered the MOST important?",
+    "options": [
+      "The time sheet",
+      "The audit program",
+      "The summary (lead) schedule that ties to the financial statements",
+      "The engagement letter"
+    ],
+    "correct": 2,
+    "explanation": "The summary or lead schedule is the most important working paper because it summarizes the audit work for each significant account and ties directly to the financial statement figures, showing how the auditor reached their conclusion."
+  },
+  {
+    "id": 127,
+    "category": "Audit Evidence",
+    "question": "Audit evidence obtained BEFORE the balance sheet date:",
+    "options": [
+      "Cannot be used at all",
+      "May be sufficient but may require additional procedures to cover the intervening period",
+      "Is always more reliable than year-end evidence",
+      "Must be corroborated by management representation"
+    ],
+    "correct": 1,
+    "explanation": "Evidence obtained before year-end may be used, but the auditor must consider what may have changed during the intervening period. Additional procedures (cutoff tests, subsequent review) may be needed to cover events between the evidence date and year-end."
+  },
+  {
+    "id": 128,
+    "category": "Audit Evidence",
+    "question": "A 'management representation letter' provides:",
+    "options": [
+      "The primary evidence for all assertions",
+      "Written confirmation from management about their responsibilities and information provided to the auditor",
+      "Evidence that management has approved the audit fee",
+      "Legal protection against lawsuits for the auditor"
+    ],
+    "correct": 1,
+    "explanation": "The management representation letter confirms management's responsibility for the financial statements, completeness of information provided, and matters communicated to the auditor. It is supporting evidence but not a substitute for other audit procedures."
+  },
+  {
+    "id": 129,
+    "category": "Audit Evidence",
+    "question": "Which of the following is considered 'direct evidence'?",
+    "options": [
+      "Hearsay from a third party",
+      "The auditor's own observation of a process or asset",
+      "A summary report prepared by management",
+      "Industry benchmark data"
+    ],
+    "correct": 1,
+    "explanation": "Direct evidence is evidence the auditor personally obtains through observation, inspection, or reperformance. It is more reliable than indirect evidence (second-hand information) because the auditor controls the collection process."
+  },
+  {
+    "id": 130,
+    "category": "Audit Evidence",
+    "question": "The 'preponderance of evidence' standard in auditing means that:",
+    "options": [
+      "100% of evidence must support the conclusion",
+      "The evidence must clearly outweigh contradictory evidence",
+      "At least one source of evidence is sufficient",
+      "Only external evidence is acceptable"
+    ],
+    "correct": 1,
+    "explanation": "Preponderance of evidence means the body of available evidence must clearly support the auditor's conclusion, outweighing any contradictory evidence. It is not absolute certainty but a high level of confidence."
+  },
+  {
+    "id": 131,
+    "category": "Audit Evidence",
+    "question": "Working papers should be retained for a minimum period specified by:",
+    "options": [
+      "The audit client's preferences",
+      "Professional standards, regulations, or legal requirements (typically 5-7 years)",
+      "The auditor's personal judgment",
+      "The tax authority only"
+    ],
+    "correct": 1,
+    "explanation": "Professional standards and legal requirements mandate minimum retention periods for working papers, typically 5-7 years from the date of the audit report. Retention requirements may vary by jurisdiction and engagement type."
+  },
+  {
+    "id": 132,
+    "category": "Audit Evidence",
+    "question": "Which characteristic of evidence makes 'original source documents' more reliable than photocopies?",
+    "options": [
+      "They are easier to read",
+      "They cannot be altered or forged",
+      "They are less likely to contain errors or alterations compared to copies",
+      "They are always in color"
+    ],
+    "correct": 2,
+    "explanation": "Original documents are more reliable because photocopies may have been altered, may miss details present in the original, or may not accurately represent the original. Originals provide a higher degree of assurance of authenticity."
+  },
+  {
+    "id": 133,
+    "category": "Audit Evidence",
+    "question": "'Sufficient appropriate audit evidence' means the auditor has obtained:",
+    "options": [
+      "All possible evidence related to the audit",
+      "Enough quality evidence to reduce audit risk to an acceptably low level",
+      "Evidence that supports every figure in the financial statements exactly",
+      "Evidence that management agrees with"
+    ],
+    "correct": 1,
+    "explanation": "The standard of sufficient appropriate evidence is the threshold at which audit risk is reduced to an acceptably low level. This is not about absolute certainty but about gathering enough quality evidence to support the audit opinion."
+  },
+  {
+    "id": 134,
+    "category": "Audit Evidence",
+    "question": "When evidence is obtained from an expert, the auditor must evaluate:",
+    "options": [
+      "The expert's fee only",
+      "The expert's competence, capabilities, and objectivity",
+      "The expert's organizational rank",
+      "The expert's years of experience only"
+    ],
+    "correct": 1,
+    "explanation": "The auditor must evaluate the expert's competence (qualifications, skills), capabilities (resources and methods), and objectivity (freedom from bias). This ensures the expert's work can be relied upon as audit evidence."
+  },
+  {
+    "id": 135,
+    "category": "Audit Evidence",
+    "question": "Which of the following is an example of 'circumstantial evidence'?",
+    "options": [
+      "A signed contract",
+      "A physical inventory count",
+      "Unusual financial ratios that suggest overstatement of revenue",
+      "A bank statement"
+    ],
+    "correct": 2,
+    "explanation": "Circumstantial evidence indirectly supports a conclusion based on inference. Unusual financial ratios (e.g., revenue growth significantly exceeding industry average) suggest but don't directly prove revenue overstatement."
+  },
+  {
+    "id": 136,
+    "category": "Audit Evidence",
+    "question": "'Subsequent discovery of facts' AFTER the audit report date requires the auditor to:",
+    "options": [
+      "Ignore them if they are minor",
+      "Assess whether the facts existed at the report date and take appropriate action including possible report revision",
+      "Only notify management",
+      "Immediately issue a revised audit report"
+    ],
+    "correct": 1,
+    "explanation": "When facts are discovered after the report date that existed at that date, the auditor must assess their significance, discuss with management and those charged with governance, and take appropriate action which may include revising the report."
+  },
+  {
+    "id": 137,
+    "category": "Audit Evidence",
+    "question": "The 'documentation' standard requires that working papers:",
+    "options": [
+      "Be prepared by the audit partner personally",
+      "Sufficiently detail the work performed so an experienced auditor with no prior involvement can understand it",
+      "Be in paper format only",
+      "Be submitted to the client for review"
+    ],
+    "correct": 1,
+    "explanation": "Working papers must be sufficiently detailed that an experienced auditor with no previous involvement can understand the nature, timing, extent, and results of procedures performed and the conclusions reached."
+  },
+  {
+    "id": 138,
+    "category": "Audit Evidence",
+    "question": "Which factor would MOST likely reduce the quantity of audit evidence needed?",
+    "options": [
+      "A higher assessed risk of material misstatement",
+      "A strong system of internal control reducing control risk",
+      "Larger balances in accounts",
+      "A new client engagement"
+    ],
+    "correct": 1,
+    "explanation": "Strong internal controls reduce control risk, which in turn reduces the amount of substantive evidence needed. The lower the assessed risk, the less evidence is required to achieve an acceptably low level of audit risk."
+  },
+  {
+    "id": 139,
+    "category": "Audit Evidence",
+    "question": "'Third-party evidence' obtained directly by the auditor is more reliable because:",
+    "options": [
+      "It is always free of errors",
+      "It comes from an independent source outside the entity's control",
+      "It is less expensive to obtain",
+      "It requires less documentation"
+    ],
+    "correct": 1,
+    "explanation": "Third-party evidence is more reliable because it comes from sources outside the entity's control and influence. The entity cannot easily manipulate external confirmations, making this evidence more trustworthy for supporting audit conclusions."
+  },
+  {
+    "id": 140,
+    "category": "Audit Evidence",
+    "question": "Metadata in electronic audit evidence includes information about:",
+    "options": [
+      "The financial amounts only",
+      "When, how, and by whom the data was created, modified, and accessed",
+      "The business meaning of the data only",
+      "The data's physical storage location only"
+    ],
+    "correct": 1,
+    "explanation": "Metadata provides context about electronic data - creation date, modification history, author, access patterns, and system information. This metadata is crucial for assessing the authenticity and integrity of electronic evidence."
+  },
+  {
+    "id": 141,
+    "category": "Compliance & Legal",
+    "question": "J-SOX (Financial Instruments and Exchange Act) requires management to:",
+    "options": [
+      "Prepare tax returns only",
+      "Report on the effectiveness of internal controls over financial reporting",
+      "Comply with environmental regulations only",
+      "Report on employee satisfaction"
+    ],
+    "correct": 1,
+    "explanation": "J-SOX requires listed companies to assess and report on the effectiveness of their internal controls over financial reporting (ICFR). Management must certify that controls are effective and disclose any material weaknesses."
+  },
+  {
+    "id": 142,
+    "category": "Compliance & Legal",
+    "question": "The APPI (Act on the Protection of Personal Information) in Japan requires organizations to:",
+    "options": [
+      "Collect all available personal information",
+      "Specify the purpose of use and obtain consent before collecting personal information",
+      "Share personal information freely with partners",
+      "Destroy personal information within 30 days"
+    ],
+    "correct": 1,
+    "explanation": "APPI requires organizations to clearly specify the purpose of using personal information, obtain consent from data subjects, implement security measures, and limit use to the stated purposes. It governs the handling of personal information by businesses."
+  },
+  {
+    "id": 143,
+    "category": "Compliance & Legal",
+    "question": "Under the FIEA (Financial Instruments and Exchange Act), what is required for companies issuing securities?",
+    "options": [
+      "Only internal control reporting",
+      "Disclosure of financial information, including securities reports and quarterly reviews",
+      "Only annual financial statements",
+      "Voluntary disclosure only"
+    ],
+    "correct": 1,
+    "explanation": "FIEA mandates continuous disclosure including securities reports, semi-annual reports, quarterly reviews, and significant event reports for listed companies. It aims to protect investors by ensuring transparent and timely financial information."
+  },
+  {
+    "id": 144,
+    "category": "Compliance & Legal",
+    "question": "GDPR's principle of 'data minimization' requires that personal data collected must be:",
+    "options": [
+      "Stored for the maximum possible time",
+      "Adequate, relevant, and limited to what is necessary for the specified purpose",
+      "Encrypted at all times",
+      "Shared with all government agencies"
+    ],
+    "correct": 1,
+    "explanation": "Data minimization means collecting only the personal data that is directly relevant and necessary for the specified purpose. Organizations should not collect excessive data or retain it longer than needed for processing."
+  },
+  {
+    "id": 145,
+    "category": "Compliance & Legal",
+    "question": "Which of the following is required by Japan's Corporate Governance Code?",
+    "options": [
+      "All directors must be independent",
+      "Companies should establish a framework for constructive dialogue with shareholders",
+      "Companies must have female board representation only",
+      "Annual re-election of all directors"
+    ],
+    "correct": 1,
+    "explanation": "Japan's Corporate Governance Code encourages companies to establish frameworks for constructive dialogue with shareholders, ensure board independence and diversity, cross-shareholding analysis, and disclosure of succession planning."
+  },
+  {
+    "id": 146,
+    "category": "Compliance & Legal",
+    "question": "Under J-SOX, a 'material weakness' in internal controls must be:",
+    "options": [
+      "Fixed within 30 days",
+      "Disclosed in the annual securities report",
+      "Reported to the board only (not publicly)",
+      "Fixed before the next audit cycle begins"
+    ],
+    "correct": 1,
+    "explanation": "J-SOX requires that material weaknesses in internal controls over financial reporting be disclosed in the annual securities report. This public disclosure ensures investors are informed about significant control deficiencies."
+  },
+  {
+    "id": 147,
+    "category": "Compliance & Legal",
+    "question": "The 'privacy by design' principle in GDPR means:",
+    "options": [
+      "Only designing secure buildings",
+      "Integrating data protection into the design of systems and processes from the beginning",
+      "Designing marketing campaigns that respect privacy",
+      "Creating privacy policies as an afterthought"
+    ],
+    "correct": 1,
+    "explanation": "Privacy by design requires data protection to be embedded into the design and architecture of IT systems and business practices from the outset, not added later as an afterthought. It is proactive rather than reactive."
+  },
+  {
+    "id": 148,
+    "category": "Compliance & Legal",
+    "question": "What is the maximum penalty under GDPR for serious data protection violations?",
+    "options": [
+      "1 million EUR",
+      "10 million EUR or 2% of global annual turnover",
+      "20 million EUR or 4% of global annual turnover",
+      "No financial penalties, only warnings"
+    ],
+    "correct": 2,
+    "explanation": "GDPR provides for administrative fines up to 20 million EUR or 4% of global annual turnover (whichever is greater) for the most serious violations, such as breaching basic processing principles or failing to obtain valid consent."
+  },
+  {
+    "id": 149,
+    "category": "Compliance & Legal",
+    "question": "Japan's Unfair Competition Prevention Act prohibits:",
+    "options": [
+      "All forms of competition",
+      "Acts of unfair competition including trade secret misappropriation and false representations",
+      "Price competition between companies",
+      "Competition from foreign companies"
+    ],
+    "correct": 1,
+    "explanation": "The Unfair Competition Prevention Act prohibits specific unfair practices including misappropriation of trade secrets, false or misleading representations, and unauthorized use of well-known business identifiers."
+  },
+  {
+    "id": 150,
+    "category": "Compliance & Legal",
+    "question": "IS auditor independence requires the auditor to:",
+    "options": [
+      "Have no knowledge of the client's industry",
+      "Be free from conflicts of interest that could impair objectivity",
+      "Not communicate with management",
+      "Not charge fees for the audit"
+    ],
+    "correct": 1,
+    "explanation": "Auditor independence means being free from relationships, interests, or circumstances that could impair objectivity. This includes financial interests, employment relationships, and other connections that could create bias."
+  },
+  {
+    "id": 151,
+    "category": "Compliance & Legal",
+    "question": "Under APPI, a 'personal information protection officer' is required for organizations that:",
+    "options": [
+      "Have more than 100 employees only",
+      "Handle personal information above specified thresholds (typically 5,000+ individuals)",
+      "Are listed companies only",
+      "Operate in the financial sector only"
+    ],
+    "correct": 1,
+    "explanation": "APPI requires organizations handling personal information above specified thresholds (typically 5,000 or more individuals) to appoint a personal information protection officer responsible for ensuring compliance with the act."
+  },
+  {
+    "id": 152,
+    "category": "Compliance & Legal",
+    "question": "The Corporate Governance Code in Japan recommends that boards include:",
+    "options": [
+      "Only executive directors",
+      "A sufficient number of independent directors to ensure effective oversight",
+      "Only government-appointed directors",
+      "Directors from competing companies"
+    ],
+    "correct": 1,
+    "explanation": "Japan's Corporate Governance Code recommends boards include a sufficient number of independent outside directors to provide effective oversight of management. This enhances board objectivity and accountability."
+  },
+  {
+    "id": 153,
+    "category": "Compliance & Legal",
+    "question": "'Cross-shareholding' under Japan's Corporate Governance Code should be:",
+    "options": [
+      "Mandated for all listed companies",
+      "Disclosed and reviewed with a policy for reduction where not justified",
+      "Eliminated entirely within one year",
+      "Increased to improve corporate relationships"
+    ],
+    "correct": 1,
+    "explanation": "The Code requires companies to disclose cross-shareholdings and explain their rationale. Companies should have a policy for reducing cross-shareholdings that are not justified by business benefits or alignment with shareholder interests."
+  },
+  {
+    "id": 154,
+    "category": "Compliance & Legal",
+    "question": "GDPR requires a 'Data Protection Impact Assessment' (DPIA) for processing that is:",
+    "options": [
+      "Any processing of personal data",
+      "Likely to result in a high risk to individuals' rights and freedoms",
+      "Only for processing by large corporations",
+      "Only for processing health data"
+    ],
+    "correct": 1,
+    "explanation": "GDPR requires a DPIA when processing is likely to result in a high risk to individuals' rights and freedoms, such as systematic profiling, large-scale processing of sensitive data, or use of new technologies."
+  },
+  {
+    "id": 155,
+    "category": "Compliance & Legal",
+    "question": "Under J-SOX, the external auditor's opinion on internal controls is:",
+    "options": [
+      "Optional",
+      "Required - the auditor must opine on whether the company's internal controls are effective",
+      "Only required for financial companies",
+      "Required every three years"
+    ],
+    "correct": 1,
+    "explanation": "Under J-SOX, the external auditor must provide a separate opinion on whether the company's internal controls over financial reporting are effective, in addition to the opinion on the financial statements themselves."
+  },
+  {
+    "id": 156,
+    "category": "Compliance & Legal",
+    "question": "The 'right to be forgotten' under GDPR allows individuals to:",
+    "options": [
+      "Delete any information about themselves from the internet",
+      "Request erasure of their personal data under certain conditions",
+      "Block all search engine results about themselves",
+      "Delete their social media accounts permanently"
+    ],
+    "correct": 1,
+    "explanation": "The right to erasure (right to be forgotten) allows individuals to request deletion of their personal data when it's no longer necessary, consent is withdrawn, or the data was unlawfully processed. It is subject to certain exceptions."
+  },
+  {
+    "id": 157,
+    "category": "Compliance & Legal",
+    "question": "Which ethical principle requires auditors to maintain confidentiality of client information?",
+    "options": [
+      "Independence",
+      "Integrity",
+      "Confidentiality",
+      "Professional competence"
+    ],
+    "correct": 2,
+    "explanation": "Confidentiality is a fundamental ethical principle requiring auditors to respect the confidentiality of information acquired during the course of their work and not disclose it without proper authority unless there is a legal or professional right/duty to disclose."
+  },
+  {
+    "id": 158,
+    "category": "Compliance & Legal",
+    "question": "Under FIEA, 'insider trading' is prohibited. Which activity constitutes insider trading?",
+    "options": [
+      "Trading based on publicly available information",
+      "Trading securities while in possession of material non-public information about the issuer",
+      "Trading any securities as an employee of the company",
+      "Buying shares of your own employer"
+    ],
+    "correct": 1,
+    "explanation": "Insider trading is trading securities while possessing material information that is not available to the public. Using such information for personal gain (or sharing it) is prohibited by FIEA and carries severe penalties."
+  },
+  {
+    "id": 159,
+    "category": "Compliance & Legal",
+    "question": "A 'whistleblower protection' under Japanese law protects employees who:",
+    "options": [
+      "Complain about their salary",
+      "Report illegal acts or violations of compliance rules in good faith",
+      "Disagree with management decisions",
+      "Request workplace transfers"
+    ],
+    "correct": 1,
+    "explanation": "Japan's Whistleblower Protection Act protects employees who report violations of laws, regulations, or rules in good faith. Retaliation against whistleblowers is prohibited, encouraging the reporting of corporate misconduct."
+  },
+  {
+    "id": 160,
+    "category": "Compliance & Legal",
+    "question": "GDPR's 'lawful basis for processing' requires organizations to have a valid legal ground such as:",
+    "options": [
+      "Any business need",
+      "Consent, contractual necessity, legal obligation, vital interests, public task, or legitimate interests",
+      "Only consent",
+      "Only contractual necessity"
+    ],
+    "correct": 1,
+    "explanation": "GDPR requires a valid lawful basis from six options: consent, contractual necessity, legal obligation, vital interests, public task, or legitimate interests. Processing without a lawful basis is unlawful regardless of other safeguards."
+  },
+  {
+    "id": 161,
+    "category": "Compliance & Legal",
+    "question": "Under J-SOX, management's assessment of ICFR must be based on a recognized framework such as:",
+    "options": [
+      "The company's own internal framework only",
+      "COSO Internal Control - Integrated Framework",
+      "ISO 27001",
+      "ITIL v4"
+    ],
+    "correct": 1,
+    "explanation": "J-SOX requires management's assessment to be based on a suitable, recognized control framework. COSO Internal Control - Integrated Framework is the most widely used and generally accepted framework for ICFR assessment."
+  },
+  {
+    "id": 162,
+    "category": "Compliance & Legal",
+    "question": "Japan's 'My Number Act' (Social Security and Tax Number System) requires:",
+    "options": [
+      "All employees to memorize their tax ID",
+      "Individuals to have a unique identification number used for social security and tax administration",
+      "Companies to assign employee numbers",
+      "Only government agencies to use identification numbers"
+    ],
+    "correct": 1,
+    "explanation": "The My Number Act assigns a unique 12-digit identification number to all residents of Japan, used for social security, tax, and disaster response administration. It aims to improve administrative efficiency while protecting personal information."
+  },
+  {
+    "id": 163,
+    "category": "Compliance & Legal",
+    "question": "An auditor discovers evidence of illegal acts by the client. Under professional standards, the auditor should:",
+    "options": [
+      "Ignore it if it does not affect the financial statements",
+      "Consider the legal and professional implications, discuss with management and possibly the audit committee",
+      "Immediately report to law enforcement without notifying management",
+      "Resign from the engagement immediately"
+    ],
+    "correct": 1,
+    "explanation": "When an auditor discovers illegal acts, they should consider the impact on the financial statements, discuss with appropriate levels of management (up to the audit committee if necessary), and evaluate whether the matter needs to be reported to external parties."
+  },
+  {
+    "id": 164,
+    "category": "Compliance & Legal",
+    "question": "The 'integrity' ethical principle in auditing requires auditors to:",
+    "options": [
+      "Follow all client instructions",
+      "Be straightforward and honest in all professional and business relationships",
+      "Never disagree with management",
+      "Accept all audit engagements offered"
+    ],
+    "correct": 1,
+    "explanation": "Integrity requires auditors to be straightforward and honest, maintaining professional skepticism and not being associated with information that is materially false or misleading or that omits or obscures information necessary for proper understanding."
+  },
+  {
+    "id": 165,
+    "category": "Compliance & Legal",
+    "question": "Under APPI, 'sensitive information requiring special care' includes:",
+    "options": [
+      "All customer contact information",
+      "Race, creed, social status, medical history, criminal records, and similar data",
+      "Company financial data",
+      "Employee work schedules"
+    ],
+    "correct": 1,
+    "explanation": "APPI classifies certain categories as 'special care-required personal information' including race, creed, social status, medical history, criminal records, and facts of suffering injury from a crime. These require enhanced handling and protection."
+  },
+  {
+    "id": 166,
+    "category": "Information Systems Audit",
+    "question": "IT general controls (ITGC) are important because they:",
+    "options": [
+      "Replace the need for application controls",
+      "Create the environment in which application controls operate effectively",
+      "Are only needed for financial systems",
+      "Are only relevant for large organizations"
+    ],
+    "correct": 1,
+    "explanation": "ITGCs create the foundation for reliable IT processing. Without effective general controls (access management, change management, operations, system development), application controls cannot be relied upon regardless of their design."
+  },
+  {
+    "id": 167,
+    "category": "Information Systems Audit",
+    "question": "An 'access control review' in IS audit should verify that:",
+    "options": [
+      "All employees have access to all systems",
+      "Access rights are appropriate to job responsibilities and follow the principle of least privilege",
+      "Access is granted permanently without review",
+      "The IT department controls all access approvals"
+    ],
+    "correct": 1,
+    "explanation": "Access control reviews verify that users have only the access necessary for their job functions (principle of least privilege), that access is properly authorized, and that orphan accounts and excessive privileges are identified and addressed."
+  },
+  {
+    "id": 168,
+    "category": "Information Systems Audit",
+    "question": "A 'disaster recovery plan' (DRP) primarily addresses:",
+    "options": [
+      "Preventing disasters from occurring",
+      "Restoring IT systems and operations after a disruptive event",
+      "Daily data backup procedures",
+      "Employee safety during emergencies"
+    ],
+    "correct": 1,
+    "explanation": "A DRP focuses on restoring IT systems, data, and operations after a disaster or major disruption. It includes recovery procedures, resource requirements, and prioritization of systems to ensure business continuity."
+  },
+  {
+    "id": 169,
+    "category": "Information Systems Audit",
+    "question": "'Business continuity planning' (BCP) differs from DRP in that BCP:",
+    "options": [
+      "Only covers IT systems",
+      "Addresses the continuation of all critical business operations, not just IT recovery",
+      "Is the same as DRP",
+      "Only applies to financial institutions"
+    ],
+    "correct": 1,
+    "explanation": "BCP is broader than DRP, covering the continuation of all critical business operations (not just IT). It includes manual workarounds, alternative facilities, staffing plans, and communication strategies during disruptions."
+  },
+  {
+    "id": 170,
+    "category": "Information Systems Audit",
+    "question": "Which backup strategy ensures the shortest recovery time?",
+    "options": [
+      "Full backup weekly",
+      "Incremental backup daily",
+      "Continuous data protection (CDP)",
+      "Differential backup daily"
+    ],
+    "correct": 2,
+    "explanation": "Continuous Data Protection (CDP) captures every data change in real-time, enabling recovery to any point in time with minimal data loss. This provides the shortest recovery time and lowest recovery point objective (RPO)."
+  },
+  {
+    "id": 171,
+    "category": "Information Systems Audit",
+    "question": "In system development audit, 'user acceptance testing' (UAT) verifies that:",
+    "options": [
+      "The system meets technical specifications",
+      "The system meets business requirements and is fit for its intended purpose",
+      "The system is free of all bugs",
+      "The system can handle maximum user load"
+    ],
+    "correct": 1,
+    "explanation": "UAT is performed by end-users to verify that the system meets their business requirements and works as expected in real-world scenarios. It is the final testing phase before production deployment."
+  },
+  {
+    "id": 172,
+    "category": "Information Systems Audit",
+    "question": "The 'segregation of duties' principle in system development means:",
+    "options": [
+      "Each developer should work on only one project",
+      "The roles of programmer, tester, and production operator should be separated",
+      "Developers should not use version control",
+      "All code must be reviewed by external auditors"
+    ],
+    "correct": 1,
+    "explanation": "Segregation of duties in system development separates those who create code (developers), those who test it (QA), and those who move it to production (operations). This prevents unauthorized code from reaching production systems."
+  },
+  {
+    "id": 173,
+    "category": "Information Systems Audit",
+    "question": "A 'vulnerability assessment' in IS audit identifies:",
+    "options": [
+      "Only hardware failures",
+      "Security weaknesses in systems that could be exploited by threats",
+      "Performance bottlenecks in the network",
+      "Software licensing violations"
+    ],
+    "correct": 1,
+    "explanation": "A vulnerability assessment systematically identifies security weaknesses (misconfigurations, missing patches, default passwords, unnecessary services) in systems that could be exploited. It is different from penetration testing, which attempts to exploit vulnerabilities."
+  },
+  {
+    "id": 174,
+    "category": "Information Systems Audit",
+    "question": "The 'principle of least privilege' for access controls means:",
+    "options": [
+      "All users should have the minimum access level possible",
+      "Users should be granted only the minimum access necessary to perform their job functions",
+      "Only administrators should have system access",
+      "Access should be denied by default for all requests"
+    ],
+    "correct": 1,
+    "explanation": "The principle of least privilege means granting users the minimum access rights necessary for their job responsibilities. This reduces the risk of unauthorized access, accidental damage, and the potential impact of compromised accounts."
+  },
+  {
+    "id": 175,
+    "category": "Information Systems Audit",
+    "question": "In IT operations audit, reviewing 'job scheduling' ensures that:",
+    "options": [
+      "Employees are working efficiently",
+      "Batch processing jobs run correctly, on schedule, and with appropriate error handling",
+      "IT staff are properly compensated",
+      "System updates are scheduled quarterly"
+    ],
+    "correct": 1,
+    "explanation": "Job scheduling review verifies that batch jobs are properly scheduled, run on time, have appropriate error handling, complete successfully, and produce expected outputs. Failed or delayed jobs can impact business operations and data integrity."
+  },
+  {
+    "id": 176,
+    "category": "Information Systems Audit",
+    "question": "What is 'penetration testing' in the context of IS audit?",
+    "options": [
+      "Testing system performance under heavy load",
+      "Actively attempting to exploit vulnerabilities to assess the security of systems",
+      "Testing network bandwidth capacity",
+      "Testing database query performance"
+    ],
+    "correct": 1,
+    "explanation": "Penetration testing (pen testing) is an authorized attempt to exploit vulnerabilities in systems, networks, or applications. It simulates real-world attacks to identify security weaknesses that could be exploited by malicious actors."
+  },
+  {
+    "id": 177,
+    "category": "Information Systems Audit",
+    "question": "An IS auditor reviewing database security should check that:",
+    "options": [
+      "All databases use the same password",
+      "Database access is controlled, sensitive data is encrypted, and audit trails are maintained",
+      "Databases are accessible from the internet without restriction",
+      "Only the DBA has any database access"
+    ],
+    "correct": 1,
+    "explanation": "Database security review should verify access controls (least privilege), encryption of sensitive data, audit logging of access and changes, proper authentication mechanisms, and regular security patching."
+  },
+  {
+    "id": 178,
+    "category": "Information Systems Audit",
+    "question": "The 'recovery time objective' (RTO) is:",
+    "options": [
+      "The time required to install backup software",
+      "The maximum acceptable time to restore a system after a disruption",
+      "The time needed to perform a daily backup",
+      "The time employees need to return to work after a disaster"
+    ],
+    "correct": 1,
+    "explanation": "RTO is the maximum acceptable duration of time within which a business process must be restored after a disruption to avoid unacceptable consequences. It drives the selection of recovery strategies and determines the required DR investments."
+  },
+  {
+    "id": 179,
+    "category": "Information Systems Audit",
+    "question": "'Data integrity controls' in application systems ensure that:",
+    "options": [
+      "Data is stored on reliable hardware only",
+      "Data is accurate, complete, and consistent throughout its lifecycle",
+      "Data is only accessible during business hours",
+      "Data is always encrypted"
+    ],
+    "correct": 1,
+    "explanation": "Data integrity controls (input validation, referential integrity, checksums, reconciliation) ensure that data remains accurate, complete, and consistent from input through processing to storage and output."
+  },
+  {
+    "id": 180,
+    "category": "Information Systems Audit",
+    "question": "In change management audit, what is the PRIMARY risk of emergency changes?",
+    "options": [
+      "They cost more than normal changes",
+      "They may bypass standard testing and approval procedures, increasing the risk of errors",
+      "They are performed by junior staff",
+      "They only affect non-critical systems"
+    ],
+    "correct": 1,
+    "explanation": "Emergency changes often bypass normal testing, documentation, and approval processes to restore service quickly. This significantly increases the risk of introducing new errors or vulnerabilities, and they should be reviewed and formalized after implementation."
+  },
+  {
+    "id": 181,
+    "category": "Information Systems Audit",
+    "question": "'Network segmentation' as a security control:",
+    "options": [
+      "Improves network speed only",
+      "Divides the network into zones to limit the spread of breaches and restrict access between segments",
+      "Connects all network devices to a single switch",
+      "Eliminates the need for firewalls"
+    ],
+    "correct": 1,
+    "explanation": "Network segmentation divides a network into smaller zones or segments, each with its own security controls. This limits lateral movement of attackers, contains breaches to affected segments, and applies security policies appropriate to each zone's sensitivity."
+  },
+  {
+    "id": 182,
+    "category": "Information Systems Audit",
+    "question": "A 'configuration management database' (CMDB) is used to:",
+    "options": [
+      "Store only software licenses",
+      "Maintain a comprehensive inventory of IT assets and their relationships",
+      "Store only employee records",
+      "Manage only network passwords"
+    ],
+    "correct": 1,
+    "explanation": "A CMDB is a centralized repository that stores information about IT assets (hardware, software, configurations) and the relationships between them. It supports IT service management and helps manage the IT environment effectively."
+  },
+  {
+    "id": 183,
+    "category": "Information Systems Audit",
+    "question": "Which control is MOST effective for preventing unauthorized program changes?",
+    "options": [
+      "Monthly code reviews",
+      "Restricting production access to authorized personnel with formal change approval processes",
+      "Annual security audits",
+      "Developer self-certification"
+    ],
+    "correct": 1,
+    "explanation": "Restricting production system access to authorized personnel, combined with formal change approval processes, is the most effective control. This prevents developers from directly modifying production code without proper authorization, testing, and approval."
+  },
+  {
+    "id": 184,
+    "category": "Information Systems Audit",
+    "question": "'Encryption at rest' protects data by:",
+    "options": [
+      "Encrypting data only during transmission",
+      "Encrypting data stored on disk or other storage media",
+      "Encrypting data in the CPU cache only",
+      "Encrypting backup tapes only"
+    ],
+    "correct": 1,
+    "explanation": "Encryption at rest protects data stored on physical media (hard drives, SSDs, tapes, cloud storage) by converting it to an unreadable format without the decryption key. This protects against physical theft or unauthorized access to storage media."
+  },
+  {
+    "id": 185,
+    "category": "Information Systems Audit",
+    "question": "In IS audit, 'system logging' should capture:",
+    "options": [
+      "Only error messages",
+      "All significant system events including access, changes, errors, and security events",
+      "Only user login times",
+      "Only system performance metrics"
+    ],
+    "correct": 1,
+    "explanation": "System logs should capture all significant events: user access (successful and failed), data changes, system errors, security events, configuration changes, and administrative actions. These logs support audit trails, troubleshooting, and forensic investigation."
+  },
+  {
+    "id": 186,
+    "category": "Information Systems Audit",
+    "question": "'Multi-factor authentication' (MFA) requires:",
+    "options": [
+      "A very long password",
+      "Two or more independent authentication factors (e.g., something you know, have, are)",
+      "Multiple user accounts for each person",
+      "Authentication by multiple administrators"
+    ],
+    "correct": 1,
+    "explanation": "MFA requires two or more independent authentication factors from three categories: something you know (password), something you have (token, phone), and something you are (biometrics). This significantly reduces the risk of unauthorized access."
+  },
+  {
+    "id": 187,
+    "category": "Information Systems Audit",
+    "question": "An IS auditor testing backup procedures should verify that:",
+    "options": [
+      "Backups are stored in the same location as the original data",
+      "Backups are performed regularly, stored offsite, and can be successfully restored",
+      "Backups are always full (never incremental)",
+      "Only the IT manager can initiate backups"
+    ],
+    "correct": 1,
+    "explanation": "Backup testing should verify regular backup schedules, offsite storage for disaster recovery, successful restore capability (the most critical test), appropriate encryption, and retention policies. A backup that cannot be restored is essentially useless."
+  },
+  {
+    "id": 188,
+    "category": "Information Systems Audit",
+    "question": "What is 'SQL injection' and how can it be prevented?",
+    "options": [
+      "A hardware failure prevented by redundant systems",
+      "An attack where malicious SQL code is inserted into input fields, prevented by input validation and parameterized queries",
+      "A network attack prevented by firewalls",
+      "A social engineering attack prevented by training"
+    ],
+    "correct": 1,
+    "explanation": "SQL injection exploits poor input validation to insert malicious SQL commands through application input fields. Prevention includes parameterized queries, stored procedures, input validation, and using ORM frameworks."
+  },
+  {
+    "id": 189,
+    "category": "Information Systems Audit",
+    "question": "'Virtualization security' in IS audit should address:",
+    "options": [
+      "Only physical server security",
+      "Hypervisor security, VM isolation, virtual network security, and VM lifecycle management",
+      "Only guest OS patching",
+      "Only storage virtualization"
+    ],
+    "correct": 1,
+    "explanation": "Virtualization security must address the hypervisor (the attack surface between VMs), VM isolation, virtual networking (virtual switches, firewalls), VM image management, and the security of the virtualization platform itself."
+  },
+  {
+    "id": 190,
+    "category": "Information Systems Audit",
+    "question": "In IS audit, what is a 'privilege escalation' attack?",
+    "options": [
+      "An attack that increases network bandwidth",
+      "An attack where an attacker gains higher-level access rights than authorized",
+      "An attack that speeds up system processing",
+      "An attack that creates additional user accounts"
+    ],
+    "correct": 1,
+    "explanation": "Privilege escalation occurs when an attacker gains elevated access rights (e.g., from regular user to administrator). This can happen through exploiting vulnerabilities, misconfigurations, or weak access controls, giving the attacker extensive control over systems."
+  },
+  {
+    "id": 191,
+    "category": "Information Systems Audit",
+    "question": "The 'recovery point objective' (RPO) defines:",
+    "options": [
+      "The minimum hardware requirements for recovery",
+      "The maximum acceptable amount of data loss measured in time",
+      "The physical location of backup storage",
+      "The number of people needed for disaster recovery"
+    ],
+    "correct": 1,
+    "explanation": "RPO defines the maximum acceptable amount of data loss, measured as a point in time (e.g., 1 hour, 24 hours). It determines backup frequency - if RPO is 1 hour, backups must be at least every hour to ensure no more than 1 hour of data loss."
+  },
+  {
+    "id": 192,
+    "category": "Information Systems Audit",
+    "question": "A 'firewall' in network security primarily:",
+    "options": [
+      "Prevents hardware failures",
+      "Monitors and controls incoming and outgoing network traffic based on predefined security rules",
+      "Accelerates network speed",
+      "Manages user passwords"
+    ],
+    "correct": 1,
+    "explanation": "A firewall monitors and filters network traffic based on predetermined security rules, acting as a barrier between trusted and untrusted networks. It can be hardware-based, software-based, or cloud-based, controlling traffic at various levels."
+  },
+  {
+    "id": 193,
+    "category": "Information Systems Audit",
+    "question": "'Identity and access management' (IAM) systems should support all of the following EXCEPT:",
+    "options": [
+      "User provisioning and deprovisioning",
+      "Role-based access control",
+      "Ignoring access request approvals",
+      "Access certification and review"
+    ],
+    "correct": 2,
+    "explanation": "IAM systems support user lifecycle management (provisioning/deprovisioning), role-based access control (RBAC), access certification, single sign-on (SSO), and access reviews. They enforce, not ignore, access approval processes."
+  },
+  {
+    "id": 194,
+    "category": "Information Systems Audit",
+    "question": "In reviewing an organization's patch management process, the IS auditor should verify that:",
+    "options": [
+      "Patches are applied only to servers",
+      "Critical security patches are applied in a timely manner with proper testing before deployment",
+      "Patches are applied immediately without testing",
+      "Patching is the sole responsibility of the CIO"
+    ],
+    "correct": 1,
+    "explanation": "Effective patch management requires timely identification of needed patches, proper testing before deployment, prioritization of critical security patches, documentation, and verification that patches were successfully applied."
+  },
+  {
+    "id": 195,
+    "category": "Information Systems Audit",
+    "question": "'Container security' considerations for Docker/Kubernetes environments include:",
+    "options": [
+      "Only image size optimization",
+      "Image vulnerability scanning, runtime security, secrets management, and network policies",
+      "Only CPU allocation",
+      "Only storage volume management"
+    ],
+    "correct": 1,
+    "explanation": "Container security requires scanning images for vulnerabilities, managing secrets (not embedding in images), implementing network policies between containers, runtime monitoring, and securing the orchestration platform (Kubernetes)."
+  },
+  {
+    "id": 196,
+    "category": "Audit Reporting",
+    "question": "The primary purpose of an audit report is to:",
+    "options": [
+      "Detail every procedure performed",
+      "Communicate the auditor's findings, conclusions, and recommendations to stakeholders",
+      "Document the audit fee",
+      "Provide legal protection for the auditor"
+    ],
+    "correct": 1,
+    "explanation": "The audit report communicates the auditor's opinion, findings, and recommendations to those charged with governance and management. It provides assurance to stakeholders and drives improvement through actionable recommendations."
+  },
+  {
+    "id": 197,
+    "category": "Audit Reporting",
+    "question": "A 'qualified opinion' in an audit report indicates:",
+    "options": [
+      "The financial statements are perfectly accurate",
+      "The financial statements are fairly presented except for specific matters that are material but not pervasive",
+      "The financial statements are completely unreliable",
+      "The auditor was unable to complete the audit"
+    ],
+    "correct": 1,
+    "explanation": "A qualified opinion is given when the auditor concludes that misstatements are material but not pervasive, or when they are unable to obtain sufficient appropriate evidence but the possible effects are not pervasive."
+  },
+  {
+    "id": 198,
+    "category": "Audit Reporting",
+    "question": "An 'adverse opinion' is issued when:",
+    "options": [
+      "Minor errors are found in the financial statements",
+      "Misstatements are both material and pervasive to the financial statements",
+      "The audit is completed on time",
+      "The auditor disagrees with management on one issue"
+    ],
+    "correct": 1,
+    "explanation": "An adverse opinion is the most negative opinion, issued when misstatements are both material and pervasive, meaning they fundamentally distort the financial statements and cannot be considered fairly presented."
+  },
+  {
+    "id": 199,
+    "category": "Audit Reporting",
+    "question": "A 'disclaimer of opinion' occurs when:",
+    "options": [
+      "The auditor agrees with all financial statements",
+      "The auditor is unable to obtain sufficient appropriate audit evidence to form an opinion",
+      "The auditor wants to avoid liability",
+      "The financial statements have minor issues"
+    ],
+    "correct": 1,
+    "explanation": "A disclaimer is issued when the auditor cannot obtain sufficient appropriate evidence due to scope limitations, or when there is significant uncertainty affecting the financial statements, making it impossible to form an opinion."
+  },
+  {
+    "id": 200,
+    "category": "Audit Reporting",
+    "question": "A 'management letter' (also called 'letter of recommendations') typically contains:",
+    "options": [
+      "The audit opinion",
+      "Internal control deficiencies and improvement recommendations, often less severe than those reported to the board",
+      "Only the financial statements",
+      "Legal threats for non-compliance"
+    ],
+    "correct": 1,
+    "explanation": "The management letter communicates internal control deficiencies, operational improvements, and recommendations to management. It typically covers findings that are significant but don't rise to the level of material weaknesses requiring board reporting."
+  },
+  {
+    "id": 201,
+    "category": "Audit Reporting",
+    "question": "In an audit finding, the 'condition' refers to:",
+    "options": [
+      "What should be (the criteria)",
+      "What actually exists (the current state of affairs)",
+      "Why the condition exists",
+      "What should be done to fix it"
+    ],
+    "correct": 1,
+    "explanation": "In the audit finding framework (Condition-Criteria-Cause-Effect-Recommendation), the condition describes what actually exists - the current state that was observed during the audit and that deviates from the expected criteria."
+  },
+  {
+    "id": 202,
+    "category": "Audit Reporting",
+    "question": "In an audit finding, the 'criteria' refers to:",
+    "options": [
+      "What actually exists",
+      "The standard, expectation, or benchmark against which the condition is measured",
+      "The root cause of the problem",
+      "The proposed solution"
+    ],
+    "correct": 1,
+    "explanation": "Criteria define the expected state or standard - what should be. This can be policies, standards, regulations, best practices, or contractual requirements against which the current condition is compared."
+  },
+  {
+    "id": 203,
+    "category": "Audit Reporting",
+    "question": "In an audit finding, the 'cause' identifies:",
+    "options": [
+      "What is wrong",
+      "The standard being violated",
+      "The underlying reason why the condition differs from the criteria",
+      "The financial impact"
+    ],
+    "correct": 2,
+    "explanation": "The cause identifies the root reason for the gap between condition and criteria. Understanding cause is critical for developing effective recommendations that address the underlying problem rather than just symptoms."
+  },
+  {
+    "id": 204,
+    "category": "Audit Reporting",
+    "question": "In an audit finding, the 'effect' describes:",
+    "options": [
+      "The criteria being violated",
+      "What is wrong",
+      "The impact or consequence of the condition (risk, financial loss, regulatory penalty)",
+      "The recommended action"
+    ],
+    "correct": 2,
+    "explanation": "The effect quantifies or describes the impact of the finding - financial loss, regulatory risk, operational disruption, reputational damage, or increased risk exposure. It helps prioritize findings by severity."
+  },
+  {
+    "id": 205,
+    "category": "Audit Reporting",
+    "question": "An 'unmodified (clean) opinion' indicates that:",
+    "options": [
+      "No errors were found at all",
+      "The financial statements are presented fairly in all material respects in accordance with the applicable framework",
+      "The auditor found immaterial issues only",
+      "Management has excellent internal controls"
+    ],
+    "correct": 1,
+    "explanation": "An unmodified opinion means the auditor concludes that the financial statements are prepared in accordance with the applicable financial reporting framework and present a true and fair view in all material respects."
+  },
+  {
+    "id": 206,
+    "category": "Audit Reporting",
+    "question": "Follow-up on previously reported audit findings is important to:",
+    "options": [
+      "Create additional audit work",
+      "Verify that management has taken corrective action and that the remediation is effective",
+      "Increase the audit fee",
+      "Document only what management said they would do"
+    ],
+    "correct": 1,
+    "explanation": "Follow-up verifies that management has implemented agreed-upon corrective actions and that those actions are effective in resolving the original finding. This closes the audit loop and ensures audit recommendations translate into real improvements."
+  },
+  {
+    "id": 207,
+    "category": "Audit Reporting",
+    "question": "The 'emphasis of matter' paragraph in an audit report is used to:",
+    "options": [
+      "Qualify the audit opinion",
+      "Draw attention to matters presented or disclosed in the financial statements that are of such importance they require emphasis",
+      "Report a material weakness in internal controls",
+      "Describe audit scope limitations"
+    ],
+    "correct": 1,
+    "explanation": "An emphasis of matter paragraph highlights significant matters already disclosed in the financial statements. It does not modify the audit opinion but draws reader attention to important disclosures like related party transactions or subsequent events."
+  },
+  {
+    "id": 208,
+    "category": "Audit Reporting",
+    "question": "Which finding attribute is MOST important for management to prioritize corrective action?",
+    "options": [
+      "The condition (what is wrong)",
+      "The effect (impact/consequence)",
+      "The criteria (standard)",
+      "The audit procedure used"
+    ],
+    "correct": 1,
+    "explanation": "The effect (impact) is most important for prioritization because it quantifies the risk, financial loss, or business impact. Management should address findings with the greatest potential impact first, even if the condition seems minor."
+  },
+  {
+    "id": 209,
+    "category": "Audit Reporting",
+    "question": "A 'key audit matter' (KAM) in an ISA 700 (Revised) report relates to:",
+    "options": [
+      "Minor issues found during the audit",
+      "Matters of most significance in the audit of the current period's financial statements",
+      "Historical findings from prior audits",
+      "Matters related to audit fees only"
+    ],
+    "correct": 1,
+    "explanation": "KAMs are matters of most significance in the current period's audit that required significant auditor attention. They are communicated to users of financial statements to enhance the informativeness of the auditor's report."
+  },
+  {
+    "id": 210,
+    "category": "Audit Reporting",
+    "question": "When should an audit finding be escalated to the audit committee?",
+    "options": [
+      "For all findings regardless of severity",
+      "When the finding involves senior management, fraud, material weakness, or significant risk",
+      "Only when the client requests it",
+      "Never - findings are reported to management only"
+    ],
+    "correct": 1,
+    "explanation": "Findings should be escalated to the audit committee when they involve fraud (especially involving management), material weaknesses, significant scope limitations, disagreements with management, or other matters affecting auditor independence."
+  },
+  {
+    "id": 211,
+    "category": "Audit Reporting",
+    "question": "The 'going concern' assumption in audit reporting means:",
+    "options": [
+      "The company will continue to grow rapidly",
+      "The entity will continue in operation for the foreseeable future (typically 12 months)",
+      "The company will merge with another entity",
+      "The auditor will continue to work for the client"
+    ],
+    "correct": 1,
+    "explanation": "The going concern assumption underlies financial statement preparation - that the entity will continue operating for the foreseeable future (at least 12 months). Material uncertainty about going concern requires disclosure and may affect the audit opinion."
+  },
+  {
+    "id": 212,
+    "category": "Audit Reporting",
+    "question": "A 'material weakness' must be reported to:",
+    "options": [
+      "Management only",
+      "Management and those charged with governance (audit committee/board)",
+      "Only the external auditor",
+      "The general public immediately"
+    ],
+    "correct": 1,
+    "explanation": "Material weaknesses must be communicated in writing to management and those charged with governance. Under J-SOX and SOX, material weaknesses must also be publicly disclosed in the annual securities report."
+  },
+  {
+    "id": 213,
+    "category": "Audit Reporting",
+    "question": "An 'other matter' paragraph in an audit report differs from 'emphasis of matter' in that it:",
+    "options": [
+      "Is more serious",
+      "Relates to matters other than those presented or disclosed in the financial statements",
+      "Qualifies the audit opinion",
+      "Is always required in every report"
+    ],
+    "correct": 1,
+    "explanation": "Other matter paragraphs address issues not presented or disclosed in the financial statements, while emphasis of matter relates to matters already disclosed. Both draw attention without modifying the opinion, but they relate to different types of matters."
+  },
+  {
+    "id": 214,
+    "category": "Audit Reporting",
+    "question": "The effectiveness of an audit report can be measured by:",
+    "options": [
+      "The number of pages",
+      "Whether management implements the recommendations and whether the report is clear, concise, and actionable",
+      "The speed of report issuance",
+      "The number of findings identified"
+    ],
+    "correct": 1,
+    "explanation": "Report effectiveness is ultimately measured by whether it leads to positive change - management implementing recommendations. A report that is clear, prioritizes findings by impact, and provides actionable recommendations is more likely to drive improvement."
+  },
+  {
+    "id": 215,
+    "category": "Audit Reporting",
+    "question": "When writing audit recommendations, they should be:",
+    "options": [
+      "Vague to allow management flexibility",
+      "Specific, actionable, feasible, and address the root cause",
+      "Brief one-liners only",
+      "Punitive in nature"
+    ],
+    "correct": 1,
+    "explanation": "Effective recommendations are specific (clearly state what to do), actionable (management can implement them), feasible (realistic given resources), and address the root cause rather than just symptoms of the problem."
+  },
+  {
+    "id": 216,
+    "category": "Audit Reporting",
+    "question": "A 'significant deficiency' in reporting is:",
+    "options": [
+      "More severe than a material weakness",
+      "A deficiency less severe than a material weakness but important enough to merit attention by those charged with governance",
+      "A finding that does not require any action",
+      "An immaterial clerical error"
+    ],
+    "correct": 1,
+    "explanation": "A significant deficiency is a deficiency, or combination of deficiencies, in internal control that is less severe than a material weakness but important enough to be reported to those charged with governance because it merits their attention."
+  },
+  {
+    "id": 217,
+    "category": "Audit Reporting",
+    "question": "The 'audit opinion' paragraph in the audit report states the auditor's conclusion about whether:",
+    "options": [
+      "The company is profitable",
+      "The financial statements are prepared in accordance with the applicable financial reporting framework",
+      "Management is competent",
+      "The company will succeed in the future"
+    ],
+    "correct": 1,
+    "explanation": "The opinion paragraph states whether, in the auditor's professional judgment, the financial statements are prepared in accordance with the applicable financial reporting framework and give a true and fair view (or present fairly) in all material respects."
+  },
+  {
+    "id": 218,
+    "category": "Audit Reporting",
+    "question": "'Trend analysis' in audit reporting helps identify:",
+    "options": [
+      "Only past audit findings",
+      "Patterns of recurring issues that may indicate systemic control weaknesses",
+      "Only financial trends",
+      "Only IT system performance issues"
+    ],
+    "correct": 1,
+    "explanation": "Trend analysis across multiple audit cycles identifies recurring issues, deteriorating control conditions, or persistent non-compliance. This indicates systemic problems requiring management's strategic attention rather than piecemeal fixes."
+  },
+  {
+    "id": 219,
+    "category": "Audit Reporting",
+    "question": "A 'scope limitation' in an audit may result in:",
+    "options": [
+      "An unmodified opinion with additional disclosure",
+      "A qualified opinion or disclaimer of opinion depending on materiality and pervasiveness",
+      "An adverse opinion",
+      "No impact on the audit report"
+    ],
+    "correct": 1,
+    "explanation": "Scope limitations restrict the auditor's ability to gather sufficient evidence. If the limitation is material but not pervasive, a qualified opinion results. If it is both material and pervasive, a disclaimer of opinion is required."
+  },
+  {
+    "id": 220,
+    "category": "Audit Reporting",
+    "question": "The 'basis for modification' paragraph in an audit report:",
+    "options": [
+      "Describes the audit methodology",
+      "Explains the circumstances that led to a modified opinion (qualified, adverse, or disclaimer)",
+      "Lists all audit procedures performed",
+      "Describes the company's industry"
+    ],
+    "correct": 1,
+    "explanation": "The basis for modification paragraph explains the specific circumstances that led the auditor to issue a modified opinion. It provides transparency about the reasons behind the qualification, adverse opinion, or disclaimer."
+  },
+  {
+    "id": 221,
+    "category": "Fraud Detection",
+    "question": "The three elements of the 'fraud triangle' are:",
+    "options": [
+      "Theft, deception, concealment",
+      "Pressure (incentive), opportunity, and rationalization",
+      "Planning, execution, cover-up",
+      "Detection, investigation, prosecution"
+    ],
+    "correct": 1,
+    "explanation": "The fraud triangle explains why fraud occurs: pressure or incentive (financial stress, targets), opportunity (weak controls), and rationalization (justifying the behavior). Understanding these helps auditors identify fraud risk factors."
+  },
+  {
+    "id": 222,
+    "category": "Fraud Detection",
+    "question": "Which of the following is a 'red flag' for financial statement fraud?",
+    "options": [
+      "Steady revenue growth consistent with industry",
+      "Significant unusual or highly complex transactions, especially near year-end",
+      "Declining but clearly explained expenses",
+      "Consistent profit margins"
+    ],
+    "correct": 1,
+    "explanation": "Red flags include unusual or complex transactions near period-end, significant related-party transactions, unexplained revenue growth, consistent profit margins despite industry fluctuations, and reluctance to provide information."
+  },
+  {
+    "id": 223,
+    "category": "Fraud Detection",
+    "question": "'Forensic auditing' differs from regular auditing in that it:",
+    "options": [
+      "Uses the same procedures as regular auditing",
+      "Specializes in investigating fraud with potential for legal proceedings, using specialized techniques",
+      "Only focuses on tax compliance",
+      "Only examines financial statements"
+    ],
+    "correct": 1,
+    "explanation": "Forensic auditing combines accounting, auditing, and investigative skills to investigate fraud and disputes. It follows legal standards for evidence collection, may involve expert witness testimony, and uses specialized techniques beyond normal auditing."
+  },
+  {
+    "id": 224,
+    "category": "Fraud Detection",
+    "question": "Data analytics techniques for fraud detection include all EXCEPT:",
+    "options": [
+      "Benford's Law analysis",
+      "Duplicate payment detection",
+      "Calculating normal depreciation",
+      "Stratification and gap analysis"
+    ],
+    "correct": 2,
+    "explanation": "Calculating normal depreciation is a standard accounting procedure, not a fraud detection technique. Benford's Law, duplicate detection, stratification, gap analysis, and anomaly detection are all data analytics methods used to identify potential fraud indicators."
+  },
+  {
+    "id": 225,
+    "category": "Fraud Detection",
+    "question": "A 'whistleblower hotline' is most effective for detecting:",
+    "options": [
+      "Routine accounting errors",
+      "Fraud involving management override or collusion (which is harder to detect through normal testing)",
+      "Computer hardware failures",
+      "Market fluctuations"
+    ],
+    "correct": 1,
+    "explanation": "Whistleblower hotlines are effective because they can uncover fraud involving management override or collusion between employees - scenarios that are difficult for auditors to detect through normal procedures because multiple people conceal the fraud."
+  },
+  {
+    "id": 226,
+    "category": "Fraud Detection",
+    "question": "'Asset misappropriation' fraud includes:",
+    "options": [
+      "Improper revenue recognition",
+      "Theft of company assets such as cash, inventory, or supplies",
+      "Earnings manipulation",
+      "Improper expense capitalization"
+    ],
+    "correct": 1,
+    "explanation": "Asset misappropriation is the most common type of occupational fraud, involving the theft or misuse of company assets. Examples include skimming cash, stealing inventory, submitting fraudulent expense claims, and payroll fraud."
+  },
+  {
+    "id": 227,
+    "category": "Fraud Detection",
+    "question": "Which audit procedure is MOST effective for detecting fictitious revenue?",
+    "options": [
+      "Reviewing the company's marketing materials",
+      "Analyzing revenue by customer with subsequent cash receipts testing and confirming with customers",
+      "Counting office furniture",
+      "Interviewing the CEO"
+    ],
+    "correct": 1,
+    "explanation": "Fictitious revenue is best detected through revenue analysis (unusual patterns), subsequent cash receipt testing (real revenue results in cash collection), and customer confirmation (verifying that reported sales are genuine)."
+  },
+  {
+    "id": 228,
+    "category": "Fraud Detection",
+    "question": "'Professional skepticism' in the context of fraud means:",
+    "options": [
+      "Trusting all management representations",
+      "Questioning assumptions, critically evaluating evidence, and being alert to conditions that may indicate misstatement",
+      "Suspecting every transaction is fraudulent",
+      "Refusing to accept any evidence from management"
+    ],
+    "correct": 1,
+    "explanation": "Professional skepticism involves maintaining a questioning mind, critically evaluating evidence, being alert to contradictory evidence, and not accepting information at face value. It does not mean distrusting everything but means not being complacent."
+  },
+  {
+    "id": 229,
+    "category": "Fraud Detection",
+    "question": "'Corporate fraud' (financial statement fraud) typically involves:",
+    "options": [
+      "An individual employee stealing small amounts",
+      "Intentional misstatement of financial statements to deceive stakeholders (typically by management)",
+      "Accidental errors in financial reporting",
+      "Failure to file tax returns on time"
+    ],
+    "correct": 1,
+    "explanation": "Financial statement fraud is intentional manipulation of financial statements to deceive investors, creditors, or other stakeholders. It typically involves management and includes techniques like premature revenue recognition, hidden expenses, and overstating assets."
+  },
+  {
+    "id": 230,
+    "category": "Fraud Detection",
+    "question": "Which of the following is a common 'corruption' scheme?",
+    "options": [
+      "Extending customer payment terms legitimately",
+      "Bribery, kickbacks, or conflicts of interest in awarding contracts",
+      "Offering employee discounts",
+      "Donating to charity on behalf of the company"
+    ],
+    "correct": 1,
+    "explanation": "Corruption schemes include bribery (offering or accepting payments to influence decisions), kickbacks (payments to vendors in exchange for contracts), and conflicts of interest (awarding contracts to parties with undisclosed personal relationships)."
+  },
+  {
+    "id": 231,
+    "category": "Fraud Detection",
+    "question": "In data analytics, 'duplicate payment detection' identifies:",
+    "options": [
+      "Payments made twice to the same vendor for the same amount, invoice, or date",
+      "Multiple payments to different vendors",
+      "All large payments",
+      "All payments made on weekends"
+    ],
+    "correct": 1,
+    "explanation": "Duplicate payment detection uses algorithms to identify payments that share similar attributes (same vendor, amount, invoice number, date) indicating potential duplicate processing. This can indicate errors or intentional fraud schemes."
+  },
+  {
+    "id": 232,
+    "category": "Fraud Detection",
+    "question": "The 'fraud diamond' extends the fraud triangle by adding:",
+    "options": [
+      "Detection",
+      "Capability (the ability to commit fraud based on position, intelligence, or confidence)",
+      "Technology",
+      "Evidence"
+    ],
+    "correct": 1,
+    "explanation": "The fraud diamond adds 'capability' to the traditional triangle. It recognizes that even with pressure, opportunity, and rationalization, fraud requires the perpetrator to have the capability (position, intelligence, confidence) to carry it out."
+  },
+  {
+    "id": 233,
+    "category": "Fraud Detection",
+    "question": "'Ghost employees' on the payroll is an example of:",
+    "options": [
+      "Financial statement fraud",
+      "Asset misappropriation through payroll fraud",
+      "Corruption",
+      "Vendor fraud"
+    ],
+    "correct": 1,
+    "explanation": "Ghost employees are fictitious persons added to the payroll, with their wages diverted to the perpetrator. This is asset misappropriation through payroll fraud. It can be detected by comparing the payroll list to active employee records and direct deposit accounts."
+  },
+  {
+    "id": 234,
+    "category": "Fraud Detection",
+    "question": "An auditor has a responsibility to plan and perform the audit to obtain 'reasonable assurance' about:",
+    "options": [
+      "Eliminating all fraud",
+      "Whether material misstatement due to fraud has occurred",
+      "Whether any employee has ever acted dishonestly",
+      "Whether the company will remain profitable"
+    ],
+    "correct": 1,
+    "explanation": "The auditor has a responsibility to obtain reasonable assurance (not absolute) that the financial statements are free from material misstatement due to fraud. This involves assessing fraud risks, designing procedures to address them, and maintaining professional skepticism."
+  },
+  {
+    "id": 235,
+    "category": "Fraud Detection",
+    "question": "Which analytical procedure is MOST useful for detecting overstated inventory?",
+    "options": [
+      "Reviewing employee timecards",
+      "Comparing inventory turnover ratios with industry benchmarks and prior periods",
+      "Analyzing sales tax returns",
+      "Reviewing vendor contracts"
+    ],
+    "correct": 1,
+    "explanation": "Inventory turnover ratios that deviate significantly from industry norms or prior periods may indicate overstatement (fictitious inventory). Combined with gross margin analysis, this is a powerful analytical procedure for detecting inventory fraud."
+  },
+  {
+    "id": 236,
+    "category": "Emerging Topics",
+    "question": "In cloud auditing, the 'shared responsibility model' means:",
+    "options": [
+      "The cloud provider is responsible for everything",
+      "Both the cloud provider and the customer have distinct security responsibilities depending on the service model",
+      "The customer is responsible for everything",
+      "Security is not needed in the cloud"
+    ],
+    "correct": 1,
+    "explanation": "In the shared responsibility model, the cloud provider secures the infrastructure (physical, network, host) while the customer secures their applications, data, identity, and access management. The division varies by service model (IaaS, PaaS, SaaS)."
+  },
+  {
+    "id": 237,
+    "category": "Emerging Topics",
+    "question": "When auditing AI/ML systems, which aspect is MOST challenging to assess?",
+    "options": [
+      "The programming language used",
+      "The explainability and transparency of model decisions (black box problem)",
+      "The hardware specifications",
+      "The training data file format"
+    ],
+    "correct": 1,
+    "explanation": "AI/ML models often operate as 'black boxes' where the decision-making process is not transparent. Auditors face challenges in understanding how models reach conclusions, assessing bias, and validating the logic of complex neural networks."
+  },
+  {
+    "id": 238,
+    "category": "Emerging Topics",
+    "question": "A 'cybersecurity audit' should evaluate:",
+    "options": [
+      "Only the company's website",
+      "The organization's security policies, practices, and controls to protect information assets from threats",
+      "Only employee password habits",
+      "Only hardware inventory"
+    ],
+    "correct": 1,
+    "explanation": "Cybersecurity audits comprehensively evaluate security policies, access controls, network security, incident response capabilities, vulnerability management, security awareness, and compliance with standards. They assess the overall security posture against threats."
+  },
+  {
+    "id": 239,
+    "category": "Emerging Topics",
+    "question": "ESG (Environmental, Social, Governance) audit primarily focuses on:",
+    "options": [
+      "Financial statement accuracy only",
+      "Verifying the accuracy and completeness of an organization's ESG disclosures and compliance with ESG frameworks",
+      "IT system performance",
+      "Employee salary fairness only"
+    ],
+    "correct": 1,
+    "explanation": "ESG audit verifies that ESG disclosures are accurate, complete, and comply with relevant frameworks (GRI, SASB, TCFD). It covers environmental impact, social responsibility, governance practices, and increasingly requires third-party assurance."
+  },
+  {
+    "id": 240,
+    "category": "Emerging Topics",
+    "question": "In cloud auditing, what is a 'right to audit' clause?",
+    "options": [
+      "The customer's right to access the cloud provider's financial statements",
+      "A contractual provision allowing the customer (or their auditor) to perform audits of the cloud provider's controls and practices",
+      "The cloud provider's right to audit the customer",
+      "A legal requirement in all cloud contracts"
+    ],
+    "correct": 1,
+    "explanation": "A right to audit clause in cloud service agreements allows the customer or their auditors to examine the provider's security controls, processes, and compliance. This is essential for the customer's own compliance and audit requirements."
+  },
+  {
+    "id": 241,
+    "category": "Emerging Topics",
+    "question": "When auditing machine learning models, 'model bias' refers to:",
+    "options": [
+      "The model being too slow",
+      "Systematic errors in model outputs that unfairly disadvantage certain groups or populations",
+      "The model requiring too much memory",
+      "The model being overtrained"
+    ],
+    "correct": 1,
+    "explanation": "Model bias occurs when AI/ML systems systematically produce unfair outcomes for certain demographic groups. This can arise from biased training data, flawed feature selection, or algorithmic design. Auditors must assess whether models produce equitable results."
+  },
+  {
+    "id": 242,
+    "category": "Emerging Topics",
+    "question": "A 'zero trust' security architecture is based on the principle that:",
+    "options": [
+      "All internal network traffic is trusted",
+      "No entity (user, device, or system) is automatically trusted, regardless of location, and must be continuously verified",
+      "Only external traffic requires authentication",
+      "Trust is established once and never rechecked"
+    ],
+    "correct": 1,
+    "explanation": "Zero trust assumes that threats exist both outside and inside the traditional network perimeter. Every access request must be authenticated, authorized, and continuously validated before access is granted, regardless of the requester's location."
+  },
+  {
+    "id": 243,
+    "category": "Emerging Topics",
+    "question": "ISO 27001 certification for a cloud service provider provides assurance that:",
+    "options": [
+      "The provider guarantees zero security incidents",
+      "The provider's information security management system meets international standards (but does not guarantee specific outcomes)",
+      "The customer's data is immune to all threats",
+      "The provider is the cheapest option"
+    ],
+    "correct": 1,
+    "explanation": "ISO 27001 certification demonstrates that the provider has implemented a systematic approach to managing information security risks. However, certification does not guarantee the absence of security incidents - it shows a mature, risk-based security management system."
+  },
+  {
+    "id": 244,
+    "category": "Emerging Topics",
+    "question": "In ESG auditing, the 'S' (Social) component typically covers:",
+    "options": [
+      "Supply chain sustainability only",
+      "Labor practices, human rights, diversity and inclusion, community impact, and product safety",
+      "Company stock performance",
+      "Building energy efficiency"
+    ],
+    "correct": 1,
+    "explanation": "The Social component of ESG covers human capital management (diversity, wages, training), labor rights, supply chain labor standards, community relations, product safety, data privacy, and the company's impact on society."
+  },
+  {
+    "id": 245,
+    "category": "Emerging Topics",
+    "question": "'DevSecOps' integrates security into:",
+    "options": [
+      "Only the development phase",
+      "Every phase of the DevOps lifecycle (plan, develop, build, test, release, deploy, operate, monitor)",
+      "Only the deployment phase",
+      "Only the operations phase"
+    ],
+    "correct": 1,
+    "explanation": "DevSecOps integrates security practices into every phase of the software development lifecycle, making security a shared responsibility rather than an afterthought. This includes automated security testing, vulnerability scanning, and security monitoring in CI/CD pipelines."
+  },
+  {
+    "id": 246,
+    "category": "Emerging Topics",
+    "question": "When auditing a SaaS provider, which is the PRIMARY audit consideration?",
+    "options": [
+      "The physical server model",
+      "Data security, availability, and processing integrity controls provided by the vendor",
+      "The programming language used",
+      "The color scheme of the user interface"
+    ],
+    "correct": 1,
+    "explanation": "For SaaS audits, the primary focus is on data security (encryption, access controls), service availability (uptime, disaster recovery), and processing integrity. The customer relies heavily on the provider's controls since they have limited direct access."
+  },
+  {
+    "id": 247,
+    "category": "Emerging Topics",
+    "question": "'Ransomware' preparedness for an organization should include:",
+    "options": [
+      "Only paying the ransom when attacked",
+      "Regular backups, incident response planning, employee awareness training, and network segmentation",
+      "Only installing antivirus software",
+      "Only relying on the IT department"
+    ],
+    "correct": 1,
+    "explanation": "Ransomware preparedness requires multiple layers: regular tested backups (offline and immutable), an incident response plan, employee awareness training (phishing prevention), network segmentation, endpoint detection, and regular vulnerability assessments."
+  },
+  {
+    "id": 248,
+    "category": "Emerging Topics",
+    "question": "AI audit challenges include all of the following EXCEPT:",
+    "options": [
+      "Model explainability and transparency",
+      "Training data quality and representativeness",
+      "The programming language syntax",
+      "Model governance and lifecycle management"
+    ],
+    "correct": 2,
+    "explanation": "AI audit challenges include model transparency (black box), data quality, bias detection, model performance degradation over time, governance frameworks, and regulatory compliance. Programming language syntax is a technical development concern, not an audit challenge."
+  },
+  {
+    "id": 249,
+    "category": "Emerging Topics",
+    "question": "TCFD (Task Force on Climate-related Financial Disclosures) recommendations require disclosure of:",
+    "options": [
+      "Only carbon emission data",
+      "Governance, strategy, risk management, and metrics/targets related to climate change",
+      "Only environmental lawsuits",
+      "Only employee commute patterns"
+    ],
+    "correct": 1,
+    "explanation": "TCFD recommends four pillars of disclosure: Governance (board oversight), Strategy (climate risks/opportunities), Risk Management (identification/assessment processes), and Metrics/Targets (measurable climate-related metrics and goals)."
+  },
+  {
+    "id": 250,
+    "category": "Emerging Topics",
+    "question": "A 'SOC 2 Type II' report for a cloud service provider provides:",
+    "options": [
+      "A financial statement opinion",
+      "An independent opinion on the design and operating effectiveness of controls over a specified period",
+      "A security vulnerability scan result",
+      "A list of all the provider's customers"
+    ],
+    "correct": 1,
+    "explanation": "SOC 2 Type II reports provide an independent auditor's opinion on both the design and operating effectiveness of a service organization's controls relevant to security, availability, processing integrity, confidentiality, or privacy over a specified period (typically 6-12 months)."
+  }
+]

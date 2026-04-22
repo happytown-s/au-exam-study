@@ -1,0 +1,16 @@
+{
+  "name": "AU Exam Study",
+  "short_name": "AU Study",
+  "description": "System Auditor (AU) Exam Study App - Japan IT Level 4 Specialist",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#1abc9c",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
