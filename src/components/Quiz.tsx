@@ -29,6 +29,19 @@ const categories = [
   'Emerging Topics',
 ];
 
+const categoryNames: Record<string, string> = {
+  'Audit Planning': '監査計画',
+  'Internal Control': '内部統制',
+  'IT Governance': 'ITガバナンス',
+  'Audit Procedures': '監査手続',
+  'Audit Evidence': '監査証拠',
+  'Compliance & Legal': 'コンプライアンスと法務',
+  'Information Systems Audit': '情報システム監査',
+  'Audit Reporting': '監査報告',
+  'Fraud Detection': '不正検出',
+  'Emerging Topics': '最新トピック',
+};
+
 export default function Quiz() {
   const questions = questionsData as Question[];
 
@@ -131,7 +144,7 @@ export default function Quiz() {
                   : 'bg-dark-800 border-dark-600 text-dark-200 hover:border-audit-500'
               }`}
             >
-              {cat.replace('Compliance & Legal', 'Compliance').replace('Information Systems Audit', 'IS Audit')}
+              {categoryNames[cat] || cat}
             </button>
           ))}
         </div>
@@ -140,19 +153,19 @@ export default function Quiz() {
             onClick={() => { setMode('normal'); reset(); }}
             className={`px-3 py-1 text-xs rounded border ${mode === 'normal' ? 'bg-audit-600 border-audit-500 text-white' : 'bg-dark-800 border-dark-600 text-dark-200'}`}
           >
-            All ({selectedCategory === 'all' ? questions.length : questions.filter(q => q.category === selectedCategory).length})
+            全問 ({selectedCategory === 'all' ? questions.length : questions.filter(q => q.category === selectedCategory).length})
           </button>
           <button
             onClick={() => { setMode('wrong'); reset(); }}
             className={`px-3 py-1 text-xs rounded border ${mode === 'wrong' ? 'bg-red-700 border-red-600 text-white' : 'bg-dark-800 border-dark-600 text-dark-200'}`}
           >
-            Wrong ({filtered.filter(q => wrongIds.includes(q.id)).length})
+            不正解 ({filtered.filter(q => wrongIds.includes(q.id)).length})
           </button>
           <div className="flex-1" />
           <span className="text-xs text-dark-400">
-            {stats.total > 0 ? `${Math.round((stats.correct / stats.total) * 100)}% (${stats.correct}/${stats.total})` : 'No data'}
+            {stats.total > 0 ? `正解率 ${Math.round((stats.correct / stats.total) * 100)}% (${stats.correct}/${stats.total})` : 'データなし'}
           </span>
-          <button onClick={resetStats} className="text-xs text-red-400 hover:text-red-300 px-2 py-1">Reset</button>
+          <button onClick={resetStats} className="text-xs text-red-400 hover:text-red-300 px-2 py-1">リセット</button>
         </div>
       </div>
 
@@ -167,7 +180,7 @@ export default function Quiz() {
       {q ? (
         <div className="space-y-4">
           <div className="flex justify-between items-center text-xs text-dark-400">
-            <span>{q.category}</span>
+            <span>{categoryNames[q.category] || q.category}</span>
             <span>{currentIdx + 1} / {filtered.length}</span>
           </div>
 
@@ -196,26 +209,26 @@ export default function Quiz() {
 
           {showExplanation && (
             <div className="bg-dark-800 border border-dark-600 rounded-lg p-4 text-sm text-dark-200 leading-relaxed">
-              <p className="font-medium text-audit-400 mb-1">Explanation</p>
+              <p className="font-medium text-audit-400 mb-1">解説</p>
               <p>{q.explanation}</p>
             </div>
           )}
 
           {selected !== null && currentIdx < filtered.length - 1 && (
             <button onClick={next} className="w-full py-2.5 bg-audit-600 hover:bg-audit-700 text-white rounded-lg font-medium transition-colors">
-              Next
+              次へ
             </button>
           )}
           {selected !== null && currentIdx === filtered.length - 1 && (
             <div className="text-center py-4 text-audit-400 font-medium">
-              Complete! {filtered.length} questions finished.
+              完了! {filtered.length}問終了しました。
             </div>
           )}
         </div>
       ) : (
         <div className="text-center py-12 text-dark-400">
-          <p className="text-lg mb-2">No questions available</p>
-          <p className="text-sm">Try selecting a different category or switching to Normal mode.</p>
+          <p className="text-lg mb-2">問題がありません</p>
+          <p className="text-sm">カテゴリを変更するか、通常モードに切り替えてください。</p>
         </div>
       )}
     </div>

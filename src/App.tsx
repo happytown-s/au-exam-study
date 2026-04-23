@@ -5,10 +5,10 @@ import SubjectBTraining from './components/SubjectBTraining';
 import Progress from './components/Progress';
 
 const tabs = [
-  { key: 'quiz', label: 'Subject A Quiz' },
-  { key: 'calc', label: 'Calc Training' },
-  { key: 'subjectB', label: 'Subject B Training' },
-  { key: 'progress', label: 'Progress' },
+  { key: 'quiz', label: '科目A問題集' },
+  { key: 'calc', label: '計算トレーニング' },
+  { key: 'subjectB', label: '科目Bトレーニング' },
+  { key: 'progress', label: '進捗' },
 ] as const;
 
 type TabKey = (typeof tabs)[number]['key'];
