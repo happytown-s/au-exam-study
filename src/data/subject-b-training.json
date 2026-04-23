@@ -2,1041 +2,1041 @@
   {
     "id": 1,
     "category": "Audit Program Design",
-    "question": "Design an audit procedure to verify the completeness of revenue recognition for an e-commerce company. Which procedure is MOST appropriate?",
+    "question": "Eコマース企業の収益認識の完全性を検証する監査手続を設計せよ。最も適切な手続はどれか。",
     "options": [
-      "Vouch recorded sales invoices to shipping documents",
-      "Trace all daily order confirmations from the website to the sales journal and general ledger",
-      "Review the revenue recognition policy document only",
-      "Interview the sales manager about revenue processes"
+      "記録された売上請求書を送状書類に突合する",
+      "ウェブサイトの全日の注文確認書から売上帳簿および総勘定元帳へ追跡する",
+      "収益認識方針文書のみを閲覧する",
+      "売上マネージャーに収益プロセスについてインタビューする"
     ],
     "correct": 1,
-    "explanation": "Completeness requires tracing forward from source documents (order confirmations) to the ledger. This ensures all orders were recorded. Vouching backward (ledger to source) tests existence instead. For e-commerce, tracing electronic orders is the most complete approach."
+    "explanation": "完全性のテストは、源泉書類（注文確認書）から元帳へ前方追跡することで行う。これにより、すべての注文が記録されたことを確認する。後方突合（元帳から源泉書類へ）は存在性のテストとなる。Eコマースでは、電子注文の追跡が最も完全なアプローチである。"
   },
   {
     "id": 2,
     "category": "Audit Program Design",
-    "question": "An entity processes 50,000 purchase transactions monthly. Design a sampling approach for testing the authorization control. The auditor should:",
+    "question": "ある企業が月間50,000件の購買取引を処理している。承認統制のテストのためのサンプリングアプローチを設計せよ。監査人は次のうちどれを行うべきか。",
     "options": [
-      "Test all 50,000 transactions",
-      "Use CAAT to select a random sample of sufficient size, applying statistical sampling tables with TDR of 5% at 95% confidence",
-      "Test only the 5 largest transactions",
-      "Review the authorization policy document only"
+      "50,000件すべてをテストする",
+      "CAATを使用して十分なサイズの無作為標本を選択し、95%信頼水準でTDR 5%の統計サンプリング表を適用する",
+      "最大5件の取引のみをテストする",
+      "承認方針文書のみを閲覧する"
     ],
     "correct": 1,
-    "explanation": "For large populations, statistical sampling using CAAT is the most efficient approach. Using attribute sampling tables with appropriate TDR and confidence provides a defensible sample size. Testing all items is impractical; testing only large items misses patterns in smaller transactions."
+    "explanation": "大規模母集団の場合、CAATを用いた統計サンプリングが最も効率的なアプローチである。適切なTDRと信頼水準を用いた属性サンプリング表により、防御可能な標本サイズを提供する。全件テストは非現実的であり、大口のみのテストは小口取引のパターンを見逃す。"
   },
   {
     "id": 3,
     "category": "Audit Program Design",
-    "question": "Design an audit program for a newly implemented ERP system. The PRIMARY focus should be on:",
+    "question": "新たに導入されたERPシステムの監査プログラムを設計せよ。主な焦点は次のうちどれか。",
     "options": [
-      "Testing the old system for comparison",
-      "Evaluating IT general controls and the change management process for the ERP implementation",
-      "Testing only the financial reporting modules",
-      "Interviewing all end users"
+      "比較のために旧システムをテストする",
+      "IT全般統制およびERP導入の変更管理プロセスを評価する",
+      "財務報告モジュールのみをテストする",
+      "すべてのエンドユーザーにインタビューする"
     ],
     "correct": 1,
-    "explanation": "A new ERP implementation requires heavy emphasis on IT general controls and change management (data migration, configuration, access controls). The change management process ensures the system was properly tested and deployed, and data was accurately migrated from the old system."
+    "explanation": "新ERPの導入では、IT全般統制と変更管理（データ移行、設定、アクセス制御）に重点を置く必要がある。変更管理プロセスにより、システムが適切にテスト・導入され、旧システムからのデータが正確に移行されたことが保証される。"
   },
   {
     "id": 4,
     "category": "Audit Program Design",
-    "question": "For a financial institution, design a procedure to test compliance with regulatory capital requirements. The MOST appropriate approach is:",
+    "question": "金融機関について、規制上の資本要件へのコンプライアンスをテストする手続を設計せよ。最も適切なアプローチはどれか。",
     "options": [
-      "Compare capital ratios to regulatory minimums using independently verified balance sheet data",
-      "Interview management about capital planning",
-      "Review the capital adequacy policy only",
-      "Check if the annual report mentions capital requirements"
+      "管理層に資本計画についてインタビューする",
+      "独立検証済みの貸借対照表データを使用して資本比率を規制最低値と比較する",
+      "資本適合性方針のみを閲覧する",
+      "年次報告書に資本要件が記載されているか確認する"
     ],
     "correct": 1,
-    "explanation": "Compliance testing for capital requirements involves calculating regulatory capital ratios (CET1, Tier 1, Total) using independently verified balance sheet data and comparing to minimum regulatory thresholds. This requires detailed understanding of risk-weighted assets and regulatory definitions."
+    "explanation": "資本要件のコンプライアンステストでは、独立検証済みの貸借対照表データを使用して規制資本比率（CET1、Tier 1、総資本）を計算し、規制上の最低閾値と比較する。リスク加重資産と規制上の定義の詳細な理解が必要である。"
   },
   {
     "id": 5,
     "category": "Audit Program Design",
-    "question": "Design an audit procedure to detect potential unauthorized access to the payroll system. The BEST approach is:",
+    "question": "給与システムへの不正アクセスの可能性を検出する監査手続を設計せよ。最も適切なアプローチはどれか。",
     "options": [
-      "Review the payroll system documentation",
-      "Analyze system access logs for unusual access patterns (after-hours access, failed login attempts, access by terminated employees)",
-      "Interview payroll staff about access policies",
-      "Check if payroll amounts are reasonable"
+      "給与システムの文書を閲覧する",
+      "システムアクセスログを分析し、異常なアクセスパターン（時間外アクセス、ログイン失敗、退職者のアクセス）を特定する",
+      "給与担当者にアクセス方針についてインタビューする",
+      "給与金額が合理的か確認する"
     ],
     "correct": 1,
-    "explanation": "Analyzing system access logs directly identifies unauthorized access attempts, unusual access patterns, and access by terminated employees. This is a detective control that provides concrete evidence of potential security breaches. Documentation review and interviews provide context but not evidence of actual access."
+    "explanation": "システムアクセスログの分析により、不正アクセスの試行、異常なアクセスパターン、退職者によるアクセスを直接的に特定できる。これは具体的な証拠を提供する検知統制である。文書閲覧やインタビューは文脈を提供するが、実際のアクセスの証拠ではない。"
   },
   {
     "id": 6,
     "category": "Audit Program Design",
-    "question": "An entity has outsourced its IT infrastructure to a cloud provider. Design the audit program to address this. The auditor should:",
+    "question": "ある企業がITインフラをクラウドプロバイダーにアウトソーシングしている。この監査プログラムを設計せよ。監査人は次のうちどれを行うべきか。",
     "options": [
-      "Skip IT audit since it is outsourced",
-      "Obtain and review the provider's SOC 2 Type II report, perform additional testing on data security controls, and verify the shared responsibility model",
-      "Only review the contract with the cloud provider",
-      "Assume the cloud provider's controls are adequate without verification"
+      "アウトソーシングされているためIT監査をスキップする",
+      "プロバイダーのSOC 2 Type IIレポートを取得・検討し、データセキュリティ統制の追加テストを実施し、責任共有モデルを検証する",
+      "クラウドプロバイダーとの契約のみを閲覧する",
+      "クラウドプロバイダーの統制が適切であると検証なしに想定する"
     ],
     "correct": 1,
-    "explanation": "Outsourcing does not eliminate the auditor's responsibility. The auditor should review the SOC 2 Type II report, understand the shared responsibility model, test the customer-side controls, and perform additional procedures if the SOC report has qualifications or limitations."
+    "explanation": "アウトソーシングしても監査人の責任は消えない。SOC 2 Type IIレポートを検討し、責任共有モデルを理解し、顧客側の統制をテストし、SOCレポートに限定事項がある場合に追加手続を実施すべきである。"
   },
   {
     "id": 7,
     "category": "Audit Program Design",
-    "question": "Design procedures to test the valuation of marketable securities. Which approach provides the BEST evidence?",
+    "question": "有価証券の評価をテストする手続を設計せよ。最も信頼性の高い証拠を提供するアプローチはどれか。",
     "options": [
-      "Review management's valuation methodology",
-      "Obtain independent price quotes from market data sources as of the reporting date and compare with recorded values",
-      "Compare recorded values to purchase prices",
-      "Review the investment committee meeting minutes"
+      "管理層の評価方法論を検討する",
+      "報告日現在の独立した市場データソースから時価を取得し、記録金額と比較する",
+      "記録金額を取得原価と比較する",
+      "投資委員会の議事録を閲覧する"
     ],
     "correct": 1,
-    "explanation": "Independent price verification from reliable market data sources (Bloomberg, exchange feeds) provides the most reliable evidence of fair value. This should be performed as of the reporting date (or the nearest date with active trading). Management's methodology is supporting evidence but not independent."
+    "explanation": "信頼性の高い市場データソース（Bloomberg、取引所フィード）からの独立した価格検証が、時価公正価値の最も信頼性の高い証拠を提供する。報告日（または直近の活跃交易日）時点で実施すべきである。"
   },
   {
     "id": 8,
     "category": "Audit Program Design",
-    "question": "For a manufacturing company with significant inventory, design a procedure to test the NRV (Net Realizable Value) of inventory. The auditor should:",
+    "question": "重要な在庫を有する製造企業について、在庫の正味実現可能価値（NRV）をテストする手続を設計せよ。監査人は次のうちどれを行うべきか。",
     "options": [
-      "Only verify the physical count",
-      "Review the cost data and compare unit costs to current market selling prices, less estimated costs to sell, for significant inventory items",
-      "Accept management's NRV calculation without verification",
-      "Only test the oldest inventory items"
+      "実地棚卸のみを検証する",
+      "原価データを検討し、主要な在庫項目について単位原価を現在の市場売価から販売費控除後の金額と比較する",
+      "管理層のNRV計算を検証なしで受け入れる",
+      "最古の在庫項目のみをテストする"
     ],
     "correct": 1,
-    "explanation": "NRV testing requires comparing the cost of inventory with its estimated selling price less costs to sell. The auditor should verify management's estimates by obtaining independent market price data, reviewing sales contracts, and assessing the reasonableness of selling cost estimates."
+    "explanation": "NRVのテストでは、在庫の原価と推定売価から販売費を控除した金額を比較する必要がある。監査人は独立した市場価格データを取得し、販売契約を検討し、販売費見積りの合理性を評価して、管理層の見積りを検証すべきである。"
   },
   {
     "id": 9,
     "category": "Audit Program Design",
-    "question": "Design an audit program to test the completeness of accounts payable. The BEST procedure is:",
+    "question": "買掛金の完全性をテストする監査プログラムを設計せよ。最も適切な手続はどれか。",
     "options": [
-      "Vouch from the AP ledger to vendor invoices",
-      "Trace from unrecorded vendor invoices (subsequent disbursements after year-end) to the AP ledger for transactions before year-end",
-      "Review the AP aging report only",
-      "Confirm balances with the top 5 vendors"
+      "AP元帳から仕入先請求書へ突合する",
+      "期末後の支払（未記録の仕入先請求書）から、期末前のAP元帳へ追跡する",
+      "AP元帳残高表のみを閲覧する",
+      "上位5社の仕入先に残高確認を行う"
     ],
     "correct": 1,
-    "explanation": "Completeness of AP is best tested by examining subsequent disbursements after year-end. Payments made after year-end for goods received before year-end indicate unrecorded liabilities. This is the most reliable procedure for detecting unrecorded payables."
+    "explanation": "買掛金の完全性は、期末後の支払を調査することで最もよくテストされる。期末前に受け取った商品に対して期末後に支払われたものは、未記録負債を示唆する。これは未記録買掛金を検出する最も信頼性の高い手続である。"
   },
   {
     "id": 10,
     "category": "Audit Program Design",
-    "question": "A company uses cryptocurrency for some transactions. Design a procedure to verify the existence and ownership of cryptocurrency holdings. The auditor should:",
+    "question": "ある企業が一部の取引で暗号資産を使用している。暗号資産保有の存在性と所有権を検証する手続を設計せよ。監査人は次のうちどれを行うべきか。",
     "options": [
-      "Accept management's self-reported balance",
-      "Verify the public blockchain address and obtain an independent confirmation of the balance from the blockchain as of the reporting date",
-      "Only review the exchange statements",
-      "Interview the CFO about cryptocurrency holdings"
+      "管理層の自己申告残高をそのまま受け入れる",
+      "パブリックブロックチェーンアドレスを検証し、報告日現在のブロックチェーンから独立した残高確認を取得する",
+      "取引所の取引明細書のみを閲覧する",
+      "CFOに暗号資産保有についてインタビューする"
     ],
     "correct": 1,
-    "explanation": "Blockchain verification provides independent evidence of cryptocurrency holdings. By verifying the public address and checking the balance on the public blockchain as of the reporting date, the auditor obtains reliable, tamper-proof evidence of existence and ownership."
+    "explanation": "ブロックチェーン検証は暗号資産保有の独立した証拠を提供する。パブリックアドレスを検証し、報告日現在のパブリックブロックチェーンで残高を確認することで、改ざん不可能で信頼性の高い存在性と所有権の証拠を取得できる。"
   },
   {
     "id": 11,
     "category": "Audit Program Design",
-    "question": "Design an approach for auditing a company's allowance for doubtful accounts. The PRIMARY procedure is:",
+    "question": "企業の貸倒引当金を監査するアプローチを設計せよ。主要な手続はどれか。",
     "options": [
-      "Accept management's estimate without testing",
-      "Review the aging of receivables, test management's assumptions (historical collection rates, economic conditions), and evaluate the reasonableness of the provision",
-      "Only test that the percentage is consistent with prior years",
-      "Review the bad debt expense journal entry only"
+      "管理層の見積りをテストなしで受け入れる",
+      "売掛金の経過期間を検討し、管理層の仮定（過去の回収率、経済状況）をテストし、引当金の合理性を評価する",
+      "割合が前年と一致するかのみテストする",
+      "貸倒費用の仕訳記入のみをテストする"
     ],
     "correct": 1,
-    "explanation": "Auditing the allowance requires testing management's estimation process: reviewing the aging analysis, testing historical collection patterns, assessing the reasonableness of assumptions about economic conditions, and performing retrospective review of prior estimates."
+    "explanation": "貸倒引当金の監査では、管理層の見積プロセスをテストする必要がある。経過期間分析の検討、過去の回収パターンのテスト、経済状況に関する仮定の合理性の評価、および過去の見積りの遡及レビューを実施する。"
   },
   {
     "id": 12,
     "category": "Audit Program Design",
-    "question": "For an entity with multiple foreign subsidiaries, design a procedure to test the foreign currency translation of financial statements. The auditor should:",
+    "question": "複数の海外子会社を有する企業について、財務諸表の外貨換算をテストする手続を設計せよ。監査人は次のうちどれを行うべきか。",
     "options": [
-      "Accept the reported translated amounts",
-      "Verify that the correct exchange rates were used (spot rates for balance sheet items, average rates for income statement items) and that translation adjustments are properly recorded in OCI",
-      "Only verify the average exchange rate used",
-      "Review the currency translation policy document"
+      "報告された換算金額をそのまま受け入れる",
+      "正しい為替レートが使用されたことを検証し（貸借対照表項目は直物レート、損益計算書項目は平均レート）、換算差額がその他包括利益に正しく計上されていることを確認する",
+      "使用された平均為替レートのみを検証する",
+      "通貨換算方針文書を閲覧する"
     ],
     "correct": 1,
-    "explanation": "Foreign currency translation testing requires verifying the correct exchange rates (closing rate for assets/liabilities, average for income statement), proper classification of monetary vs non-monetary items, and correct recording of translation differences in other comprehensive income."
+    "explanation": "外貨換算テストでは、正しい為替レート（資産・負債は決算日レート、損益は平均レート）の検証、貨幣項目と非貨幣項目の適切な分類、換算差額のその他包括利益への正しい計上を確認する必要がある。"
   },
   {
     "id": 13,
     "category": "Audit Program Design",
-    "question": "Design an audit program to test whether all related party transactions have been properly disclosed. The MOST effective procedure is:",
+    "question": "関連当事者取引がすべて適切に開示されているかテストする監査プログラムを設計せよ。最も効果的な手続はどれか。",
     "options": [
-      "Ask management for a list of related parties",
-      "Review board minutes, shareholder records, and large/unusual transactions; compare with the related party disclosure; and inquire of management about completeness",
-      "Only review the notes to the financial statements",
-      "Check the related party disclosure section only"
+      "管理層に関連当事者リストを求める",
+      "取締役会議事録、株主名簿、大口・異常取引を検討し、関連当事者開示と比較し、完全性について管理層に質問する",
+      "財務諸表の注記のみを閲覧する",
+      "関連当事者開示セクションのみを確認する"
     ],
     "correct": 1,
-    "explanation": "Related party testing requires multiple sources: board minutes, shareholder registers, transaction screening for unusual patterns, management inquiry, and comparison with disclosures. Relying solely on management's list is insufficient because management may not identify all related parties."
+    "explanation": "関連当事者テストには複数の情報源が必要である。取締役会議事録、株主名簿、異常パターンの取引スクリーニング、管理層への質問、開示との比較。管理層のリストのみに依存するのは不十分であり、管理層がすべての関連当事者を識別していない可能性がある。"
   },
   {
     "id": 14,
     "category": "Audit Program Design",
-    "question": "Design a procedure to test the accuracy of a complex revenue allocation for bundled software subscriptions. The auditor should:",
+    "question": "バンドルされたソフトウェアサブスクリプションの複雑な収益配分の正確性をテストする手続を設計せよ。監査人は次のうちどれを行うべきか。",
     "options": [
-      "Accept management's allocation without testing",
-      "Review the allocation methodology, test the standalone selling prices of each component, and verify the allocation calculations using a sample of transactions",
-      "Only test the total revenue amount",
-      "Compare total revenue to the subscription contract values"
+      "管理層の配分をテストなしで受け入れる",
+      "配分方法論を検討し、各コンポーネントの個別販売価格をテストし、標本取引を使用して配分計算を検証する",
+      "収益総額のみをテストする",
+      "収益総額をサブスクリプション契約金額と比較する"
     ],
     "correct": 1,
-    "explanation": "Revenue allocation for bundled arrangements requires verifying the standalone selling prices of each component, the allocation methodology, and the mathematical accuracy of allocations. This is especially important when management judgment is involved in determining standalone selling prices."
+    "explanation": "バンドル取引の収益配分では、各コンポーネントの個別販売価格、配分方法論、配分計算の数学的精度を検証する必要がある。これは特に管理層の判断が個別販売価格の決定に関与する場合に重要である。"
   },
   {
     "id": 15,
     "category": "Audit Program Design",
-    "question": "For a construction company using the percentage-of-completion method, design a procedure to test the accuracy of revenue recognition. The auditor should:",
+    "question": "工事進行基準を使用する建設企業について、収益認識の正確性をテストする手続を設計せよ。監査人は次のうちどれを行うべきか。",
     "options": [
-      "Accept the engineer's cost-to-cost estimate without testing",
-      "Visit the construction site, verify the physical progress, review supporting documentation for costs incurred, and evaluate the reasonableness of the percentage-of-completion estimates",
-      "Only review the project contracts",
-      "Test only the total contract revenue"
+      "エンジニアのコスト対コスト見積りをテストなしで受け入れる",
+      "建設現場を訪問し物理的進捗を検証し、発生原価の裏付け書類を検討し、工事進行基準見積りの合理性を評価する",
+      "プロジェクト契約のみを閲覧する",
+      "契約総収益のみをテストする"
     ],
     "correct": 1,
-    "explanation": "Percentage-of-completion testing requires verifying the physical progress (site visits), reviewing cost documentation, evaluating management's estimation methods, and comparing estimated costs to complete with actual experience. Revenue recognition must correspond to actual work performed."
+    "explanation": "工事進行基準のテストでは、物理的進捗の検証（現場訪問）、原価書類の検討、管理層の見積方法の評価、および完成原価見積と実際の比較を実施する必要がある。収益認識は実際に行われた作業に対応していなければならない。"
   },
   {
     "id": 16,
     "category": "Control Evaluation",
-    "question": "Evaluate: A company's purchasing process allows the same person to create purchase orders, receive goods, and approve payments. This is a weakness because:",
+    "question": "評価：ある企業の購買プロセスでは、同一人物が発注書の作成、商品の受取、支払の承認を行える。これが弱点である理由は次のうちどれか。",
     "options": [
-      "It is inefficient",
-      "It violates segregation of duties, allowing one person to both perpetrate and conceal fraud",
-      "It violates company policy only",
-      "It increases the processing time"
+      "非効率的である",
+      "職務の分離に違反しており、同一人物が不正行為の実行と隠蔽の両方を行える",
+      "会社方針に違反しているのみ",
+      "処理時間が増加する"
     ],
     "correct": 1,
-    "explanation": "The fundamental weakness is the lack of segregation of duties. One person controlling the entire purchase-to-pay cycle can create fictitious vendors, approve payments to themselves, and conceal the fraud. This is a significant control deficiency."
+    "explanation": "根本的な弱点は職務の分離の欠如である。購買から支払までの全サイクルを制御する一人の人物は、架空の仕入先を作成し、自分自身に支払いを承認し、不正を隠蔽することができる。これは重要な統制欠陥である。"
   },
   {
     "id": 17,
     "category": "Control Evaluation",
-    "question": "Evaluate: Passwords are stored in plaintext in the database. This is a weakness because:",
+    "question": "評価：パスワードがデータベースにプレーンテキストで保存されている。これが弱点である理由は次のうちどれか。",
     "options": [
-      "Plaintext passwords are slow to process",
-      "If the database is compromised, all user credentials are immediately exposed, enabling unauthorized access",
-      "Plaintext passwords are difficult to remember",
-      "They use too much storage space"
+      "プレーンテキストパスワードは処理が遅い",
+      "データベースが侵害された場合、すべてのユーザー認証情報が即座に露出し、不正アクセスが可能となる",
+      "プレーンテキストパスワードは記憶しにくい",
+      "ストレージ容量を多く消費する"
     ],
     "correct": 1,
-    "explanation": "Plaintext password storage is a critical security weakness. If the database is breached, attackers have immediate access to all credentials. Passwords must be hashed (preferably with salt) so that even if the database is compromised, original passwords cannot be easily recovered."
+    "explanation": "プレーンテキストでのパスワード保存は重大なセキュリティ弱点である。データベースが侵害された場合、攻撃者はすべての認証情報に即座にアクセスできる。パスワードはハッシュ化（可能であればソルト付き）して保存し、データベースが侵害されても元のパスワードを容易に復元できないようにすべきである。"
   },
   {
     "id": 18,
     "category": "Control Evaluation",
-    "question": "Evaluate: The IT department has full administrative access to all production systems without any oversight. This is a weakness because:",
+    "question": "評価：IT部門がすべての本番システムへの完全な管理者アクセス権を監視なしに持っている。これが弱点である理由は次のうちどれか。",
     "options": [
-      "IT staff might make mistakes",
-      "It creates a concentration of power with insufficient oversight, increasing the risk of unauthorized changes and data manipulation",
-      "IT staff do not need admin access",
-      "It violates data privacy regulations"
+      "ITスタッフがミスを犯す可能性がある",
+      "十分な監視のない権力の集中を生み出し、不正な変更やデータ操作のリスクを増大させる",
+      "ITスタッフは管理者アクセスを必要としない",
+      "データプライバシー規制に違反する"
     ],
     "correct": 1,
-    "explanation": "Unrestricted IT admin access without oversight creates a concentration of power risk. IT personnel with full access can make unauthorized changes, manipulate data, or create backdoors without detection. Privileged access management (PAM) controls are needed."
+    "explanation": "監視なしの無制限のIT管理者アクセスは権力集中リスクを生み出す。完全なアクセス権を持つIT担当者は、不正な変更、データ操作、バックドアの作成を検出されることなく行うことができる。特権アクセス管理（PAM）統制が必要である。"
   },
   {
     "id": 19,
     "category": "Control Evaluation",
-    "question": "Evaluate: The company performs bank reconciliations only once per year at year-end. This is a weakness because:",
+    "question": "評価：銀行勘定調整は年末に年1回のみ実施されている。これが弱点である理由は次のうちどれか。",
     "options": [
-      "Annual reconciliation is too expensive",
-      "Errors, fraud, or unauthorized transactions could go undetected for up to 12 months",
-      "Reconciliation should never be done at year-end",
-      "The bank charges fees for frequent reconciliations"
+      "年次調整は高コストである",
+      "エラー、不正、不正な取引が最大12か月間検出されない可能性がある",
+      "決算日には調整を実施すべきでない",
+      "頻繁な調整で銀行手数料がかかる"
     ],
     "correct": 1,
-    "explanation": "Bank reconciliations should be performed monthly (at minimum) to detect errors, unauthorized transactions, and fraud in a timely manner. Annual reconciliation allows 12 months of potential issues to accumulate, significantly increasing the risk of undetected misstatement."
+    "explanation": "銀行勘定調整は最低でも月1回実施し、エラー、不正取引、不正を適時に検出すべきである。年次調整では最大12か月間の潜在的な問題が蓄積し、未検出の誤謬リスクが著しく増大する。"
   },
   {
     "id": 20,
     "category": "Control Evaluation",
-    "question": "Evaluate: Employees who leave the company retain their system access for an average of 30 days after departure. This is a weakness because:",
+    "question": "評価：退職した従業員のシステムアクセス権が退職後平均30日間残っている。これが弱点である理由は次のうちどれか。",
     "options": [
-      "It increases the IT department's workload",
-      "Former employees could access and exfiltrate or manipulate data using active credentials",
-      "It is a minor inconvenience only",
-      "It only affects the IT department"
+      "IT部門の作業負荷が増加する",
+      "元従業員が有効な認証情報を使用してデータにアクセス・持ち出し・操作できる",
+      "わずかな不便さのみである",
+      "IT部門にのみ影響する"
     ],
     "correct": 1,
-    "explanation": "Delayed deprovisioning of access is a critical control weakness. Former employees with active access can steal data, sabotage systems, or exploit customer information. Access should be revoked immediately upon or before departure as part of the offboarding process."
+    "explanation": "アクセス権の遅延剥奪は重要な統制弱点である。有効なアクセス権を持つ元従業員はデータを盗み、システムを妨害し、顧客情報を悪用できる可能性がある。アクセス権は退職時またはその前に直ちに取り消すべきである。"
   },
   {
     "id": 21,
     "category": "Control Evaluation",
-    "question": "Evaluate: System changes to production are deployed without any formal testing or approval process. This is a weakness because:",
+    "question": "評価：本番へのシステム変更が正式なテストや承認プロセスなしにデプロイされている。これが弱点である理由は次のうちどれか。",
     "options": [
-      "It delays new features",
-      "Untested changes can introduce defects, security vulnerabilities, or data corruption into the production environment, impacting business operations and data integrity",
-      "It only affects development teams",
-      "It is more efficient without testing"
+      "新機能の提供が遅れる",
+      "テストされていない変更は本番環境に欠陥、セキュリティ脆弱性、データ破損を導入し、業務運用とデータ完全性に影響を与える",
+      "開発チームにのみ影響する",
+      "テストなしの方が効率的である"
     ],
     "correct": 1,
-    "explanation": "Deploying changes without testing and approval creates significant risk of introducing defects, security vulnerabilities, or data corruption. A formal change management process (request, test, approve, deploy, verify) is essential for maintaining system integrity."
+    "explanation": "テストと承認なしの変更デプロイは、欠陥、セキュリティ脆弱性、データ破損の導入に重大なリスクをもたらす。正式な変更管理プロセス（要求、テスト、承認、デプロイ、検証）はシステム完全性の維持に不可欠である。"
   },
   {
     "id": 22,
     "category": "Control Evaluation",
-    "question": "Evaluate: The accounts payable system does not perform three-way matching (purchase order, receiving report, vendor invoice). This is a weakness because:",
+    "question": "評価：買掛金システムが3者照合（発注書、受領レポート、仕入先請求書）を実行しない。これが弱点である理由は次のうちどれか。",
     "options": [
-      "It is slower than three-way matching",
-      "Without three-way matching, the company may pay for goods not ordered, goods not received, or incorrect amounts, leading to overpayments and fraud",
-      "It is only relevant for large companies",
-      "It is a minor inconvenience"
+      "3者照合より遅い",
+      "3者照合なしでは、発注していない商品、受領していない商品、誤った金額の支払いを行う可能性があり、過大支払や不正につながる",
+      "大企業にのみ関連する",
+      "わずかな不便さである"
     ],
     "correct": 1,
-    "explanation": "Three-way matching is a critical application control that ensures the company pays only for goods that were ordered and received at the agreed price. Without it, the company is vulnerable to overpayments, duplicate payments, and fictitious vendor schemes."
+    "explanation": "3者照合は、発注し受領した合意価格の商品のみに支払うことを確保する重要なアプリケーション統制である。これがない場合、企業は過大支払、重複支払、架空仕入先スキームに対して脆弱になる。"
   },
   {
     "id": 23,
     "category": "Control Evaluation",
-    "question": "Evaluate: The CEO has the ability to create and approve journal entries without any second-level review. This is a weakness because:",
+    "question": "評価：CEOが二次確認なしに仕訳の作成と承認を行える。これが弱点である理由は次のうちどれか。",
     "options": [
-      "The CEO is too busy for journal entries",
-      "Management override of controls is a significant fraud risk, and the CEO's ability to create and approve entries without oversight creates an unchecked power concentration",
-      "Journal entries should only be created by accountants",
-      "This is actually a strength - it increases efficiency"
+      "CEOは仕訳に忙しすぎる",
+      "経営者による統制の逸脱は重要な不正リスクであり、CEOの監視なしの仕訳作成・承認能力はチェックされていない権力集中を生み出す",
+      "仕訳は会計士のみが作成すべきである",
+      "これは実際には効率化という強みである"
     ],
     "correct": 1,
-    "explanation": "CEO's ability to create and approve entries without oversight is a textbook management override risk. This is the most common mechanism for financial statement fraud. All journal entries, especially non-standard ones, should require independent review and approval."
+    "explanation": "CEOの監視なしの仕訳作成・承認能力は、経営者による統制逸脱の典型例である。これは財務諸表不正の最も一般的なメカニズムである。すべての仕訳、特に非標準的なものは、独立した検討と承認を必要とすべきである。"
   },
   {
     "id": 24,
     "category": "Control Evaluation",
-    "question": "Evaluate: Backup tapes are stored in the same server room as the production servers. This is a weakness because:",
+    "question": "評価：バックアップテープが本番サーバーと同じサーバー室に保管されている。これが弱点である理由は次のうちどれか。",
     "options": [
-      "It takes up too much space",
-      "A physical disaster (fire, flood) could destroy both production data and backups simultaneously, preventing recovery",
-      "It is more convenient for restore operations",
-      "Backup tapes should be stored in the IT manager's office"
+      "スペースを取りすぎる",
+      "物理的災害（火災、水害）が本番データとバックアップを同時に破壊し、復旧を不可能にする可能性がある",
+      "復旧操作により便利である",
+      "バックアップテープはITマネージャーのオフィスに保管すべきである"
     ],
     "correct": 1,
-    "explanation": "Co-located backups are vulnerable to the same physical threats as production systems. Offsite storage (in a different geographic area) is essential for disaster recovery. The 3-2-1 backup rule recommends 3 copies, 2 different media, 1 offsite."
+    "explanation": "同一場所のバックアップは本番システムと同じ物理的脅威に脆弱である。災害復旧には別の地理的地域へのオフサイト保管が不可欠である。3-2-1バックアップルールは3つのコピー、2つの異なるメディア、1つのオフサイトを推奨する。"
   },
   {
     "id": 25,
     "category": "Control Evaluation",
-    "question": "Evaluate: The company has no formal information security policy and no security awareness training for employees. This is a weakness because:",
+    "question": "評価：企業に正式な情報セキュリティポリシーがなく、従業員向けのセキュリティ意識研修もない。これが弱点である理由は次のうちどれか。",
     "options": [
-      "It violates ISO standards only",
-      "Without a security policy and training, employees are unaware of security threats (phishing, social engineering) and may inadvertently compromise the organization's information assets",
-      "It only affects the IT department",
-      "Employees already know about security"
+      "ISO規格に違反するのみ",
+      "セキュリティポリシーと研修がなければ、従業員はセキュリティ脅威（フィッシング、ソーシャルエンジニアリング）を認識できず、組織の情報資産を不注意に侵害する可能性がある",
+      "IT部門にのみ影響する",
+      "従業員はすでにセキュリティを知っている"
     ],
     "correct": 1,
-    "explanation": "Formal security policies and regular awareness training are fundamental controls. Without them, employees are the weakest link - vulnerable to phishing, social engineering, and unintentional data disclosure. Training significantly reduces the risk of human-factor security incidents."
+    "explanation": "正式なセキュリティポリシーと定期的な意識研修は基本的な統制である。これらがない場合、従業員は最も弱いリンクとなり、フィッシング、ソーシャルエンジニアリング、偶発的な情報漏洩に対して脆弱になる。研修は人為的要素のセキュリティインシデントリスクを大幅に低減する。"
   },
   {
     "id": 26,
     "category": "Control Evaluation",
-    "question": "Evaluate: All employees have access to the HR system containing salary data, not just HR staff. This is a weakness because:",
+    "question": "評価：すべての従業員が給与データを含むHRシステムにアクセスでき、HRスタッフに限定されていない。これが弱点である理由は次のうちどれか。",
     "options": [
-      "It slows down the HR system",
-      "It violates the principle of least privilege; salary information should be restricted to authorized HR personnel and affected individuals only",
-      "It improves transparency",
-      "It is only relevant for large companies"
+      "HRシステムが遅くなる",
+      "最小権限の原則に違反しており、給与情報は権限のあるHR担当者と当該個人にのみ制限すべきである",
+      "透明性が向上する",
+      "大企業にのみ関連する"
     ],
     "correct": 1,
-    "explanation": "Excessive access to sensitive data (salary, personal information) violates the principle of least privilege. Only authorized personnel should access HR data. Role-based access control should restrict access to those with a legitimate business need."
+    "explanation": "機密データ（給与、個人情報）への過剰なアクセスは最小権限の原則に違反する。権限のある担当者のみがHRデータにアクセスすべきである。ロールベースアクセス制御により、正当な業務上の必要がある者にのみアクセスを制限すべきである。"
   },
   {
     "id": 27,
     "category": "Control Evaluation",
-    "question": "Evaluate: The internal audit function reports directly to the CFO, who is responsible for financial reporting. This is a weakness because:",
+    "question": "評価：内部監査機能が財務報告担当のCFOに直接報告している。これが弱点である理由は次のうちどれか。",
     "options": [
-      "The CFO is too busy",
-      "Internal audit lacks organizational independence, potentially compromising the objectivity of its findings on financial reporting controls",
-      "The CFO is not qualified to oversee internal audit",
-      "This is actually the recommended reporting structure"
+      "CFOは多忙すぎる",
+      "内部監査の組織的独立性がなく、財務報告統制に関する所見の客観性が損なわれる可能性がある",
+      "CFOは内部監査の監督資格がない",
+      "これは実際には推奨される報告体制である"
     ],
     "correct": 1,
-    "explanation": "Internal audit should report functionally to the audit committee (or board) for independence, not to management. Reporting to the CFO compromises independence because the CFO's area is a primary audit subject. This is a fundamental governance weakness."
+    "explanation": "内部監査は独立性のため、経営陣ではなく監査委員会（または取締役会）に機能的に報告すべきである。CFOへの報告は独立性を損なう。CFOの領域は監査の主要な対象だからである。これは基本的なガバナンスの弱点である。"
   },
   {
     "id": 28,
     "category": "Control Evaluation",
-    "question": "Evaluate: The company uses a single shared password for critical financial systems that all accounting staff know. This is a weakness because:",
+    "question": "評価：企業が重要な財務システムに単一の共有パスワードを使用しており、すべての会計スタッフが知っている。これが弱点である理由は次のうちどれか。",
     "options": [
-      "Shared passwords are hard to remember",
-      "It eliminates individual accountability, makes it impossible to trace actions to specific users, and increases the risk of unauthorized access (former employees still know the password)",
-      "It is more efficient than individual passwords",
-      "It reduces helpdesk calls"
+      "共有パスワードは記憶しにくい",
+      "個人の責任追及可能性がなくなり、アクションを特定のユーザーに追跡できず、不正アクセスのリスクが増大する",
+      "個別パスワードより効率的である",
+      "ヘルプデスクへの問い合わせが減る"
     ],
     "correct": 1,
-    "explanation": "Shared passwords eliminate accountability (cannot determine who performed what action), make audit trails meaningless, and create a security risk since the password cannot be easily changed without affecting all users. Individual authentication with unique credentials is required."
+    "explanation": "共有パスワードは責任追及可能性を排除し（誰がどのアクションを実行したかを特定できない）、監査証跡を無意味にし、すべてのユーザーのパスワード変更が容易でないためセキュリティリスクを生み出す。個別認証と一意の認証情報が必要である。"
   },
   {
     "id": 29,
     "category": "Control Evaluation",
-    "question": "Evaluate: The company's disaster recovery plan has not been tested for 3 years. This is a weakness because:",
+    "question": "評価：企業の災害復旧計画が3年間テストされていない。これが弱点である理由は次のうちどれか。",
     "options": [
-      "Testing is expensive",
-      "Untested DR plans may not work when needed; changes in IT infrastructure, staff, and processes may have invalidated the recovery procedures",
-      "The DR plan was tested once when created",
-      "Testing is only needed for new DR plans"
+      "テストは高コストである",
+      "テストされていないDR計画は必要時に機能しない可能性があり、ITインフラ、スタッフ、プロセスの変更により復旧手順が無効になっている可能性がある",
+      "作成時に1回テストされた",
+      "新規DR計画にのみテストが必要"
     ],
     "correct": 1,
-    "explanation": "DR plans must be tested regularly (at least annually) because IT environments, staff, and processes change. An untested plan may fail when needed, and regular testing identifies gaps before a real disaster occurs. Tabletop exercises and full simulations should both be performed."
+    "explanation": "DR計画はIT環境、スタッフ、プロセスが変更されるため、定期的に（最低年1回）テストすべきである。テストされていない計画は必要時に失敗し、定期的なテストが実際の災害発生前にギャップを特定する。テーブルトップ演習と完全シミュレーションの両方を実施すべきである。"
   },
   {
     "id": 30,
     "category": "Control Evaluation",
-    "question": "Evaluate: Vendor invoices are approved based only on the invoice amount, without verifying that goods were actually received. This is a weakness because:",
+    "question": "評価：仕入先請求書が商品の実際の受取を確認せず、請求書金額のみに基づいて承認されている。これが弱点である理由は次のうちどれか。",
     "options": [
-      "It is too simple",
-      "The company may pay for goods never received, creating risk of overpayment and potential fraud (fictitious vendor schemes)",
-      "It is the industry standard",
-      "Invoice-only approval is sufficient for small amounts"
+      "単純すぎる",
+      "商品を受領していない支払いを行う可能性があり、過大支払と不正（架空仕入先スキーム）のリスクを生む",
+      "業界標準である",
+      "少額では請求書のみの承認で十分"
     ],
     "correct": 1,
-    "explanation": "Approving payments based only on the invoice, without confirming goods were received, creates risk of paying for goods never delivered. This is a classic control weakness exploited in fictitious vendor schemes. Matching with receiving reports is essential."
+    "explanation": "商品の受領を確認せずに請求書のみに基づいて支払いを承認すると、受領していない商品への支払いリスクを生む。これは架空仕入先スキームで悪用される典型的な統制弱点である。受領レポートとの照合が不可欠である。"
   },
   {
     "id": 31,
     "category": "Finding Development",
-    "question": "Condition: 5 of 20 terminated employees still have active system access after 90 days. Criteria: Company policy requires access revocation within 24 hours of termination. Cause: HR notifies IT of terminations monthly (batch processing) instead of immediately. Effect: ? What is the BEST description of the effect?",
+    "question": "状況：退職した従業員20名のうち5名が退職後90日経ってもシステムアクセスが有効である。基準：会社方針は退職後24時間以内のアクセス取消を要求。原因：HRがITに退職を月次（バッチ処理）で通知しており、即座に通知していない。効果：次のうち最も適切な記述はどれか。",
     "options": [
-      "Employees are unhappy",
-      "Increased risk of unauthorized data access, potential data theft, and regulatory non-compliance (APPI) because former employees retain access to systems containing personal information",
-      "IT department is overworked",
-      "Budget overrun for IT operations"
+      "従業員が不満を抱いている",
+      "不正なデータアクセス、データ窃取、規制非コンプライアンス（APPI）のリスクが増大。元従業員が個人情報を含むシステムへのアクセス権を保持しているため",
+      "IT部門が過剰労働状態である",
+      "IT運用費の予算超過"
     ],
     "correct": 1,
-    "explanation": "The effect should describe the actual or potential impact. Former employees with active access creates real risk of data theft and regulatory violations. The effect quantifies the risk to help management prioritize remediation."
+    "explanation": "効果は実際のまたは潜在的な影響を記述すべきである。有効なアクセス権を持つ元従業員は実際のデータ窃取と規制違反のリスクを生み出す。効果は管理層の優先順位付けを支援するためにリスクを定量化すべきである。"
   },
   {
     "id": 32,
     "category": "Finding Development",
-    "question": "Condition: No three-way matching in the AP process. Criteria: Industry best practice and company policy require three-way matching for purchases over $10,000. Cause: The ERP system was configured without the matching module enabled. Effect: $2.3M in payments processed last year without matching verification. Recommendation: ?",
+    "question": "状況：APプロセスに3者照合がない。基準：業界ベストプラクティスと会社方針は10,000ドル超の購買に3者照合を要求。原因：ERPシステムが照合モジュールを有効にせずに構成された。効果：昨年$2.3Mの支払いが照合検証なしで処理された。推奨事項：次のうちどれか。",
     "options": [
-      "Hire more AP staff",
-      "Enable three-way matching in the ERP system for purchases over $10,000 and perform retrospective testing of the $2.3M in unverified payments",
-      "Reduce the purchase threshold to $0",
-      "Accept the risk and move on"
+      "APスタッフを増員する",
+      "10,000ドル超の購買についてERPシステムで3者照合を有効にし、$2.3Mの未検証支払いについて遡及テストを実施する",
+      "購買閾値を$0に引き下げる",
+      "リスクを受け入れ次に進む"
     ],
     "correct": 1,
-    "explanation": "The recommendation should be specific, actionable, and address the root cause (ERP configuration). Enabling the matching module addresses the cause, and retrospective testing assesses whether the $2.3M in payments had issues."
+    "explanation": "推奨事項は具体的、実行可能であり、根本原因（ERP構成）に対処すべきである。照合モジュールの有効化が原因に対処し、遡及テストが$2.3Mの支払いに問題がないかを評価する。"
   },
   {
     "id": 33,
     "category": "Finding Development",
-    "question": "An auditor discovers that the CFO approved a $500,000 payment to a vendor that is owned by the CFO's spouse. Develop the finding. The most significant element is:",
+    "question": "状況：CFOが自らの配偶者が所有する仕入先への$500,000の支払いを承認した。指摘を展開せよ。最も重要な要素は次のうちどれか。",
     "options": [
-      "The payment amount is too large",
-      "The conflict of interest (related party transaction not disclosed), which violates corporate governance code requirements and financial reporting standards",
-      "The vendor provided good services",
-      "The payment was processed on time"
+      "支払金額が大きすぎる",
+      "利益相反（開示されていない関連当事者取引）であり、コーポレートガバナンスコードの要件と財務報告基準に違反する",
+      "仕入先が良いサービスを提供した",
+      "支払いが期限内に処理された"
     ],
     "correct": 1,
-    "explanation": "The core issue is the undisclosed conflict of interest. A related party transaction involving the CFO's spouse requires disclosure under both financial reporting standards and the Corporate Governance Code. The failure to disclose is a significant finding requiring board notification."
+    "explanation": "核心的な問題は開示されていない利益相反である。CFOの配偶者に関連する関連当事者取引は、財務報告基準とコーポレートガバナンスコードの両方で開示が義務付けられている。開示の不備は取締役会への通知を必要とする重要な指摘事項である。"
   },
   {
     "id": 34,
     "category": "Finding Development",
-    "question": "Condition: 15% of password resets bypass the normal IT service desk process and are performed directly by system administrators without any documentation. Criteria: All password resets must be verified through IT service desk with identity confirmation. Cause: Administrators reset passwords directly to help users more quickly during peak periods. Effect: ?",
+    "question": "状況：パスワードリセットの15%が通常のITサービスデスクプロセスをバイパスし、文書化なしでシステム管理者によって直接実行されている。基準：すべてのパスワードリセットはITサービスデスクを通じて身元確認付きで実施すべき。原因：管理者がピーク時にユーザーを迅速に支援するため直接リセットしている。効果：次のうちどれか。",
     "options": [
-      "Users are happier",
-      "Increased risk of social engineering attacks, as password resets without identity verification could grant unauthorized access to accounts",
-      "The helpdesk is too slow",
-      "Administrators are more efficient"
+      "ユーザーが満足している",
+      "身元確認なしのパスワードリセットにより、ソーシャルエンジニアリング攻撃のリスクが増大し、不正なアカウントアクセスが可能となる",
+      "ヘルプデスクが遅すぎる",
+      "管理者が効率的である"
     ],
     "correct": 1,
-    "explanation": "The effect focuses on the security risk created by bypassing identity verification. Without verification, attackers could impersonate users and obtain password resets, gaining unauthorized access to systems and data."
+    "explanation": "効果は身元確認のバイパスによって生じるセキュリティリスクに焦点を当てるべきである。確認なしでは、攻撃者がユーザーになりすましてパスワードリセットを取得し、システムとデータへの不正アクセスを得ることができる。"
   },
   {
     "id": 35,
     "category": "Finding Development",
-    "question": "Condition: Monthly bank reconciliations show unreconciled differences averaging $50,000 that remain unresolved for more than 6 months. Criteria: Unreconciled items should be investigated and resolved within 30 days. Cause: No formal escalation process for unresolved reconciliation items. What is the BEST recommendation?",
+    "question": "状況：月次銀行勘定調整で平均$50,000の未解消差異が6か月以上解決されずに残っている。基準：未解消項目は30日以内に調査・解決すべき。原因：未解消調整項目の正式なエスカレーションプロセスがない。最も適切な推奨事項はどれか。",
     "options": [
-      "Increase the bank account balance",
-      "Establish a formal escalation process requiring investigation of items older than 30 days, with monthly reporting to the controller on resolution status",
-      "Hire more accountants",
-      "Ignore the unreconciled items as immaterial"
+      "銀行口座残高を増やす",
+      "30日以上の項目の調査を要求する正式なエスカレーションプロセスを確立し、解決状況についてコントローラーへの月次報告を行う",
+      "会計士を増員する",
+      "重要でないとして未解消項目を無視する"
     ],
     "correct": 1,
-    "explanation": "The recommendation addresses the root cause (no escalation process) and provides a specific, actionable solution. It includes a timeline (30 days) and a governance mechanism (monthly reporting to controller) to ensure sustainability."
+    "explanation": "推奨事項は根本原因（エスカレーションプロセスなし）に対処し、具体的で実行可能な解決策を提供すべきである。タイムライン（30日）とガバナンスメカニズム（コントローラーへの月次報告）を含み、持続可能性を確保する。"
   },
   {
     "id": 36,
     "category": "Finding Development",
-    "question": "In developing a finding, the 'criteria' component should be:",
+    "question": "指摘事項を展開する際、「基準」コンポーネントは次のうちどれであるべきか。",
     "options": [
-      "The auditor's personal opinion about best practice",
-      "An objective standard, policy, regulation, or framework that defines the expected state",
-      "What the company currently does",
-      "The financial impact of the finding"
+      "監査人のベストプラクティスに関する個人的意見",
+      "期待される状態を定義する客観的な基準、方針、規制、またはフレームワーク",
+      "企業が現在行っていること",
+      "指摘事項の財務的影響"
     ],
     "correct": 1,
-    "explanation": "Criteria must be based on objective, verifiable standards (company policies, industry standards, regulations, frameworks like COSO or ISO). Personal opinions are not valid criteria. The criteria provides the benchmark against which the condition is measured."
+    "explanation": "基準は客観的、検証可能な基準（会社方針、業界基準、規制、COSOやISO等のフレームワーク）に基づくべきである。個人的意見は有効な基準ではない。基準は状況を測定するベンチマークを提供する。"
   },
   {
     "id": 37,
     "category": "Finding Development",
-    "question": "A finding has: Condition=No annual security awareness training. Criteria=ISO 27001 A.6.3 requires security awareness training. Cause=Training budget was cut. Effect=Unknown security incidents may be occurring. What is the WEAKNESS in this finding?",
+    "question": "状況：年次セキュリティ意識研修がない。基準：ISO 27001 A.6.3はセキュリティ意識研修を要求。原因：研修予算が削減された。効果：不明なセキュリティインシデントが発生している可能性がある。この指摘の弱点は次のうちどれか。",
     "options": [
-      "The criteria is wrong",
-      "The effect is vague and unquantified; it should include specific risk indicators or potential measurable impacts",
-      "The condition is too specific",
-      "There is no recommendation"
+      "基準が間違っている",
+      "効果が曖昧で定量化されていない。具体的なリスク指標または測定可能な潜在的影響を含むべきである",
+      "状況が具体的すぎる",
+      "推奨事項がない"
     ],
     "correct": 1,
-    "explanation": "The effect 'unknown security incidents' is vague. A strong effect would quantify the risk: 'Without training, the organization is susceptible to phishing attacks (90% of breaches start with phishing), potentially resulting in data loss estimated at $X based on the value of data accessible by employees.'"
+    "explanation": "「不明なセキュリティインシデント」という効果は曖昧である。強力な効果はリスクを定量化すべきである。「研修なしでは、組織はフィッシング攻撃（侵害の90%がフィッシングから始まる）に対して脆弱であり、従業員がアクセス可能なデータの価値に基づく$Xのデータ損失の見積リスクを生む可能性がある。」"
   },
   {
     "id": 38,
     "category": "Finding Development",
-    "question": "Condition: System access reviews are performed annually instead of quarterly as required by policy. Cause: The access review tool generates quarterly reports but the security team only processes them annually due to workload. The BEST recommendation would be:",
+    "question": "状況：システムアクセスレビューが方針で要求される四半期ごとではなく年1回実施されている。原因：アクセスレビューツールは四半期レポートを生成するが、セキュリティチームが作業負荷のため年1回のみ処理している。最も適切な推奨事項は次のうちどれか。",
     "options": [
-      "Reduce the access review frequency in the policy to match current practice",
-      "Automate the access review process to enable quarterly reviews, or increase security team resources to match policy requirements",
-      "Eliminate access reviews",
-      "Delegate reviews to end users only"
+      "方針のアクセスレビュー頻度を現在の実務に合わせて削減する",
+      "アクセスレビュープロセスを自動化して四半期レビューを可能にするか、セキュリティチームのリソースを増やして方針要件に対応する",
+      "アクセスレビューを廃止する",
+      "レビューをエンドユーザーのみに委ねる"
     ],
     "correct": 1,
-    "explanation": "The recommendation should address the root cause (resource constraint) while meeting the policy requirement. Automation can make quarterly reviews feasible without proportionally increasing staff. Reducing the policy to match practice would weaken controls rather than fix them."
+    "explanation": "推奨事項は根本原因（リソース制約）に対処しながら方針要件を満たすべきである。自動化によりスタッフの増員なしで四半期レビューが可能になる。方針を実務に合わせて削減すると統制が弱まり、問題は修正されない。"
   },
   {
     "id": 39,
     "category": "Finding Development",
-    "question": "When prioritizing multiple findings, the auditor should rank them by:",
+    "question": "複数の指摘事項の優先順位付けを行う際、監査人は次のうち何によってランク付けすべきか。",
     "options": [
-      "The order in which they were discovered",
-      "Severity of effect (risk impact), likelihood of occurrence, and management's ability to remediate",
-      "The number of employees affected only",
-      "The dollar amount of the recommended fix"
+      "発見した順序",
+      "効果の重大度（リスク影響）、発生可能性、および管理層の是正能力",
+      "影響を受ける従業員数のみ",
+      "推奨される修正費用"
     ],
     "correct": 1,
-    "explanation": "Findings should be prioritized by a combination of impact severity (what could go wrong), likelihood (how likely it is to occur), and urgency (whether it can be fixed). A risk matrix combining impact and likelihood provides the most objective prioritization."
+    "explanation": "指摘事項は影響の重大度（何が起こり得るか）、可能性（どの程度起こりやすいか）、緊急性（修正可能か）の組み合わせで優先順位付けすべきである。影響と可能性を組み合わせたリスクマトリックスが最も客観的な優先順位付けを提供する。"
   },
   {
     "id": 40,
     "category": "Finding Development",
-    "question": "An auditor finds that the company has not implemented multi-factor authentication for remote access to its financial systems. Which of the following represents the COMPLETE finding structure?",
+    "question": "監査人が企業の財務システムへのリモートアクセスに多要素認証が実装されていないことを発見した。以下のうち完全な指摘事項の構造を表すものはどれか。",
     "options": [
-      "MFA is missing (condition only)",
-      "Condition: No MFA for remote financial system access. Criteria: Industry best practice and company security policy require MFA for remote access to sensitive systems. Cause: IT department has not prioritized MFA implementation. Effect: Single-factor authentication increases the risk of unauthorized access via credential theft, potentially compromising financial data and systems.",
-      "MFA should be installed (recommendation only)",
-      "MFA is missing, please fix (informal)"
+      "MFAがない（状況のみ）",
+      "状況：財務システムへのリモートアクセスにMFAがない。基準：業界ベストプラクティスと会社セキュリティポリシーは機密システムへのリモートアクセスにMFAを要求。原因：IT部門がMFA導入を優先していない。効果：単一要素認証は認証情報窃取による不正アクセスリスクを増大し、財務データとシステムを危険に晒す。",
+      "MFAをインストールすべき（推奨事項のみ）",
+      "MFAがない、修正してください（非公式）"
     ],
     "correct": 1,
-    "explanation": "A complete finding requires all four elements: Condition (what is), Criteria (what should be), Cause (why), and Effect (impact). This structure provides a clear, actionable, and objective basis for management to understand and address the issue."
+    "explanation": "完全な指摘事項には4つの要素すべてが必要である。状況（現状）、基準（あるべき姿）、原因（理由）、効果（影響）。この構造により、管理層が問題を理解し対処するための明確で実行可能かつ客観的な基盤が提供される。"
   },
   {
     "id": 41,
     "category": "Finding Development",
-    "question": "The 'cause' in an audit finding should be identified at the:",
+    "question": "監査指摘における「原因」は次のうちどのレベルで特定すべきか。",
     "options": [
-      "Symptom level only",
-      "Root cause level - the underlying reason why the gap between condition and criteria exists",
-      "Employee level only",
-      "Budget level only"
+      "症状レベルのみ",
+      "根本原因レベル。状況と基準の間のギャップが存在する根本的な理由",
+      "従業員レベルのみ",
+      "予算レベルのみ"
     ],
     "correct": 1,
-    "explanation": "Root cause analysis goes beyond symptoms. If employees don't follow procedures, the root cause might be inadequate training, unclear procedures, lack of monitoring, or insufficient resources. Addressing symptoms leads to recurring issues; addressing root causes provides lasting solutions."
+    "explanation": "根本原因分析は症状を超えて掘り下げる。従業員が手順に従わない場合、根本原因は不十分な研修、不明確な手順、監視の不足、または不十分なリソースである可能性がある。症状への対処は再発を招き、根本原因への対処が持続的な解決策を提供する。"
   },
   {
     "id": 42,
     "category": "Finding Development",
-    "question": "A finding states: 'The company's financial reporting does not comply with J-SOX requirements.' This finding is WEAK because:",
+    "question": "指摘事項：「企業の財務報告はJ-SOX要件に準拠していない。」この指摘が弱い理由は次のうちどれか。",
     "options": [
-      "J-SOX is not a valid standard",
-      "It lacks specificity - which J-SOX requirement is not met, what is the condition, what is the impact, and what is the specific non-compliance",
-      "It is too technical",
-      "It is about a legal requirement, not an audit finding"
+      "J-SOXは有効な基準ではない",
+      "具体性に欠ける。どのJ-SOX要件が満たされていないか、状況は何か、影響は何か、具体的な非コンプライアンスは何かが不明",
+      "技術的すぎる",
+      "法的要件についての監査指摘ではない"
     ],
     "correct": 1,
-    "explanation": "A good finding must be specific. Which J-SOX requirement (internal control assessment, disclosure, management certification)? What exactly is non-compliant? What accounts are affected? What is the quantified impact? Vague findings cannot drive effective remediation."
+    "explanation": "良い指摘事項は具体的でなければならない。どのJ-SOX要件（内部統制評価、開示、経営者認証）か。何が非コンプライアントか。どの勘定が影響を受けているか。定量化された影響は何か。曖昧な指摘事項は効果的な是正を促すことができない。"
   },
   {
     "id": 43,
     "category": "Finding Development",
-    "question": "When the 'condition' matches the 'criteria' (no gap exists), the auditor should:",
+    "question": "「状況」が「基準」と一致する場合（ギャップが存在しない）、監査人は次のうち何を行うべきか。",
     "options": [
-      "Still report it as a finding",
-      "Not report it as a finding, but document that the area was reviewed and controls are operating effectively",
-      "Change the criteria to create a finding",
-      "Report it as a 'satisfactory' finding"
+      "それでも指摘事項として報告する",
+      "指摘事項として報告せず、該当領域がレビューされ統制が有効に運用されていることを文書化する",
+      "指摘事項を作るために基準を変更する",
+      "「満足」として報告する"
     ],
     "correct": 1,
-    "explanation": "If the condition matches the criteria, there is no finding. The auditor should document the review and conclusion that controls are operating effectively. This positive assurance is valuable for the overall audit opinion and demonstrates thorough coverage."
+    "explanation": "状況が基準と一致する場合、指摘事項はない。監査人はレビューと統制が有効に運用されているという結論を文書化すべきである。この肯定的保証は全体の監査意見にとって価値があり、徹底したカバレッジを示す。"
   },
   {
     "id": 44,
     "category": "Finding Development",
-    "question": "An IT auditor finds that production database backups have not been verified (restored and tested) for 18 months. Which effect statement is MOST effective?",
+    "question": "IT監査人が本番データベースバックアップが18か月間検証（リストアとテスト）されていないことを発見した。最も効果的な効果の記述は次のうちどれか。",
     "options": [
-      "Backups may not work",
-      "18 months of untested backups creates significant risk: if a database failure occurs, recovery may fail, potentially resulting in data loss estimated at 30 days of transaction data and 72+ hours of system downtime at an estimated cost of $Y per hour",
-      "Backups should be tested more often",
-      "This violates ITIL best practices"
+      "バックアップが機能しない可能性がある",
+      "18か月間の未テストバックアップは重要なリスクを生む。データベース障害が発生した場合、復旧が失敗し、30日間の取引データの損失と72時間以上のシステムダウンタイム（推定$Y/時間のコスト）が生じる可能性がある",
+      "バックアップをより頻繁にテストすべきである",
+      "ITILベストプラクティスに違反する"
     ],
     "correct": 1,
-    "explanation": "The effective effect statement quantifies the risk: what data could be lost (30 days of transactions), the downtime impact (72+ hours), and the business cost. This makes the finding actionable and helps management prioritize remediation."
+    "explanation": "効果的な効果の記述はリスクを定量化する。失われる可能性のあるデータ（30日間の取引）、ダウンタイムの影響（72時間以上）、ビジネスコスト。これにより指摘事項が実行可能になり、管理層の優先順位付けを支援する。"
   },
   {
     "id": 45,
     "category": "Finding Development",
-    "question": "A finding recommendation should avoid being prescriptive about the specific solution because:",
+    "question": "指摘事項の推奨事項は特定の解決策について規定的になることを避けるべきである。その理由は次のうちどれか。",
     "options": [
-      "The auditor should not have opinions",
-      "Management is best positioned to determine the most appropriate solution for their specific circumstances and constraints",
-      "All solutions are equally effective",
-      "The recommendation is optional"
+      "監査人は意見を持つべきでない",
+      "管理層が自社の特定の状況と制約に基づいて最も適切な解決策を決定する立場にある",
+      "すべての解決策が等しく有効である",
+      "推奨事項は任意である"
     ],
     "correct": 1,
-    "explanation": "While recommendations should be specific and actionable, they should not dictate exact implementation. Management understands their resources, constraints, and organizational dynamics best. The auditor should focus on what needs to be achieved (the outcome) rather than exactly how."
+    "explanation": "推奨事項は具体的かつ実行可能であるべきだが、正確な実装方法を規定すべきではない。管理層は自社のリソース、制約、組織動態を最もよく理解している。監査人は何を達成すべきか（成果）に焦点を当て、どのように達成するかを規定すべきではない。"
   },
   {
     "id": 46,
     "category": "Compliance Assessment",
-    "question": "Assess compliance: A company collects customer email addresses for marketing but does not provide an opt-out mechanism. Under APPI, this is:",
+    "question": "コンプライアンス評価：ある企業がマーケティング目的で顧客メールアドレスを収集しているが、オプトアウトメカニズムを提供していない。APPIの下では次のうちどれに該当するか。",
     "options": [
-      "Acceptable if the emails are relevant",
-      "Non-compliant - individuals have the right to opt out of the use of personal information for direct marketing purposes",
-      "Only a minor issue",
-      "Compliant if disclosed in the privacy policy"
+      "メールが関連性があれば許容される",
+      "非コンプライアント。個人には個人情報をダイレクトマーケティング目的で使用することからオプトアウトする権利がある",
+      "わずかな問題のみ",
+      "プライバシーポリシーで開示されていればコンプライアント"
     ],
     "correct": 1,
-    "explanation": "APPI requires organizations to allow individuals to opt out of the use of personal information for purposes other than the original specified purpose (like direct marketing). Failing to provide an opt-out mechanism violates APPI requirements."
+    "explanation": "APPIは、組織が当初指定された目的以外の目的（ダイレクトマーケティングなど）で個人情報を使用することから個人がオプトアウトできることを求めている。オプトアウトメカニズムの不提供はAPPI要件に違反する。"
   },
   {
     "id": 47,
     "category": "Compliance Assessment",
-    "question": "A Japanese listed company has not disclosed a material weakness in its internal controls. Under J-SOX, this is:",
+    "question": "ある上場企業が内部統制の重要な弱点を開示していない。J-SOXの下では次のうちどれに該当するか。",
     "options": [
-      "Optional disclosure only",
-      "Non-compliant - material weaknesses must be disclosed in the annual securities report",
-      "Only required if the weakness resulted in a financial restatement",
-      "Compliant if management has a remediation plan"
+      "任意開示のみ",
+      "非コンプライアント。重要な弱点は年次有価証券報告書に開示しなければならない",
+      "財務諸表の修正があった場合のみ必要",
+      "管理層に是正計画があればコンプライアント"
     ],
     "correct": 1,
-    "explanation": "J-SOX requires that material weaknesses in internal controls over financial reporting be disclosed in the annual securities report, regardless of whether they resulted in actual misstatements or whether a remediation plan exists."
+    "explanation": "J-SOXは、財務報告の内部統制の重要な弱点が有価証券報告書に開示されることを求めている。実際の誤謬を招いたか、是正計画が存在するかに関係なく。"
   },
   {
     "id": 48,
     "category": "Compliance Assessment",
-    "question": "A company transfers EU customer data to servers in Japan without appropriate safeguards. Under GDPR, this is:",
+    "question": "ある企業がEU顧客データを適切な保護措置なしで日本のサーバーに転送している。GDPRの下では次のうちどれに該当するか。",
     "options": [
-      "Acceptable since Japan has adequacy status",
-      "Potentially non-compliant - while Japan has EU adequacy status, specific safeguards and compliance with both GDPR and APPI supplementary rules are required",
-      "Only non-compliant if the data is sensitive",
-      "Compliant for any company with an office in Japan"
+      "日本は適格性認定があるため許容される",
+      "非コンプライアントの可能性。日本はEU適格性認定を受けているが、GDPRの移転原則と日本のAPPI補完規則の両方へのコンプライアンスが必要",
+      "データが機微である場合のみ非コンプライアント",
+      "日本にオフィスがある企業ならすべてコンプライアント"
     ],
     "correct": 1,
-    "explanation": "While Japan has an EU adequacy decision (meaning transfers to Japan are generally permitted), organizations must still comply with GDPR's transfer principles and the supplementary rules under Japan's APPI. Organizations must have appropriate safeguards and documentation."
+    "explanation": "日本はEU適格性決定を受けているが（日本への移転は一般に許可される）、組織はGDPRの移転原則と日本のAPPIの下の補完規則に引き続き準拠しなければならない。適切な保護措置と文書化が必要である。"
   },
   {
     "id": 49,
     "category": "Compliance Assessment",
-    "question": "A company's board has only one independent director out of twelve members. Under Japan's Corporate Governance Code, this is:",
+    "question": "ある企業の取締役会に12名のうち独立役員が1名のみである。日本のコーポレートガバナンスコードの下では次のうちどれに該当するか。",
     "options": [
-      "Acceptable - there is no minimum requirement",
-      "Likely non-compliant with the Code's recommendation for a sufficient number of independent directors to ensure effective oversight",
-      "Only an issue for large companies",
-      "Acceptable if the company is not publicly traded"
+      "許容される。最低要件はない",
+      "コードの有効な監督のための十分な数の独立役員の推奨に適合しない可能性が高い",
+      "大企業にのみ問題",
+      "非上場企業なら許容される"
     ],
     "correct": 1,
-    "explanation": "The Corporate Governance Code recommends that listed companies have a sufficient number of independent directors for effective oversight. One independent out of twelve is generally considered insufficient, and the company should explain its governance structure if it cannot meet the recommendation."
+    "explanation": "コーポレートガバナンスコードは、上場企業が有効な監督のための十分な数の独立役員を置くことを推奨している。12名中1名は一般に不十分と見なされ、推奨を満たせない場合はガバナンス構造を説明すべきである。"
   },
   {
     "id": 50,
     "category": "Compliance Assessment",
-    "question": "An employee reports potential accounting fraud to a supervisor, who tells them to 'forget about it.' The supervisor then takes no action. Under the Whistleblower Protection Act, the company:",
+    "question": "従業員が上司に会計不正の可能性を報告したが、上司は「忘れてくれ」と言い何もしなかった。内部通報者保護法の下で企業は次のうちどれに該当するか。",
     "options": [
-      "Has complied because the employee reported internally",
-      "May be non-compliant - the company should have a mechanism for whistleblower reports to be escalated beyond the potentially involved supervisor to an independent function",
-      "Has no obligation since the report was verbal",
-      "Is only required to protect the whistleblower from retaliation"
+      "従業員が社内報告したためコンプライアント",
+      "非コンプライアントの可能性。通報は潜在的に関与する上司を超えて独立機能にエスカレーションできるメカニズムがあるべきである",
+      "口頭報告なので義務はない",
+      "通報者からの報復を保護する義務のみ"
     ],
     "correct": 1,
-    "explanation": "The Whistleblower Protection Act encourages internal reporting, but companies should have mechanisms to ensure reports are properly investigated, especially when the report involves the supervisor's area. Reports should be able to be escalated to independent functions (internal audit, compliance, or the board)."
+    "explanation": "内部通報者保護法は社内報告を奨励するが、特に報告が上司の領域に関わる場合、報告が適切に調査されるメカニズムがあるべきである。報告は内部監査、コンプライアンス、または取締役会等の独立機能にエスカレーションできるべきである。"
   },
   {
     "id": 51,
     "category": "Compliance Assessment",
-    "question": "A company uses customer personal information for a purpose different from the original specified purpose without obtaining new consent. Under APPI, this is:",
+    "question": "ある企業が顧客個人情報を当初指定された目的とは異なる目的で、新しい同意を得ずに使用している。APPIの下では次のうちどれに該当するか。",
     "options": [
-      "Acceptable for business purposes",
-      "Non-compliant - using personal information for a purpose different from the originally specified purpose requires obtaining consent from the individual",
-      "Only non-compliant if the new purpose is harmful",
-      "Acceptable if the company notifies the individual afterwards"
+      "業務目的なら許容される",
+      "非コンプライアント。当初指定された目的とは異なる目的で個人情報を使用するには、本人の同意を得る必要がある",
+      "新しい目的が有害でない場合のみ非コンプライアント",
+      "事後に本人に通知すれば許容される"
     ],
     "correct": 1,
-    "explanation": "APPI generally prohibits using personal information for purposes other than the originally specified purpose. If the company wants to use the data for a new purpose, it must obtain the individual's consent or ensure the new purpose falls within a broadly specified scope."
+    "explanation": "APPIは、当初指定された目的以外の目的で個人情報を使用することを一般に禁止している。新しい目的でデータを使用したい場合、本人の同意を取得するか、新しい目的が広く指定された範囲内に収まることを確保する必要がある。"
   },
   {
     "id": 52,
     "category": "Compliance Assessment",
-    "question": "A company's internal audit function is staffed entirely by employees from the finance department who will return to finance roles after their audit rotation. Assess independence:",
+    "question": "ある企業の内部監査機能が、監査ローテーション後に財務部門の役割に戻る財務部門出身の従業員のみで構成されている。独立性を評価せよ。",
     "options": [
-      "Fully independent - internal auditors can have any background",
-      "Independence is compromised - rotation back to the audited area creates a conflict of interest; auditors may be reluctant to report issues that could affect their future colleagues or career",
-      "Independent if they report to the audit committee",
-      "Independent if the rotation is less than 2 years"
+      "完全に独立。内部監査人はどのような背景でもよい",
+      "独立性が損なわれている。監査対象領域への戻りが利益相反を生み出し、監査人は将来の同僚やキャリアに影響する問題を報告しない可能性がある",
+      "監査委員会に報告すれば独立",
+      "ローテーションが2年未満なら独立"
     ],
     "correct": 1,
-    "explanation": "Rotating internal auditors back to the audited area creates a fundamental conflict of interest. Even with audit committee reporting, the auditor may be reluctant to report issues that could create tension with future colleagues. Independence is compromised regardless of reporting structure."
+    "explanation": "内部監査人を監査対象領域に戻すローテーションは根本的な利益相反を生む。監査委員会への報告があっても、監査人は将来の同僚との緊張を招く問題を報告しない可能性がある。報告体制に関係なく独立性が損なわれる。"
   },
   {
     "id": 53,
     "category": "Compliance Assessment",
-    "question": "Under J-SOX, management's assessment of ICFR must cover which time period?",
+    "question": "J-SOXの下で、経営者のICFR評価はどの期間をカバーすべきか。",
     "options": [
-      "Only the last quarter",
-      "The entire fiscal year as of the fiscal year-end",
-      "Only the month of year-end",
-      "The period since the last audit"
+      "最終四半期のみ",
+      "事業年度末現在の全事業年度",
+      "年度末の月のみ",
+      "前回監査以来の期間"
     ],
     "correct": 1,
-    "explanation": "J-SOX requires management to assess ICFR as of the fiscal year-end date, covering the entire fiscal year. The assessment must evaluate whether controls were in place and operating effectively throughout the entire reporting period."
+    "explanation": "J-SOXは、事業年度末日現在のICFR評価を経営者に行うことを求めている。評価は全報告期間を通じて統制が整備され有効に運用されていたかを評価しなければならない。"
   },
   {
     "id": 54,
     "category": "Compliance Assessment",
-    "question": "A Japanese company shares employee My Numbers (national ID) with a subcontractor without obtaining employee consent. Under the My Number Act, this is:",
+    "question": "ある企業が従業員のマイナンバーを従業員の同意なく下請業者と共有している。マイナンバー法の下では次のうちどれに該当するか。",
     "options": [
-      "Acceptable for business operations",
-      "Non-compliant - specific handling requirements exist for My Number information, and sharing with third parties requires a proper legal basis and employee notification",
-      "Only non-compliant if the subcontractor misuses the data",
-      "Compliant if the subcontractor has a confidentiality agreement"
+      "業務運用なら許容される",
+      "非コンプライアント。マイナンバー情報には特別な取扱い要件があり、第三者との共有には適法な根拠と従業員への通知が必要",
+      "下請業者がデータを悪用した場合のみ非コンプライアント",
+      "下請業者が秘密保持契約を結んでいればコンプライアント"
     ],
     "correct": 1,
-    "explanation": "My Number information requires special handling under the Act. Organizations must specify the purpose of use, limit use to that purpose, implement strict security measures, and cannot share My Numbers with third parties without a proper legal basis and the individual's awareness."
+    "explanation": "マイナンバー情報は法の下で特別な取扱いを必要とする。組織は利用目的を特定し、その目的に利用を限定し、厳格なセキュリティ対策を実施し、適法な根拠と本人の周知なしに第三者とマイナンバーを共有することはできない。"
   },
   {
     "id": 55,
     "category": "Compliance Assessment",
-    "question": "A company's privacy policy states that customer data is retained for 3 years, but customer data from 5 years ago is still present in production databases. Under APPI, this is:",
+    "question": "ある企業のプライバシーポリシーは顧客データを3年間保持すると定めているが、5年前の顧客データが本番データベースに存在している。APPIの下では次のうちどれに該当するか。",
     "options": [
-      "Acceptable - data retention is not regulated",
-      "Likely non-compliant - retaining data beyond the stated purpose/period without justification violates the purpose limitation and storage limitation principles",
-      "Only an IT issue, not a compliance issue",
-      "Acceptable if the data is encrypted"
+      "許容される。データ保持は規制されていない",
+      "非コンプライアントの可能性。正当化なく定めた目的・期間を超えてデータを保持することは、目的制限と保存制限の原則に違反する",
+      "ITの問題のみでコンプライアンスの問題ではない",
+      "データが暗号化されていれば許容される"
     ],
     "correct": 1,
-    "explanation": "APPI's storage limitation principle requires that personal information not be retained longer than necessary for the specified purpose. If the policy says 3 years but data from 5 years ago exists, this is a compliance gap that should be remediated."
+    "explanation": "APPIの保存制限の原則は、個人情報を指定された目的に必要な期間を超えて保持してはならないことを求めている。ポリシーが3年としているが5年前のデータが存在する場合、これは是正すべきコンプライアンスギャップである。"
   },
   {
     "id": 56,
     "category": "Compliance Assessment",
-    "question": "An external auditor accepts audit fees that exceed 50% of the audit firm's total revenue from a single client. Assess independence:",
+    "question": "外部監査人が単一クライアントから監査報酬が監査事務所の総収益の50%を超える監査報酬を受け入れている。独立性を評価せよ。",
     "options": [
-      "No issue - fee amounts do not affect independence",
-      "Self-interest threat to independence - excessive economic dependence on one client may impair the auditor's objectivity",
-      "Only an issue if disclosed in the audit report",
-      "Acceptable if the audit quality is maintained"
+      "問題なし。報酬額は独立性に影響しない",
+      "独立性への自己利益の脅威。単一クライアントへの過度な経済的依存は監査人の客観性を損なう可能性がある",
+      "監査報告書に開示すれば問題ない",
+      "監査品質が維持されていれば許容される"
     ],
     "correct": 1,
-    "explanation": "Excessive fee dependence on a single client creates a self-interest threat to independence. Professional standards require firms to assess whether such relationships create threats to independence and implement safeguards. Many jurisdictions set specific fee thresholds."
+    "explanation": "単一クライアントへの過度な報酬依存は独立性への自己利益の脅威を生む。専門基準は、このような関係が独立性への脅威を生むかどうかを評価し、セーフガードを実施することを求めている。多くの管轄区域で特定の報酬閾値が設定されている。"
   },
   {
     "id": 57,
     "category": "Compliance Assessment",
-    "question": "A company has not conducted an information security risk assessment required by ISO 27001. The compliance gap should be reported as:",
+    "question": "ある企業がISO 27001で要求される情報セキュリティリスクアセスメントを実施していない。このコンプライアンスギャップは次のように報告すべきである。",
     "options": [
-      "A minor procedural finding",
-      "A significant compliance gap that affects the organization's ability to claim ISO 27001 compliance, potentially affecting customer contracts and regulatory requirements",
-      "An IT department issue only",
-      "Not reportable since ISO 27001 is voluntary"
+      "軽微な手続上の指摘事項",
+      "組織のISO 27001コンプライアンスを主張する能力に影響する重要なコンプライアンスギャップ。顧客契約と規制要件に影響する可能性がある",
+      "IT部門の問題のみ",
+      "ISO 27001は任意なので報告不要"
     ],
     "correct": 1,
-    "explanation": "ISO 27001 certification may be contractual or regulatory requirement for many organizations. Failing to conduct required risk assessments undermines the entire ISMS and may invalidate the certification, affecting customer trust, contracts, and legal compliance."
+    "explanation": "ISO 27001認証は多くの組織で契約上または規制上の要件となり得る。要求されるリスクアセスメントの不実施はISMS全体を損ない、認証を無効にする可能性があり、顧客信頼、契約、法令コンプライアンスに影響する。"
   },
   {
     "id": 58,
     "category": "Compliance Assessment",
-    "question": "A publicly traded company does not have an audit committee. Under Japan's Corporate Governance Code and FIEA, this is:",
+    "question": "ある上場企業に監査委員会がない。日本のコーポレートガバナンスコードとFIEAの下では次のうちどれに該当するか。",
     "options": [
-      "Acceptable for all companies",
-      "Non-compliant with both the Code's governance recommendations and FIEA requirements for listed companies",
-      "Only a recommendation, not a requirement",
-      "Acceptable if the company has an internal audit function"
+      "すべての企業に許容される",
+      "コードのガバナンス推奨と上場企業へのFIEA要件の両方に非コンプライアント",
+      "推奨のみで要件ではない",
+      "内部監査機能があれば許容される"
     ],
     "correct": 1,
-    "explanation": "Both the Corporate Governance Code and FIEA require listed companies to establish an audit committee (or a nominations committee and compensation committee). The audit committee is essential for financial reporting oversight and auditor independence."
+    "explanation": "コーポレートガバナンスコードとFIEAの両方が上場企業に監査委員会の設置を求めている（または指名委員会と報酬委員会）。監査委員会は財務報告監督と監査人独立性に不可欠である。"
   },
   {
     "id": 59,
     "category": "Compliance Assessment",
-    "question": "A company processes employee biometric data (fingerprints) for access control but does not obtain explicit consent. Under APPI, biometric data is:",
+    "question": "ある企業がアクセス制御のために従業員の生体認証データ（指紋）を処理しているが、明示的な同意を得ていない。APPIの下で生体認証データは次のうちどれに該当するか。",
     "options": [
-      "Regular personal information with standard consent requirements",
-      "Special care-required personal information requiring specific consent and enhanced protection measures",
-      "Not covered by APPI",
-      "Only regulated by labor laws, not APPI"
+      "通常の個人情報で標準的な同意要件がある",
+      "特別な配慮を要する個人情報で、特定の同意と強化された保護措置が必要",
+      "APPIの対象外",
+      "労働法のみで規制されAPPIの対象外"
     ],
     "correct": 1,
-    "explanation": "Biometric data is classified as 'special care-required personal information' under APPI, requiring specific, informed consent and enhanced protection measures. Using biometrics without explicit consent is a significant APPI violation."
+    "explanation": "生体認証データはAPPIの下で「特別な配慮を要する個人情報」に分類され、特定のインフォームド同意と強化された保護措置が必要である。明示的な同意なしの生体認証の使用は重要なAPPI違反である。"
   },
   {
     "id": 60,
     "category": "Compliance Assessment",
-    "question": "An audit reveals that the company's J-SOX compliance program only covers 3 of its 10 subsidiaries. Management states that the others are immaterial. The auditor should:",
+    "question": "監査で企業のJ-SOXコンプライアンスプログラムが10の子会社のうち3社のみをカバーしていることが判明した。管理層は他社は重要でないと主張している。監査人は次のうち何を行うべきか。",
     "options": [
-      "Accept management's judgment without verification",
-      "Verify management's materiality assessment and ensure all subsidiaries that could individually or in aggregate materially affect the consolidated financial statements are included in the ICFR assessment",
-      "Report this as non-compliance regardless",
-      "Expand the scope to include all 10 subsidiaries"
+      "管理層の判断を検証なしで受け入れる",
+      "管理層の重要性判断を検証し、個別にまたは一体で連結財務諸表に重要な影響を与える可能性のあるすべての子会社がICFR評価に含まれていることを確保する",
+      "関係なく非コンプライアントとして報告する",
+      "範囲を全10社に拡大する"
     ],
     "correct": 1,
-    "explanation": "The auditor must independently evaluate whether management's materiality assessment is appropriate. If any excluded subsidiary could, individually or in aggregate with others, materially affect the consolidated financial statements, it should be included in the ICFR assessment."
+    "explanation": "監査人は管理層の重要性判断が適切か独立して評価しなければならない。除外された子会社が個別にまたは他の子会社と一体で連結財務諸表に重要な影響を与える可能性がある場合、ICFR評価に含めるべきである。"
   },
   {
     "id": 61,
     "category": "Comprehensive Audits",
-    "question": "A comprehensive audit of a company that recently implemented a new cloud-based ERP system reveals: (1) ITGC testing shows weak change management, (2) Data migration was not independently verified, (3) Access controls are properly configured. What is the PRIORITY finding?",
+    "question": "新規クラウドベースERPシステムを導入した企業の包括監査で以下が判明：(1) ITGCテストで変更管理が弱い、(2) データ移行が独立検証されていない、(3) アクセス制御は適切に構成されている。優先指摘事項は次のうちどれか。",
     "options": [
-      "Access controls are properly configured (positive finding)",
-      "Weak change management combined with unverified data migration creates significant risk that unauthorized changes or data errors could affect financial reporting",
-      "Only data migration needs to be addressed",
-      "All three issues are equally important"
+      "アクセス制御が適切に構成されている（肯定的所見）",
+      "弱い変更管理と未検証のデータ移行の組み合わせは、不正な変更やデータエラーが財務報告に影響を与える可能性がある重要なリスクを生む",
+      "データ移行のみに対処が必要",
+      "3つの問題はすべて同様に重要"
     ],
     "correct": 1,
-    "explanation": "The combination of weak change management AND unverified data migration is the highest priority because: change management weaknesses mean unauthorized modifications could be introduced, and without verified migration, the base data may already contain errors that propagate through all financial reports."
+    "explanation": "弱い変更管理と未検証のデータ移行の組み合わせが最優先である。変更管理の弱点は不正な変更が導入される可能性を意味し、未検証の移行はベースデータに既にエラーが含まれ、すべての財務報告に波及する可能性を意味する。"
   },
   {
     "id": 62,
     "category": "Comprehensive Audits",
-    "question": "In a comprehensive IT audit, you find: (a) strong application controls, (b) weak ITGC for access management, (c) effective backup procedures. What should the audit report emphasize?",
+    "question": "包括IT監査で以下が判明：(a) 強力なアプリケーション統制、(b) アクセス管理のITGCが弱い、(c) 効果的なバックアップ手続。監査報告書は何を強調すべきか。",
     "options": [
-      "The strong application controls",
-      "Weak ITGC undermines the reliability of even strong application controls because the access management environment affects all IT-based controls",
-      "Only the backup procedures",
-      "A balanced report with equal emphasis on all three"
+      "強力なアプリケーション統制",
+      "弱いITGCは強力なアプリケーション統制の信頼性を損なう。アクセス管理環境がすべてのITベース統制に影響するからである",
+      "バックアップ手続のみ",
+      "3つすべてを均等に強調したバランスレポート"
     ],
     "correct": 1,
-    "explanation": "ITGC provides the foundation for application controls. If access management is weak, even well-designed application controls may be circumvented by unauthorized users with excessive access. The report should emphasize that ITGC weaknesses increase the risk to all application controls."
+    "explanation": "ITGCはアプリケーション統制の基盤を提供する。アクセス管理が弱い場合、適切に設計されたアプリケーション統制であっても過剰なアクセス権を持つ不正ユーザーによって回避される可能性がある。報告書はITGCの弱点がすべてのアプリケーション統制のリスクを高めることを強調すべきである。"
   },
   {
     "id": 63,
     "category": "Comprehensive Audits",
-    "question": "A company has the following: Revenue up 40% YoY but accounts receivable up 80% YoY, while industry growth is 5%. Cash flow from operations is negative. What is the MOST likely audit concern?",
+    "question": "ある企業の以下の状況：売上高は前年比40%増加だが売掛金は80%増加。業界成長率は5%。営業キャッシュフローはマイナス。最も可能性の高い監査上の懸念は次のうちどれか。",
     "options": [
-      "The company is very successful",
-      "Potential revenue recognition issues - the disproportionate increase in receivables suggests revenue may be overstated or collection problems exist, warranting investigation",
-      "The industry comparison is irrelevant",
-      "Cash flow issues are temporary"
+      "企業は非常に成功している",
+      "収益認識の問題の可能性。売掛金の不均衡な増加は収益の過大計上または回収問題を示唆しており、調査が必要",
+      "業界比較は無関係",
+      "キャッシュフロー問題は一時的"
     ],
     "correct": 1,
-    "explanation": "Revenue growing much faster than industry combined with receivables growing faster than revenue is a classic red flag for premature or fictitious revenue recognition. Negative operating cash flow despite revenue growth further suggests revenue quality issues. This requires detailed revenue testing."
+    "explanation": "業界成長を大幅に上回る売上成長と売上を上回る売掛金増加は、早期または架空の収益認識の典型的なレッドフラグである。売上成長にもかかわらずマイナスの営業キャッシュフローはさらに収益の品質問題を示唆する。詳細な収益テストが必要である。"
   },
   {
     "id": 64,
     "category": "Comprehensive Audits",
-    "question": "A comprehensive audit finds: Material weakness in inventory controls (no physical count), strong revenue controls, and adequate cash controls. The audit report should:",
+    "question": "包括監査で以下が判明：在庫統制に重要な弱点（実地棚卸なし）、強力な収益統制、適切な現金統制。監査報告書は次のようにすべきである。",
     "options": [
-      "Give an unmodified opinion since only one area has issues",
-      "Assess whether the inventory control deficiency is material and pervasive enough to affect the overall opinion, likely resulting in a qualified opinion or emphasis of matter",
-      "Only report the inventory issue in the management letter",
-      "Ignore the inventory issue if the amount is immaterial"
+      "1分野にのみ問題があるため無限定適正意見を出す",
+      "在庫統制の欠陥が重要かつ網羅的で全体意見に影響するかを評価し、限定付意見または強調事項となりそう",
+      "在庫問題をマネジメントレターのみで報告する",
+      "金額が重要でなければ在庫問題を無視する"
     ],
     "correct": 1,
-    "explanation": "A material weakness in controls over a significant account (inventory) is serious. The auditor must assess whether the resulting risk of material misstatement affects the overall audit opinion. If the misstatement is material but not pervasive, a qualified opinion is likely."
+    "explanation": "重要な勘定科目（在庫）の統制の重要な弱点は深刻である。監査人は結果としての重要な誤謬リスクが全体の監査意見に影響するか評価しなければならない。誤謬が重要だが網羅的でない場合、限定付意見となる可能性が高い。"
   },
   {
     "id": 65,
     "category": "Comprehensive Audits",
-    "question": "A comprehensive IS audit of a hospital reveals: (1) patient data accessible without authentication from the public WiFi network, (2) backup tapes stored offsite but not encrypted, (3) annual penetration testing is performed. The highest priority is:",
+    "question": "病院の包括IS監査で以下が判明：(1) 患者データが公開Wi-Fiネットワークから認証なしでアクセス可能、(2) バックアップテープはオフサイト保管だが暗号化されていない、(3) 年次ペネトレーションテストを実施している。最優先事項は次のうちどれか。",
     "options": [
-      "Performing penetration testing more frequently",
-      "Unauthenticated access to patient data from public WiFi is a critical security vulnerability requiring immediate remediation (APPI compliance issue)",
-      "Encrypting backup tapes",
-      "All three are equally urgent"
+      "ペネトレーションテストの頻度を増やす",
+      "公開Wi-Fiからの患者データへの非認証アクセスは即時是正を要する重大なセキュリティ脆弱性（APPIコンプライアンス問題）",
+      "バックアップテープの暗号化",
+      "3つすべてが同様に緊急"
     ],
     "correct": 1,
-    "explanation": "Unauthenticated access to patient data (which includes medical history - special care-required personal information under APPI) from a public network is the highest priority. This is an active, exploitable vulnerability that could lead to immediate data breaches. It requires urgent remediation."
+    "explanation": "公開ネットワークからの患者データへの非認証アクセス（医療履歴はAPPIの特別な配慮を要する個人情報）が最優先である。これは即時のデータ漏洩に繋がる可能性のある活跃な悪用可能な脆弱性である。緊急是正が必要である。"
   },
   {
     "id": 66,
     "category": "Comprehensive Audits",
-    "question": "During a comprehensive audit, the auditor discovers that management has been using a different depreciation method than disclosed in the accounting policies. This affects 15% of total assets. The finding should be reported as:",
+    "question": "包括監査で管理層が開示された会計方針とは異なる減価償却方法を使用していることが判明した。総資産の15%に影響。この指摘事項は次のように報告すべきである。",
     "options": [
-      "A minor accounting policy difference",
-      "A material misstatement requiring financial statement adjustment, as the actual practice differs from the disclosed policy for a significant portion of assets",
-      "An internal control issue only",
-      "A recommendation to update the policy document"
+      "軽微な会計方針の差異",
+      "実際の慣行が開示された方針と異なり総資産の15%に影響する重要な誤謬で、財務諸表の修正が必要",
+      "内部統制の問題のみ",
+      "方針文書の更新を推奨する指摘事項"
     ],
     "correct": 1,
-    "explanation": "When the actual accounting practice differs from the disclosed policy and affects 15% of assets, this is a material misstatement. The financial statements do not faithfully represent the accounting policies being applied. This requires adjustment and disclosure."
+    "explanation": "実際の会計慣行が開示された方針と異なり総資産の15%に影響する場合、これは重要な誤謬である。財務諸表は適用されている会計方針を忠実に表現していない。修正と開示が必要である。"
   },
   {
     "id": 67,
     "category": "Comprehensive Audits",
-    "question": "An integrated audit of ICFR and financial statements reveals: (a) 2 material weaknesses in ITGC, (b) material misstatement in inventory of $2M (OM=$5M), (c) uncorrected immaterial misstatements totaling $500K. What should the auditor conclude about the financial statement opinion?",
+    "question": "ICFRと財務諸表の統合監査で以下が判明：(a) ITGCに2つの重要な弱点、(b) 在庫の重要な誤謬$2M（OM=$5M）、(c) 未修正の非重要な誤謬の合計$500K。監査人は財務諸表意見について何を結論すべきか。",
     "options": [
-      "Unmodified opinion - the $2M is within OM",
-      "The material misstatement of $2M (40% of OM) must be adjusted. If management refuses, a qualified or adverse opinion is required depending on pervasiveness",
-      "Unmodified with emphasis of matter",
-      "Disclaimer of opinion"
+      "無限定意見。$2MはOM内",
+      "$2Mの重要な誤謬（OMの40%）は修正しなければならない。管理層が拒否した場合、網羅性に応じて限定付または不適正意見が必要",
+      "強調事項付き無限定",
+      "意見表明不能"
     ],
     "correct": 1,
-    "explanation": "A known misstatement of $2M against OM of $5M (40%) is material and must be adjusted or the opinion must be modified. If management corrects the misstatement, the remaining immaterial items ($500K) do not affect the opinion but should be disclosed."
+    "explanation": "OM $5Mに対して$2Mの既知の誤謬（40%）は重要であり、修正しなければならない。修正しない場合、意見は修正しなければならない。管理層が修正した場合、残余の非重要項目（$500K）は意見に影響しないが開示すべきである。"
   },
   {
     "id": 68,
     "category": "Comprehensive Audits",
-    "question": "A company undergoing a merger has not performed due diligence on the target company's IT systems. The comprehensive audit should focus on:",
+    "question": "合併予定の企業が対象会社のITシステムについてデューデリジェンスを実施していない。包括監査は次に焦点を当てるべきである。",
     "options": [
-      "Only financial due diligence",
-      "IT integration risks including data compatibility, system vulnerabilities inherited from the target, access control consolidation, and data migration integrity",
-      "Only legal due diligence",
-      "Only market analysis of the combined entity"
+      "財務デューデリジェンスのみ",
+      "データ互換性、対象から継承されるシステム脆弱性、アクセス制御の統合、データ移行の完全性を含むIT統合リスク",
+      "法的デューデリジェンスのみ",
+      "統合後の結合体の市場分析のみ"
     ],
     "correct": 1,
-    "explanation": "IT due diligence is critical for mergers. The acquirer inherits all IT risks of the target, including potential vulnerabilities, compliance gaps, data quality issues, and integration challenges. Failing to assess these can result in unexpected costs and risks post-merger."
+    "explanation": "合併においてITデューデリジェンスは重要である。買収企業は対象のすべてのITリスク（潜在的脆弱性、コンプライアンスギャップ、データ品質問題、統合課題）を引き継ぐ。これらを評価しないと合併後に予期せぬコストとリスクが生じる。"
   },
   {
     "id": 69,
     "category": "Comprehensive Audits",
-    "question": "A multi-location retail company shows consistent profit margins across all stores despite significant variation in local market conditions, competition, and foot traffic. This is:",
+    "question": "多店舗小売企業が、地域の市場条件、競合、歩行者通行量に大きなばらつきがあるにもかかわらず、すべての店舗で一貫した利益率を示している。これは次のうちどれか。",
     "options": [
-      "A sign of excellent management",
-      "A red flag - uniform profitability across diverse conditions may indicate earnings manipulation or allocation of expenses to achieve target margins",
-      "A normal pattern for well-managed retailers",
-      "Not a concern for the auditor"
+      "優れた経営の兆候",
+      "レッドフラグ。多様な条件で均一な収益性は、利益操作または目標利益率を達成するための費用配分を示唆する可能性がある",
+      "優れた管理小売企業の正常なパターン",
+      "監査人にとって懸念事項ではない"
     ],
     "correct": 1,
-    "explanation": "Consistent margins across diverse locations is unusual and may indicate expense manipulation, revenue allocation between locations, or accounting adjustments to meet targets. The auditor should investigate the underlying accounting to determine if the uniformity is genuine or manufactured."
+    "explanation": "多様な地域で一貫した利益率は異常であり、費用操作、地域間の収益配分、または目標達成のための会計調整を示唆する可能性がある。監査人は均一性が真実か製造されたものかを調査すべきである。"
   },
   {
     "id": 70,
     "category": "Comprehensive Audits",
-    "question": "A comprehensive audit of a SaaS provider reveals SOC 2 Type II report with a qualified opinion on availability (two significant outages). The customer company should:",
+    "question": "SaaSプロバイダーの包括監査で、可用性について限定付き意見のSOC 2 Type IIレポート（2つの重大な停止）が判明した。顧客企業は次に何をすべきか。",
     "options": [
-      "Terminate the contract immediately",
-      "Assess the impact of availability issues on their own operations, evaluate the provider's remediation plan, and consider compensating controls on their side",
-      "Ignore the qualification since the other trust services are unqualified",
-      "Request a discount on fees"
+      "直ちに契約を終了する",
+      "可用性問題が自社の業務に与える影響を評価し、プロバイダーの是正計画を検討し、自社側の補完的統制を検討する",
+      "他の信頼サービスが無限定なので限定を無視する",
+      "料金の割引を要求する"
     ],
     "correct": 1,
-    "explanation": "The customer must assess how the provider's availability issues affect their own business operations and SLA commitments. They should evaluate the provider's remediation plans, consider implementing compensating controls (redundancy, failover), and decide whether the risk is acceptable."
+    "explanation": "顧客はプロバイダーの可用性問題が自社の業務とSLAコミットメントに与える影響を評価しなければならない。プロバイダーの是正計画を検討し、補完的統制（冗長性、フェイルオーバー）の実施を検討し、リスクが許容可能か決定すべきである。"
   },
   {
     "id": 71,
     "category": "Comprehensive Audits",
-    "question": "An audit of a cryptocurrency exchange reveals: (1) private keys are stored in a hot wallet without multi-signature, (2) customer KYC procedures are weak, (3) the matching engine has been independently tested. The priority concern is:",
+    "question": "暗号資産取引所の監査で以下が判明：(1) プライベートキーがマルチシグなしのホットウォレットに保存されている、(2) 顧客KYC手続が弱い、(3) マッチングエンジンは独立テスト済み。優先懸念は次のうちどれか。",
     "options": [
-      "KYC procedures (regulatory)",
-      "Private key management - a hot wallet without multi-signature creates catastrophic risk of total loss from a single point of failure",
-      "The matching engine (operational)",
-      "All three require equal attention"
+      "KYC手続（規制面）",
+      "プライベートキー管理。マルチシグなしのホットウォレットは単一障害点からの全損という壊滅的リスクを生む",
+      "マッチングエンジン（運用面）",
+      "3つすべてに等しい注意が必要"
     ],
     "correct": 1,
-    "explanation": "Private key management is the highest priority because loss of private keys means irreversible loss of all assets. A hot wallet without multi-signature means a single breach could result in total asset loss. KYC is important for regulatory compliance but does not create existential risk like key management."
+    "explanation": "プライベートキー管理が最優先である。キーの喪失は資産の不可逆的な全損を意味する。マルチシグなしのホットウォレットは単一の侵害で全資産の喪失を招く可能性がある。KYCは規制コンプライアンスにとって重要だが、キー管理のような存在的リスクは生まない。"
   },
   {
     "id": 72,
     "category": "Comprehensive Audits",
-    "question": "A company's audit reveals declining gross margins (from 45% to 30%) while COGS per unit remains stable. The auditor should investigate:",
+    "question": "ある企業の監査で売上総利益率が低下している（45%から30%）が、単位当たりCOGSは安定している。監査人は次の何を調査すべきか。",
     "options": [
-      "Whether selling prices have been reduced without disclosure or whether revenue recognition practices have changed to inflate revenue while costs remain constant",
-      "Whether the company should find cheaper suppliers",
-      "Whether the industry as a whole has declining margins",
-      "Whether this is a positive trend"
+      "販売価格が開示なしで引き下げられたか、収益認識実務が変更されて原価を一定にしたまま収益を膨らませていないか",
+      "より安い仕入先を探すべきか",
+      "業界全体が利益率を低下させているか",
+      "これが肯定的な傾向かどうか"
     ],
     "correct": 1,
-    "explanation": "Declining margins with stable COGS per unit suggests the issue is on the revenue side - possible price reductions, revenue recognition changes, or channel stuffing. This should be investigated by comparing unit prices, reviewing revenue recognition practices, and analyzing sales by channel."
+    "explanation": "安定した単位原価で利益率が低下することは、問題が収益側にあることを示唆する。価格引下げ、収益認識の変更、またはチャネルスタッフィングの可能性がある。単価の比較、収益認識実務の検討、チャネル別の売上分析によって調査すべきである。"
   },
   {
     "id": 73,
     "category": "Comprehensive Audits",
-    "question": "A comprehensive ESG audit of a manufacturing company finds: (1) carbon emissions data is self-reported without verification, (2) worker safety incidents are underreported, (3) board has ESG oversight committee. The most critical finding is:",
+    "question": "製造企業の包括ESG監査で以下が判明：(1) 炭素排出データが検証なしで自己申告されている、(2) 労働安全インシデントが過少報告されている、(3) 取締役会にESG監督委員会がある。最も重要な指摘事項は次のうちどれか。",
     "options": [
-      "The existence of the ESG committee",
-      "Underreporting of safety incidents directly undermines the integrity of the 'S' component of ESG disclosures and may violate labor regulations",
-      "Carbon emissions self-reporting is standard practice",
-      "All three are equally important"
+      "ESG委員会の存在",
+      "安全インシデントの過少報告はESG開示の「S」コンポーネントの完全性を直接損ない、労働法規に違反する可能性がある",
+      "炭素排出の自己申告は標準的な実務",
+      "3つすべてが同様に重要"
     ],
     "correct": 1,
-    "explanation": "Underreporting safety incidents is a deliberate act that directly compromises the integrity of ESG reporting and potentially violates labor laws. Unlike self-reported carbon data (which is common practice), safety incident underreporting involves active misrepresentation that can have legal consequences."
+    "explanation": "安全インシデントの過少報告は意図的な行為であり、ESG報告の完全性を直接損ない、労働法に違反する可能性がある。自己申報された炭素データとは異なり、安全インシデントの過少報告は法的結果を伴う積極的な歪曲である。"
   },
   {
     "id": 74,
     "category": "Comprehensive Audits",
-    "question": "In a comprehensive audit, you find that the company's whistleblower hotline reports are reviewed only by the CEO, who decides which to investigate. This arrangement:",
+    "question": "包括監査で、企業の内部通報ホットラインの報告がCEOのみによって審査され、CEOがどれを調査するかを決定していることが判明した。この取り決めは次のうちどれか。",
     "options": [
-      "Ensures confidentiality and efficiency",
-      "Concentrates too much power and may suppress reports involving the CEO or senior management, undermining the hotline's effectiveness",
-      "Is the recommended best practice",
-      "Should be expanded to include the CFO"
+      "機密性と効率を確保する",
+      "権力が過度に集中し、CEOや上級管理層に関わる報告を抑制する可能性があり、ホットラインの有効性を損なう",
+      "推奨されるベストプラクティス",
+      "CFOを含めるべき"
     ],
     "correct": 1,
-    "explanation": "Whistleblower reports involving the CEO or senior management cannot be independently reviewed if the CEO controls the process. Reports should be escalated to the audit committee or an independent function to ensure proper investigation of all reports, including those about senior leadership."
+    "explanation": "CEOや上級管理層に関わる内部通報報告は、CEOがプロセスを管理している場合、独立して審査できない。報告は監査委員会または独立機能にエスカレーションし、すべての報告（上級リーダーシップに関するものを含む）の適切な調査を確保すべきである。"
   },
   {
     "id": 75,
     "category": "Comprehensive Audits",
-    "question": "A company uses AI for credit scoring decisions. The comprehensive audit should evaluate:",
+    "question": "ある企業がAIをクレジットスコアリング決定に使用している。包括監査は次を評価すべきである。",
     "options": [
-      "Only the accuracy of credit decisions",
-      "Model explainability, bias in training data, regulatory compliance (FIEA), ongoing monitoring of model performance, and governance over model changes",
-      "Only the cost of the AI system",
-      "Only whether the AI system passes a basic accuracy test"
+      "クレジット決定の正確性のみ",
+      "モデルの説明可能性、トレーニングデータのバイアス、規制コンプライアンス（FIEA）、モデルパフォーマンスの継続監視、モデル変更のガバナンス",
+      "AIシステムのコストのみ",
+      "AIシステムが基本精度テストに合格するかのみ"
     ],
     "correct": 1,
-    "explanation": "AI credit scoring audit must cover multiple dimensions: model explainability (can decisions be explained to customers?), bias (does the model discriminate?), accuracy, regulatory compliance, ongoing monitoring (model drift), and governance (who approves model changes?)."
+    "explanation": "AIクレジットスコアリング監査は複数の次元をカバーする必要がある。モデルの説明可能性（顧客に決定を説明できるか）、バイアス（モデルが差別しているか）、精度、規制コンプライアンス、継続監視（モデルドリフト）、ガバナンス（誰がモデル変更を承認するか）。"
   },
   {
     "id": 76,
     "category": "Comprehensive Audits",
-    "question": "An audit reveals that a company's disaster recovery plan assumes 4-hour recovery time but the RTO testing shows actual recovery takes 72 hours. This finding should be classified as:",
+    "question": "監査で企業の災害復旧計画が4時間の復旧時間を想定しているが、RTOテストでは実際の復旧に72時間かかっていることが判明した。この指摘事項は次のように分類すべきである。",
     "options": [
-      "Minor discrepancy between plan and reality",
-      "Significant - the RTO gap (4 hours planned vs 72 hours actual) represents a critical business continuity risk that may not meet regulatory or contractual obligations",
-      "Not significant if no disaster has occurred",
-      "An IT issue, not a governance issue"
+      "計画と現実の軽微な差異",
+      "重要。RTOギャップ（計画4時間対実際72時間）は規制または契約上の義務を満たさない可能性のある重要な事業継続リスクを示す",
+      "災害が発生していなければ重要ではない",
+      "ITの問題でガバナンスの問題ではない"
     ],
     "correct": 1,
-    "explanation": "The gap between planned RTO (4 hours) and actual recovery time (72 hours) is significant. If the business has contractual obligations or regulatory requirements tied to recovery time, this gap represents a compliance issue and operational risk that must be addressed."
+    "explanation": "計画されたRTO（4時間）と実際の復旧時間（72時間）のギャップは重要である。ビジネスに復旧時間に係る契約上または規制上の義務がある場合、このギャップはコンプライアンス問題と運用リスクを示し、対処が必要である。"
   },
   {
     "id": 77,
     "category": "Comprehensive Audits",
-    "question": "A comprehensive audit of a fintech company processing millions of transactions daily reveals: weak transaction monitoring for money laundering, but strong financial controls and IT security. The auditor's primary concern should be:",
+    "question": "日間数百万件の取引を処理するフィンテック企業の包括監査で、マネーロンダリング取引モニタリングが弱いが、財務統制とITセキュリティは強力であることが判明した。監査人の主な懸念は次のうちどれか。",
     "options": [
-      "The financial controls are excellent so the overall opinion is unmodified",
-      "AML compliance weakness is a significant regulatory risk that could result in regulatory penalties, license revocation, and reputational damage",
-      "Only the IT security matters",
-      "Transaction monitoring is not an audit concern"
+      "財務統制が優秀なので全体意見は無限定",
+      "AMLコンプライアンスの弱点は規制上の重要リスクであり、規制裁金、ライセンス取消、レピュテーション毀損の結果を招く可能性がある",
+      "ITセキュリティのみが重要",
+      "取引モニタリングは監査対象ではない"
     ],
     "correct": 1,
-    "explanation": "Anti-money laundering compliance is a critical regulatory requirement for fintech companies. Weak transaction monitoring could result in the company processing illicit funds, leading to regulatory penalties, criminal liability, and loss of operating license. This is a significant compliance finding."
+    "explanation": "アンチマネーロンダリングコンプライアンスはフィンテック企業にとって重要な規制要件である。取引モニタリングが弱いと、企業が不正資金を処理し、規制裁金、刑事責任、営業ライセンスの喪失につながる可能性がある。これは重要なコンプライアンス指摘事項である。"
   },
   {
     "id": 78,
     "category": "Comprehensive Audits",
-    "question": "During year-end inventory observation, the auditor notices inventory in a separate warehouse not included in the count instructions. Management says it is 'consignment inventory.' The auditor should:",
+    "question": "期末在庫観察で監査人が、棚卸指示に含まれていない別倉庫に在庫があることに気付いた。管理層は「委託販売在庫」と言う。監査人は次に何をすべきか。",
     "options": [
-      "Accept management's explanation",
-      "Verify the consignment arrangement by reviewing contracts, and if the inventory is owned by the company, ensure it is included in the physical count and financial statements",
-      "Exclude it from the audit scope",
-      "Note it in the working papers only"
+      "管理層の説明を受け入れる",
+      "契約を検討して委託販売取引を検証し、企業所有であれば実地棚卸と財務諸表に含める",
+      "監査範囲から除外する",
+      "作業紙に記録するのみ"
     ],
     "correct": 1,
-    "explanation": "The auditor must independently verify whether the inventory is truly on consignment (owned by others) or company-owned. Reviewing contracts and confirming with consignors provides evidence. If company-owned, it must be included in the count and financial statements."
+    "explanation": "監査人は在庫が真に委託販売（他人の所有物）か企業所有かを独立して検証しなければならない。契約の検討と委託者との確認が証拠を提供する。企業所有であれば、棚卸と財務諸表に含めなければならない。"
   },
   {
     "id": 79,
     "category": "Comprehensive Audits",
-    "question": "A company's consolidated financial statements include a subsidiary acquired mid-year. The audit should verify that:",
+    "question": "連結財務諸表に期中取得の子会社が含まれている。監査は次を検証すべきである。",
     "options": [
-      "Only the subsidiary's year-end balance sheet is included",
-      "The acquisition was properly accounted for (purchase price allocation, identification of intangible assets, goodwill calculation) and revenue/expenses are included from the acquisition date",
-      "The subsidiary's full-year results are included",
-      "The subsidiary is audited separately and not in scope"
+      "子会社の期末貸借対照表のみを含める",
+      "取得が適切に会計処理されたこと（購入価格配分、無形資産の識別、のれん計算）を検証し、収益・費用は取得日から含める",
+      "子会社の通期の業績を含める",
+      "子会社は別途監査済みで監査対象外"
     ],
     "correct": 1,
-    "explanation": "For a mid-year acquisition, the auditor must verify: proper purchase price allocation, identification and valuation of acquired assets and liabilities, goodwill calculation, and that revenue and expenses are included only from the acquisition date (not the full year)."
+    "explanation": "期中取得の場合、監査人は以下を検証する必要がある。適切な購入価格配分、取得資産・負債の識別と評価、のれん計算、および収益・費用は取得日からのみ（通期ではなく）含まれていること。"
   },
   {
     "id": 80,
     "category": "Comprehensive Audits",
-    "question": "A comprehensive audit identifies 15 findings across IT, financial, and operational areas. The best approach for presenting these to the board is:",
+    "question": "包括監査でIT、財務、業務領域にわたり15件の指摘事項が特定された。取締役会に提示する最善のアプローチは次のうちどれか。",
     "options": [
-      "Present all 15 findings in random order",
-      "Group findings by risk severity (critical, high, medium, low), provide an executive summary with key themes, and include an action plan with owners and timelines for each finding",
-      "Only present the findings that management has already agreed to fix",
-      "Present them by department alphabetically"
+      "15件の指摘事項をランダム順で提示する",
+      "リスク重大度（重要度高・中・低）でグループ化し、主要テーマを含むエグゼクティブサマリーと、各指摘事項の担当者・タイムラインを含むアクションプランを提供する",
+      "管理層が既に修正に同意した指摘事項のみを提示する",
+      "部門名のアルファベット順で提示する"
     ],
     "correct": 1,
-    "explanation": "Board presentations should prioritize by risk severity, highlight key themes (e.g., 'governance gaps in IT controls'), and provide actionable remediation plans. An executive summary gives the board the big picture while detailed findings are available for reference."
+    "explanation": "取締役会への提示はリスク重大度で優先順位付けし、主要テーマ（例：「IT統制のガバナンスギャップ」）を強調し、実行可能な是正計画を提供すべきである。エグゼクティブサマリーが取締役会に全体像を示し、詳細な指摘事項は参照用に利用可能である。"
   }
 ]

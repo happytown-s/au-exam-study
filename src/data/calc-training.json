@@ -2,7 +2,7 @@
   {
     "id": 1,
     "category": "Sampling",
-    "question": "In attribute sampling, if the tolerable deviation rate is 5%, the expected deviation rate is 2%, and the acceptable risk of over-reliance is 5%, what is the approximate required sample size?",
+    "question": "属性サンプリングで、許容できる逸脱率が 5%、期待される逸脱率が 2%、許容される過剰依存のリスクが 5% である場合、必要なサンプル サイズの概算はどれくらいですか?",
     "options": [
       "38",
       "60",
@@ -10,12 +10,12 @@
       "120"
     ],
     "correct": 2,
-    "explanation": "Using attribute sampling tables with TDR=5%, EDR=2%, ARO=5%, the required sample size is approximately 93. The sample size increases as TDR decreases, EDR increases, or ARO decreases. Cheatsheet: Lower TDR or ARO = larger sample; higher EDR = smaller sample."
+    "explanation": "TDR=5%、EDR=2%、ARO=5% の属性サンプリング テーブルを使用すると、必要なサンプル サイズは約 93 になります。TDR が減少する、EDR が増加する、または ARO が減少するにつれて、サンプル サイズは増加します。チートシート: TDR または ARO が低い = サンプルが大きい。EDR が高い = サンプルが小さい。"
   },
   {
     "id": 2,
     "category": "Sampling",
-    "question": "An auditor tests 60 items and finds 1 deviation. What is the computed upper deviation rate at 5% risk of over-reliance?",
+    "question": "監査人は 60 項目をテストし、1 つの逸脱を見つけます。過剰依存のリスクが 5% の場合に計算される上限逸脱率はいくらですか?",
     "options": [
       "1.7%",
       "5.0%",
@@ -23,25 +23,25 @@
       "8.5%"
     ],
     "correct": 2,
-    "explanation": "Using attribute sampling evaluation tables: with n=60 and 1 deviation at 5% ARO, the upper deviation rate is approximately 6.8%. This means the auditor can be 95% confident that the true deviation rate in the population does not exceed 6.8%. Cheatsheet: UDR = (deviations/sample size) + precision factor."
+    "explanation": "属性サンプリング評価テーブルを使用すると、n=60、ARO 5% で偏差 1 の場合、上限偏差率は約 6.8% になります。これは、監査人が母集団の真の逸脱率が 6.8% を超えないことを 95% 確信できることを意味します。チートシート: UDR = (偏差/サンプル サイズ) + 精度係数。"
   },
   {
     "id": 3,
     "category": "Sampling",
-    "question": "If an auditor wants to increase confidence level from 90% to 95%, the sample size will:",
+    "question": "監査人が信頼レベルを 90% から 95% に上げたい場合、サンプル サイズは次のようになります。",
     "options": [
-      "Decrease",
-      "Increase",
-      "Stay the same",
-      "Double"
+      "減少",
+      "増加",
+      "そのままでいてください",
+      "ダブル"
     ],
     "correct": 1,
-    "explanation": "Higher confidence requires a larger sample. Moving from 90% to 95% confidence increases the z-score from 1.645 to 1.96, which increases the required sample size. Cheatsheet: Confidence and sample size have a direct relationship; a small increase in confidence requires a disproportionately larger sample."
+    "explanation": "信頼性を高めるには、より大きなサンプルが必要になります。信頼度が 90% から 95% に移行すると、Z スコアが 1.645 から 1.96 に増加し、必要なサンプル サイズが増加します。チートシート: 信頼性とサンプル サイズには直接的な関係があります。信頼度がわずかに増加すると、不釣り合いに大きなサンプルが必要になります。"
   },
   {
     "id": 4,
     "category": "Sampling",
-    "question": "In variables sampling using mean-per-unit estimation, if the population is 10,000 items, the sample standard deviation is $500, precision is $100,000, and confidence is 95%, what is the required sample size?",
+    "question": "単位当たりの平均推定を使用した変数サンプリングでは、母集団が 10,000 アイテム、サンプル標準偏差が 500 ドル、精度が 100,000 ドル、信頼度が 95% の場合、必要なサンプル サイズはどれくらいですか?",
     "options": [
       "56",
       "96",
@@ -49,38 +49,38 @@
       "200"
     ],
     "correct": 1,
-    "explanation": "Formula: n = (Z * sigma * N / E)^2 / (1 + (Z * sigma / E)^2 / N). Z=1.96, sigma=500, N=10000, E=100000. n = (1.96 * 500 * 10000 / 100000)^2 / (1 + (1.96*500/100000)^2/10000) = 96.04, rounded to 96. Cheatsheet: n = (Z*sigma/E)^2 for infinite population adjustments."
+    "explanation": "式: n = (Z * シグマ * N / E)^2 / (1 + (Z * シグマ / E)^2 / N)。Z=1.96、シグマ=500、N=10000、E=100000。n = (1.96 * 500 * 10000 / 100000)^2 / (1 + (1.96*500/100000)^2/10000) = 96.04、96 に丸められます。 チートシート: 無限の母集団調整の場合は n = (Z*sigma/E)^2。"
   },
   {
     "id": 5,
     "category": "Sampling",
-    "question": "What is 'sampling risk'?",
+    "question": "「サンプリングリスク」とは何ですか?",
     "options": [
-      "The risk that a sample contains errors",
-      "The risk that the auditor's conclusion based on a sample differs from the conclusion if the entire population were tested",
-      "The risk that the population is too small",
-      "The risk that sampling takes too long"
+      "サンプルにエラーが含まれるリスク",
+      "サンプルに基づいた監査人の結論が、母集団全体を検査した場合の結論と異なるリスク",
+      "人口が少なすぎるリスク",
+      "サンプリングに時間がかかりすぎるリスク"
     ],
     "correct": 1,
-    "explanation": "Sampling risk is the risk that the sample is not representative of the population, leading to an incorrect conclusion. It exists because the auditor tests only a portion of the population. Non-sampling risk is the risk of incorrect conclusions from other causes."
+    "explanation": "サンプリングリスクとは、サンプルが母集団を代表しておらず、誤った結論につながるリスクです。これは、監査人が母集団の一部のみをテストするために存在します。非サンプリングのリスクは、他の原因から誤った結論が得られるリスクです。"
   },
   {
     "id": 6,
     "category": "Sampling",
-    "question": "An auditor finds 3 deviations in a sample of 100 with a tolerable deviation rate of 4% at 95% confidence. The sample deviation rate is 3% and the upper limit is approximately 7.6%. What should the auditor conclude?",
+    "question": "監査人は、100 個のサンプルから 3 つの逸脱を発見し、許容偏差率は 95% の信頼度で 4% になります。サンプル乖離率は 3%、上限は約 7.6% です。監査人はどのような結論を下すべきでしょうか?",
     "options": [
-      "Controls are effective",
-      "Controls are not effective because UDR (7.6%) exceeds TDR (4%)",
-      "More testing is needed regardless",
-      "Controls are effective since sample rate (3%) is below TDR (4%)"
+      "コントロールが効果的です",
+      "UDR (7.6%) が TDR (4%) を上回るため、コントロールは効果的ではありません",
+      "いずれにしてもさらなるテストが必要です",
+      "サンプルレート (3%) が TDR (4%) を下回っているため、コントロールは効果的です"
     ],
     "correct": 1,
-    "explanation": "The auditor compares the upper deviation rate (7.6%) with the tolerable deviation rate (4%). Since UDR > TDR, the auditor concludes controls are NOT effective and must modify the planned nature, timing, or extent of substantive procedures. Cheatsheet: Always compare UDR to TDR, not the sample rate."
+    "explanation": "監査人は上限逸脱率 (7.6%) と許容逸脱率 (4%) を比較します。UDR > TDR であるため、監査人はコントロールが効果的ではないと結論付け、計画された性質、タイミング、または実質的な手順の範囲を変更する必要があります。チートシート: サンプル レートではなく、常に UDR と TDR を比較してください。"
   },
   {
     "id": 7,
     "category": "Sampling",
-    "question": "For a population of 5,000 items, a sample of 200 is selected. What is the sampling interval if systematic selection is used?",
+    "question": "5,000 個のアイテムの母集団の場合、200 個のサンプルが選択されます。体系的な選択が使用される場合、サンプリング間隔はどれくらいですか?",
     "options": [
       "10",
       "20",
@@ -88,116 +88,116 @@
       "40"
     ],
     "correct": 2,
-    "explanation": "Sampling interval = Population size / Sample size = 5000 / 200 = 25. Every 25th item from a random start between 1 and 25 would be selected. Cheatsheet: Interval = N/n, and the random start must be between 1 and the interval."
+    "explanation": "サンプリング間隔 = 母集団サイズ / サンプル サイズ = 5000 / 200 = 25。1 から 25 までのランダムな開始から 25 番目ごとの項目が選択されます。チートシート: 間隔 = N/n、ランダム開始は 1 から間隔の間でなければなりません。"
   },
   {
     "id": 8,
     "category": "Sampling",
-    "question": "'Discovery sampling' is used when the auditor expects:",
+    "question": "「ディスカバリー・サンプリング」は、監査人が次のことを期待する場合に使用されます。",
     "options": [
-      "A high rate of deviations",
-      "A very low or zero expected deviation rate but wants to detect any occurrence",
-      "A specific dollar misstatement",
-      "To estimate a population parameter"
+      "逸脱率が高い",
+      "予想される逸脱率が非常に低いかゼロですが、発生を検出したいと考えています",
+      "特定のドルの虚偽表示",
+      "母集団パラメータを推定するには"
     ],
     "correct": 1,
-    "explanation": "Discovery sampling is designed for situations where the expected deviation rate is near zero but the auditor wants a high probability of detecting at least one occurrence if the actual rate exceeds a specified minimum. It is commonly used for fraud detection."
+    "explanation": "ディスカバリー・サンプリングは、予想される逸脱率がゼロに近いが、実際の率が指定された最小値を超えた場合に、監査人が少なくとも 1 つの発生を高い確率で検出することを望んでいる状況向けに設計されています。不正行為の検出によく使用されます。"
   },
   {
     "id": 9,
     "category": "Sampling",
-    "question": "If the population size doubles but the standard deviation remains the same, the required sample size for variables sampling will:",
+    "question": "母集団のサイズが 2 倍になるが、標準偏差が同じままの場合、変数サンプリングに必要なサンプル サイズは次のようになります。",
     "options": [
-      "Double",
-      "Increase slightly (finite population correction)",
-      "Not change",
-      "Decrease by half"
+      "ダブル",
+      "微増（有限人口補正）",
+      "変わらない",
+      "半分に減らす"
     ],
     "correct": 1,
-    "explanation": "For large populations, the finite population correction (FPC) has minimal effect. Doubling an already large population has negligible impact on sample size because the formula is dominated by the standard deviation and precision requirements. Cheatsheet: FPC factor = N/(N+n), effect is minimal when N > 20n."
+    "explanation": "母集団が大きい場合、有限母集団補正 (FPC) の効果は最小限になります。式は標準偏差と精度の要件によって支配されるため、すでに大きな母集団を 2 倍にしてもサンプル サイズに与える影響はほとんどありません。チートシート: FPC 係数 = N/(N+n)、N > 20n の場合、効果は最小限になります。"
   },
   {
     "id": 10,
     "category": "Sampling",
-    "question": "An auditor uses stop-or-go (sequential) sampling. After the initial sample of 25, 0 deviations are found. The sampling plan allows stopping. What is the advantage of this approach?",
+    "question": "監査人はストップ・オア・ゴー (順次) サンプリングを使用します。25 の最初のサンプルの後、偏差は 0 個見つかりました。サンプリング計画では停止が可能です。このアプローチの利点は何ですか?",
     "options": [
-      "Higher precision",
-      "Lower expected sample size when the population quality is good",
-      "Elimination of sampling risk",
-      "100% accuracy"
+      "より高い精度",
+      "母集団の質が良い場合、予想されるサンプルサイズが小さくなる",
+      "サンプリングリスクの排除",
+      "100%の精度"
     ],
     "correct": 1,
-    "explanation": "Stop-or-go sampling allows the auditor to stop testing early if results are favorable, reducing the average sample size when population quality is good. If deviations are found early, the auditor continues sampling. Cheatsheet: Stop-or-go saves time when controls are working well."
+    "explanation": "ストップ・オア・ゴー・サンプリングにより、監査人は結果が良好な場合に早期にテストを中止することができ、母集団の質が良好な場合には平均サンプルサイズを削減できます。逸脱が早期に発見された場合、監査人はサンプリングを続行します。チートシート: コントロールが適切に機能している場合は、ストップ オア ゴーにより時間を節約できます。"
   },
   {
     "id": 11,
     "category": "Sampling",
-    "question": "In monetary unit sampling (MUS), the sampling unit is:",
+    "question": "通貨単位サンプリング (MUS) では、サンプリング単位は次のとおりです。",
     "options": [
-      "Each individual transaction",
-      "Each individual dollar in the account balance",
-      "Each account",
-      "Each business day"
+      "個々の取引ごとに",
+      "口座残高のそれぞれのドル",
+      "各アカウント",
+      "各営業日"
     ],
     "correct": 1,
-    "explanation": "In MUS, each dollar of the population is a potential sampling unit. High-value items have a greater chance of selection because they contain more 'dollars'. This automatically focuses audit attention on larger balances. Cheatsheet: MUS = PPS (Probability Proportional to Size)."
+    "explanation": "MUS では、人口の 1 ドルが潜在的なサンプリング単位となります。価値の高いアイテムには、より多くの「ドル」が含まれているため、選択される可能性が高くなります。これにより、より大きな残高に監査の注意が自動的に集中します。チートシート: MUS = PPS (サイズに比例する確率)。"
   },
   {
     "id": 12,
     "category": "Sampling",
-    "question": "The 'precision' in sampling refers to:",
+    "question": "サンプリングにおける「精度」とは次のことを指します。",
     "options": [
-      "The exact size of misstatements",
-      "The range within which the true population parameter is estimated to lie (plus/minus)",
-      "The confidence level",
-      "The sample size"
+      "虚偽記載の正確な規模",
+      "真の母集団パラメータが推定される範囲 (プラス/マイナス)",
+      "信頼レベル",
+      "サンプルサイズ"
     ],
     "correct": 1,
-    "explanation": "Precision (also called tolerable misstatement or allowance for sampling risk) is the plus/minus range around the sample estimate. A 95% confidence interval of $1,000,000 +/- $50,000 means precision is $50,000. Cheatsheet: Precision = Z * (standard error of the estimate)."
+    "explanation": "精度 (許容可能な虚偽表示またはサンプリング リスクの許容値とも呼ばれます) は、サンプル推定値の前後のプラス/マイナスの範囲です。95% 信頼区間 $1,000,000 +/- $50,000 は、精度が $50,000 であることを意味します。チートシート: 精度 = Z * (推定値の標準誤差)。"
   },
   {
     "id": 13,
     "category": "Sampling",
-    "question": "If an auditor needs to reduce the sampling interval from 50 to 25 in monetary unit sampling, the sample size will:",
+    "question": "監査人が金額単位のサンプリングでサンプリング間隔を 50 から 25 に減らす必要がある場合、サンプル サイズは次のようになります。",
     "options": [
-      "Decrease by half",
-      "Double",
-      "Increase fourfold",
-      "Stay the same"
+      "半分に減らす",
+      "ダブル",
+      "4倍に増加",
+      "そのままでいてください"
     ],
     "correct": 1,
-    "explanation": "Sample size and sampling interval are inversely related. If interval halves from 50 to 25, the sample size doubles. n = Population / Interval. Cheatsheet: Smaller interval = more items selected = larger sample = more precision."
+    "explanation": "サンプルサイズとサンプリング間隔は反比例の関係にあります。間隔が 50 から 25 に半分になると、サンプル サイズは 2 倍になります。n = 人口 / 間隔。チートシート: 間隔が小さい = 選択される項目が多い = サンプルが多い = 精度が高くなります。"
   },
   {
     "id": 14,
     "category": "Sampling",
-    "question": "In stratified sampling, which stratum should receive the most audit attention?",
+    "question": "層化サンプリングでは、どの層が監査で最も注意を払うべきですか?",
     "options": [
-      "The smallest value stratum",
-      "The largest value stratum, because it contains the most material amounts",
-      "All strata equally",
-      "The middle value stratum"
+      "最小値の階層",
+      "最も多くの材料量が含まれるため、最大の価値のある層",
+      "すべての層が平等に",
+      "中間価値層"
     ],
     "correct": 1,
-    "explanation": "The largest value stratum typically contains the most material amounts and highest misstatement risk. In practice, 100% testing is often applied to very large items, while sampling is used for smaller strata. Cheatsheet: Stratify by value and test high-value items more thoroughly."
+    "explanation": "通常、最大価値の階層には最も重要な金額が含まれ、虚偽表示のリスクが最も高くなります。実際には、非常に大きな項目には 100% テストが適用されることが多く、小規模な層にはサンプリングが使用されます。チートシート: 価値別に階層化し、価値の高い項目をより徹底的にテストします。"
   },
   {
     "id": 15,
     "category": "Sampling",
-    "question": "The risk of assessing control risk too low (alpha risk) is associated with:",
+    "question": "コントロールリスクの評価が低すぎるリスク (アルファリスク) は、以下に関連しています。",
     "options": [
-      "Performing too much testing",
-      "Concluding controls are effective when they are not (over-reliance)",
-      "Concluding controls are not effective when they are (under-reliance)",
-      "The population being too small"
+      "過剰なテストを実行する",
+      "最終的なコントロールは効果的ではない場合（過度に依存している場合）に効果的です。",
+      "最終的なコントロールは、依存度が低い場合には効果がありません。",
+      "人口が少なすぎる"
     ],
     "correct": 1,
-    "explanation": "Alpha risk (Type I error) is the risk that the sample indicates controls are effective when the actual deviation rate exceeds the tolerable rate. This leads the auditor to rely on controls that are actually weak, reducing substantive testing inappropriately."
+    "explanation": "アルファリスク (第一種の過誤) とは、実際の逸脱率が許容率を超えているにもかかわらず、サンプルがコントロールは有効であると示すリスクです。これにより、監査人は実際には弱いコントロールに依存することになり、実質的なテストが不適切に削減されます。"
   },
   {
     "id": 16,
     "category": "Sampling",
-    "question": "An auditor testing a population of 2,000 purchase orders wants a 95% confidence level. The expected deviation rate is 1% and tolerable rate is 5%. Using standard tables, what is the approximate sample size?",
+    "question": "2,000 件の発注書の母集団をテストする監査人は、95% の信頼水準を求めています。期待逸脱率は 1%、許容可能率は 5% です。標準的な表を使用した場合、おおよそのサンプルサイズはどれくらいですか?",
     "options": [
       "45",
       "59",
@@ -205,155 +205,155 @@
       "120"
     ],
     "correct": 0,
-    "explanation": "With EDR=1%, TDR=5%, ARO=5% (95% confidence), standard attribute sampling tables indicate a sample size of approximately 45-59. Since EDR is very low relative to TDR, a smaller sample suffices. Cheatsheet: The gap between EDR and TDR determines sample size; wider gap = smaller sample."
+    "explanation": "EDR=1%、TDR=5%、ARO=5% (信頼度 95%) の場合、標準属性サンプリング テーブルはサンプル サイズが約 45 ～ 59 であることを示します。EDR は TDR に比べて非常に低いため、より少ないサンプルで十分です。チートシート: EDR と TDR の間のギャップによってサンプル サイズが決まります。ギャップが広い = サンプルが小さい。"
   },
   {
     "id": 17,
     "category": "Sampling",
-    "question": "What is 'non-sampling risk'?",
+    "question": "「非サンプリングリスク」とは何ですか?",
     "options": [
-      "Risk from not testing the entire population",
-      "Risk that the auditor reaches an incorrect conclusion for reasons NOT related to sampling (e.g., inappropriate procedures, misinterpretation)",
-      "Risk of selecting a non-representative sample",
-      "Risk that the population has changed since sampling"
+      "全人口を検査しないことによるリスク",
+      "監査人がサンプリングに関係のない理由（不適切な手順、誤解など）により誤った結論に達するリスク",
+      "代表的ではないサンプルを選択するリスク",
+      "サンプリング後に母集団が変化したリスク"
     ],
     "correct": 1,
-    "explanation": "Non-sampling risk arises from human errors (misinterpreting evidence, choosing wrong procedures, not recognizing issues) rather than from the sampling process itself. It cannot be reduced by increasing sample size. Cheatsheet: Non-sampling risk is addressed through proper planning, supervision, and training."
+    "explanation": "非サンプリングのリスクは、サンプリングプロセス自体からではなく、人的エラー（証拠の誤解、間違った手順の選択、問題の認識なし）から発生します。サンプルサイズを増やしてもこれを減らすことはできません。チートシート: 非サンプリングのリスクは、適切な計画、監督、トレーニングを通じて対処されます。"
   },
   {
     "id": 18,
     "category": "Sampling",
-    "question": "In variables sampling, 'ratio estimation' is used when:",
+    "question": "変数サンプリングでは、「比率推定」は次の場合に使用されます。",
     "options": [
-      "The population book values are unreliable",
-      "The misstatement amount is proportional to the book value",
-      "The population has no errors",
-      "The auditor wants to test attributes not variables"
+      "人口簿価は信頼できない",
+      "虚偽表示額は簿価に比例する",
+      "母集団にエラーはありません",
+      "監査人は変数ではなく属性をテストしたいと考えています"
     ],
     "correct": 1,
-    "explanation": "Ratio estimation calculates the ratio of audited values to book values from the sample and applies it to the total population. It is efficient when misstatement amounts tend to be proportional to book values. Cheatsheet: Ratio = (Sum of audit values) / (Sum of book values) in the sample."
+    "explanation": "比率推定では、サンプルから帳簿価額に対する監査値の比率を計算し、それを母集団全体に適用します。虚偽表示額が帳簿価額に比例する傾向がある場合に効果的です。チートシート: サンプルの比率 = (監査値の合計) / (帳簿価額の合計)。"
   },
   {
     "id": 19,
     "category": "Sampling",
-    "question": "If the auditor increases the tolerable misstatement from $50,000 to $100,000, the required sample size for variables sampling will:",
+    "question": "監査人が許容できる虚偽表示を 50,000 ドルから 100,000 ドルに増額した場合、変数サンプリングに必要なサンプル サイズは次のようになります。",
     "options": [
-      "Increase",
-      "Decrease",
-      "Stay the same",
-      "Double"
+      "増加",
+      "減少",
+      "そのままでいてください",
+      "ダブル"
     ],
     "correct": 1,
-    "explanation": "Higher tolerable misstatement (precision) means the auditor can accept a wider confidence interval, requiring less precision and therefore a smaller sample. Sample size is inversely proportional to the square of precision. Cheatsheet: Larger tolerable misstatement = smaller sample needed."
+    "explanation": "許容可能な虚偽表示 (精度) が高いということは、監査人がより広い信頼区間を受け入れることができることを意味し、要求される精度が低くなり、したがってサンプルが少なくて済みます。サンプル サイズは精度の 2 乗に反比例します。チートシート: 許容​​できる虚偽表示が大きいほど、必要なサンプルは少なくなります。"
   },
   {
     "id": 20,
     "category": "Sampling",
-    "question": "An auditor selects a random sample using a random number generator. What is the key advantage of random selection over judgmental selection?",
+    "question": "監査人は乱数発生器を使用してランダムなサンプルを選択します。判断による選択と比較したランダム選択の主な利点は何ですか?",
     "options": [
-      "It is faster",
-      "It allows statistical evaluation of results and is free from auditor bias",
-      "It always produces a representative sample",
-      "It requires fewer items"
+      "より速いです",
+      "結果の統計的評価が可能になり、監査人のバイアスがかかりません。",
+      "常に代表的なサンプルを生成します",
+      "必要なアイテムが少なくなります"
     ],
     "correct": 1,
-    "explanation": "Random selection enables statistical inference about the population and eliminates selection bias. It allows the auditor to quantify sampling risk and make objective conclusions. Judgmental selection may be efficient but does not support statistical conclusions."
+    "explanation": "ランダム選択により、母集団に関する統計的推論が可能になり、選択バイアスが排除されます。これにより、監査人はサンプリングのリスクを定量化し、客観的な結論を下すことができます。判断による選択は効率的かもしれませんが、統計的な結論を裏付けるものではありません。"
   },
   {
     "id": 21,
     "category": "Materiality",
-    "question": "If total assets are $50 million and the auditor uses 1% of total assets as the benchmark, what is the overall materiality?",
+    "question": "総資産が 5,000 万ドルで、監査人が総資産の 1% をベンチマークとして使用する場合、全体的な重要性は何ですか?",
     "options": [
-      "$50,000",
-      "$500,000",
-      "$5,000,000",
-      "$250,000"
+      "50,000ドル",
+      "50万ドル",
+      "500万ドル",
+      "250,000ドル"
     ],
     "correct": 1,
-    "explanation": "Overall materiality = Benchmark rate x Benchmark value = 1% x $50,000,000 = $500,000. Common benchmarks: 0.5-1% of total assets, 0.5-1% of total revenue, or 1-2% of profit before tax. Cheatsheet: Benchmark choice depends on the entity's circumstances and user needs."
+    "explanation": "全体的な重要性 = ベンチマーク率 x ベンチマーク値 = 1% x 50,000,000 ドル = 500,000 ドル。一般的なベンチマーク: 総資産の 0.5 ～ 1%、総収益の 0.5 ～ 1%、または税引前利益の 1 ～ 2%。チートシート: ベンチマークの選択は、企業の状況とユーザーのニーズによって異なります。"
   },
   {
     "id": 22,
     "category": "Materiality",
-    "question": "If overall materiality is $500,000, what is a reasonable performance materiality?",
+    "question": "全体的な重要性が 500,000 ドルである場合、妥当なパフォーマンスの重要性は何ですか?",
     "options": [
-      "$50,000 (10%)",
-      "$250,000 to $375,000 (50-75%)",
-      "$500,000 (100%)",
-      "$1,000,000 (200%)"
+      "50,000ドル (10%)",
+      "250,000 ドルから 375,000 ドル (50-75%)",
+      "500,000ドル (100%)",
+      "1,000,000ドル (200%)"
     ],
     "correct": 1,
-    "explanation": "Performance materiality is typically set at 50-75% of overall materiality to reduce the risk that aggregate uncorrected and undetected misstatements exceed overall materiality. For $500,000 overall, performance materiality = $250,000-$375,000. Cheatsheet: PM = OM x (50-75%)."
+    "explanation": "パフォーマンスの重要性は通常、未修正および未検出の虚偽表示の合計が全体の重要性を超えるリスクを軽減するために、全体の重要性の 50 ～ 75% に設定されます。全体で 500,000 ドルの場合、パフォーマンスの重要性 = 250,000 ～ 375,000 ドルとなります。チートシート: PM = OM x (50-75%)。"
   },
   {
     "id": 23,
     "category": "Materiality",
-    "question": "A company reports revenue of $20 million and profit before tax of $2 million. Which benchmark is generally more appropriate for determining materiality?",
+    "question": "ある会社は、収益が 2,000 万ドル、税引前利益が 200 万ドルであると報告しています。重要性を判断するのに一般的により適切なベンチマークはどれですか?",
     "options": [
-      "Total revenue, because it is larger",
-      "Profit before tax, because users focus on earnings for investment decisions",
-      "Total revenue and profit before tax are equally appropriate",
-      "Neither; only total assets should be used"
+      "総収益が大きいため",
+      "ユーザーは投資決定において収益を重視するため、税引き前利益",
+      "総収益と税引き前利益は同様に適切です",
+      "どちらでもない;総資産のみを使用する必要があります"
     ],
     "correct": 1,
-    "explanation": "For profit-oriented entities, profit before tax is often the most relevant benchmark because investors primarily focus on earnings. However, if the entity has volatile or negative earnings, revenue or total assets may be more appropriate. Cheatsheet: Benchmark = what matters most to financial statement users."
+    "explanation": "利益志向の企業の場合、投資家は主に収益に注目するため、多くの場合、税引前利益が最も適切なベンチマークとなります。ただし、企業の収益が変動したりマイナスになったりする場合は、収益または総資産の方が適切な場合があります。チートシート: ベンチマーク = 財務諸表ユーザーにとって最も重要なもの。"
   },
   {
     "id": 24,
     "category": "Materiality",
-    "question": "The 'trivial threshold' is typically set at:",
+    "question": "「簡単なしきい値」は通常、次のように設定されます。",
     "options": [
-      "50% of overall materiality",
-      "5-10% of overall materiality",
-      "100% of overall materiality",
-      "0% of overall materiality"
+      "マテリアリティ全体の 50%",
+      "マテリアリティ全体の 5 ～ 10%",
+      "マテリアリティ全体の100%",
+      "全体の重要性の 0%"
     ],
     "correct": 1,
-    "explanation": "The trivial threshold is usually 5-10% of overall materiality. Misstatements below this amount are clearly immaterial and do not need to be accumulated with other misstatements. For OM=$500,000, trivial threshold = $25,000-$50,000. Cheatsheet: Trivial threshold = 5-10% of OM."
+    "explanation": "些細なしきい値は通常、重要性全体の 5 ～ 10% です。この金額を下回る虚偽表示は明らかに重要ではなく、他の虚偽表示と累積する必要はありません。OM=$500,000 の場合、些細なしきい値 = $25,000 ～ $50,000。チートシート: 簡単なしきい値 = OM の 5 ～ 10%。"
   },
   {
     "id": 25,
     "category": "Materiality",
-    "question": "An auditor discovers uncorrected misstatements totaling $350,000 against overall materiality of $500,000. What should the auditor do?",
+    "question": "監査人は、全体の重要性 500,000 ドルに対して総額 350,000 ドルの未訂正の虚偽表示を発見しました。監査人は何をすべきでしょうか?",
     "options": [
-      "Ignore them since they are below overall materiality",
-      "Evaluate whether $350,000, combined with undetected misstatements, could exceed overall materiality; consider requesting correction",
-      "Issue a qualified opinion immediately",
-      "Add $150,000 more testing regardless"
+      "全体的な重要性を下回っているため無視します。",
+      "検出されていない虚偽表示と合わせて 35 万ドルが全体的な重要性を超える可能性があるかどうかを評価します。修正のリクエストを検討してください",
+      "限定付き適正意見をただちに発行する",
+      "関係なく、さらに 150,000 ドルのテストを追加"
     ],
     "correct": 1,
-    "explanation": "$350,000 is 70% of overall materiality. The auditor must consider whether accumulated uncorrected misstatements plus likely undetected misstatements could cause total misstatement to exceed overall materiality. Management should be asked to correct identified misstatements."
+    "explanation": "35 万ドルは全体の重要性の 70% に相当します。監査人は、累積された未修正の虚偽表示と、検出されていない可能性のある虚偽表示により、虚偽表示の合計が全体的な重要性を超える可能性があるかどうかを検討する必要があります。経営陣には、特定された虚偽表示の修正を求めるべきです。"
   },
   {
     "id": 26,
     "category": "Materiality",
-    "question": "When determining materiality for a not-for-profit organization, which benchmark is MOST appropriate?",
+    "question": "非営利組織の重要性を判断する場合、どのベンチマークが最も適切ですか?",
     "options": [
-      "Profit before tax",
-      "Total revenue or total expenditures",
-      "Earnings per share",
-      "Market capitalization"
+      "税引前利益",
+      "総収入または総支出",
+      "一株当たり利益",
+      "時価総額"
     ],
     "correct": 1,
-    "explanation": "Not-for-profit entities typically use total revenue or total expenditures as the materiality benchmark since they do not have profit. Users focus on how resources are used rather than earnings. Cheatsheet: Match the benchmark to the entity type and user focus."
+    "explanation": "非営利団体は利益を持たないため、通常、重要性のベンチマークとして総収益または総支出を使用します。ユーザーは収益よりもリソースの使用方法に注目します。チートシート: ベンチマークをエンティティ タイプとユーザーの焦点に合わせます。"
   },
   {
     "id": 27,
     "category": "Materiality",
-    "question": "If an entity has negative profit before tax (-$1 million), which approach to materiality is MOST appropriate?",
+    "question": "企業の税引前利益がマイナス (-100 万ドル) である場合、重要性に対するどのアプローチが最も適切ですか?",
     "options": [
-      "Use negative profit before tax directly",
-      "Use revenue or total assets as the benchmark instead, since negative earnings are not meaningful for materiality",
-      "Use zero as the benchmark",
-      "Cannot determine materiality for loss-making entities"
+      "マイナスの税引前利益を直接使用する",
+      "マイナスの利益は重要性にとって意味がないため、代わりに収益または総資産をベンチマークとして使用します。",
+      "ベンチマークとしてゼロを使用する",
+      "赤字企業の重要性を判断できない"
     ],
     "correct": 1,
-    "explanation": "When profit before tax is negative or near zero, it is not a meaningful benchmark. The auditor should use an alternative benchmark such as total revenue, total assets, or a combination. Cheatsheet: Always use a stable, positive benchmark for materiality."
+    "explanation": "税引前利益がマイナスまたはゼロに近い場合、それは意味のあるベンチマークではありません。監査人は、総収益、総資産、またはその組み合わせなどの代替ベンチマークを使用する必要があります。チートシート: 重要性については、常に安定したポジティブなベンチマークを使用してください。"
   },
   {
     "id": 28,
     "category": "Materiality",
-    "question": "A publicly traded company has a market capitalization of $1 billion and revenue of $200 million. Which benchmark percentage for revenue is typically used?",
+    "question": "上場企業の時価総額は 10 億ドル、収益は 2 億ドルです。通常、収益に対するベンチマークの割合はどれが使用されますか?",
     "options": [
       "0.5%",
       "1-2%",
@@ -361,103 +361,103 @@
       "10%"
     ],
     "correct": 0,
-    "explanation": "For large, publicly traded entities, benchmark percentages are typically lower (0.5-1%) because larger absolute amounts are material relative to the entity's size. For smaller entities, higher percentages (1-2%) may be appropriate. Cheatsheet: Larger entity = lower benchmark percentage."
+    "explanation": "大規模な上場企業の場合、企業の規模に比べて絶対額が大きくなることが重要であるため、ベンチマークの割合は一般に低くなります (0.5 ～ 1%)。小規模なエンティティの場合は、より高いパーセンテージ (1 ～ 2%) が適切な場合があります。チートシート: エンティティが大きいほど、ベンチマークのパーセンテージが低くなります。"
   },
   {
     "id": 29,
     "category": "Materiality",
-    "question": "Specific materiality may be set differently for specific balance sheet accounts when:",
+    "question": "特定の重要性は、次の場合に特定の貸​​借対照表勘定ごとに異なるように設定される場合があります。",
     "options": [
-      "The auditor wants to make the audit easier",
-      "Certain accounts are of particular interest to users or have higher inherent risk",
-      "The company requests different thresholds",
-      "Standard audit procedures are used for all accounts"
+      "監査人は監査を容易にしたいと考えています",
+      "特定のアカウントはユーザーにとって特に興味深いものであるか、より高い固有のリスクを抱えています",
+      "会社はさまざまなしきい値を要求しています",
+      "標準の監査手順がすべてのアカウントに使用されます"
     ],
     "correct": 1,
-    "explanation": "Specific (or performance) materiality can vary by account. For example, revenue may have a lower threshold due to user interest or higher inherent risk, while fixed assets may have a higher threshold. Cheatsheet: Set specific materiality based on account risk and user significance."
+    "explanation": "特定の（またはパフォーマンスの）重要性はアカウントによって異なる場合があります。たとえば、ユーザーの関心や固有のリスクが高いために、収益には低いしきい値が設定される場合がありますが、固定資産にはより高いしきい値が設定される場合があります。チートシート: アカウントのリスクとユーザーの重要性に基づいて特定の重要性を設定します。"
   },
   {
     "id": 30,
     "category": "Materiality",
-    "question": "When a misstatement is clearly trivial:",
+    "question": "虚偽表示が明らかに些細な場合:",
     "options": [
-      "It must be documented and communicated to management",
-      "It need not be accumulated with other misstatements, but the auditor should still document the decision",
-      "It must be corrected by management",
-      "It should be reported to the audit committee"
+      "文書化して経営陣に伝える必要がある",
+      "他の虚偽表示と累積する必要はありませんが、監査人は決定を文書化する必要があります。",
+      "運営側が修正する必要がある",
+      "監査委員会に報告すべきだ"
     ],
     "correct": 1,
-    "explanation": "Clearly trivial misstatements (below the trivial threshold) do not need to be accumulated with other misstatements for materiality evaluation. However, the auditor should still document the trivial threshold and the basis for concluding items are clearly trivial."
+    "explanation": "明らかに些細な虚偽表示（些細な閾値を下回る）は、重要性評価のために他の虚偽表示と累積する必要はありません。ただし、監査人は依然として重要でないしきい値と、項目を結論づけるための根拠が明らかに重要でないことを文書化する必要があります。"
   },
   {
     "id": 31,
     "category": "Materiality",
-    "question": "Overall materiality is a 'professional judgment' matter. Which of the following is NOT a factor in determining it?",
+    "question": "全体的な重要性は「専門家の判断」の問題です。それを決定する要因にならないのは次のうちどれですか?",
     "options": [
-      "The nature and size of the entity",
-      "User needs for decision-making",
-      "The auditor's preferred benchmark percentage",
-      "Industry and economic conditions"
+      "エンティティの性質と規模",
+      "ユーザーの意思決定ニーズ",
+      "監査人が推奨するベンチマークの割合",
+      "産業・経済情勢"
     ],
     "correct": 2,
-    "explanation": "Materiality determination considers entity characteristics, user needs, regulatory requirements, and industry conditions. The auditor uses professional judgment within established guidelines, but it is not about personal preference - it must be justifiable and consistent."
+    "explanation": "重要性の判断では、企業の特性、ユーザーのニーズ、規制要件、業界の状況が考慮されます。監査人は確立されたガイドライン内で専門的な判断を下しますが、それは個人的な好みによるものではなく、正当で一貫性のあるものでなければなりません。"
   },
   {
     "id": 32,
     "category": "Materiality",
-    "question": "A startup company has $5 million in revenue and a net loss of $500,000. Total assets are $2 million. What is the most appropriate benchmark for materiality?",
+    "question": "あるスタートアップ企業は、収益が 500 万ドル、純損失が 50 万ドルです。総資産は 200 万ドルです。重要性を判断するための最も適切なベンチマークはどれですか?",
     "options": [
-      "Net loss of $500,000",
-      "Revenue of $5 million or total assets of $2 million, using 1-2%",
-      "Zero (no materiality for startups)",
-      "The amount of venture capital raised"
+      "純損失 500,000 ドル",
+      "1 ～ 2% を使用した場合、収益 500 万ドルまたは総資産 200 万ドル",
+      "ゼロ（スタートアップにとって重要性なし）",
+      "ベンチャーキャピタルの調達額"
     ],
     "correct": 1,
-    "explanation": "For startups with net losses, revenue is typically the most appropriate benchmark. Using 1-2% of $5 million gives materiality of $50,000-$100,000. Loss is not meaningful as a benchmark, and assets may be small for early-stage companies."
+    "explanation": "純損失のあるスタートアップ企業にとって、通常、収益が最も適切なベンチマークとなります。500 万ドルの 1 ～ 2% を使用すると、50,000 ～ 100,000 ドルの重要性が得られます。損失は​​ベンチマークとして意味がなく、初期段階の企業では資産が小さい可能性があります。"
   },
   {
     "id": 33,
     "category": "Materiality",
-    "question": "Materiality should be revised during the audit if:",
+    "question": "次の場合には、監査中に重要性を修正する必要があります。",
     "options": [
-      "The auditor finishes early",
-      "The auditor becomes aware of information that significantly differs from the information available at planning",
-      "Management requests a revision",
-      "The audit budget changes"
+      "審査員が早く終わる",
+      "監査人が計画時に入手可能な情報と大きく異なる情報に気づいた場合",
+      "経営陣が修正を要求",
+      "監査予算が変更される"
     ],
     "correct": 1,
-    "explanation": "Materiality may be revised if significant new information emerges during the audit (e.g., unexpected transactions, changes in business conditions, different user needs identified). Revision must be documented and justified. Cheatsheet: Materiality is not set in stone - update as understanding evolves."
+    "explanation": "重要性は、監査中に重要な新しい情報が明らかになった場合（例：予期せぬ取引、ビジネス状況の変化、特定された異なるユーザーニーズ）、改訂される場合があります。改訂は文書化され、正当化される必要があります。チートシート: 重要性は決まったものではありません - 理解が進むにつれて更新します。"
   },
   {
     "id": 34,
     "category": "Materiality",
-    "question": "If a misstatement of $40,000 is found in inventory (OM=$500,000, PM=$300,000), how should the auditor handle it?",
+    "question": "在庫 (OM=$500,000、PM=$300,000) で $40,000 の虚偽表示が見つかった場合、監査人はどのように対処すべきでしょうか?",
     "options": [
-      "Ignore it since it is below performance materiality",
-      "Evaluate it individually and accumulate with other misstatements to determine if the total is material",
-      "Automatically correct it",
-      "Report it as a fraud indicator"
+      "パフォーマンス上の重要性を下回っているため無視します",
+      "個別に評価し、他の虚偽表示と合わせて合計が重要かどうかを判断する",
+      "自動的に修正してくれる",
+      "不正行為の兆候として報告する"
     ],
     "correct": 1,
-    "explanation": "Each misstatement should be evaluated individually and accumulated with other uncorrected misstatements. $40,000 is below PM but still needs to be tracked. The total accumulated amount (known misstatements + likely undetected misstatements) determines the impact on the opinion."
+    "explanation": "それぞれの虚偽表示は個別に評価され、他の未修正の虚偽表示と累積される必要があります。40,000ドルはPMを下回っていますが、まだ追跡する必要があります。累積合計額 (既知の虚偽表示 + 検出されていない可能性のある虚偽表示) によって、意見への影響が決まります。"
   },
   {
     "id": 35,
     "category": "Materiality",
-    "question": "In the context of materiality, 'quantitative' and 'qualitative' factors should be considered together. Which is a qualitative factor?",
+    "question": "マテリアリティの文脈では、「量的」要素と「質的」要素を一緒に考慮する必要があります。定性的要因はどれですか?",
     "options": [
-      "The dollar amount of the misstatement",
-      "Whether the misstatement involves illegal acts or regulatory non-compliance",
-      "The percentage of net income affected",
-      "The comparison to the prior year's balance"
+      "虚偽表示の金額",
+      "虚偽表示に違法行為や規制違反が含まれているかどうか",
+      "影響を受ける純利益の割合",
+      "前年度残高との比較"
     ],
     "correct": 1,
-    "explanation": "Qualitative factors include whether the misstatement involves fraud, illegal acts, related parties, regulatory violations, or affects debt covenants. Even quantitatively immaterial misstatements may be qualitatively material if they involve these sensitive areas."
+    "explanation": "定性的要因には、虚偽表示に詐欺、違法行為、関連当事者、規制違反が含まれるかどうか、または債務制限に影響を与えるかどうかが含まれます。量的に重要ではない虚偽表示であっても、これらのデリケートな領域に関わるものであれば、質的には重要である可能性があります。"
   },
   {
     "id": 36,
     "category": "Risk Assessment",
-    "question": "If inherent risk is assessed at 80% and control risk at 40%, what detection risk must be achieved to limit audit risk to 5%?",
+    "question": "固有のリスクが 80% で評価され、管理リスクが 40% で評価される場合、監査リスクを 5% に制限するにはどのような検出リスクを達成する必要がありますか?",
     "options": [
       "12.5%",
       "15.6%",
@@ -465,116 +465,116 @@
       "25.0%"
     ],
     "correct": 1,
-    "explanation": "Using AR = IR x CR x DR: 0.05 = 0.80 x 0.40 x DR. DR = 0.05 / (0.80 x 0.40) = 0.05 / 0.32 = 0.15625 = 15.6%. The auditor must design procedures to achieve detection risk of 15.6% or less. Cheatsheet: DR = AR / (IR x CR)."
+    "explanation": "AR = IR x CR x DR を使用すると、0.05 = 0.80 x 0.40 x DR。DR = 0.05 / (0.80 x 0.40) = 0.05 / 0.32 = 0.15625 = 15.6%。監査人は、検出リスクが 15.6% 以下になるように手順を設計する必要があります。チートシート: DR = AR / (IR x CR)。"
   },
   {
     "id": 37,
     "category": "Risk Assessment",
-    "question": "If inherent risk increases from 60% to 90% while control risk stays at 50% and target audit risk remains 5%, the required detection risk will:",
+    "question": "コントロールリスクが 50% に留まり、ターゲット監査リスクが 5% のままである一方で、固有リスクが 60% から 90% に増加した場合、必要な検出リスクは次のようになります。",
     "options": [
-      "Increase from 16.7% to 11.1%",
-      "Decrease from 16.7% to 11.1%",
-      "Stay at 16.7%",
-      "Decrease to 5%"
+      "16.7%から11.1%への増加",
+      "16.7%から11.1%に減少",
+      "16.7%を維持",
+      "5%に減少"
     ],
     "correct": 1,
-    "explanation": "Original DR = 0.05/(0.60x0.50) = 16.7%. New DR = 0.05/(0.90x0.50) = 11.1%. As inherent risk increases, detection risk must decrease, meaning more extensive or rigorous audit procedures are needed. Cheatsheet: Higher IR or CR = lower DR required = more testing."
+    "explanation": "元の DR = 0.05/(0.60x0.50) = 16.7%。新しい DR = 0.05/(0.90x0.50) = 11.1%。固有のリスクが増加するにつれて、検出リスクは減少する必要があります。つまり、より広範または厳格な監査手順が必要になります。チートシート: IR または CR が高い = 必要な DR が低い = より多くのテストが必要です。"
   },
   {
     "id": 38,
     "category": "Risk Assessment",
-    "question": "An entity uses highly complex financial instruments with significant estimation uncertainty. The inherent risk for these instruments would be assessed as:",
+    "question": "企業は、推定に重大な不確実性を伴う非常に複雑な金融商品を使用しています。これらの商品に固有のリスクは次のように評価されます。",
     "options": [
-      "Low",
-      "Moderate",
-      "High",
-      "Zero because management uses experts"
+      "低い",
+      "適度",
+      "高い",
+      "経営陣が専門家を活用しているためゼロ"
     ],
     "correct": 2,
-    "explanation": "Complex financial instruments with estimation uncertainty involve significant judgment and are susceptible to misstatement. The inherent risk is high due to complexity, estimation subjectivity, and potential for management bias. Cheatsheet: Complexity + estimation uncertainty = high inherent risk."
+    "explanation": "見積りに不確実性がある複雑な金融商品には重要な判断が必要であり、虚偽表示が発生する可能性があります。複雑さ、見積もりの​​主観性、および管理上のバイアスの可能性により、固有のリスクが高くなります。チートシート: 複雑さ + 推定の不確実性 = 高い固有リスク。"
   },
   {
     "id": 39,
     "category": "Risk Assessment",
-    "question": "What happens to the audit risk model when the auditor performs more substantive testing?",
+    "question": "監査人がより実質的なテストを実行すると、監査リスク モデルはどうなりますか?",
     "options": [
-      "Inherent risk decreases",
-      "Control risk decreases",
-      "Detection risk decreases, allowing overall audit risk to be maintained",
-      "Audit risk increases"
+      "固有のリスクが減少する",
+      "コントロールリスクの減少",
+      "検出リスクが減少し、全体的な監査リスクを維持できるようになります。",
+      "監査リスクの増加"
     ],
     "correct": 2,
-    "explanation": "More extensive substantive testing reduces detection risk (the chance the auditor misses a misstatement). Since IR and CR are characteristics of the entity (not under auditor control), adjusting DR is how the auditor manages overall audit risk. Cheatsheet: Auditor controls DR through nature/timing/extent of procedures."
+    "explanation": "より広範な実体テストにより、検出リスク (監査人が虚偽表示を見逃す可能性) が軽減されます。IR と CR は企業の特性であるため (監査人の管理下にない)、DR を調整することが監査人が全体的な監査リスクを管理する方法になります。チートシート: 監査人は、手順の性質/タイミング/範囲を通じて DR を制御します。"
   },
   {
     "id": 40,
     "category": "Risk Assessment",
-    "question": "A company in a highly regulated industry (e.g., banking) typically has:",
+    "question": "高度に規制された業界 (銀行など) の企業は通常、次のような特徴を持っています。",
     "options": [
-      "Lower inherent risk due to regulation",
-      "Higher inherent risk due to complex regulations, but potentially lower control risk due to robust compliance controls",
-      "Zero risk of material misstatement",
-      "The same risk profile as any other company"
+      "規制による固有のリスクの低減",
+      "複雑な規制により固有のリスクが高まるが、堅牢なコンプライアンス管理により管理リスクが低下する可能性がある",
+      "重大な虚偽表示のリスクゼロ",
+      "他の企業と同じリスクプロファイル"
     ],
     "correct": 1,
-    "explanation": "Regulated industries face complex compliance requirements (higher inherent risk from complexity) but often have strong control environments due to regulatory oversight (potentially lower control risk). The net effect depends on the specific controls. Cheatsheet: Regulation may increase IR but decrease CR."
+    "explanation": "規制された業界は、複雑なコンプライアンス要件（複雑さによる高い固有リスク）に直面していますが、多くの場合、規制の監視により強力な管理環境が存在します（潜在的に管理リスクが低い）。最終的な効果は、特定のコントロールによって異なります。チートシート: 規制により IR は増加しますが、CR は減少する可能性があります。"
   },
   {
     "id": 41,
     "category": "Risk Assessment",
-    "question": "Management pressure to meet earnings targets is a risk factor that primarily affects:",
+    "question": "収益目標を達成するという経営陣のプレッシャーは、主に以下に影響を与えるリスク要因です。",
     "options": [
-      "Detection risk",
-      "Inherent risk of material misstatement due to fraud",
-      "Control risk",
-      "Audit risk directly"
+      "検出リスク",
+      "詐欺による重大な虚偽表示の本質的なリスク",
+      "リスクをコントロールする",
+      "リスクを直接監査する"
     ],
     "correct": 1,
-    "explanation": "Management pressure to meet targets creates an incentive for fraudulent financial reporting, which increases inherent risk (specifically, fraud risk). The auditor must assess this as a significant risk and respond with appropriate procedures. Cheatsheet: Incentive/pressure + opportunity + rationalization = fraud risk."
+    "explanation": "目標を達成するという経営陣のプレッシャーは、不正な財務報告を行うインセンティブを生み出し、これにより固有のリスク（具体的には不正リスク）が増大します。監査人はこれを重大なリスクとして評価し、適切な手順で対応する必要があります。チートシート: インセンティブ/プレッシャー + 機会 + 合理化 = 不正行為のリスク。"
   },
   {
     "id": 42,
     "category": "Risk Assessment",
-    "question": "If an auditor assesses control risk at the maximum (100%), the audit approach will primarily rely on:",
+    "question": "監査人が統制リスクを最大 (100%) で評価する場合、監査アプローチは主に以下に依存します。",
     "options": [
-      "Tests of controls",
-      "Extensive substantive procedures",
-      "Management representations",
-      "Analytical procedures only"
+      "コントロールのテスト",
+      "広範な実質的な手続き",
+      "経営陣の代表者",
+      "分析手順のみ"
     ],
     "correct": 1,
-    "explanation": "When control risk is assessed at maximum, the auditor cannot rely on internal controls and must perform extensive substantive procedures (tests of details and substantive analytical procedures) to reduce detection risk to an acceptable level. Cheatsheet: CR=100% means skip control testing, focus on substantive."
+    "explanation": "統制リスクが最大限に評価される場合、監査人は内部統制に頼ることができず、検出リスクを許容レベルまで低減するために広範な実質的な手順（詳細のテストと実質的な分析手順）を実行する必要があります。チートシート: CR=100% は、管理テストをスキップし、実質的なものに焦点を当てることを意味します。"
   },
   {
     "id": 43,
     "category": "Risk Assessment",
-    "question": "The 'risk of material misstatement' (RMM) in ISA terms equals:",
+    "question": "監査基準における「重大な虚偽表示のリスク」(RMM) とは何ですか?",
     "options": [
-      "Detection risk",
-      "Inherent risk only",
-      "Inherent risk multiplied by control risk (IR x CR)",
-      "Audit risk divided by detection risk"
+      "検出リスク",
+      "固有のリスクのみ",
+      "固有のリスクと管理リスクの積 (IR x CR)",
+      "監査リスクを検出リスクで割ったもの"
     ],
     "correct": 2,
-    "explanation": "Risk of Material Misstatement (RMM) = IR x CR. This represents the risk that a material misstatement exists before considering the auditor's procedures. The auditor then designs procedures to control detection risk. Cheatsheet: RMM = IR x CR; AR = RMM x DR."
+    "explanation": "重要な虚偽表示のリスク (RMM) = IR x CR。これは、監査人の手順を検討する前に重大な虚偽表示が存在するリスクを表しています。次に、監査人は検出リスクを制御する手順を設計します。チートシート: RMM = IR x CR;AR = RMM x DR。"
   },
   {
     "id": 44,
     "category": "Risk Assessment",
-    "question": "A small, newly established company with limited accounting staff and no internal audit function would likely have:",
+    "question": "会計スタッフが限られており、内部監査機能がない、新しく設立された小規模な会社では、次のような状況になる可能性があります。",
     "options": [
-      "Low control risk",
-      "High control risk due to limited resources for maintaining strong internal controls",
-      "Zero inherent risk",
-      "The same risk as a mature company"
+      "低いコントロールリスク",
+      "強力な内部統制を維持するためのリソースが限られているため、統制リスクが高い",
+      "固有リスクゼロ",
+      "成熟した企業と同じリスク"
     ],
     "correct": 1,
-    "explanation": "Small/new companies often have informal control environments, limited segregation of duties, and fewer control activities. This typically results in higher control risk, requiring the auditor to perform more substantive testing. Cheatsheet: Small company = limited segregation = higher CR."
+    "explanation": "小規模/新興企業では、多くの場合、非公式な管理環境があり、職務分掌が限られており、管理活動が少なくなっています。これにより通常、管理リスクが高まり、監査人はより実質的なテストを実行する必要があります。チートシート: 小規模な会社 = 限定的な分離 = 高い CR。"
   },
   {
     "id": 45,
     "category": "Risk Assessment",
-    "question": "When inherent risk is 100%, control risk is 100%, and target audit risk is 5%, the detection risk needed is:",
+    "question": "固有のリスクが 100%、制御リスクが 100%、目標監査リスクが 5% の場合、必要な検出リスクは次のとおりです。",
     "options": [
       "5%",
       "10%",
@@ -582,77 +582,77 @@
       "0%"
     ],
     "correct": 0,
-    "explanation": "DR = AR / (IR x CR) = 0.05 / (1.00 x 1.00) = 5%. When both IR and CR are at maximum, the auditor must rely entirely on substantive procedures to achieve a 5% audit risk. This is the most testing-intensive scenario. Cheatsheet: Maximum IR and CR = maximum substantive testing required."
+    "explanation": "DR = AR / (IR x CR) = 0.05 / (1.00 x 1.00) = 5%。IR と CR の両方が最大の場合、監査人は 5% の監査リスクを達成するために実質的な手順に全面的に依存する必要があります。これは最もテストを必要とするシナリオです。チートシート: 最大 IR および CR = 最大の実体テストが必要です。"
   },
   {
     "id": 46,
     "category": "Risk Assessment",
-    "question": "Which factor would DECREASE the auditor's assessment of inherent risk for cash?",
+    "question": "監査人の現金固有リスクの評価を低下させる要因はどれですか?",
     "options": [
-      "Large cash balances",
-      "Cash held at multiple locations without documentation",
-      "Strong physical safeguards and daily bank reconciliations",
-      "High employee turnover in the cash department"
+      "多額の現金残高",
+      "書類なしで現金が複数の場所に保管されている",
+      "強力な物理的保護措置と毎日の銀行照合",
+      "現金部門の離職率が高い"
     ],
     "correct": 2,
-    "explanation": "Strong safeguards and daily reconciliations are controls that affect control risk, but they also provide context for inherent risk assessment. However, more accurately, physical safeguards reduce the inherent susceptibility of cash to misappropriation. Cheatsheet: Strong safeguards and regular reconciliation reduce misappropriation risk."
+    "explanation": "強力な安全対策と日々の調整は、統制リスクに影響を与える統制ですが、本質的なリスク評価の背景も提供します。しかし、より正確に言えば、物理的な保護手段は、現金が本来的に持つ不正流用の危険性を軽減するものです。チートシート: 強力な保護手段と定期的な調整により、不正流用のリスクが軽減されます。"
   },
   {
     "id": 47,
     "category": "Risk Assessment",
-    "question": "IT systems that automatically check data against business rules (e.g., three-way matching) would primarily affect:",
+    "question": "データをビジネス ルール (3 方向の照合など) に照らして自動的にチェックする IT システムは、主に次のような影響を及ぼします。",
     "options": [
-      "Inherent risk",
-      "Control risk by providing automated control activities that reduce the likelihood of errors",
-      "Detection risk",
-      "Audit risk directly"
+      "固有のリスク",
+      "エラーの可能性を減らす自動制御アクティビティを提供することでリスクを制御します。",
+      "検出リスク",
+      "リスクを直接監査する"
     ],
     "correct": 1,
-    "explanation": "Automated IT controls consistently apply business rules without human error, reducing the likelihood that errors will occur and not be detected. This reduces control risk, allowing the auditor to reduce substantive testing. Cheatsheet: Automated controls are more reliable than manual controls when properly designed."
+    "explanation": "自動化された IT 制御は、人的エラーを発生させずにビジネス ルールを一貫して適用するため、エラーが発生して検出されない可能性が低くなります。これにより管理リスクが軽減され、監査人は実質的なテストを減らすことができます。チートシート: 自動制御は、適切に設計されていれば手動制御よりも信頼性が高くなります。"
   },
   {
     "id": 48,
     "category": "Risk Assessment",
-    "question": "A company that has experienced significant turnover in its accounting department would likely see an increase in:",
+    "question": "経理部門で大幅な離職が発生した企業では、以下の部門が増加する可能性があります。",
     "options": [
-      "Detection risk",
-      "Control risk, because new staff may not fully understand procedures and controls may not operate consistently",
-      "Inherent risk",
-      "Both inherent and control risk equally"
+      "検出リスク",
+      "新しいスタッフが手順を完全に理解していない可能性があり、コントロールが一貫して機能しない可能性があるため、リスクをコントロールします。",
+      "固有のリスク",
+      "固有のリスクと管理リスクの両方を同等に"
     ],
     "correct": 1,
-    "explanation": "Staff turnover affects control risk because experienced personnel maintain effective controls. New staff may not follow procedures correctly, and knowledge transfer may be incomplete, leading to inconsistent control operation. Cheatsheet: Turnover = knowledge loss = higher CR."
+    "explanation": "経験豊富な人材が効果的な管理を維持するため、スタッフの離職は管理リスクに影響します。新しいスタッフが手順に正しく従わない可能性があり、知識の伝達が不完全であり、一貫性のない管理運用につながる可能性があります。チートシート: 売上高 = 知識の損失 = CR が高くなります。"
   },
   {
     "id": 49,
     "category": "Risk Assessment",
-    "question": "The auditor's assessment of inherent risk for a specific assertion should consider:",
+    "question": "特定のアサーションに固有のリスクを監査人が評価する際には、以下を考慮する必要があります。",
     "options": [
-      "Only the dollar amount of the account balance",
-      "The nature of the account, its susceptibility to misstatement, complexity, subjectivity, and fraud risk",
-      "Only prior year audit findings",
-      "Only management's assessment of risk"
+      "口座残高のドル額のみ",
+      "アカウントの性質、虚偽表示のしやすさ、複雑さ、主観性、詐欺のリスク",
+      "前年度の監査結果のみ",
+      "経営陣によるリスク評価のみ"
     ],
     "correct": 1,
-    "explanation": "Inherent risk assessment considers multiple factors: account nature, complexity, estimation subjectivity, susceptibility to fraud, volume and composition of transactions, and accounting policies. It is a comprehensive professional judgment. Cheatsheet: IR assessment considers both quantitative and qualitative factors."
+    "explanation": "固有のリスク評価では、アカウントの性質、複雑さ、見積もりの​​主観性、不正行為の受けやすさ、取引の量と構成、会計ポリシーなどの複数の要素が考慮されます。それは総合的な専門家の判断です。チートシート: IR 評価では、定量的要素と定性的要素の両方が考慮されます。"
   },
   {
     "id": 50,
     "category": "Risk Assessment",
-    "question": "In the audit risk model, which component can the auditor directly control?",
+    "question": "監査リスク モデルにおいて、監査人が直接制御できるコンポーネントはどれですか?",
     "options": [
-      "Inherent risk",
-      "Control risk",
-      "Detection risk",
-      "None of the components"
+      "固有のリスク",
+      "リスクをコントロールする",
+      "検出リスク",
+      "どのコンポーネントもありません"
     ],
     "correct": 2,
-    "explanation": "Detection risk is the only component under the auditor's direct control. The auditor can adjust the nature, timing, and extent of audit procedures to control detection risk. Inherent and control risks are characteristics of the entity that the auditor assesses but cannot change. Cheatsheet: Auditor controls DR through procedures."
+    "explanation": "検出リスクは、監査人が直接管理できる唯一の要素です。監査人は、監査手順の性質、タイミング、範囲を調整して、検出リスクを制御できます。固有のリスクと管理リスクは、監査人が評価する企業の特性ですが、変更することはできません。チートシート: 監査人は手順を通じて DR を制御します。"
   },
   {
     "id": 51,
     "category": "Internal Control Metrics",
-    "question": "In a sample of 80 transactions, 4 deviations are found. What is the sample deviation rate?",
+    "question": "80 件のトランザクションのサンプルでは、​​4 つの逸脱が見つかりました。サンプル偏差率とは何ですか?",
     "options": [
       "4%",
       "5%",
@@ -660,77 +660,77 @@
       "8%"
     ],
     "correct": 1,
-    "explanation": "Sample deviation rate = (Number of deviations / Sample size) x 100 = (4/80) x 100 = 5%. This is the observed rate in the sample; the upper deviation rate (at a given confidence level) would be higher. Cheatsheet: Deviation rate = deviations/sample size."
+    "explanation": "サンプル逸脱率 = (逸脱数 / サンプル サイズ) x 100 = (4/80) x 100 = 5%。これはサンプル内で観察された速度です。(特定の信頼水準における) 上部偏差率はより高くなります。チートシート: 偏差率 = 偏差 / サンプル サイズ。"
   },
   {
     "id": 52,
     "category": "Internal Control Metrics",
-    "question": "A control has an expected deviation rate of 2% and the auditor finds a sample deviation rate of 1% in a sample of 100. The control is:",
+    "question": "対照の期待偏差率は 2% で、監査人はサンプル 100 の中でサンプル偏差率 1% を検出します。対照は次のとおりです。",
     "options": [
-      "Ineffective because any deviation is unacceptable",
-      "Likely effective since the sample rate (1%) is below the expected rate (2%)",
-      "Broken and must be replaced",
-      "Not testable"
+      "いかなる逸脱も許容できないため非効率的",
+      "サンプル レート (1%) が予想レート (2%) を下回っているため、効果がある可能性があります",
+      "壊れているので交換する必要があります",
+      "テスト不可能"
     ],
     "correct": 1,
-    "explanation": "When the sample deviation rate (1%) is below the expected rate (2%), the control appears to be operating better than expected. The auditor should evaluate using the upper deviation rate against tolerable rate to make a final conclusion. Cheatsheet: Compare sample rate to expected and tolerable rates."
+    "explanation": "サンプル偏差率 (1%) が予想率 (2%) を下回る場合、制御は予想よりも良好に動作しているように見えます。監査人は、最終的な結論を得るために、許容率に対する上限偏差率を使用して評価する必要があります。チートシート: サンプル レートを、予想される許容レートと比較します。"
   },
   {
     "id": 53,
     "category": "Internal Control Metrics",
-    "question": "What is the 'exception rate' in control testing?",
+    "question": "コントロールテストにおける「例外率」とは何ですか?",
     "options": [
-      "The rate at which controls are not tested",
-      "The rate of errors or deviations found in testing a control",
-      "The rate of management overrides",
-      "The rate at which external auditors find issues"
+      "コントロールがテストされない割合",
+      "コントロールのテストで見つかったエラーまたは逸脱の割合",
+      "管理オーバーライドの割合",
+      "外部監査人が問題を発見する割合"
     ],
     "correct": 1,
-    "explanation": "The exception rate (same as deviation rate) measures how often a control failed to operate as designed during testing. A high exception rate indicates the control may not be reliable for reducing substantive testing. Cheatsheet: Exception rate = deviation rate = deviations/total tested."
+    "explanation": "例外率 (逸脱率と同じ) は、テスト中に制御装置が設計どおりに動作しなかった頻度を測定します。例外率が高いということは、そのコントロールが実体検査を減らすのに信頼できない可能性があることを示しています。チートシート: 例外率 = 逸脱率 = 逸脱数 / テスト合計。"
   },
   {
     "id": 54,
     "category": "Internal Control Metrics",
-    "question": "If the tolerable deviation rate is 7% and the upper deviation rate from testing is 4%, the auditor can conclude:",
+    "question": "許容逸脱率が 7% で、テストからの上限逸脱率が 4% の場合、監査人は次のように結論付けることができます。",
     "options": [
-      "The control is ineffective",
-      "The control is effective (UDR 4% < TDR 7%)",
-      "More testing is always needed",
-      "The control must be redesigned"
+      "コントロールが効かない",
+      "制御は有効です (UDR 4% < TDR 7%)",
+      "常にさらなるテストが必要です",
+      "コントロールを再設計する必要がある"
     ],
     "correct": 1,
-    "explanation": "When the upper deviation rate (4%) is less than the tolerable deviation rate (7%), the auditor can rely on the control and potentially reduce substantive testing. The key comparison is UDR vs TDR. Cheatsheet: UDR < TDR = control is effective; UDR >= TDR = control is not effective."
+    "explanation": "上限逸脱率 (4%) が許容逸脱率 (7%) 未満の場合、監査人はコントロールに頼ることができ、実質的なテストが削減される可能性があります。重要な比較は UDR と TDR です。チートシート: UDR < TDR = 制御は有効です。UDR >= TDR = 制御は有効ではありません。"
   },
   {
     "id": 55,
     "category": "Internal Control Metrics",
-    "question": "A control was tested in Q1 with a deviation rate of 2% and in Q2 with a deviation rate of 6%. The tolerable rate is 5%. What is the appropriate conclusion?",
+    "question": "対照は、第 1 四半期に 2% の逸脱率でテストされ、第 2 四半期に 6% の逸脱率でテストされました。許容率は5%です。適切な結論は何でしょうか?",
     "options": [
-      "The control is effective on average (4%)",
-      "The control shows a deteriorating trend and may not be reliable",
-      "The control is effective in Q2 only",
-      "The control should be ignored"
+      "コントロールは平均して効果的です (4%)",
+      "コントロールは悪化傾向を示しており、信頼できない可能性があります",
+      "この制御はQ2のみに有効です",
+      "コントロールは無視する必要があります"
     ],
     "correct": 1,
-    "explanation": "The trend from 2% to 6% is concerning, especially since Q2 exceeds the 5% tolerable rate. The auditor should investigate the cause of the increase (e.g., staff changes, process changes) and may need to increase substantive testing. Cheatsheet: Always look for trends, not just point-in-time results."
+    "explanation": "特に第 2 四半期は許容範囲の 5% を超えているため、2% から 6% への傾向は懸念されます。監査人は増加の原因（スタッフの変更、プロセスの変更など）を調査する必要があり、場合によっては実質的なテストを増やす必要があります。チートシート: ある時点の結果だけではなく、常に傾向を探してください。"
   },
   {
     "id": 56,
     "category": "Internal Control Metrics",
-    "question": "Control effectiveness is typically measured as:",
+    "question": "制御の有効性は通常、次のように測定されます。",
     "options": [
-      "The number of controls in place",
-      "The percentage of times the control operates as designed when it should",
-      "The cost of the control",
-      "The number of employees performing the control"
+      "設置されているコントロールの数",
+      "制御装置が設計どおりに動作すべきときに動作する回数の割合",
+      "コントロールのコスト",
+      "管理を実行する従業員の数"
     ],
     "correct": 1,
-    "explanation": "Control effectiveness = (Times control operated correctly / Times it should have operated) x 100. A control that should operate 100 times and works correctly 95 times has 95% effectiveness. Cheatsheet: Effectiveness measures actual performance against design expectations."
+    "explanation": "制御の有効性 = (制御が正しく動作した回数 / 動作するはずだった回数) x 100。100 回動作し、95 回正しく動作する制御の有効性は 95% です。チートシート: 有効性は、設計の期待に対する実際のパフォーマンスを測定します。"
   },
   {
     "id": 57,
     "category": "Internal Control Metrics",
-    "question": "If a company processes 10,000 transactions per month and the auditor's sample of 100 shows 3 deviations, the estimated total deviations in the population are:",
+    "question": "企業が毎月 10,000 件のトランザクションを処理し、監査人の 100 件のサンプルで 3 つの偏差が示された場合、母集団の推定合計偏差は次のようになります。",
     "options": [
       "3",
       "30",
@@ -738,38 +738,38 @@
       "3,000"
     ],
     "correct": 2,
-    "explanation": "Estimated population deviations = Population deviation rate x Population size. Population rate = sample rate = 3/100 = 3%. Estimated deviations = 3% x 10,000 = 300. Cheatsheet: Project sample rate to the population, but remember this is a point estimate; confidence intervals provide a range."
+    "explanation": "推定母集団偏差 = 母集団偏差率 x 母集団サイズ。母集団率 = サンプル率 = 3/100 = 3%。推定偏差 = 3% x 10,000 = 300。 チートシート: サンプル率を母集団に投影します。ただし、これは点推定であることに注意してください。信頼区間は範囲を提供します。"
   },
   {
     "id": 58,
     "category": "Internal Control Metrics",
-    "question": "For a key control tested quarterly, 0 deviations were found in each of the 4 quarters (25 samples each). The overall deviation rate is:",
+    "question": "四半期ごとにテストされた主要な対照では、4 つの四半期のそれぞれで偏差は 0 でした (それぞれ 25 サンプル)。全体的な逸脱率は次のとおりです。",
     "options": [
       "0%",
-      "Cannot be determined from quarterly data",
+      "四半期データからは判断できない",
       "0.5%",
       "1%"
     ],
     "correct": 0,
-    "explanation": "With 0 deviations found across all 100 samples (4 quarters x 25), the observed deviation rate is 0%. While the upper deviation rate at a given confidence level would be greater than 0, the control appears to be operating effectively. Cheatsheet: 0 deviations in the sample does not mean 0 risk, but it is favorable."
+    "explanation": "100 サンプルすべて (4 四半期 x 25) で偏差が 0 であるため、観測された偏差率は 0% になります。特定の信頼水準における上限逸脱率は 0 より大きくなりますが、制御は効果的に動作しているように見えます。チートシート: サンプルの偏差が 0 であっても、リスクが 0 であることを意味するわけではありませんが、好ましいことです。"
   },
   {
     "id": 59,
     "category": "Internal Control Metrics",
-    "question": "The 'control frequency' affects the sample size. A control that operates daily requires a:",
+    "question": "「制御周波数」はサンプルサイズに影響します。毎日動作する制御には次のものが必要です。",
     "options": [
-      "Smaller sample than a monthly control",
-      "Larger sample than a monthly control to get adequate coverage across the operating period",
-      "Sample of exactly 25 items",
-      "Sample equal to the population size"
+      "毎月の対照よりサンプルが少ない",
+      "運用期間全体にわたって適切なカバレッジを得るために、毎月の対照よりも大きなサンプルを使用",
+      "ちょうど 25 個のアイテムのサンプル",
+      "母集団サイズと等しいサンプル"
     ],
     "correct": 1,
-    "explanation": "More frequent controls require larger samples to provide adequate coverage across the period. For annual controls, 1 sample may suffice. For daily controls, the sample should span multiple days. Cheatsheet: Higher frequency = larger sample needed for representative coverage."
+    "explanation": "より頻繁なコントロールでは、期間全体にわたって適切なカバレッジを提供するために、より大きなサンプルが必要になります。年次対照の場合は、1 サンプルで十分な場合があります。毎日の対照の場合、サンプルは複数日にまたがる必要があります。チートシート: 頻度が高いほど、代表的なカバレッジに必要なサンプルが多くなります。"
   },
   {
     "id": 60,
     "category": "Internal Control Metrics",
-    "question": "A 'control gap analysis' reveals that 20 out of 50 identified controls have no documented evidence of operation. The control documentation rate is:",
+    "question": "「統制ギャップ分析」により、特定された50の統制のうち20には運用の文書化された証拠がないことが明らかになりました。管理文書化率は次のとおりです。",
     "options": [
       "20%",
       "40%",
@@ -777,12 +777,12 @@
       "50%"
     ],
     "correct": 2,
-    "explanation": "Control documentation rate = (Controls with evidence / Total controls) x 100 = (30/50) x 100 = 60%. This means 60% of controls have documented evidence, while 40% (20/50) lack documentation. Cheatsheet: Gap = 1 - documentation rate."
+    "explanation": "統制文書化率 = (証拠のある統制 / 統制合計) x 100 = (30/50) x 100 = 60%。これは、対照群の 60% には文書化された証拠がある一方、40% (20/50) には文書化が欠けていることを意味します。チートシート: ギャップ = 1 - 文書化率。"
   },
   {
     "id": 61,
     "category": "Internal Control Metrics",
-    "question": "If the tolerable deviation rate is 5%, what sample size is needed at 95% confidence to detect at least one deviation when the true rate is 5%?",
+    "question": "許容偏差率が 5% の場合、真の偏差率が 5% のときに少なくとも 1 つの偏差を検出するには、95% の信頼度でどのくらいのサンプル サイズが必要ですか?",
     "options": [
       "45",
       "59",
@@ -790,12 +790,12 @@
       "120"
     ],
     "correct": 1,
-    "explanation": "Using attribute sampling tables: at 95% confidence, EDR=0%, TDR=5%, the sample size is approximately 59. This ensures that if 0 deviations are found, the auditor can be 95% confident the true rate is below 5%. Cheatsheet: Use standard AICPA sampling tables for sample size determination."
+    "explanation": "属性サンプリング テーブルを使用すると、信頼度 95%、EDR=0%、TDR=5% で、サンプル サイズは約 59 になります。これにより、逸脱が 0 個見つかった場合、監査人は真の割合が 5% 未満であると 95% 確信できます。チートシート: サンプル サイズの決定には、標準の AICPA サンプリング テーブルを使用します。"
   },
   {
     "id": 62,
     "category": "Internal Control Metrics",
-    "question": "A compensating control has an effectiveness rate of 90% and covers 60% of the risk that the primary control was supposed to address. The overall control coverage for this risk is approximately:",
+    "question": "代償対照の有効率は 90% で、主対照が対処すべきリスクの 60% をカバーします。このリスクに対する全体的な制御範囲はおよそ次のとおりです。",
     "options": [
       "54%",
       "60%",
@@ -803,155 +803,155 @@
       "150%"
     ],
     "correct": 0,
-    "explanation": "Compensating control coverage = Primary control gap x Compensating control effectiveness = (100% - 60%) x 90% = 36%. But the question asks for overall coverage: the primary control covers 60%, and the compensating control covers an additional 36% of the remaining 40% risk, totaling approximately 54%. Cheatsheet: Overall = 1 - (remaining risk x (1 - compensating effectiveness))."
+    "explanation": "補償制御カバレッジ = 一次制御ギャップ x 補償制御有効性 = (100% - 60%) x 90% = 36%。しかし、この質問は全体の範囲を問うものです。一次対照は 60% をカバーし、代償対照は残りの 40% のリスクの追加の 36% をカバーし、合計約 54% をカバーします。チートシート: 全体 = 1 - (残りのリスク x (1 - 補償効果))。"
   },
   {
     "id": 63,
     "category": "Internal Control Metrics",
-    "question": "In evaluating control effectiveness over time, 'consistency' means:",
+    "question": "時間の経過に伴う制御の有効性を評価する場合、「一貫性」とは次のことを意味します。",
     "options": [
-      "The control produces the same result every time",
-      "The control operates reliably and with minimal variation in effectiveness across the period",
-      "The control is performed by the same person",
-      "The control uses the same technology"
+      "コントロールは毎回同じ結果を生成します",
+      "制御は確実に動作し、期間全体にわたる有効性の変動は最小限に抑えられます。",
+      "制御は同一人物によって行われます",
+      "制御には同じテクノロジーが使用されています"
     ],
     "correct": 1,
-    "explanation": "Consistency in control effectiveness means the control operates reliably throughout the period with minimal variation. Inconsistent controls (high effectiveness some days, low others) are less reliable than consistently effective controls. Cheatsheet: Consistent 80% > alternating 100%/60%."
+    "explanation": "制御の有効性が一貫しているということは、制御が最小限の変動で期間を通じて確実に動作することを意味します。一貫性のない対照（ある日は有効性が高く、別の日は低い）は、一貫して有効な対照よりも信頼性が低くなります。チートシート: 一貫して 80% > 交互に 100%/60%。"
   },
   {
     "id": 64,
     "category": "Internal Control Metrics",
-    "question": "The cost of a control is $50,000 per year and it prevents an average loss of $200,000 per year. The cost-benefit ratio is:",
+    "question": "コントロールのコストは年間 50,000 ドルで、年間平均 200,000 ドルの損失を防ぎます。費用対効果の比率は次のとおりです。",
     "options": [
-      "0.25 (beneficial)",
-      "4.0 (beneficial)",
-      "$150,000 net benefit",
-      "Cannot be determined without probability data"
+      "0.25 (有益)",
+      "4.0 (有益)",
+      "純利益 150,000 ドル",
+      "確率データがなければ決定できない"
     ],
     "correct": 1,
-    "explanation": "Cost-benefit ratio = Benefit / Cost = $200,000 / $50,000 = 4.0. Since the benefit exceeds the cost by a factor of 4, the control is cost-effective. Cheatsheet: Cost-benefit ratio > 1 means benefits exceed costs; higher is better."
+    "explanation": "費用対効果の比率 = 利益 / コスト = 200,000 ドル / 50,000 ドル = 4.0。利益がコストの 4 倍を上回るため、この制御は費用対効果が高くなります。チートシート: 費用対効果比 > 1 は、利点がコストを上回ることを意味します。高いほど良いです。"
   },
   {
     "id": 65,
     "category": "Internal Control Metrics",
-    "question": "An auditor tests 3 different controls, each with 0 deviations found. Control A had a sample of 25, Control B had 60, and Control C had 93. Which control provides the MOST assurance?",
+    "question": "監査人は 3 つの異なる対照をテストしますが、いずれも逸脱は見つかりませんでした。コントロール A のサンプルは 25、コントロール B は 60、コントロール C は 93 でした。最も確実な保証を提供するコントロールはどれですか?",
     "options": [
-      "Control A (fewest items = most effective)",
-      "Control C (largest sample provides higher confidence that the true rate is low)",
-      "All three provide equal assurance",
-      "Control B (middle sample is optimal)"
+      "コントロール A (アイテムが少ない = 最も効果的)",
+      "コントロール C (サンプルが最大であるため、真のレートが低いという信頼性が高くなります)",
+      "3 つすべてが同等の保証を提供します",
+      "コントロール B (中央のサンプルが最適)"
     ],
     "correct": 1,
-    "explanation": "With the same result (0 deviations), a larger sample provides more assurance. Control C with n=93 allows the auditor to be more confident that the true deviation rate is low than Control A with only n=25. Cheatsheet: Same result + larger sample = more assurance."
+    "explanation": "同じ結果 (偏差 0) の場合、サンプルが大きいほど、より確実な結果が得られます。n=93 のコントロール C を使用すると、監査人は、n=25 のみのコントロール A よりも真の逸脱率が低いという確信を得ることができます。チートシート: 同じ結果 + より大きなサンプル = より確実です。"
   },
   {
     "id": 66,
     "category": "Audit Efficiency",
-    "question": "An audit has a total budget of 500 hours. Planning uses 60 hours, fieldwork is estimated at 350 hours. How many hours remain for reporting and wrap-up?",
+    "question": "監査の合計予算は 500 時間です。計画には 60 時間がかかり、フィールドワークは 350 時間と推定されます。レポートとまとめには何時間残っていますか?",
     "options": [
-      "40 hours",
-      "50 hours",
-      "90 hours",
-      "150 hours"
+      "40時間",
+      "50時間",
+      "90時間",
+      "150時間"
     ],
     "correct": 2,
-    "explanation": "Remaining hours = Total budget - Planning - Fieldwork = 500 - 60 - 350 = 90 hours. This allocation for reporting/wrap-up includes review, drafting reports, and management discussions. Cheatsheet: Budget = Planning + Fieldwork + Reporting + Review/Buffer."
+    "explanation": "残り時間 = 総予算 - 計画 - フィールドワーク = 500 - 60 - 350 = 90 時間。このレポート/まとめの割り当てには、レビュー、レポートの作成、管理上のディスカッションが含まれます。チートシート: 予算 = 計画 + フィールドワーク + レポート + レビュー/バッファ。"
   },
   {
     "id": 67,
     "category": "Audit Efficiency",
-    "question": "Dual-purpose testing that serves both control testing and substantive testing can reduce total audit hours by approximately:",
+    "question": "統制テストと実体テストの両方を行う二重目的テストにより、総監査時間をおよそ次のように短縮できます。",
     "options": [
-      "5-10%",
+      "5～10%",
       "15-30%",
       "50-75%",
       "90%"
     ],
     "correct": 1,
-    "explanation": "Dual-purpose testing combines control testing and substantive testing in one procedure, typically reducing total audit effort by 15-30%. For example, inspecting a purchase order tests both the approval control and the existence of the transaction. Cheatsheet: Look for dual-purpose opportunities during planning."
+    "explanation": "二重目的テストでは、管理テストと実体テストを 1 つの手順で組み合わせ、通常、監査の総労力を 15 ～ 30% 削減します。たとえば、発注書を検査すると、承認管理とトランザクションの存在の両方がテストされます。チートシート: 計画中に二重目的の機会を探します。"
   },
   {
     "id": 68,
     "category": "Audit Efficiency",
-    "question": "If an audit team spent 300 hours last year and expects a 10% increase in scope due to new regulations, what is the estimated budget for this year?",
+    "question": "昨年、監査チームが 300 時間を費やし、新しい規制により範囲が 10% 増加すると予想される場合、今年の予算はいくらになると見積もられますか?",
     "options": [
-      "310 hours",
-      "320 hours",
-      "330 hours",
-      "360 hours"
+      "310時間",
+      "320時間",
+      "330時間",
+      "360時間"
     ],
     "correct": 2,
-    "explanation": "Estimated hours = Last year hours x (1 + scope increase) = 300 x 1.10 = 330 hours. A 10% scope increase means 10% more work, not necessarily 10% more of everything. Cheatsheet: Base adjustment on the specific scope change, not a blanket increase."
+    "explanation": "推定時間 = 昨年の時間 x (1 + 範囲の増加) = 300 x 1.10 = 330 時間。範囲が 10% 増加するということは、作業が 10% 増加することを意味しますが、必ずしもすべてが 10% 増加するわけではありません。チートシート: 包括的な増加ではなく、特定の範囲の変更に基づいて調整します。"
   },
   {
     "id": 69,
     "category": "Audit Efficiency",
-    "question": "Analytical procedures can be more efficient than tests of details when:",
+    "question": "次の場合、分析手順は詳細をテストするよりも効率的です。",
     "options": [
-      "The population is small",
-      "Relationships are predictable and data is reliable",
-      "The auditor is inexperienced",
-      "The company has never been audited before"
+      "人口が少ない",
+      "関係は予測可能であり、データは信頼できる",
+      "審査員は未経験者です",
+      "その会社はこれまで一度も監査を受けたことがない"
     ],
     "correct": 1,
-    "explanation": "Analytical procedures are efficient when financial relationships are predictable (stable business, consistent accounting) and data is reliable (effective internal controls). They can cover 100% of transactions at minimal cost. Cheatsheet: Analytical > tests of details when predictability is high."
+    "explanation": "財務関係が予測可能 (安定したビジネス、一貫した会計) であり、データが信頼できる (効果的な内部統制) 場合、分析手順は効率的になります。最小限のコストでトランザクションを 100% カバーできます。チートシート: 分析 > 予測可能性が高い場合の詳細のテスト。"
   },
   {
     "id": 70,
     "category": "Audit Efficiency",
-    "question": "A senior auditor charges $150/hour and a staff auditor charges $75/hour. If 200 hours of staff work can be shifted to seniors (who work 25% faster), what is the cost impact?",
+    "question": "上級監査人は 1 時間あたり 150 ドル、スタッフ監査人は 1 時間あたり 75 ドルの料金を請求します。200 時間のスタッフの労働をシニア (25% 早く働く) にシフトできた場合、コストへの影響はどのくらいでしょうか?",
     "options": [
-      "Cost increases by $15,000",
-      "Cost increases by $37,500",
-      "Cost decreases by $15,000",
-      "No cost change (same hours)"
+      "コストが 15,000 ドル増加します",
+      "コストは 37,500 ドル増加します",
+      "コストが 15,000 ドル減少",
+      "料金変更なし（時間は同じ）"
     ],
     "correct": 1,
-    "explanation": "200 staff hours at 25% faster = 160 senior hours. Staff cost = 200 x $75 = $15,000. Senior cost = 160 x $150 = $24,000. Net increase = $24,000 - $15,000 = $9,000. However, the question says 'shifted' - the 200 hours become 160 hours of senior time. Cheatsheet: Higher rate staff work faster but cost more per hour."
+    "explanation": "25% 高速化した場合の 200 スタッフ時間 = 160 シニア時間。人件費 = 200 x 75 ドル = 15,000 ドル。シニアの費用 = 160 x 150 ドル = 24,000 ドル。純増 = 24,000 ドル - 15,000 ドル = 9,000 ドル。ただし、質問には「シフト」とあります。200 時間がシニアタイムの 160 時間になります。チートシート: レートの高いスタッフは作業​​が速くなりますが、時間当たりのコストは高くなります。"
   },
   {
     "id": 71,
     "category": "Audit Efficiency",
-    "question": "CAAT (Computer-Assisted Audit Techniques) can improve audit efficiency by:",
+    "question": "コンピューター支援監査技術 (CAAT) は、以下によって監査効率を向上させることができます。",
     "options": [
-      "Eliminating the need for auditors",
-      "Testing 100% of a population instead of a sample, reducing sampling risk to zero",
-      "Making the audit more expensive",
-      "Replacing all analytical procedures"
+      "監査役の不要化",
+      "サンプルではなく母集団の 100% を検査し、サンプリングのリスクをゼロに軽減します",
+      "監査のコストが高くなる",
+      "すべての分析手順を置き換える"
     ],
     "correct": 1,
-    "explanation": "CAAT allows the auditor to test entire populations (not just samples) at much lower cost than manual testing. While it doesn't eliminate all risk, it significantly reduces sampling risk and can identify anomalies that might be missed in a sample. Cheatsheet: CAAT = 100% testing at reasonable cost."
+    "explanation": "CAAT を使用すると、監査人は手動テストよりもはるかに低いコストで (サンプルだけでなく) 母集団全体をテストできます。すべてのリスクが排除されるわけではありませんが、サンプリングのリスクが大幅に軽減され、サンプル内で見逃される可能性のある異常を特定できます。チートシート: CAAT = 妥当なコストで 100% テスト。"
   },
   {
     "id": 72,
     "category": "Audit Efficiency",
-    "question": "An auditor budgets 20 hours for a procedure but completes it in 12 hours. The variance is:",
+    "question": "監査人は手順に 20 時間の予算を立てますが、12 時間で完了します。差異は次のとおりです。",
     "options": [
-      "12 hours (8 hours under budget)",
-      "8 hours favorable (40% under budget)",
-      "20% favorable",
-      "167% of budget"
+      "12時間（予算より8時間少ない）",
+      "8 時間有利 (予算より 40% 低い)",
+      "20% 好意的",
+      "予算の 167%"
     ],
     "correct": 1,
-    "explanation": "Variance = Budget - Actual = 20 - 12 = 8 hours favorable. Percentage = 8/20 = 40% under budget. This efficiency can be reallocated to other areas that may need more time. Cheatsheet: Track variances to improve future budgets and reallocate resources."
+    "explanation": "差異 = 予算 - 実績 = 20 - 12 = 8 時間有利です。パーセンテージ = 8/20 = 予算を 40% 下回ります。この効率は、より多くの時間を必要とする可能性のある他の領域に再割り当てできます。チートシート: 差異を追跡して、将来の予算を改善し、リソースを再割り当てします。"
   },
   {
     "id": 73,
     "category": "Audit Efficiency",
-    "question": "Which audit approach is MOST efficient for testing a large volume of low-value, routine transactions?",
+    "question": "大量の低価値の日常的なトランザクションをテストするには、どの監査アプローチが最も効率的ですか?",
     "options": [
-      "100% vouching of every transaction",
-      "Analytical procedures combined with a small targeted sample",
-      "Individual confirmation of each transaction",
-      "Physical observation"
+      "すべての取引を 100% 保証",
+      "少量の対象サンプルと組み合わせた分析手順",
+      "各取引の個別の確認",
+      "物理的観察"
     ],
     "correct": 1,
-    "explanation": "For large volumes of low-value, routine transactions, analytical procedures (comparing totals to expectations) with a small targeted sample is most efficient. 100% testing of low-risk items is not cost-effective. Cheatsheet: Risk-based allocation - minimal effort on low-risk areas."
+    "explanation": "大量の低価値の日常的な取引の場合は、対象を絞った少量のサンプルを使用した分析手順 (合計と期待値を比較する) が最も効率的です。低リスク項目を 100% テストするのは費用対効果が高くありません。チートシート: リスクベースの割り当て - 低リスク領域に対する最小限の労力。"
   },
   {
     "id": 74,
     "category": "Audit Efficiency",
-    "question": "A time budget shows: Planning 50h, Fieldwork 300h, Review 40h, Reporting 30h, Buffer 30h. Total is 450h. The buffer percentage is:",
+    "question": "時間予算には、計画 50 時間、フィールドワーク 300 時間、レビュー 40 時間、レポート 30 時間、バッファー 30 時間が表示されます。合計は450時間です。バッファーの割合は次のとおりです。",
     "options": [
       "5%",
       "6.7%",
@@ -959,181 +959,181 @@
       "10%"
     ],
     "correct": 1,
-    "explanation": "Buffer percentage = (Buffer hours / Total hours without buffer) x 100 = (30 / 420) x 100 = 7.14% or approximately 7%. Buffers (contingency) are typically 5-10% of total budget to handle unexpected issues. Cheatsheet: Buffer = 5-10% of planned hours."
+    "explanation": "バッファーの割合 = (バッファー時間 / バッファーなしの合計時間) x 100 = (30 / 420) x 100 = 7.14% または約 7%。予期せぬ問題に対処するためのバッファー (予備費) は、通常、総予算の 5 ～ 10% です。チートシート: バッファ = 計画時間の 5 ～ 10%。"
   },
   {
     "id": 75,
     "category": "Audit Efficiency",
-    "question": "Rotating audit staff between engagements provides:",
+    "question": "監査スタッフを業務間で交代させることで、次のことが可能になります。",
     "options": [
-      "No benefit beyond compliance requirements",
-      "Fresh perspective that can identify issues long-term staff may overlook, though with an efficiency cost for ramp-up",
-      "Lower audit quality due to unfamiliarity",
-      "Higher costs with no benefits"
+      "コンプライアンス要件を超えるメリットはありません",
+      "長期スタッフが見落としがちな問題を特定できる新鮮な視点。ただし、立ち上げには効率性のコストがかかる",
+      "不慣れによる監査品質の低下",
+      "利益なしの高コスト"
     ],
     "correct": 1,
-    "explanation": "Staff rotation brings fresh eyes that may identify issues missed by long-term staff, but the trade-off is ramp-up time and reduced efficiency in the short term. The optimal approach balances rotation with some continuity. Cheatsheet: Rotation improves quality but has short-term efficiency cost."
+    "explanation": "スタッフのローテーションにより、長期スタッフが見逃していた問題を特定できる新たな視点がもたらされますが、その代償として、立ち上げに時間がかかり、短期的には効率が低下します。最適なアプローチでは、回転とある程度の連続性のバランスがとれます。チートシート: ローテーションにより品質は向上しますが、短期的には効率性が犠牲になります。"
   },
   {
     "id": 76,
     "category": "Audit Efficiency",
-    "question": "A 'materiality-based scoping' approach means:",
+    "question": "「重要性ベースのスコーピング」アプローチとは、次のことを意味します。",
     "options": [
-      "Auditing everything above $0",
-      "Focusing audit effort on areas where misstatements could be material, reducing work on immaterial areas",
-      "Setting materiality at $0",
-      "Auditing only the largest account balance"
+      "$0 を超えるすべてを監査する",
+      "虚偽表示が重大な可能性がある領域に監査作業を集中させ、重要でない領域の作業を削減する",
+      "マテリアリティを $0 に設定",
+      "最大口座残高のみを監査する"
     ],
     "correct": 1,
-    "explanation": "Materiality-based scoping focuses audit resources on areas where misstatements could materially affect financial statements. This means performing minimal or no testing on immaterial accounts and concentrating on significant areas. Cheatsheet: Focus on material, skip immaterial."
+    "explanation": "重要性ベースのスコーピングでは、虚偽表示が財務諸表に重大な影響を与える可能性のある領域に監査リソースを集中させます。これは、重要でないアカウントに対して最小限のテストを実行するかまったくテストを実行せず、重要な領域に集中することを意味します。チートシート: 重要なものに焦点を当て、重要でないものはスキップします。"
   },
   {
     "id": 77,
     "category": "Audit Efficiency",
-    "question": "The cost of performing additional testing ($20,000) to detect an additional $500,000 potential misstatement is an example of:",
+    "question": "追加の 500,000 ドルの潜在的な虚偽表示を検出するために追加のテストを実行するコスト (20,000 ドル) は、次の例です。",
     "options": [
-      "Poor cost management",
-      "Cost-benefit analysis showing the testing is justified (benefit $500,000 vs cost $20,000)",
-      "Unnecessary over-auditing",
-      "Testing that should be avoided regardless of benefit"
+      "コスト管理が不十分",
+      "テストが正当であることを示す費用対効果分析 (利益 500,000 ドル対費用 20,000 ドル)",
+      "不必要な過剰監査",
+      "利益に関係なく避けるべき検査"
     ],
     "correct": 1,
-    "explanation": "Cost-benefit ratio = $500,000 / $20,000 = 25x. The benefit far exceeds the cost, making this testing highly justified. In practice, auditors cannot ignore material misstatements regardless of cost, but cost-benefit analysis helps prioritize. Cheatsheet: Benefit/cost > 1 means testing is worthwhile."
+    "explanation": "費用対効果の比率 = 500,000 ドル / 20,000 ドル = 25 倍。コストをはるかに上回るメリットがあるため、このテストは非常に正当化されます。実際には、監査人はコストに関係なく重大な虚偽表示を無視することはできませんが、費用対効果の分析は優先順位を付けるのに役立ちます。チートシート: 利益/コスト > 1 は、テストする価値があることを意味します。"
   },
   {
     "id": 78,
     "category": "Audit Efficiency",
-    "question": "Using the prior year's audit documentation as a reference (not substitute) can improve efficiency by:",
+    "question": "前年度の監査文書を参照として (代替としてではなく) 使用すると、次のように効率が向上します。",
     "options": [
-      "Copying all last year's work",
-      "Understanding the entity's history, prior findings, and areas of change to better plan current-year procedures",
-      "Avoiding all current-year testing",
-      "Reducing the audit fee by 50%"
+      "昨年の作品をすべてコピーする",
+      "今年度の手続きをより適切に計画するために、事業体の歴史、以前の調査結果、および変更領域を理解する",
+      "当年度のテストをすべて回避する",
+      "監査費用を50％削減"
     ],
     "correct": 1,
-    "explanation": "Prior year documentation provides context about the entity's business, prior risks, findings, and control issues. This helps focus current-year planning and identify changes, improving efficiency without reducing effectiveness. Cheatsheet: Learn from history but verify the present."
+    "explanation": "前年度の文書には、企業の事業、以前のリスク、調査結果、管理上の問題に関するコンテキストが記載されています。これにより、今年度の計画に焦点を当てて変更を特定し、有効性を低下させることなく効率を向上させることができます。チートシート: 歴史から学び、現在を検証してください。"
   },
   {
     "id": 79,
     "category": "Audit Efficiency",
-    "question": "An automated reconciliation tool that processes 10,000 items in 5 minutes replaces a manual process that took 20 hours. The efficiency gain is:",
+    "question": "10,000 項目を 5 分で処理する自動調整ツールが、20 時間かかった手動プロセスを置き換えます。効率の向上は次のとおりです。",
     "options": [
-      "4x faster",
-      "240x faster (1200 minutes vs 5 minutes)",
-      "100x faster",
-      "20 hours saved"
+      "4倍高速",
+      "240 倍高速 (1200 分 vs 5 分)",
+      "100倍高速",
+      "20 時間の節約"
     ],
     "correct": 1,
-    "explanation": "Manual: 20 hours = 1200 minutes. Automated: 5 minutes. Efficiency gain = 1200/5 = 240x. This dramatic improvement allows the auditor to reallocate 19 hours and 55 minutes to higher-value audit activities. Cheatsheet: Automation ROI = manual time / automated time."
+    "explanation": "手動: 20 時間 = 1200 分。自動: 5 分。効率ゲイン = 1200/5 = 240x。この劇的な改善により、監査人は 19 時間 55 分をより価値の高い監査活動に再割り当てできるようになります。チートシート: 自動化 ROI = 手動時間 / 自動化時間。"
   },
   {
     "id": 80,
     "category": "Audit Efficiency",
-    "question": "The most efficient audit strategy when controls are strong (control risk is low) is to:",
+    "question": "統制が強力である (統制リスクが低い) 場合の最も効率的な監査戦略は、次のとおりです。",
     "options": [
-      "Perform extensive substantive testing anyway",
-      "Rely on controls to reduce the extent of substantive testing, focusing on key areas",
-      "Skip the audit entirely",
-      "Only test controls and no substantive testing"
+      "とにかく広範囲にわたる実質的なテストを実行する",
+      "主要な領域に焦点を当て、実質的なテストの範囲を減らすためにコントロールに依存する",
+      "監査を完全にスキップする",
+      "コントロールのみをテストし、実質的なテストは行わない"
     ],
     "correct": 1,
-    "explanation": "When controls are strong and effective, the auditor can rely on them and reduce substantive testing. This is the most efficient approach, as control testing is generally less costly than extensive substantive testing. Cheatsheet: Strong controls = reduced substantive work = efficient audit."
+    "explanation": "コントロールが強力かつ効果的であれば、監査人はコントロールに頼ることができ、実質的なテストを減らすことができます。一般に統制テストは広範な実体テストよりもコストがかからないため、これが最も効率的なアプローチです。チートシート: 強力な管理 = 実質的な作業の削減 = 効率的な監査。"
   },
   {
     "id": 81,
     "category": "Statistical Analysis",
-    "question": "The mean of the following audit findings ($100, $200, $300, $400, $500) is:",
+    "question": "次の監査結果 ($100、$200、$300、$400、$500) の平均は次のとおりです。",
     "options": [
-      "$250",
-      "$300",
-      "$350",
-      "$500"
+      "250ドル",
+      "300ドル",
+      "350ドル",
+      "500ドル"
     ],
     "correct": 1,
-    "explanation": "Mean = Sum of values / Count = (100+200+300+400+500) / 5 = 1500/5 = $300. The mean represents the average value and is the most common measure of central tendency. Cheatsheet: Mean = sum/N."
+    "explanation": "平均 = 値の合計 / カウント = (100+200+300+400+500) / 5 = 1500/5 = $300。平均は平均値を表し、中心傾向の最も一般的な尺度です。チートシート: 平均 = 合計/N。"
   },
   {
     "id": 82,
     "category": "Statistical Analysis",
-    "question": "The median of the following amounts ($100, $200, $300, $400, $500) is:",
+    "question": "次の金額 ($100、$200、$300、$400、$500) の中央値は次のとおりです。",
     "options": [
-      "$250",
-      "$300",
-      "$350",
-      "$1500"
+      "250ドル",
+      "300ドル",
+      "350ドル",
+      "1500ドル"
     ],
     "correct": 1,
-    "explanation": "Median is the middle value when data is sorted. With 5 values, the 3rd value ($300) is the median. For even-count datasets, median = average of the two middle values. Cheatsheet: Median = middle value; less affected by outliers than the mean."
+    "explanation": "中央値は、データを並べ替えたときの中央の値です。値が 5 つある場合、3 番目の値 ($300) が中央値になります。偶数カウントのデータセットの場合、中央値 = 2 つの中央値の平均。チートシート: 中央値 = 中間値。平均よりも外れ値の影響が少ない。"
   },
   {
     "id": 83,
     "category": "Statistical Analysis",
-    "question": "Which measure is MOST appropriate when audit data contains extreme outliers?",
+    "question": "監査データに極端な外れ値が含まれている場合、どの尺度が最も適切ですか?",
     "options": [
-      "Mean",
-      "Median (less affected by extreme values)",
-      "Standard deviation",
-      "Range"
+      "平均",
+      "中央値 (極端な値の影響が少ない)",
+      "標準偏差",
+      "範囲"
     ],
     "correct": 1,
-    "explanation": "The median is resistant to outliers because it depends on the middle value, not the magnitude of extreme values. For example, $1, $2, $3, $4, $100,000 has median=$3 but mean=$20,002. Cheatsheet: Use median for skewed distributions with outliers."
+    "explanation": "中央値は、極値の大きさではなく中央値に依存するため、外れ値の影響を受けにくくなります。たとえば、$1、$2、$3、$4、$100,000 の中央値は $3 ですが、平均値は $20,002 です。チートシート: 外れ値のある偏った分布には中央値を使用します。"
   },
   {
     "id": 84,
     "category": "Statistical Analysis",
-    "question": "The standard deviation of $200, $300, $400 is approximately:",
+    "question": "$200、$300、$400 の標準偏差はおよそ次のとおりです。",
     "options": [
-      "$50",
-      "$82",
-      "$100",
-      "$150"
+      "50ドル",
+      "82ドル",
+      "100ドル",
+      "150ドル"
     ],
     "correct": 1,
-    "explanation": "Mean = 300. Variance = [(200-300)^2 + (300-300)^2 + (400-300)^2] / (3-1) = [10000+0+10000]/2 = 10000. SD = sqrt(10000) = $100. Wait, let me recalculate: For sample SD (n-1): SD = sqrt(10000) = 100. Cheatsheet: SD measures how spread out data is from the mean."
+    "explanation": "平均 = 300。分散 = [(200-300)^2 + (300-300)^2 + (400-300)^2] / (3-1) = [10000+0+10000]/2 = 10000。SD = sqrt(10000) = $100。待ってください。再計算してみましょう: サンプル SD (n-1) の場合: SD = sqrt(10000) = 100。 チートシート: SD は、データが平均からどの程度広がっているかを測定します。"
   },
   {
     "id": 85,
     "category": "Statistical Analysis",
-    "question": "If audit amounts have a mean of $1,000 and a standard deviation of $200, approximately 95% of amounts would fall within:",
+    "question": "監査金額の平均が 1,000 ドル、標準偏差が 200 ドルの場合、金額の約 95% が次の範囲内に収まります。",
     "options": [
-      "$600 to $1,400",
-      "$800 to $1,200",
-      "$400 to $1,600",
-      "$200 to $1,800"
+      "600ドルから1,400ドル",
+      "800ドルから1,200ドル",
+      "400ドルから1,600ドル",
+      "200ドルから1,800ドル"
     ],
     "correct": 0,
-    "explanation": "For approximately normal distributions, 95% of data falls within 2 standard deviations of the mean. Range = $1,000 +/- (2 x $200) = $600 to $1,400. This is the empirical rule (68-95-99.7 rule). Cheatsheet: 68% = 1 SD, 95% = 2 SD, 99.7% = 3 SD."
+    "explanation": "ほぼ正規分布の場合、データの 95% は平均値の 2 標準偏差以内に収まります。範囲 = 1,000 ドル +/- (2 x 200 ドル) = 600 ドルから 1,400 ドル。これが経験則（68-95-99.7 ルール）です。チートシート: 68% = 1 SD、95% = 2 SD、99.7% = 3 SD。"
   },
   {
     "id": 86,
     "category": "Statistical Analysis",
-    "question": "Variance analysis comparing budget to actual shows: Revenue budget $1M, actual $950K. The variance is:",
+    "question": "予算と実際の番組を比較する差異分析: 収益予算 100 万ドル、実際 95 万ドル。差異は次のとおりです。",
     "options": [
-      "$50K favorable",
-      "$50K unfavorable (actual below budget)",
-      "5% favorable",
-      "$1.95M total"
+      "5万ドル有利",
+      "50,000 ドルが不利 (実際は予算を下回る)",
+      "5% 好意的",
+      "合計 195 万ドル"
     ],
     "correct": 1,
-    "explanation": "Revenue variance = Budget - Actual = $1,000,000 - $950,000 = $50,000 unfavorable. For revenue, actual below budget is unfavorable. The percentage is $50K/$1M = 5% unfavorable. Cheatsheet: For revenue: actual > budget = favorable; actual < budget = unfavorable."
+    "explanation": "収益差異 = 予算 - 実績 = $1,000,000 - $950,000 = $50,000 不利です。収益に関しては、実績が予算を下回るのは不利です。割合は、50,000 ドル/100 万ドル = 5% 不利になります。チートシート: 収益の場合: 実績 > 予算 = 有利。実績 < 予算 = 不利です。"
   },
   {
     "id": 87,
     "category": "Statistical Analysis",
-    "question": "Trend analysis shows monthly expenses increasing by: Jan $100K, Feb $105K, Mar $110K, Apr $115K. What is the average monthly increase?",
+    "question": "傾向分析によると、月々の出費は 1 月 10 万ドル、2 月 10 万 5,000 ドル、3 月 11 万ドル、4 月 11 万 5,000 ドルずつ増加しています。毎月の平均増加額はいくらですか?",
     "options": [
-      "$3,333",
-      "$5,000",
-      "$10,000",
-      "$15,000"
+      "3,333ドル",
+      "5,000ドル",
+      "10,000ドル",
+      "15,000ドル"
     ],
     "correct": 1,
-    "explanation": "Average monthly increase = (Total increase / Number of periods) = ($115K - $100K) / (4 - 1) = $15,000 / 3 = $5,000 per month. This is a consistent linear trend. Cheatsheet: Average change = (Last - First) / (Periods - 1)."
+    "explanation": "平均月間増加額 = (合計増加額 / 期間数) = (115,000 ドル - 100,000 ドル) / (4 - 1) = 15,000 ドル / 3 = 1 か月あたり 5,000 ドル。これは一貫した線形傾向です。チートシート: 平均変化 = (最後 - 最初) / (期間 - 1)。"
   },
   {
     "id": 88,
     "category": "Statistical Analysis",
-    "question": "In a Benford's Law analysis of 1,000 expense amounts, the expected percentage of numbers starting with digit '1' is approximately:",
+    "question": "1,000 件の経費金額のベンフォードの法則分析では、数字「1」で始まる数値の予想パーセンテージはおよそ次のようになります。",
     "options": [
       "11.1%",
       "20.1%",
@@ -1141,25 +1141,25 @@
       "33.3%"
     ],
     "correct": 2,
-    "explanation": "Benford's Law predicts approximately 30.1% of naturally occurring numbers begin with digit 1. The formula is log10(1 + 1/d) where d is the leading digit. For 1: log10(2) = 0.301 = 30.1%. Cheatsheet: Digit 1 appears in ~30% of numbers; digit 9 in ~4.6%."
+    "explanation": "ベンフォードの法則は、自然に発生する数値の約 30.1% が 1 桁で始まると予測します。式は log10(1 + 1/d) で、d が先頭の桁です。1 の場合: log10(2) = 0.301 = 30.1%。チートシート: 数字の 1 は最大 30% の数字に現れます。桁の 9 は ~4.6% です。"
   },
   {
     "id": 89,
     "category": "Statistical Analysis",
-    "question": "A regression analysis shows that IT expenses = $50,000 + 0.15 x Revenue. If revenue is $2,000,000, the expected IT expense is:",
+    "question": "回帰分析により、IT 費用 = 50,000 ドル + 0.15 x 収益が示されます。収益が 2,000,000 ドルの場合、予想される IT 費用は次のとおりです。",
     "options": [
-      "$300,000",
-      "$350,000",
-      "$250,000",
-      "$200,000"
+      "30万ドル",
+      "350,000ドル",
+      "250,000ドル",
+      "200,000ドル"
     ],
     "correct": 1,
-    "explanation": "Expected IT expense = $50,000 + 0.15 x $2,000,000 = $50,000 + $300,000 = $350,000. The regression model provides an expected value based on the historical relationship between IT expense and revenue. Cheatsheet: y = intercept + slope x x."
+    "explanation": "予想される IT 費用 = 50,000 ドル + 0.15 x 2,000,000 ドル = 50,000 ドル + 300,000 ドル = 350,000 ドル。回帰モデルは、IT 費用と収益の間の過去の関係に基づいて期待値を提供します。チートシート: y = 切片 + 傾き x x。"
   },
   {
     "id": 90,
     "category": "Statistical Analysis",
-    "question": "The coefficient of variation (CV) for a dataset with mean $500 and standard deviation $50 is:",
+    "question": "平均が 500 ドル、標準偏差が 50 ドルのデータセットの変動係数 (CV) は次のとおりです。",
     "options": [
       "0.1 (10%)",
       "0.15 (15%)",
@@ -1167,77 +1167,77 @@
       "10"
     ],
     "correct": 0,
-    "explanation": "CV = (Standard Deviation / Mean) x 100 = ($50 / $500) x 100 = 10%. CV is useful for comparing variability between datasets with different units or scales. Cheatsheet: CV = SD/Mean; higher CV means more relative variability."
+    "explanation": "CV = (標準偏差 / 平均) x 100 = (50 ドル / 500 ドル) x 100 = 10%。CV は、単位やスケールが異なるデータセット間の変動を比較するのに役立ちます。チートシート: CV = SD/平均;CV が高いほど相対的な変動が大きいことを意味します。"
   },
   {
     "id": 91,
     "category": "Statistical Analysis",
-    "question": "A Z-score of 2.5 for an audit value means:",
+    "question": "監査値の Z スコア 2.5 は、次のことを意味します。",
     "options": [
-      "The value is 2.5 times the mean",
-      "The value is 2.5 standard deviations above the mean",
-      "The value is in the top 97.5% of the distribution",
-      "The value is an error"
+      "値は平均の 2.5 倍です",
+      "値は平均より 2.5 標準偏差上です",
+      "値は分布の上位 97.5% にあります",
+      "値がエラーです"
     ],
     "correct": 1,
-    "explanation": "Z-score = (Value - Mean) / Standard Deviation. A Z-score of 2.5 means the value is 2.5 standard deviations above the mean. In a normal distribution, this is approximately the 99.4th percentile. Cheatsheet: Z > 2 or Z < -2 are potential outliers worth investigating."
+    "explanation": "Z スコア = (値 - 平均) / 標準偏差。Z スコア 2.5 は、値が平均より 2.5 標準偏差高いことを意味します。正規分布では、これはおよそ 99.4 パーセンタイルに相当します。チートシート: Z > 2 または Z < -2 は、調査する価値のある潜在的な外れ値です。"
   },
   {
     "id": 92,
     "category": "Statistical Analysis",
-    "question": "The range of audit amounts ($50, $75, $100, $125, $150) is:",
+    "question": "監査金額の範囲 ($50、$75、$100、$125、$150) は次のとおりです。",
     "options": [
-      "$75",
-      "$100",
-      "$125",
-      "$150"
+      "75ドル",
+      "100ドル",
+      "125ドル",
+      "150ドル"
     ],
     "correct": 1,
-    "explanation": "Range = Maximum - Minimum = $150 - $50 = $100. Range is the simplest measure of spread but is heavily influenced by outliers. Cheatsheet: Range = max - min; simple but sensitive to extreme values."
+    "explanation": "範囲 = 最大値 - 最小値 = 150 ドル - 50 ドル = 100 ドル。範囲はスプレッドの最も単純な尺度ですが、外れ値の影響を大きく受けます。チートシート: 範囲 = 最大 - 最小。シンプルですが、極端な価値観に敏感です。"
   },
   {
     "id": 93,
     "category": "Statistical Analysis",
-    "question": "In an audit of 500 expense reports, the mean is $2,000 and the standard deviation is $500. How many reports would be expected to exceed $3,000 (2 SD above mean)?",
+    "question": "500 件の経費報告書を監査した場合、平均は 2,000 ドル、標準偏差は 500 ドルでした。3,000 ドル (平均より 2 SD) を超えると予想されるレポートは何件ありますか?",
     "options": [
-      "Approximately 12-13 reports (2.5% of 500)",
-      "Approximately 25 reports (5%)",
-      "Approximately 50 reports (10%)",
-      "Approximately 5 reports (1%)"
+      "約 12 ～ 13 件のレポート (500 件の 2.5%)",
+      "約 25 件のレポート (5%)",
+      "約 50 件のレポート (10%)",
+      "約 5 件のレポート (1%)"
     ],
     "correct": 0,
-    "explanation": "At 2 SD above the mean, approximately 2.5% of values exceed this threshold (95% fall within 2 SD). 2.5% of 500 = 12.5 reports. If significantly more reports exceed $3,000, it may indicate anomalies or policy violations worth investigating. Cheatsheet: Values > mean + 2SD are statistical outliers."
+    "explanation": "平均より 2 SD 高い場合、値の約 2.5% がこのしきい値を超えます (95% は 2 SD 以内に収まります)。500 件の 2.5% = 12.5 件のレポート。3,000 ドルを超えるレポートが大幅に多い場合は、調査する価値のある異常またはポリシー違反を示している可能性があります。チートシート: 値 > 平均 + 2SD は統計的な外れ値です。"
   },
   {
     "id": 94,
     "category": "Statistical Analysis",
-    "question": "A correlation coefficient of 0.85 between sales and marketing expenses indicates:",
+    "question": "販売経費とマーケティング経費の間の相関係数 0.85 は、次のことを示しています。",
     "options": [
-      "No relationship",
-      "A strong positive relationship (higher marketing = higher sales)",
-      "A weak negative relationship",
-      "85% of sales are caused by marketing"
+      "関係なし",
+      "強いプラスの関係 (マーケティングの向上 = 売上の向上)",
+      "弱い負の関係",
+      "売上の85%はマーケティングによるもの"
     ],
     "correct": 1,
-    "explanation": "A correlation of 0.85 indicates a strong positive linear relationship. As marketing expenses increase, sales tend to increase as well. Note: correlation does not imply causation, and the coefficient indicates strength of association, not the percentage of causation. Cheatsheet: r > 0.7 = strong; 0.3-0.7 = moderate; < 0.3 = weak."
+    "explanation": "0.85 の相関は、強い正の線形関係を示します。マーケティング費用が増加すると、売上も増加する傾向があります。注: 相関関係は因果関係を意味するものではなく、係数は因果関係のパーセンテージではなく関連の強さを示します。チートシート: r > 0.7 = 強い。0.3-0.7 = 中程度。< 0.3 = 弱い。"
   },
   {
     "id": 95,
     "category": "Statistical Analysis",
-    "question": "The interquartile range (IQR) for data ($10, $20, $30, $40, $100, $110, $120) is:",
+    "question": "データ ($10、$20、$30、$40、$100、$110、$120) の四分位範囲 (IQR) は次のとおりです。",
     "options": [
-      "$110",
-      "$90",
-      "$50",
-      "$60"
+      "110ドル",
+      "90ドル",
+      "50ドル",
+      "60ドル"
     ],
     "correct": 1,
-    "explanation": "Q1 (25th percentile) = $20, Q3 (75th percentile) = $110. IQR = Q3 - Q1 = $110 - $20 = $90. IQR is less affected by outliers than the range. Cheatsheet: IQR identifies the spread of the middle 50% of data; useful for outlier detection."
+    "explanation": "第 1 四半期 (25 パーセンタイル) = 20 ドル、第 3 四半期 (75 パーセンタイル) = 110 ドル。IQR = 第 3 四半期 - 第 1 四半期 = 110 ドル - 20 ドル = 90 ドル。IQR は範囲よりも外れ値の影響が少ないです。チートシート: IQR はデータの中間 50% の広がりを特定します。外れ値の検出に役立ちます。"
   },
   {
     "id": 96,
     "category": "Statistical Analysis",
-    "question": "Year-over-year revenue growth: 2023 = $10M, 2024 = $11.5M. The growth rate is:",
+    "question": "前年同期比の売上高成長率: 2023 年 = 1,000 万ドル、2024 年 = 1,150 万ドル。成長率は次のとおりです。",
     "options": [
       "10%",
       "13.5%",
@@ -1245,58 +1245,58 @@
       "11.5%"
     ],
     "correct": 2,
-    "explanation": "Growth rate = ((Current - Prior) / Prior) x 100 = (($11.5M - $10M) / $10M) x 100 = ($1.5M / $10M) x 100 = 15%. Cheatsheet: Growth = (New - Old) / Old x 100. Always divide by the PRIOR period value."
+    "explanation": "成長率 = ((現在 - 以前) / 以前) x 100 = ((1,150 万ドル - 1,000 万ドル) / 1,000 万ドル) x 100 = (150 万ドル / 1,000 万ドル) x 100 = 15%。チートシート: 成長 = (新しい - 古い) / 古い x 100。常に前の期間の値で割ります。"
   },
   {
     "id": 97,
     "category": "Statistical Analysis",
-    "question": "A chi-square test on audit data comparing expected vs actual error rates yields a p-value of 0.02. At 5% significance level, the auditor should:",
+    "question": "監査データのカイ二乗検定で、予想されるエラー率と実際のエラー率を比較すると、p 値は 0.02 になります。5% の有意水準では、監査人は次のことを行う必要があります。",
     "options": [
-      "Accept the null hypothesis (no difference)",
-      "Reject the null hypothesis - the difference is statistically significant",
-      "Increase the sample size",
-      "Ignore the result"
+      "帰無仮説を受け入れる (差異なし)",
+      "帰無仮説を棄却します - その差は統計的に有意です",
+      "サンプルサイズを増やす",
+      "結果を無視する"
     ],
     "correct": 1,
-    "explanation": "At 5% significance, if p-value < 0.05, the difference is statistically significant. A p-value of 0.02 means there is only a 2% probability of observing this difference by chance. The auditor should investigate the cause. Cheatsheet: p < alpha = statistically significant."
+    "explanation": "有意性 5% で、p 値 < 0.05 の場合、その差は統計的に有意です。p 値 0.02 は、この差が偶然に観察される確率が 2% のみであることを意味します。監査人は原因を調査する必要があります。チートシート: p < alpha = 統計的に有意。"
   },
   {
     "id": 98,
     "category": "Statistical Analysis",
-    "question": "Moving average analysis for quarterly sales: Q1=$200K, Q2=$220K, Q3=$240K, Q4=$260K. The 3-quarter moving average for Q4 is:",
+    "question": "四半期売上高の移動平均分析: 第 1 四半期 = 20 万ドル、第 2 四半期 = 22 万ドル、第 3 四半期 = 24 万ドル、第 4 四半期 = 26 万ドル。第4四半期の3四半期移動平均は次のとおりです。",
     "options": [
-      "$220K",
-      "$240K",
-      "$260K",
-      "$200K"
+      "22万ドル",
+      "24万ドル",
+      "26万ドル",
+      "20万ドル"
     ],
     "correct": 1,
-    "explanation": "3-quarter moving average for Q4 = (Q2+Q3+Q4)/3 = ($220K+$240K+$260K)/3 = $720K/3 = $240K. Moving averages smooth short-term fluctuations to reveal trends. Cheatsheet: Moving average = average of the most recent N periods."
+    "explanation": "第 4 四半期の 3 四半期移動平均 = (第 2 四半期 + 第 3 四半期 + 第 4 四半期)/3 = (22 万ドル + 24 万ドル + 26 万ドル)/3 = 72 万ドル/3 = 24 万ドル。移動平均は短期的な変動を平滑化し、傾向を明らかにします。チートシート: 移動平均 = 直近の N 期間の平均。"
   },
   {
     "id": 99,
     "category": "Statistical Analysis",
-    "question": "The standard error of the mean for a sample (n=64, SD=$80) is:",
+    "question": "サンプル (n=64、SD=$80) の平均値の標準誤差は次のとおりです。",
     "options": [
-      "$80",
-      "$10",
+      "80ドル",
+      "10ドル",
       "$5",
       "$1.25"
     ],
     "correct": 1,
-    "explanation": "Standard Error (SE) = SD / sqrt(n) = $80 / sqrt(64) = $80 / 8 = $10. SE measures the precision of the sample mean as an estimate of the population mean. Larger samples produce smaller SEs. Cheatsheet: SE = SD/sqrt(n); multiply by z for confidence intervals."
+    "explanation": "標準誤差 (SE) = SD / sqrt(n) = $80 / sqrt(64) = $80 / 8 = $10。SE は、母集団平均の推定値としてサンプル平均の精度を測定します。サンプルが大きくなると、SE が小さくなります。チートシート: SE = SD/sqrt(n);信頼区間には z を掛けます。"
   },
   {
     "id": 100,
     "category": "Statistical Analysis",
-    "question": "In variance analysis, if the budgeted cost per unit is $10 and actual is $12 for 5,000 units, the total variance is:",
+    "question": "差異分析では、5,000 ユニットの単位あたりの予算コストが 10 ドルで、実際のコストが 12 ドルの場合、合計差異は次のようになります。",
     "options": [
-      "$2 unfavorable",
-      "$10,000 unfavorable ($2 x 5,000 units)",
-      "$60,000 unfavorable",
-      "$50,000 favorable"
+      "$2不利",
+      "$10,000 不利 ($2 x 5,000 単位)",
+      "60,000ドル不利",
+      "50,000ドル有利"
     ],
     "correct": 1,
-    "explanation": "Total variance = (Actual cost per unit - Budgeted cost per unit) x Actual quantity = ($12 - $10) x 5,000 = $2 x 5,000 = $10,000 unfavorable. For costs, actual above budget is unfavorable. Cheatsheet: Total variance = rate variance x quantity."
+    "explanation": "合計差異 = (ユニットあたりの実際コスト - ユニットあたりの予算コスト) x 実際の数量 = ($12 - $10) x 5,000 = $2 x 5,000 = $10,000 不利です。コストに関しては、実際の予算を上回るのは不利です。チートシート: 合計差異 = レート差異 x 数量。"
   }
 ]
