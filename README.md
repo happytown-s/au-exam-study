@@ -1,73 +1,76 @@
-# React + TypeScript + Vite
+# AU Exam Study
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> システム監査技術者（AU）試験対策のWebアプリケーション
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 科目A（午前）対策クイズ -- カテゴリ別・ランダム出題に対応
+- 計算トレーニング -- サンプリング・リスク評価等の数値計算問題
+- 科目B（午後）演習 -- シナリオベースの実践的問題
+- 学習進捗管理 -- localStorageによる解答履歴の記録
+- ダークテーマUI -- 緑系アクセントのダークスキーム
 
-## React Compiler
+## Contents
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Quiz（科目A）
+- 250問
+- カテゴリ一覧（問題数）:
+  - Audit Planning: 30
+  - Audit Procedures: 30
+  - Information Systems Audit: 30
+  - Internal Control: 30
+  - Compliance & Legal: 25
+  - IT Governance: 25
+  - Audit Evidence: 25
+  - Audit Reporting: 25
+  - Fraud Detection: 15
+  - Emerging Topics: 15
+- クイズモード: カテゴリ選択、ランダム出題、解説表示
 
-## Expanding the ESLint configuration
+### Calc Training（計算トレーニング）
+- 100問
+- カテゴリ一覧（問題数）:
+  - Sampling: 20
+  - Statistical Analysis: 20
+  - Risk Assessment: 15
+  - Materiality: 15
+  - Audit Efficiency: 15
+  - Internal Control Metrics: 15
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Subject B Training（科目B演習）
+- 80問
+- カテゴリ一覧（問題数）:
+  - Comprehensive Audits: 20
+  - Control Evaluation: 15
+  - Finding Development: 15
+  - Compliance Assessment: 15
+  - Audit Program Design: 15
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Progress（進捗管理）
+- 解答履歴と正答率の確認
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- React 19 + TypeScript
+- Vite（ビルドツール）
+- Tailwind CSS（スタイリング）
+- localStorage（進捗データ永続化）
+
+## Usage
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+ブラウザで `http://localhost:5173` にアクセス。
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Deployment
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run build
 ```
+
+`dist/` ディレクトリを任意の静的ホスティングサービスにデプロイ。
+
+## License: MIT
