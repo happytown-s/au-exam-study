@@ -2,12 +2,12 @@
   {
     "id": 1,
     "category": "Audit Planning",
-    "question": "What is the primary purpose of determining materiality during audit planning?",
+    "question": "監査計画において重要性を決定する主な目的はどれか。",
     "options": [
-      "To calculate audit fees",
-      "To identify the threshold above which misstatements influence user decisions",
-      "To determine the number of audit staff needed",
-      "To select the audit methodology"
+      "監査報酬を計算するため",
+      "誤謬が利用者の意思決定に影響を与える閾値を特定するため",
+      "必要な監査スタッフ数を決定するため",
+      "監査方法論を選択するため"
     ],
     "correct": 1,
     "explanation": "重要性は誤謬が利用者の意思決定に影響を与える閾値。監査人が重要領域に集中し、監査手続の性質、時期、範囲を計画するのに役立つ。"
@@ -15,12 +15,12 @@
   {
     "id": 2,
     "category": "Audit Planning",
-    "question": "Which risk assessment approach evaluates the likelihood and impact of identified risks to prioritize audit efforts?",
+    "question": "リスクの発生可能性と影響を評価し監査努力の優先順位を付けるリスク評価アプローチはどれか。",
     "options": [
-      "Sampling-based approach",
-      "Risk-based auditing",
-      "Compliance-based auditing",
-      "Financial-only auditing"
+      "サンプリングベースアプローチ",
+      "リスクベース監査",
+      "コンプライアンスベース監査",
+      "財務のみの監査"
     ],
     "correct": 1,
     "explanation": "リスクベース監査はリスクの発生可能性と影響の両方を評価し監査リソースを効果的に配分。高リスク領域に監査努力を集中し効率と有効性を向上。"
@@ -28,12 +28,12 @@
   {
     "id": 3,
     "category": "Audit Planning",
-    "question": "In an audit program, what does 'dual-purpose testing' refer to?",
+    "question": "監査プログラムにおける「デュアルパーポステスト」とは何か。",
     "options": [
-      "Testing two departments simultaneously",
-      "Testing that serves both control testing and substantive testing objectives",
-      "Conducting both internal and external audits",
-      "Using both manual and automated procedures"
+      "2つの部門を同時にテストすること",
+      "コントロールテストと実質テストの両方の目的を兼ねるテスト",
+      "内部監査と外部監査の両方を実施すること",
+      "手動と自動の両方の手続を使用すること"
     ],
     "correct": 1,
     "explanation": "デュアルパーポステストは単一監査手続がコントロールテスト(運用有効性評価)と実質テスト(重要な虚偽表示検出)の両方を兼ねるもの。"
@@ -41,7 +41,7 @@
   {
     "id": 4,
     "category": "Audit Planning",
-    "question": "What is the audit risk model formula?",
+    "question": "監査リスクモデルの公式はどれか。",
     "options": [
       "AR = IR x CR + DR",
       "AR = IR + CR - DR",
@@ -54,12 +54,12 @@
   {
     "id": 5,
     "category": "Audit Planning",
-    "question": "When planning an IS audit, which factor should be assessed FIRST?",
+    "question": "IS監査を計画する際、最初に評価すべき要因はどれか。",
     "options": [
-      "The complexity of the IT infrastructure",
-      "The organization's business objectives and IT-related risks",
-      "The qualifications of the IT audit staff",
-      "The budget allocated for the audit"
+      "ITインフラの複雑さ",
+      "組織のビジネス目標とIT関連リスク",
+      "IT監査スタッフの資格",
+      "監査に割り当てられた予算"
     ],
     "correct": 1,
     "explanation": "監査計画においてまず組織のビジネス目標とIT関連リスクを理解することが基盤。範囲やリソース配分を含む他のすべての要素はこのリスク評価から導出。"
@@ -67,12 +67,12 @@
   {
     "id": 6,
     "category": "Audit Planning",
-    "question": "What is the purpose of an audit planning memorandum?",
+    "question": "監査計画メモの目的は何か。",
     "options": [
-      "To communicate audit fees to management",
-      "To document the audit strategy, scope, and timing decisions",
-      "To record all audit findings",
-      "To serve as the final audit report"
+      "監査報酬を経営陣に伝達すること",
+      "監査戦略、範囲、時期の決定を文書化すること",
+      "すべての監査所見を記録すること",
+      "最終監査報告書として機能すること"
     ],
     "correct": 1,
     "explanation": "監査計画メモは監査戦略、範囲、時期、リソース配分に関する主要決定を文書化。監査のロードマップとして機能し監査人の計画プロセスの証拠となる。"
@@ -80,12 +80,12 @@
   {
     "id": 7,
     "category": "Audit Planning",
-    "question": "Which sampling method is most appropriate when the auditor wants to estimate the dollar amount of misstatement?",
+    "question": "監査人が誤謬の金額を推定したい場合、最も適切なサンプリング方法はどれか。",
     "options": [
-      "Attribute sampling",
-      "Stop-or-go sampling",
-      "Variables sampling",
-      "Discovery sampling"
+      "属性サンプリング",
+      "ストップ・オア・ゴーサンプリング",
+      "変数サンプリング",
+      "ディスカバリーサンプリング"
     ],
     "correct": 2,
     "explanation": "変数サンプリングは母集団の誤謬金額を推定するために使用。誤謬率等の定性的特性ではなく、勘定残高等の定量的特性を測定。"
@@ -93,12 +93,12 @@
   {
     "id": 8,
     "category": "Audit Planning",
-    "question": "In audit planning, what does 'analytical procedures' primarily help with?",
+    "question": "監査計画において「分析手続」は主に何に役立つか。",
     "options": [
-      "Identifying unusual transactions or relationships",
-      "Calculating exact misstatement amounts",
-      "Replacing substantive testing entirely",
-      "Determining employee fraud"
+      "異常な取引や関係を特定すること",
+      "誤謬の正確な金額を計算すること",
+      "実質テストを完全に代替すること",
+      "従業員の不正を特定すること"
     ],
     "correct": 0,
     "explanation": "計画時の分析手続は重要な虚偽表示リスクを示す異常な関係や取引を特定するのに役立つ。業界動向、前期、予算に基づく期待値と財務データを比較。"
@@ -106,12 +106,12 @@
   {
     "id": 9,
     "category": "Audit Planning",
-    "question": "When should preliminary materiality be set?",
+    "question": "予備的重要性はいつ設定すべきか。",
     "options": [
-      "At the end of the audit",
-      "During the reporting phase",
-      "During the planning phase",
-      "After testing controls"
+      "監査の最後",
+      "報告フェーズ中",
+      "計画フェーズ中",
+      "コントロールテストの後"
     ],
     "correct": 2,
     "explanation": "予備的重要性は監査手続の指針として計画フェーズで設定。監査人の被監査者理解が深まるにつれ改訂可能だが早期設定で重要領域にリソースを集中。"
@@ -119,12 +119,12 @@
   {
     "id": 10,
     "category": "Audit Planning",
-    "question": "What is the purpose of a 'walkthrough' in audit planning?",
+    "question": "監査計画における「ウォークスルー」の目的は何か。",
     "options": [
-      "To physically inspect the premises",
-      "To trace a transaction from initiation to recording to understand controls",
-      "To interview all employees",
-      "To calculate financial ratios"
+      "物理的に事業所を検査すること",
+      "取引を開始から記録まで追跡しコントロールを理解すること",
+      "全従業員に面接すること",
+      "財務比率を計算すること"
     ],
     "correct": 1,
     "explanation": "ウォークスルーは単一取引をプロセス全体に追跡しコントロールが存在し設計通りに運用していることを検証。観察、質問、検査を組み合わせた重要なリスク評価手続。"
@@ -132,12 +132,12 @@
   {
     "id": 11,
     "category": "Audit Planning",
-    "question": "Which of the following is NOT a component of audit planning under ISA standards?",
+    "question": "ISA基準の監査計画の構成要素でないものはどれか。",
     "options": [
-      "Understanding the entity and its environment",
-      "Determining materiality and performance materiality",
-      "Forming an audit opinion",
-      "Identifying and assessing risks of material misstatement"
+      "被監査者とその環境の理解",
+      "重要性とパフォーマンス重要性の決定",
+      "監査意見の形成",
+      "重要な虚偽表示リスクの識別と評価"
     ],
     "correct": 2,
     "explanation": "監査意見の形成は監査の最終ステップであり計画活動ではない。監査計画には被監査者の理解、リスク評価、重要性決定、全体監査戦略の策定が含まれる。"
@@ -145,12 +145,12 @@
   {
     "id": 12,
     "category": "Audit Planning",
-    "question": "What is 'performance materiality'?",
+    "question": "「パフォーマンス重要性」とは何か。",
     "options": [
-      "The maximum fee an auditor can charge",
-      "An amount below overall materiality to reduce the risk of aggregate misstatements exceeding materiality",
-      "The minimum profit threshold for a company",
-      "The standard deviation of audit samples"
+      "監査人が請求できる最大報酬",
+      "総合重要性以下の金額で、集計誤謬が重要性を超えるリスクを低減するもの",
+      "企業の最低利益閾値",
+      "監査サンプルの標準偏差"
     ],
     "correct": 1,
     "explanation": "パフォーマンス重要性は総合重要性以下に設定され、修正されない未修正・未検出誤謬の合計が総合重要性を超える確率を削減。特定勘定残高または注記に適用。"
@@ -158,12 +158,12 @@
   {
     "id": 13,
     "category": "Audit Planning",
-    "question": "In IS audit planning, which document defines the audit scope, objectives, and methodology?",
+    "question": "IS監査計画において、監査範囲、目標、方法論を定義する文書はどれか。",
     "options": [
-      "Audit charter",
-      "Audit program",
-      "Audit plan",
-      "Audit report"
+      "監査チャーター",
+      "監査プログラム",
+      "監査計画",
+      "監査報告書"
     ],
     "correct": 2,
     "explanation": "監査計画は範囲、目標、方法論、タイムライン、リソース配分を定義。特定手続を詳細化する監査プログラムより戦略的。チャーターは監査機能の権限を確立。"
@@ -171,12 +171,12 @@
   {
     "id": 14,
     "category": "Audit Planning",
-    "question": "What is the risk of over-reliance in audit sampling?",
+    "question": "監査サンプリングにおける「過信頼リスク」とは何か。",
     "options": [
-      "The auditor tests too few items",
-      "The auditor concludes controls are effective when they are not",
-      "The auditor spends too much time on testing",
-      "The auditor misses significant misstatements in financial statements"
+      "監査人が検査項目を少なすぎる場合",
+      "監査人が実際には有効でないコントロールを有効と結論する場合",
+      "監査人がテストに時間をかけすぎる場合",
+      "監査人が財務諸表の重要な誤謬を見逃す場合"
     ],
     "correct": 1,
     "explanation": "過信頼リスク(コントロールテストのアルファリスクまたはタイプIエラーとも)は監査人が実際には有効でないコントロールを有効と結論し、不十分な実質テストに繋がる場合。"
@@ -184,12 +184,12 @@
   {
     "id": 15,
     "category": "Audit Planning",
-    "question": "Which type of risk is most directly under the auditor's control?",
+    "question": "監査人が最も直接制御できるリスクの種類はどれか。",
     "options": [
-      "Inherent risk",
-      "Control risk",
-      "Detection risk",
-      "Business risk"
+      "固有リスク",
+      "統制リスク",
+      "発見リスク",
+      "ビジネスリスク"
     ],
     "correct": 2,
     "explanation": "発見リスクは監査人の手続が存在する誤謬を検出しないリスク。固有・統制リスク(被監査者関連)と異なり、手続の性質、時期、範囲を通じて監査人が制御可能。"
@@ -197,12 +197,12 @@
   {
     "id": 16,
     "category": "Audit Planning",
-    "question": "When using stratified sampling, the population is divided into subgroups (strata) to:",
+    "question": "層化サンプリングを使用する場合、母集団を副集合（層）に分割する目的は何か。",
     "options": [
-      "Increase the sample size required",
-      "Improve sampling efficiency by ensuring representation of different value ranges",
-      "Eliminate sampling risk entirely",
-      "Focus only on high-value items"
+      "必要なサンプルサイズを増やすため",
+      "異なる価値範囲の代表性を確保しサンプリング効率を向上させるため",
+      "サンプリングリスクを完全に排除するため",
+      "高価値項目のみに集中するため"
     ],
     "correct": 1,
     "explanation": "層化は特性(通常は価値)に基づいて母集団を副集合に分割。全有意セグメントの代表性を確保し精度を向上、所定信頼水準での必要サンプルサイズを削減。"
@@ -210,12 +210,12 @@
   {
     "id": 17,
     "category": "Audit Planning",
-    "question": "What is the primary objective of an entrance conference in the audit process?",
+    "question": "監査プロセスにおける「開始会議」の主な目的は何か。",
     "options": [
-      "To negotiate the audit fee",
-      "To establish communication with auditee management, confirm scope, and resolve concerns",
-      "To present audit findings",
-      "To select audit team members"
+      "監査報酬を交渉すること",
+      "被監査者経営陣との通信を確立し、範囲を確認し、懸念事項を解決すること",
+      "監査所見を提示すること",
+      "監査チームメンバーを選択すること"
     ],
     "correct": 1,
     "explanation": "開始会議は監査の開始時に経営陣との通信、監査範囲とタイムラインの確認、主要連絡先の特定、潜在的問題の議論、協力とアクセスの期待の確立。"
@@ -223,12 +223,12 @@
   {
     "id": 18,
     "category": "Audit Planning",
-    "question": "Which factor would MOST likely cause an auditor to increase the assessed level of control risk?",
+    "question": "統制リスクの評価水準を引き上げる可能性が最も高い要因はどれか。",
     "options": [
-      "The entity has strong segregation of duties",
-      "Management overrides established controls",
-      "The IT system has been recently upgraded",
-      "Internal audit reports are favorable"
+      "被監査者が強力な職務の分離を行っている",
+      "経営者が確立されたコントロールを回避している",
+      "ITシステムが最近アップグレードされた",
+      "内部監査報告書が良好である"
     ],
     "correct": 1,
     "explanation": "経営者によるコントロールの回避は重要なリスク要因。経営者がコントロールをバイパス可能な場合、内部統制システムは信頼できず統制リスク評価が上昇。"
@@ -236,12 +236,12 @@
   {
     "id": 19,
     "category": "Audit Planning",
-    "question": "What is 'trivial threshold' in the context of materiality?",
+    "question": "重要性の文脈における「トリビアルスレッショルド」とは何か。",
     "options": [
-      "The minimum audit fee",
-      "A threshold below which misstatements are clearly immaterial and do not need to be accumulated",
-      "The threshold for reporting fraud",
-      "The maximum amount of sampling error allowed"
+      "最低監査報酬",
+      "明らかに重要性が低く累積する必要がない誤謬の閾値",
+      "不正報告の閾値",
+      "許容される最大サンプリング誤差"
     ],
     "correct": 1,
     "explanation": " trivial threshold は個別に明らかに重要性が低い誤謬の閾値。重要性評価のために他の誤謬と累積する必要がなく、極小項目での監査人の作業を簡素化。"
@@ -249,12 +249,12 @@
   {
     "id": 20,
     "category": "Audit Planning",
-    "question": "In audit planning, a 'preliminary analytical review' is performed to:",
+    "question": "監査計画における「予備的分析レビュー」は何のために実施されるか。",
     "options": [
-      "Replace all substantive procedures",
-      "Identify areas of potential risk and unusual fluctuations",
-      "Calculate the exact audit budget",
-      "Determine the final audit opinion"
+      "すべての実質手続を代替するため",
+      "潜在的リスク領域と異常な変動を特定するため",
+      "正確な監査予算を計算するため",
+      "最終監査意見を決定するため"
     ],
     "correct": 1,
     "explanation": "予備的分析レビューは当期財務データを前期、予算、業界データと比較し異常な変動や関係を特定。より多くの監査注意が必要な高リスク領域を示唆。"
@@ -262,12 +262,12 @@
   {
     "id": 21,
     "category": "Audit Planning",
-    "question": "Which of the following best describes 'tolerable error' in sampling?",
+    "question": "サンプリングにおける「許容誤謬」の最も適切な説明はどれか。",
     "options": [
-      "The maximum error the auditor expects to find",
-      "The maximum error rate the auditor is willing to accept and still conclude the population is acceptable",
-      "The actual error rate found in the sample",
-      "The error rate reported to management"
+      "監査人が発見すると予想する最大誤謬",
+      "監査人が母集団が受容可能と結論するために受け入れる最大誤謬率",
+      "サンプルで発見された実際の誤謬率",
+      "経営陣に報告される誤謬率"
     ],
     "correct": 1,
     "explanation": "許容誤謬(属性サンプリングの許容偏差率)は監査人がコントロールを信頼できると結論付けるために受け入れる最大偏差率。サンプルサイズに直接影響。"
@@ -275,12 +275,12 @@
   {
     "id": 22,
     "category": "Audit Planning",
-    "question": "When planning an audit of a newly established IT system, which approach is MOST appropriate?",
+    "question": "新しく構築されたITシステムの監査を計画する際、最も適切なアプローチはどれか。",
     "options": [
-      "Rely entirely on the vendor's documentation",
-      "Focus heavily on general IT controls and change management",
-      "Skip control testing since the system is new",
-      "Only perform substantive testing"
+      "ベンダーの文書のみに依存する",
+      "一般ITコントロールと変更管理に重点を置く",
+      "システムが新しいためコントロールテストを省略する",
+      "実質テストのみを実施する"
     ],
     "correct": 1,
     "explanation": "新規ITシステムの監査では一般ITコントロールと変更管理に重点。これらはシステムが意図通りに運用することを確保する上で重要。コントロールが未成熟の可能性があるため設計と実装の両方を徹底的に評価すべき。"
@@ -288,12 +288,12 @@
   {
     "id": 23,
     "category": "Audit Planning",
-    "question": "What is the purpose of determining the audit team's competence and independence?",
+    "question": "監査チームの能力と独立性を確認する目的は何か。",
     "options": [
-      "To justify the audit fee",
-      "To ensure ethical requirements are met and the team has appropriate skills",
-      "To assign work equally among team members",
-      "To comply with tax regulations"
+      "監査報酬を正当化するため",
+      "倫理要件が満たされ、チームが適切なスキルを持つことを確保するため",
+      "チームメンバー間に均等に作業を割り当てるため",
+      "税法規制に準拠するため"
     ],
     "correct": 1,
     "explanation": "チームの能力と独立性の評価はチームが必要なスキルを持ち、利益相反がないことを確保。監査品質の基盤で職業的基準と倫理ガイドラインで義務付け。"
@@ -301,12 +301,12 @@
   {
     "id": 24,
     "category": "Audit Planning",
-    "question": "In a risk-based audit approach, which area should receive the MOST audit attention?",
+    "question": "リスクベース監査アプローチにおいて、最も監査注意を向けるべき領域はどれか。",
     "options": [
-      "Areas with the lowest risk of material misstatement",
-      "Areas with the highest assessed risk of material misstatement",
-      "Areas that are easiest to audit",
-      "Areas suggested by management"
+      "重要な虚偽表示リスクが最も低い領域",
+      "重要な虚偽表示リスクが最も高いと評価された領域",
+      "監査が最も容易な領域",
+      "経営陣が提案する領域"
     ],
     "correct": 1,
     "explanation": "リスクベース監査は最も高い重要な虚偽表示リスク評価領域に努力を配向。希少な監査リソースを監査品質に最大の影響を与える箇所に配分する原則。"
@@ -314,12 +314,12 @@
   {
     "id": 25,
     "category": "Audit Planning",
-    "question": "What is a 'time budget' in audit planning?",
+    "question": "監査計画における「タイムバジェット」とは何か。",
     "options": [
-      "The total time available to complete the audit",
-      "An estimate of hours required for each audit phase to manage resources and track progress",
-      "The deadline for submitting the audit report",
-      "The time between planning and fieldwork"
+      "監査完了に利用可能な合計時間",
+      "リソース管理と進捗追跡のための各監査フェーズの所要時間見積",
+      "監査報告書提出の期限",
+      "計画と現地作業の間の時間"
     ],
     "correct": 1,
     "explanation": "タイムバジェットは各監査フェーズと手続の所要時間を見積。リソース管理、進捗追跡、超過の早期発見に役立つ。"
@@ -327,12 +327,12 @@
   {
     "id": 26,
     "category": "Audit Planning",
-    "question": "Which of the following would be considered a 'significant risk' under ISA 315?",
+    "question": "ISA 315の下で「重要なリスク」と見なされるものはどれか。",
     "options": [
-      "A routine accounting error",
-      "A complex accounting estimate involving significant judgment",
-      "A minor clerical mistake",
-      "An immaterial rounding difference"
+      "日常的な会計エラー",
+      "重要な判断を伴う複雑な会計見積",
+      "軽微な事務的ミス",
+      "重要性の低い丸め差額"
     ],
     "correct": 1,
     "explanation": "ISA 315の重要なリスクは複雑または異常な取引、重要な判断、不正の影響を受けやすい領域。日常的な誤りや重要性の低い項目は重要リスクではない。"
@@ -340,12 +340,12 @@
   {
     "id": 27,
     "category": "Audit Planning",
-    "question": "What is 'block sampling'?",
+    "question": "「ブロックサンプリング」とは何か。",
     "options": [
-      "Selecting every nth item from the population",
-      "Selecting all items within a contiguous block of time or transactions",
-      "Dividing the population into equal-sized groups",
-      "Randomly selecting individual items"
+      "母集団からn番目ごとの項目を選択すること",
+      "連続する時間または取引ブロック内の全項目を選択すること",
+      "母集団を同サイズのグループに分割すること",
+      "個々の項目をランダムに選択すること"
     ],
     "correct": 1,
     "explanation": "ブロックサンプリングは定義されたブロック(例: 特定週の全取引)の全項目を選択。シンプルだがブロックが母集団全体を代表しない統計的限界がある。"
@@ -353,12 +353,12 @@
   {
     "id": 28,
     "category": "Audit Planning",
-    "question": "During audit planning, understanding the entity's internal control system is necessary to:",
+    "question": "監査計画において被監査者の内部統制システムを理解する必要があるのはなぜか。",
     "options": [
-      "Eliminate the need for substantive testing",
-      "Identify controls relevant to the audit and plan the nature and extent of further procedures",
-      "Determine the exact dollar amount of misstatements",
-      "Prepare the financial statements"
+      "実質テストの必要性を排除するため",
+      "監査に関連するコントロールを特定し、今後の手続の性質と範囲を計画するため",
+      "誤謬の正確な金額を決定するため",
+      "財務諸表を作成するため"
     ],
     "correct": 1,
     "explanation": "内部統制の理解は関連コントロールの特定、統制リスク評価、コントロールテストによる実質テストの削減可能性を判断。実質テストを排除はしないが範囲を削減可能。"
@@ -366,12 +366,12 @@
   {
     "id": 29,
     "category": "Audit Planning",
-    "question": "What does 'audit universe' refer to?",
+    "question": "「監査ユニバース」とは何を指すか。",
     "options": [
-      "All possible audit procedures",
-      "The complete set of auditable units within an organization that could be subject to audit",
-      "All audit standards and regulations",
-      "The total budget allocated for all audits"
+      "すべての可能な監査手続",
+      "組織内の監査可能な単位の完全な集合",
+      "すべての監査基準と規制",
+      "すべての監査に割り当てられた総予算"
     ],
     "correct": 1,
     "explanation": "監査ユニバースは組織内の監査可能単位(部門、プロセス、システム、拠点)の完全なインベントリ。リスクベース監査計画でどの領域を監査するか優先付けるために使用。"
@@ -379,12 +379,12 @@
   {
     "id": 30,
     "category": "Audit Planning",
-    "question": "When planning to use the work of internal auditors, the external auditor must assess:",
+    "question": "内部監査人の作業を利用する計画を立てる場合、外部監査人は何を評価すべきか。",
     "options": [
-      "The internal auditors' years of experience only",
-      "The competence, objectivity, and work quality of the internal audit function",
-      "Whether internal auditors report to the same person as external auditors",
-      "The internal audit department's budget allocation"
+      "内部監査人の経験年数のみ",
+      "内部監査機能の能力、客観性、作業品質",
+      "内部監査人が外部監査人と同じ人に報告しているか",
+      "内部監査部門の予算配分"
     ],
     "correct": 1,
     "explanation": "内部監査の利用を計画する場合、外部監査人は内部監査機能の能力(スキル・研修)、客観性(組織的独立性)、作業品質(方法論・監督)を評価。"
@@ -392,12 +392,12 @@
   {
     "id": 31,
     "category": "Internal Control",
-    "question": "According to the COSO framework, how many components of internal control exist?",
+    "question": "COSOフレームワークでは内部統制の構成要素はいくつあるか。",
     "options": [
-      "Three",
-      "Four",
-      "Five",
-      "Six"
+      "3つ",
+      "4つ",
+      "5つ",
+      "6つ"
     ],
     "correct": 2,
     "explanation": "COSOフレームワークは内部統制の5構成要素を定義: 統制環境、リスク評価、統制活動、情報・通信、監視活動。相互に関連し統制評価の包括的フレームワーク。"
@@ -405,12 +405,12 @@
   {
     "id": 32,
     "category": "Internal Control",
-    "question": "Which COSO component is considered the foundation of all other components?",
+    "question": "COSOのどの構成要素が他のすべての構成要素の基盤と見なされるか。",
     "options": [
-      "Control Activities",
-      "Risk Assessment",
-      "Control Environment",
-      "Monitoring Activities"
+      "統制活動",
+      "リスク評価",
+      "統制環境",
+      "監視活動"
     ],
     "correct": 2,
     "explanation": "統制環境は他のすべての構成要素の基盤で「トーン・アット・ザ・トップ」。誠実性、倫理的価値、経営者の理念、組織構造、能力へのコミットメントを含む。"
@@ -418,12 +418,12 @@
   {
     "id": 33,
     "category": "Internal Control",
-    "question": "What is 'segregation of duties' primarily designed to prevent?",
+    "question": "「職務の分離」は主に何を防止するために設計されているか。",
     "options": [
-      "System downtime",
-      "Errors and fraud by a single individual having too much control over a process",
-      "Incomplete documentation",
-      "Slow transaction processing"
+      "システムダウンタイム",
+      "単一の個人がプロセスを過度に管理することによるエラーと不正",
+      "不完全な文書化",
+      "取引処理の遅延"
     ],
     "correct": 1,
     "explanation": "職務の分離は重要機能(承認、記録、保管)を異なる個人に分割。単一人物がエラーや不正を発生と隠蔽の両方を行えないようにする。"
@@ -431,12 +431,12 @@
   {
     "id": 34,
     "category": "Internal Control",
-    "question": "Under J-SOX, which management assertion is NOT required in internal control reporting?",
+    "question": "J-SOXにおいて内部統制報告で要求されない経営者アサーションはどれか。",
     "options": [
-      "Existence or occurrence",
-      "Completeness",
-      "Market share analysis",
-      "Rights and obligations"
+      "存在または発生",
+      "完全性",
+      "市場シェア分析",
+      "権利・義務"
     ],
     "correct": 2,
     "explanation": "J-SOXの経営者アサーションには存在・発生、完全性、権利・義務、評価・配賦、表示・開示、正確性が含まれる。市場シェア分析は財務諸表アサーションではない。"
@@ -444,12 +444,12 @@
   {
     "id": 35,
     "category": "Internal Control",
-    "question": "What is a 'compensating control'?",
+    "question": "「補完コントロール」とは何か。",
     "options": [
-      "A control that compensates employees for extra work",
-      "A control that mitigates a risk when a primary control is absent or ineffective",
-      "A financial control that reduces tax liability",
-      "A backup control for IT system failures"
+      "従業員の残業を補償するコントロール",
+      "一次コントロールが不在または非有効な場合にリスクを低減するコントロール",
+      "税負債を削減する財務コントロール",
+      "ITシステム障害に対するバックアップコントロール"
     ],
     "correct": 1,
     "explanation": "補完コントロールは一次コントロールが不在または非有効な場合にリスクを許容レベルに低減する。例: 管理者によるレポートレビューが弱い自動コントロールを補完。"
@@ -457,12 +457,12 @@
   {
     "id": 36,
     "category": "Internal Control",
-    "question": "Which type of control detects errors that have already occurred?",
+    "question": "既に発生したエラーを検出するコントロールの種類はどれか。",
     "options": [
-      "Preventive control",
-      "Detective control",
-      "Corrective control",
-      "Directive control"
+      "予防的コントロール",
+      "発見的コントロール",
+      "是正コントロール",
+      "指示的コントロール"
     ],
     "correct": 1,
     "explanation": "発見的コントロールは発生後のエラーや不規則を識別。例: 照合、差異分析、定期的な実地棚卸。予防的コントロールが見逃したものを捕捉して補完。"
@@ -470,12 +470,12 @@
   {
     "id": 37,
     "category": "Internal Control",
-    "question": "In the context of J-SOX, what is a 'key control'?",
+    "question": "J-SOXの文脈における「キーコントロール」とは何か。",
     "options": [
-      "The most expensive control in the organization",
-      "A control designed to prevent or detect material misstatement in financial reporting",
-      "A control only used by executive management",
-      "A control that has never failed"
+      "組織で最も高額なコントロール",
+      "財務報告の重要な虚偽表示を防止または検出するよう設計されたコントロール",
+      "経営陣のみが使用するコントロール",
+      "一度も失敗したことがないコントロール"
     ],
     "correct": 1,
     "explanation": "J-SOXのキーコントロールは財務報告の重要な虚偽表示を防止または検出するよう設計されたもの。コンプライアンスのために経営者がテストし報告する必要がある。"
@@ -483,12 +483,12 @@
   {
     "id": 38,
     "category": "Internal Control",
-    "question": "What does 'monitoring activities' in the COSO framework involve?",
+    "question": "COSOフレームワークにおける「監視活動」とは何を含むか。",
     "options": [
-      "Supervising employees' daily work activities only",
-      "Ongoing assessments and separate evaluations of whether internal controls are present and functioning",
-      "Monitoring IT system performance metrics",
-      "Tracking competitors' financial performance"
+      "従業員の日常業務の監督のみ",
+      "内部統制が存在し機能しているかについての継続的評価と個別評価",
+      "ITシステムのパフォーマンス指標の監視",
+      "競合他社の財務パフォーマンスの追跡"
     ],
     "correct": 1,
     "explanation": "監視活動は内部統制が長期間有効に運用しているかを評価。継続的監視(管理レビュー、内部監査)と個別評価(定期的コントロール自己評価、外部レビュー)が含まれる。"
@@ -496,12 +496,12 @@
   {
     "id": 39,
     "category": "Internal Control",
-    "question": "An 'entity-level control' is BEST described as a control that:",
+    "question": "「エンティティレベルコントロール」の最も適切な説明はどれか。",
     "options": [
-      "Only applies to a single transaction",
-      "Operates across the entire organization and sets the tone for control consciousness",
-      "Is used exclusively in manufacturing environments",
-      "Controls only IT system access"
+      "単一取引にのみ適用される",
+      "組織全体にわたり統制意識のトーンを設定する",
+      "製造環境でのみ使用される",
+      "ITシステムへのアクセスのみを制御する"
     ],
     "correct": 1,
     "explanation": "エンティティレベルコントロールは組織全体にわたり統制意識のトーンを設定。例: 経営者のリスク評価プロセス、行動規範、内部監査機能、統制文化。"
@@ -509,12 +509,12 @@
   {
     "id": 40,
     "category": "Internal Control",
-    "question": "Which of the following is an example of a preventive control?",
+    "question": "予防的コントロールの例はどれか。",
     "options": [
-      "Monthly bank reconciliation",
-      "Physical inventory count",
-      "Requirement for supervisory approval of purchases exceeding a threshold",
-      "Investigation of variance reports"
+      "月次の銀行勘定照合",
+      "実地棚卸",
+      "閾値を超える購買の管理者承認要件",
+      "差異報告書の調査"
     ],
     "correct": 2,
     "explanation": "予防的コントロールはエラーや不規則が発生する前に阻止。しきい値を超える購買の管理者承認要求は不正または不適切な取引が処理されるのを防止。"
@@ -522,12 +522,12 @@
   {
     "id": 41,
     "category": "Internal Control",
-    "question": "In evaluating internal controls, 'effective design' means:",
+    "question": "内部統制評価において「有効な設計」とは何を意味するか。",
     "options": [
-      "The control has been implemented correctly",
-      "The control, if operating as designed, would prevent or detect material misstatements",
-      "The control has never had any deviations",
-      "The control is automated"
+      "コントロールが正しく実装されている",
+      "設計通りに運用する場合、重要な虚偽表示を防止または検出できる",
+      "コントロールに一度も逸脱がない",
+      "コントロールが自動化されている"
     ],
     "correct": 1,
     "explanation": "有効な設計とはコントロールが設計通りに運用する場合に重要な虚偽表示を防止または検出できること。実際の運用結果ではなく関連リスクに対応している設計に焦点。"
@@ -535,12 +535,12 @@
   {
     "id": 42,
     "category": "Internal Control",
-    "question": "What is 'IT general controls' (ITGC) testing primarily concerned with?",
+    "question": "IT一般統制（ITGC）テストは主に何に関心があるか。",
     "options": [
-      "Application-specific business logic",
-      "The overall IT environment that supports the reliable operation of applications",
-      "End-user computing procedures",
-      "Network speed optimization"
+      "アプリケーション固有の業務ロジック",
+      "アプリケーションの信頼性の高い運用を支えるIT環境全体",
+      "エンドユーザー・コンピューティング手続",
+      "ネットワーク速度の最適化"
     ],
     "correct": 1,
     "explanation": "ITGCはアプリケーションが確実に機能しデータ完全性が維持されるようIT環境全体をカバー: アクセス制御、変更管理、運用、システム開発。"
@@ -548,12 +548,12 @@
   {
     "id": 43,
     "category": "Internal Control",
-    "question": "A 'change management' control in IT ensures:",
+    "question": "ITにおける「変更管理」コントロールは何を確保するか。",
     "options": [
-      "Employees adapt to organizational changes",
-      "System changes are authorized, tested, and documented before implementation",
-      "Software is updated to the latest version automatically",
-      "Budget changes are approved by management"
+      "従業員が組織変更に適応すること",
+      "システム変更が実装前に承認、テスト、文書化されること",
+      "ソフトウェアが自動的に最新版に更新されること",
+      "予算変更が経営陣に承認されること"
     ],
     "correct": 1,
     "explanation": "IT変更管理コントロールはシステム変更が本番移行前に適切に承認、テスト、承認され文書化されることを確保。データ完全性やシステム可用性を損なう不正変更を防止。"
@@ -561,12 +561,12 @@
   {
     "id": 44,
     "category": "Internal Control",
-    "question": "What is the 'control environment' component of COSO primarily concerned with?",
+    "question": "COSOの「統制環境」構成要素は主に何に関心があるか。",
     "options": [
-      "IT hardware and software",
-      "The attitude and actions of management regarding internal control and ethical values",
-      "Physical security of buildings",
-      "Environmental sustainability initiatives"
+      "ITハードウェアとソフトウェア",
+      "内部統制と倫理的価値に対する経営陣の態度と行動",
+      "建物の物理的セキュリティ",
+      "環境持続可能性イニシアチブ"
     ],
     "correct": 1,
     "explanation": "COSOの統制環境は組織の誠実性、倫理的価値、経営理念、運営スタイル、組織構造、能力基準を包含。「トーン・アット・ザ・トップ」で統制意識に影響。"
@@ -574,12 +574,12 @@
   {
     "id": 45,
     "category": "Internal Control",
-    "question": "Which of the following best describes 'application controls'?",
+    "question": "「アプリケーションコントロール」の最も適切な説明はどれか。",
     "options": [
-      "Controls over the IT department's budget",
-      "Controls embedded in business applications to ensure transaction accuracy and completeness",
-      "Controls for software licensing",
-      "Controls over end-user workstation hardware"
+      "IT部門の予算に対するコントロール",
+      "取引の正確性と完全性を確保するよう業務アプリケーションに組み込まれたコントロール",
+      "ソフトウェアライセンスに対するコントロール",
+      "エンドユーザーワークステーションのハードウェアに対するコントロール"
     ],
     "correct": 1,
     "explanation": "アプリケーションコントロールは取引が正確、完全、承認済みに処理されるようアプリケーションに組み込まれた自動または手動コントロール。例: 入力検証、照合チェック、購買の3者マッチング。"
@@ -587,12 +587,12 @@
   {
     "id": 46,
     "category": "Internal Control",
-    "question": "Under J-SOX, who is primarily responsible for maintaining effective internal controls over financial reporting?",
+    "question": "J-SOXの下で財務報告の内部統制の維持について主に誰が責任を負うか。",
     "options": [
-      "The external auditor",
-      "The board of directors only",
-      "Management (CEO and CFO)",
-      "The IT department"
+      "外部監査人",
+      "取締役会のみ",
+      "経営者（CEOとCFO）",
+      "IT部門"
     ],
     "correct": 2,
     "explanation": "J-SOX(およびSOX)下では経営者(CEOとCFO)が財務報告の内部統制(ICFR)の確立、維持、有効性評価に主要責任を負う。"
@@ -600,12 +600,12 @@
   {
     "id": 47,
     "category": "Internal Control",
-    "question": "What is 'incompatible duties'?",
+    "question": "「不適合職務」とは何か。",
     "options": [
-      "Duties that require different skill sets",
-      "Duties that, if performed by the same person, could allow errors or fraud to occur and go undetected",
-      "Duties that are assigned to temporary employees",
-      "Duties that overlap between departments"
+      "異なるスキルセットを必要とする職務",
+      "同一人物が行う場合、エラーまたは不正の発生と発見が未検出になる可能性がある職務",
+      "臨時従業員に割り当てられた職務",
+      "部門間で重複する職務"
     ],
     "correct": 1,
     "explanation": "不適合職務は適切な内部統制維持のために同一人物が行ってはならない機能。例: 支払いの承認者と記録者は別であるべき。"
@@ -613,12 +613,12 @@
   {
     "id": 48,
     "category": "Internal Control",
-    "question": "Which type of control is a reconciliation between two independent records?",
+    "question": "2つの独立した記録間の照合はどの種類のコントロールか。",
     "options": [
-      "Preventive control only",
-      "Detective control",
-      "Corrective control only",
-      "Directive control"
+      "予防的コントロールのみ",
+      "発見的コントロール",
+      "是正コントロールのみ",
+      "指示的コントロール"
     ],
     "correct": 1,
     "explanation": "照合は2つの独立した記録(例: 銀行取引明細書と元帳)を比較し差異を検出。既に発生したエラー・不規則を識別するため発見的コントロール。"
@@ -626,12 +626,12 @@
   {
     "id": 49,
     "category": "Internal Control",
-    "question": "What is 'management override of controls'?",
+    "question": "「経営者によるコントロールの回避」とは何か。",
     "options": [
-      "Management disabling all controls during an emergency",
-      "Management manipulating records or bypassing established controls for personal gain or to meet targets",
-      "Management delegating authority to subordinates",
-      "Management updating control policies regularly"
+      "緊急時に経営者がすべてのコントロールを無効化すること",
+      "経営者が記録を操作または確立されたコントロールをバイパスすること",
+      "経営者が権限を部下に委任すること",
+      "経営者がコントロールポリシーを定期的に更新すること"
     ],
     "correct": 1,
     "explanation": "経営者によるコントロール回避は権限のある者が記録を操作または内部統制をバイパスする。不正リスクが高く防止が困難で監査人の特別な注意が必要。"
@@ -639,12 +639,12 @@
   {
     "id": 50,
     "category": "Internal Control",
-    "question": "In the COSO ERM framework, what is 'risk appetite'?",
+    "question": "COSO ERMフレームワークにおける「リスクアペタイト」とは何か。",
     "options": [
-      "The amount of food the risk management team consumes",
-      "The level of risk an organization is willing to accept in pursuit of its objectives",
-      "The maximum dollar loss acceptable in a year",
-      "The number of risks identified in a risk assessment"
+      "リスク管理チームが消費する食事の量",
+      "組織が目標追求のために許容するリスク水準",
+      "1年間に許容できる最大ドル損失",
+      "リスク評価で識別されたリスクの数"
     ],
     "correct": 1,
     "explanation": "リスクアペタイトは組織が目標追求のために許容するリスクの量とタイプ。リスク管理戦略を導き、どのリスクを許容・軽減・回避・移転するかを決定。"
@@ -652,12 +652,12 @@
   {
     "id": 51,
     "category": "Internal Control",
-    "question": "What is a 'control deficiency'?",
+    "question": "「統制欠陥」とは何か。",
     "options": [
-      "A control that operates too slowly",
-      "A design or operating deficiency that does not allow management or employees to prevent or detect misstatements on a timely basis",
-      "A control that costs more than its benefit",
-      "A control that is not automated"
+      "動作が遅すぎるコントロール",
+      "経営者または従業員が適時に誤謬を防止または検出できない設計または運用上の欠陥",
+      "便益よりコストが高いコントロール",
+      "自動化されていないコントロール"
     ],
     "correct": 1,
     "explanation": "統制欠陥はコントロールが設計または運用上、適時に誤謬を防止または検出できない場合に存在。重大度に応じ重要な欠陥または重大な弱点に分類。"
@@ -665,12 +665,12 @@
   {
     "id": 52,
     "category": "Internal Control",
-    "question": "Which of the following is an example of an 'information and communication' component in COSO?",
+    "question": "COSOの「情報・通信」構成要素の例はどれか。",
     "options": [
-      "Hiring qualified IT staff",
-      "The accounting system that captures and processes transaction data accurately",
-      "Physical locks on doors",
-      "Annual performance reviews"
+      "有資格のITスタッフの採用",
+      "取引データを正確に捕捉・処理する会計システム",
+      "ドアの物理的ロック",
+      "年次業績評価"
     ],
     "correct": 1,
     "explanation": "情報・通信コンポーネントは識別情報の確保、捕捉、適時交換を支援するシステム(会計ソフトウェア等)をカバー。人々が自身の責任を果たせるようにする。"
@@ -678,12 +678,12 @@
   {
     "id": 53,
     "category": "Internal Control",
-    "question": "What is a 'material weakness' in internal control?",
+    "question": "内部統制における「重大な弱点」とは何か。",
     "options": [
-      "A control that requires significant investment to fix",
-      "A deficiency or combination of deficiencies resulting in a reasonable possibility that a material misstatement will not be prevented or detected",
-      "A control that is only partially automated",
-      "A control that has been identified but not yet tested"
+      "修正に多額の投資を必要とするコントロール",
+      "重要な虚偽表示が防止または検出されない合理的な可能性をもたらす欠陥または欠陥の組み合わせ",
+      "部分的に自動化されたコントロール",
+      "識別されたがまだテストされていないコントロール"
     ],
     "correct": 1,
     "explanation": "重大な弱点は最も深刻な統制欠陥カテゴリ。財務諸表の重要な虚偽表示が適時に防止または検出されない合理的な可能性があることを意味する。"
@@ -691,12 +691,12 @@
   {
     "id": 54,
     "category": "Internal Control",
-    "question": "Continuous monitoring of controls using technology is an example of which COSO component?",
+    "question": "テクノロジーを使用したコントロールの継続的監視はCOSOのどの構成要素の例か。",
     "options": [
-      "Control Environment",
-      "Risk Assessment",
-      "Control Activities",
-      "Monitoring Activities"
+      "統制環境",
+      "リスク評価",
+      "統制活動",
+      "監視活動"
     ],
     "correct": 3,
     "explanation": "継続的監視は自動化ツールでリアルタイムにコントロール有効性を評価。監視活動コンポーネントに属し、長期間のコントロール運用評価。"
@@ -704,12 +704,12 @@
   {
     "id": 55,
     "category": "Internal Control",
-    "question": "Which control activity ensures that only authorized transactions are processed?",
+    "question": "認可された取引のみが処理されることを確保する統制活動はどれか。",
     "options": [
-      "Reconciliation",
-      "Physical inventory count",
-      "Authorization and approval procedures",
-      "Employee training programs"
+      "照合",
+      "実地棚卸",
+      "承認・承認手続",
+      "従業員研修プログラム"
     ],
     "correct": 2,
     "explanation": "承認・承認手続は取引が確立された制限内で権限のある職員によってのみ処理されることを確保。不正取引のシステム流入防止の基本的統制活動。"
@@ -717,12 +717,12 @@
   {
     "id": 56,
     "category": "Internal Control",
-    "question": "What is 'segregation of duties' in the context of IT systems?",
+    "question": "ITシステムにおける「職務の分離」とは何か。",
     "options": [
-      "Having separate IT and accounting departments only",
-      "Separating the roles of system development, operations, and security administration",
-      "Using different programming languages for different systems",
-      "Having backup systems at separate locations"
+      "IT部門と会計部門を分けることのみ",
+      "システム開発、運用、セキュリティ管理の役割を分離すること",
+      "異なるシステムに異なるプログラミング言語を使用すること",
+      "別々の場所にバックアップシステムを配置すること"
     ],
     "correct": 1,
     "explanation": "ITの職務の分離は開発(システム作成)、運用(システム稼働)、セキュリティ(アクセス制御)機能を分離。単一人物のITシステム過度な支配を防止。"
@@ -730,12 +730,12 @@
   {
     "id": 57,
     "category": "Internal Control",
-    "question": "A 'self-assessment' of internal controls by department managers is an example of:",
+    "question": "部門管理者による内部統制の「自己評価」はどれの例か。",
     "options": [
-      "External audit procedure",
-      "Monitoring activity",
-      "Preventive control",
-      "Corrective control"
+      "外部監査手続",
+      "監視活動",
+      "予防的コントロール",
+      "是正コントロール"
     ],
     "correct": 1,
     "explanation": "コントロール自己評価(CSA)は部門管理者が自部門のコントロールを評価する監視活動。コントロールの所有意識を促進し経営者と監査人に有効性情報を提供。"
@@ -743,12 +743,12 @@
   {
     "id": 58,
     "category": "Internal Control",
-    "question": "What does 'reasonable assurance' mean in the context of internal controls?",
+    "question": "内部統制の文脈における「合理的保証」とは何を意味するか。",
     "options": [
-      "Controls provide absolute certainty that misstatements will be prevented",
-      "Controls provide a high (but not absolute) level of assurance that objectives will be achieved",
-      "Controls only need to be 50% effective",
-      "Controls are reasonable in cost compared to benefit"
+      "誤謬が防止されることが絶対的に保証される",
+      "目標達成に対して高い（しかし絶対ではない）水準の保証が提供される",
+      "コントロールが50%有効であればよい",
+      "コストと便益の比較でコントロールが合理的である"
     ],
     "correct": 1,
     "explanation": "合理的保証とは内部統制が目標達成に対して高いが絶対ではない保証を提供すること。人的エラー、共謀、経営者回避、コスト考慮による制限がある。絶対的保証は達成不可能かつ非効率。"
@@ -756,12 +756,12 @@
   {
     "id": 59,
     "category": "Internal Control",
-    "question": "Which of the following is a 'corrective control'?",
+    "question": "「是正コントロール」の例はどれか。",
     "options": [
-      "Input validation checks",
-      "Error correction procedures after a detective control identifies a problem",
-      "Monthly budget reviews",
-      "Password complexity requirements"
+      "入力検証チェック",
+      "発見的コントロールが問題を特定した後のエラー修正手続",
+      "月次予算レビュー",
+      "パスワード複雑さ要件"
     ],
     "correct": 1,
     "explanation": "是正コントロールは発見的コントロールが特定した問題を修正。照合で差異が発見された場合のエラー修正プロセスは是正コントロール。"
@@ -769,12 +769,12 @@
   {
     "id": 60,
     "category": "Internal Control",
-    "question": "In evaluating the design effectiveness of a control, the auditor should consider whether:",
+    "question": "コントロールの設計有効性を評価する際、監査人は何を考慮すべきか。",
     "options": [
-      "The control has been operating for at least one year",
-      "The control has the potential to prevent or detect material misstatements relevant to the assertion",
-      "The control is approved by the board of directors",
-      "The control has zero cost associated with it"
+      "コントロールが少なくとも1年間運用されていること",
+      "コントロールがアサーションに関連する重要な虚偽表示を防止または検出する可能性があること",
+      "コントロールが取締役会に承認されていること",
+      "コントロールにコストがかからないこと"
     ],
     "correct": 1,
     "explanation": "設計有効性評価はコントロールが適切に運用する場合に重要な虚偽表示を防止または検出できるかを判断。運用履歴ではなく関連リスクに対応する設計に焦点。"
@@ -782,12 +782,12 @@
   {
     "id": 61,
     "category": "IT Governance",
-    "question": "COBIT is primarily a framework for:",
+    "question": "COBITは主にどのようなフレームワークか。",
     "options": [
-      "Software development methodology",
-      "IT governance and management, providing guidance on aligning IT with business objectives",
-      "Network security standards",
-      "Database management"
+      "ソフトウェア開発方法論",
+      "ITガバナンスと管理のためのフレームワークで、ITとビジネス目標の整合をガイダンスする",
+      "ネットワークセキュリティ基準",
+      "データベース管理"
     ],
     "correct": 1,
     "explanation": "COBIT(Control Objectives for Information and Related Technologies)はITガバナンスフレームワークで、IT戦略とビジネス目標の整合、リスク管理、IT投資からの価値提供を支援。"
@@ -795,7 +795,7 @@
   {
     "id": 62,
     "category": "IT Governance",
-    "question": "In COBIT 2019, how many governance and management objectives are defined?",
+    "question": "COBIT 2019ではいくつのガバナンス・管理目的が定義されているか。",
     "options": [
       "20",
       "34",
@@ -808,12 +808,12 @@
   {
     "id": 63,
     "category": "IT Governance",
-    "question": "Which COBIT principle states that IT governance should cover the enterprise end-to-end?",
+    "question": "ITガバナンスが企業全体をカバーすべきとするCOBIT原則はどれか。",
     "options": [
-      "Meeting stakeholder needs",
-      "Covering the enterprise end-to-end",
-      "Applying a single integrated framework",
-      "Enabling a holistic approach"
+      "ステークホルダーニーズの充足",
+      "企業全体をカバーすること",
+      "単一の統合フレームワークの適用",
+      "包括的アプローチの有効化"
     ],
     "correct": 1,
     "explanation": "COBITのエンタープライズ全体をカバーする原則はITガバナンスがIT部門だけでなく組織のすべての機能とプロセスに対処すべきことを意味。ITは企業の不可欠な一部。"
@@ -821,12 +821,12 @@
   {
     "id": 64,
     "category": "IT Governance",
-    "question": "ITIL is primarily concerned with:",
+    "question": "ITILは主に何に関心があるか。",
     "options": [
-      "IT governance and strategy",
-      "IT service management best practices for delivering value to customers",
-      "Information security standards",
-      "Software quality assurance"
+      "ITガバナンスと戦略",
+      "顧客への価値提供のためのITサービス管理ベストプラクティス",
+      "情報セキュリティ基準",
+      "ソフトウェア品質保証"
     ],
     "correct": 1,
     "explanation": "ITIL(Information Technology Infrastructure Library)はITサービス管理のベストプラクティスを提供し、効果的なサービス設計、移行、運用、改善を通じた顧客への価値提供に焦点。"
@@ -834,12 +834,12 @@
   {
     "id": 65,
     "category": "IT Governance",
-    "question": "Which ITIL service lifecycle stage includes incident management and problem management?",
+    "question": "ITILのどのサービスライフサイクル段階にインシデント管理と問題管理が含まれるか。",
     "options": [
-      "Service Strategy",
-      "Service Design",
-      "Service Transition",
-      "Service Operation"
+      "サービス戦略",
+      "サービス設計",
+      "サービス移行",
+      "サービス運用"
     ],
     "correct": 3,
     "explanation": "ITILのサービス運用にはインシデント管理、問題管理、リクエストフルフィルメント、アクセス管理を含む日々のサービス管理。合意通りサービスを提供。"
@@ -847,12 +847,12 @@
   {
     "id": 66,
     "category": "IT Governance",
-    "question": "ISO 27001 specifies requirements for:",
+    "question": "ISO 27001は何の要件を規定しているか。",
     "options": [
-      "Software quality management",
-      "Information security management systems (ISMS)",
-      "IT service management",
-      "Project management"
+      "ソフトウェア品質管理",
+      "情報セキュリティ管理システム（ISMS）",
+      "ITサービス管理",
+      "プロジェクト管理"
     ],
     "correct": 1,
     "explanation": "ISO 27001は情報セキュリティ管理システム(ISMS)の国際規格。組織内の情報セキュリティの確立、実装、維持、継続的改善のフレームワークを提供。"
@@ -860,12 +860,12 @@
   {
     "id": 67,
     "category": "IT Governance",
-    "question": "Which of the following is a key difference between COBIT and ITIL?",
+    "question": "COBITとITILの主な違いはどれか。",
     "options": [
-      "COBIT is for IT, ITIL is for business",
-      "COBIT focuses on governance and control, ITIL focuses on service management processes",
-      "COBIT is older than ITIL",
-      "COBIT is free, ITIL is paid only"
+      "COBITはIT用、ITILはビジネス用",
+      "COBITはガバナンスとコントロールに焦点、ITILはサービス管理プロセスに焦点",
+      "COBITの方がITILより古い",
+      "COBITは無料、ITILは有料のみ"
     ],
     "correct": 1,
     "explanation": "COBITはITガバナンスとコントロールに焦点。ITILはサービス管理プロセスに焦点。COBITはビジネス目標とのIT整合、ITILはITサービスの提供と管理。"
@@ -873,12 +873,12 @@
   {
     "id": 68,
     "category": "IT Governance",
-    "question": "The COBIT 'MEAN' principle stands for meeting stakeholder needs through:",
+    "question": "COBITの「MEAN」原則はステークホルダーニーズを何を通じて充足することを意味するか。",
     "options": [
-      "Money, Efficiency, Assets, and Network",
-      "Meeting enterprise needs by optimizing value delivery while balancing resources, risk, and benefits",
-      "Managing every aspect of network operations",
-      "Maximizing enterprise application needs"
+      "Money、Efficiency、Assets、Network",
+      "価値提供の最適化とリソース・リスク・便益のバランスを通じた企業ニーズの充足",
+      "ネットワーク運用のあらゆる側面の管理",
+      "企業アプリケーションニーズの最大化"
     ],
     "correct": 1,
     "explanation": "MEAN原則(Meeting Stakeholder Needs)はゴールカスケードを使用してステークホルダーニーズを企業目標からIT目標からガバナンス/管理目的に変換し、ITの価値提供とリスク・リソース管理を確保。"
@@ -886,12 +886,12 @@
   {
     "id": 69,
     "category": "IT Governance",
-    "question": "An Information Security Policy according to ISO 27001 should be:",
+    "question": "ISO 27001に基づく情報セキュリティポリシーはどのようにあるべきか。",
     "options": [
-      "Technical and specific to each system",
-      "Approved by management, communicated to employees, and periodically reviewed",
-      "Only accessible to the IT department",
-      "Created by external consultants only"
+      "技術的で各システムに固有である",
+      "経営陣に承認され、従業員に伝達され、定期的に見直される",
+      "IT部門のみがアクセス可能である",
+      "外部コンサルタントのみが作成する"
     ],
     "correct": 1,
     "explanation": "ISO 27001は情報セキュリティポリシーが経営陣によって承認、組織全体に伝達、定期的に見直されることを要求。経営陣のコミットメントはISMSの基本要件。"
@@ -899,12 +899,12 @@
   {
     "id": 70,
     "category": "IT Governance",
-    "question": "In IT governance, 'value delivery' refers to:",
+    "question": "ITガバナンスにおける「価値提供」とは何を指すか。",
     "options": [
-      "Delivering software on time",
-      "Ensuring IT investments deliver optimal value at optimal cost while balancing risk",
-      "Delivering physical goods to customers",
-      "The speed of network data transfer"
+      "ソフトウェアを期日通りに提供すること",
+      "リスクをバランスさせつつIT投資が最適価値を最適コストで提供することを確保すること",
+      "顧客に物理的商品を配送すること",
+      "ネットワークデータ転送の速度"
     ],
     "correct": 1,
     "explanation": "ITガバナンスの価値提供は組織がIT投資から最適な価値を受けることを確保。コスト最適化、納期プロジェクト、ITサービスとビジネスニーズの整合を含む。"
@@ -912,12 +912,12 @@
   {
     "id": 71,
     "category": "IT Governance",
-    "question": "Which ISO 27001 annex category addresses access control?",
+    "question": "ISO 27001のどの附属書カテゴリがアクセス制御に対応するか。",
     "options": [
-      "A.5 - Information Security Policies",
-      "A.8 - Cryptography",
-      "A.9 - Access Control",
-      "A.12 - Operations Security"
+      "A.5 - 情報セキュリティポリシー",
+      "A.8 - 暗号",
+      "A.9 - アクセス制御",
+      "A.12 - 運用セキュリティ"
     ],
     "correct": 2,
     "explanation": "ISO 27001附属書A.9はアクセス制御に対応: ユーザーアクセス管理、ユーザー責任、システムアクセス制御。情報とシステムへの許可された個人のみのアクセスを確保。"
@@ -925,12 +925,12 @@
   {
     "id": 72,
     "category": "IT Governance",
-    "question": "What is 'IT strategy alignment' in the context of IT governance?",
+    "question": "ITガバナンスにおける「IT戦略の整合」とは何か。",
     "options": [
-      "Making all departments use the same software",
-      "Ensuring IT plans and activities are consistent with and support the organization's overall business strategy",
-      "Aligning IT staff schedules with business hours",
-      "Ensuring IT hardware is standardized"
+      "すべての部門に同じソフトウェアを使用させること",
+      "IT計画と活動が組織の全体的ビジネス戦略と整合しサポートすることを確保すること",
+      "ITスタッフのスケジュールを営業時間に合わせること",
+      "ITハードウェアを標準化することを確保すること"
     ],
     "correct": 1,
     "explanation": "IT戦略の整合はIT計画、投資、活動が組織の全体的ビジネス戦略を直接サポートし推進することを確保。COBIT等の効果的ITガバナンスフレームワークの主要原則。"
@@ -938,12 +938,12 @@
   {
     "id": 73,
     "category": "IT Governance",
-    "question": "A 'risk treatment' option in information security includes all EXCEPT:",
+    "question": "情報セキュリティにおける「リスク処理」オプションでないものはどれか。",
     "options": [
-      "Risk avoidance",
-      "Risk transfer",
-      "Risk ignorance",
-      "Risk acceptance"
+      "リスク回避",
+      "リスク移転",
+      "リスク無視",
+      "リスク受容"
     ],
     "correct": 2,
     "explanation": "リスク処理オプション: 回避(リスク排除)、移転(保険等の第三者と共有)、軽減(発生可能性または影響の削減)、受容(認識して共存)。「リスク無視」は有効な処理ではない。"
@@ -951,10 +951,10 @@
   {
     "id": 74,
     "category": "IT Governance",
-    "question": "COBIT's 'EDM' domain stands for:",
+    "question": "COBITの「EDM」ドメインは何を表すか。",
     "options": [
       "Enterprise Data Management",
-      "Evaluate, Direct, and Monitor",
+      "Evaluate, Direct, and Monitor（評価、指示、監視）",
       "Engineering Development Model",
       "Electronic Document Management"
     ],
@@ -964,12 +964,12 @@
   {
     "id": 75,
     "category": "IT Governance",
-    "question": "Which ITIL process is responsible for minimizing the adverse impact of incidents?",
+    "question": "ITILのどのプロセスがインシデントの悪影響を最小化する責任があるか。",
     "options": [
-      "Change Management",
-      "Problem Management",
-      "Incident Management",
-      "Service Level Management"
+      "変更管理",
+      "問題管理",
+      "インシデント管理",
+      "サービスレベル管理"
     ],
     "correct": 2,
     "explanation": "インシデント管理はビジネス運用への悪影響を最小限に抑えつつ通常サービス運用を可能な限り迅速に復旧。根本原因に関係なくインシデントの即時解決を処理。"
@@ -977,12 +977,12 @@
   {
     "id": 76,
     "category": "IT Governance",
-    "question": "In the context of IT governance, what is a 'balanced scorecard' used for?",
+    "question": "ITガバナンスにおける「バランススコアカード」は何のために使用されるか。",
     "options": [
-      "Financial accounting only",
-      "Measuring IT performance from multiple perspectives: financial, customer, internal process, and learning/growth",
-      "Balancing the IT budget",
-      "Scoring vendor performance"
+      "財務会計のみ",
+      "財務、顧客、内部プロセス、学習・成長の複数視点からのITパフォーマンス測定",
+      "IT予算のバランス調整",
+      "ベンダーパフォーマンスの評価"
     ],
     "correct": 1,
     "explanation": "バランススコアカードは財務、顧客、内部プロセス、学習・成長の4視点でパフォーマンスを測定。ITガバナンスでは組織目標に対するIT貢献の包括的ビューを提供。"
@@ -990,12 +990,12 @@
   {
     "id": 77,
     "category": "IT Governance",
-    "question": "ISO 27001 requires a 'Statement of Applicability' (SoA) which:",
+    "question": "ISO 27001が要求する「適用性宣言（SoA）」とは何か。",
     "options": [
-      "Lists all employees who must comply with the ISMS",
-      "Documents which security controls are applicable and their implementation status",
-      "Describes the organization's financial position",
-      "Lists all IT assets and their locations"
+      "ISMSに準拠する必要がある全従業員をリストする",
+      "適用されるセキュリティコントロールとその実装状態を文書化する",
+      "組織の財務状況を記述する",
+      "すべてのIT資産とその所在地をリストする"
     ],
     "correct": 1,
     "explanation": "適用性宣言(SoA)はISO 27001の必須文書で附属書Aの全コントロールをリストし、リスク評価に基づき適用なものを特定し、各適用コントロールの実装状態を記述。"
@@ -1003,12 +1003,12 @@
   {
     "id": 78,
     "category": "IT Governance",
-    "question": "IT governance is MOST effective when it is:",
+    "question": "ITガバナンスはどのような場合に最も効果的か。",
     "options": [
-      "Delegated entirely to the IT department",
-      "A board-level responsibility with clear accountability across the organization",
-      "Handled only by external consultants",
-      "Focused exclusively on cost reduction"
+      "完全にIT部門に委任される場合",
+      "取締役会レベルの責任で組織全体に明確な説明責任がある場合",
+      "外部コンサルタントのみが処理する場合",
+      "コスト削減のみに焦点を当てる場合"
     ],
     "correct": 1,
     "explanation": "効果的なITガバナンスには取締役会レベルの監視と組織全体の明確な説明責任が必要。ITは重要な役割だがガバナンスはビジネス目標との整合のため全社的な責任。"
@@ -1016,12 +1016,12 @@
   {
     "id": 79,
     "category": "IT Governance",
-    "question": "Which COBIT process area includes managing IT risk?",
+    "question": "COBITのどのプロセス領域にITリスク管理が含まれるか。",
     "options": [
-      "APO01 - Manage the IT Management Framework",
-      "APO12 - Manage Risk",
-      "DSS05 - Manage Security Services",
-      "MEA01 - Monitor, Evaluate, and Assess Performance and Conformance"
+      "APO01 - IT管理フレームワークの管理",
+      "APO12 - リスク管理",
+      "DSS05 - セキュリティサービスの管理",
+      "MEA01 - パフォーマンスとコンプライアンスの監視・評価・評価"
     ],
     "correct": 1,
     "explanation": "COBIT APO12(Manage Risk)はリスク管理フレームワークの確立・維持、リスクプロファイルの維持、識別リスクの処理をカバー。COBIT管理ドメイン内の専用リスク管理プロセス。"
@@ -1029,12 +1029,12 @@
   {
     "id": 80,
     "category": "IT Governance",
-    "question": "ITIL's 'continual service improvement' (CSI) stage focuses on:",
+    "question": "ITILの「継続的サービス改善（CSI）」段階は何に焦点を当てているか。",
     "options": [
-      "Designing new services from scratch",
-      "Measuring and improving IT services and processes to increase efficiency and effectiveness",
-      "Responding to security incidents",
-      "Managing IT budgets"
+      "ゼロから新しいサービスを設計すること",
+      "効率と有効性を高めるためのITサービスとプロセスの測定と改善",
+      "セキュリティインシデントへの対応",
+      "IT予算の管理"
     ],
     "correct": 1,
     "explanation": "CSIは改善機会の特定、メトリクス定義、データ収集、結果分析、改善実装のサイクルを通じたサービス品質の維持・改善に焦点。組織の継続的学習を推進。"
@@ -1042,12 +1042,12 @@
   {
     "id": 81,
     "category": "IT Governance",
-    "question": "An 'IT steering committee' is primarily responsible for:",
+    "question": "「ITステアリング委員会」は主に何に責任があるか。",
     "options": [
-      "Day-to-day IT operations",
-      "Strategic IT decision-making, priority setting, and ensuring IT-business alignment",
-      "Writing software code",
-      "Fixing hardware failures"
+      "日常的なIT運用",
+      "戦略的IT意思決定、優先順位付け、IT-ビジネス整合の確保",
+      "ソフトウェアコードの作成",
+      "ハードウェア障害の修正"
     ],
     "correct": 1,
     "explanation": "ITステアリング委員会はITの戦略的方向、ITイニシアチブの優先順位、リソース配分を提供し、IT投資とビジネス戦略の整合を確保。ビジネスとIT双方の上級管理職が参加。"
@@ -1055,12 +1055,12 @@
   {
     "id": 82,
     "category": "IT Governance",
-    "question": "What is the purpose of an 'IT balanced scorecard' in governance?",
+    "question": "ガバナンスにおける「ITバランススコアカード」の目的は何か。",
     "options": [
-      "To balance the IT budget between hardware and software",
-      "To provide a multi-perspective view of IT performance that aligns with business strategy",
-      "To compare IT costs with competitors",
-      "To score employee performance in IT"
+      "IT予算をハードウェアとソフトウェアの間でバランスさせること",
+      "ビジネス戦略と整合するITパフォーマンスの多視点ビューを提供すること",
+      "ITコストを競合他社と比較すること",
+      "IT従業員のパフォーマンスを評価すること"
     ],
     "correct": 1,
     "explanation": "ITバランススコアカードは伝統的なバランススコアカードをITガバナンスに適用し、財務、ビジネスユーザー、内部プロセス、学習・成長の視点でビジネス戦略と整合するITパフォーマンス評価。"
@@ -1068,12 +1068,12 @@
   {
     "id": 83,
     "category": "IT Governance",
-    "question": "In ISO 27001, a 'risk assessment' must be performed to:",
+    "question": "ISO 27001では「リスク評価」は何のために実施される必要があるか。",
     "options": [
-      "Eliminate all security risks",
-      "Identify, evaluate, and prioritize risks to determine appropriate treatment",
-      "Comply with tax regulations",
-      "Assess employee performance"
+      "すべてのセキュリティリスクを排除するため",
+      "リスクを識別、評価、優先付けし適切な処理を決定するため",
+      "税規制に準拠するため",
+      "従業員のパフォーマンスを評価するため"
     ],
     "correct": 1,
     "explanation": "ISO 27001は情報セキュリティリスクを識別、評価、優先付けし適切な処理を決定する体系的リスク評価を要求。効果的コントロール確立の基盤。"
@@ -1081,12 +1081,12 @@
   {
     "id": 84,
     "category": "IT Governance",
-    "question": "Which of the following is a key metric in IT governance for 'resource management'?",
+    "question": "ITガバナンスにおける「リソース管理」の主要メトリクスはどれか。",
     "options": [
-      "Number of social media followers",
-      "IT staff utilization rate and skill development",
-      "Customer satisfaction scores only",
-      "Office temperature"
+      "ソーシャルメディアのフォロワー数",
+      "ITスタッフ利用率とスキル開発",
+      "顧客満足度スコアのみ",
+      "オフィス温度"
     ],
     "correct": 1,
     "explanation": "リソース管理メトリクスにはスタッフ利用率、スキル開発追跡、研修時間、コンピテンシー評価が含まれる。ITが価値を提供するための適切なスキルと人材を確保。"
@@ -1094,12 +1094,12 @@
   {
     "id": 85,
     "category": "IT Governance",
-    "question": "The 'separation of duties' principle in IT governance is MOST important for:",
+    "question": "ITガバナンスにおける「職務の分離」の原則は最も何のために重要か。",
     "options": [
-      "Reducing IT costs",
-      "Preventing conflicts of interest and reducing the risk of fraud or error",
-      "Improving system performance",
-      "Simplifying organizational structure"
+      "ITコストの削減",
+      "利益相反の防止と不正またはエラーのリスク削減",
+      "システムパフォーマンスの改善",
+      "組織構造の簡素化"
     ],
     "correct": 1,
     "explanation": "ITガバナンスの職務の分離は単一個人が重要なIT機能を過度に支配することを防止。不正リスク削減、監督確保、IT運用とデータの完全性維持。"
@@ -1107,12 +1107,12 @@
   {
     "id": 86,
     "category": "Audit Procedures",
-    "question": "'Vouching' as an audit procedure involves:",
+    "question": "監査手続としての「ヴォーチング（突合）」は何を含むか。",
     "options": [
-      "Testing the mathematical accuracy of records",
-      "Tracing entries from accounting records back to source documents",
-      "Tracing source documents forward to accounting records",
-      "Interviewing management about controls"
+      "記録の数学的精度のテスト",
+      "会計記録から原始証拠書類にさかのぼって記録を追跡すること",
+      "原始証拠書類から会計記録へ前方向に追跡すること",
+      "コントロールについて経営陣に面接すること"
     ],
     "correct": 1,
     "explanation": " vouling は会計記録(元帳、仕訳帳)から支持証拠(請求書、領収書)にさかのぼって記録金額を追跡。実際に発生した取引の存在/発生アサーションを検証。"
@@ -1120,12 +1120,12 @@
   {
     "id": 87,
     "category": "Audit Procedures",
-    "question": "'Tracing' as an audit procedure tests which assertion?",
+    "question": "監査手続としての「トレーシング」はどのアサーションをテストするか。",
     "options": [
-      "Existence",
-      "Completeness",
-      "Valuation",
-      "Rights and obligations"
+      "存在",
+      "完全性",
+      "評価",
+      "権利・義務"
     ],
     "correct": 1,
     "explanation": "トレーシングは証拠から会計記録へ前方向に追跡。すべての有効な取引・事象が財務諸表に捕捉・記録されている完全性アサーションをテスト。"
@@ -1133,12 +1133,12 @@
   {
     "id": 88,
     "category": "Audit Procedures",
-    "question": "What is 'reperformance' in auditing?",
+    "question": "監査における「再実施」とは何か。",
     "options": [
-      "Re-auditing the prior year's work",
-      "Independently re-executing a procedure or control that was originally performed by the entity",
-      "Performing the audit a second time",
-      "Reviewing another auditor's work"
+      "前年度の監査作業を再監査すること",
+      "被監査者が実施した手続またはコントロールを独立して再実行すること",
+      "監査を2回目実施すること",
+      "他の監査人の作業をレビューすること"
     ],
     "correct": 1,
     "explanation": "再実施は監査人が被監査者が既に実施した手続またはコントロールを独立して再実行。監査人が自らコントロールの有効性を検証するため非常に信頼性の高い証拠。"
@@ -1146,12 +1146,12 @@
   {
     "id": 89,
     "category": "Audit Procedures",
-    "question": "CAAT (Computer-Assisted Audit Techniques) is used to:",
+    "question": "CAAT（コンピュータ支援監査手法）は何のために使用されるか。",
     "options": [
-      "Replace manual audit procedures entirely",
-      "Automate and enhance audit procedures using technology to analyze large volumes of data",
-      "Manage audit team schedules",
-      "Create audit reports automatically"
+      "手動監査手続を完全に代替するため",
+      "テクノロジーを使用して監査手続を自動化・強化し大量データを分析するため",
+      "監査チームのスケジュール管理",
+      "監査報告書を自動作成するため"
     ],
     "correct": 1,
     "explanation": "CAATはテクノロジーを使用して監査手続をより効率的・効果的に実行する各種手法。大規模データセットの手動検査が非現実的なデータ抽出、分析、照会、テストを含む。"
@@ -1159,12 +1159,12 @@
   {
     "id": 90,
     "category": "Audit Procedures",
-    "question": "Which audit procedure provides the HIGHEST level of reliability for evidence of fixed assets?",
+    "question": "固定資産の証拠について最も高い信頼性を提供する監査手続はどれか。",
     "options": [
-      "Inquiry of management",
-      "External confirmation from a third party",
-      "Observation of physical assets",
-      "Review of depreciation calculations"
+      "経営陣への質問",
+      "第三者からの外部確認",
+      "資産の物理的観察",
+      "減価償却計算のレビュー"
     ],
     "correct": 1,
     "explanation": "外部からの第三者確認は独立した外部ソースからで偏りがないため最も高い信頼性を提供。固定資産の場合、保管者または評価者からの確認が該当。"
@@ -1172,12 +1172,12 @@
   {
     "id": 91,
     "category": "Audit Procedures",
-    "question": "'Observation' as an audit procedure is most appropriate for:",
+    "question": "監査手続としての「観察」は最もどの場合に適切か。",
     "options": [
-      "Verifying the mathematical accuracy of large transaction volumes",
-      "Confirming the physical existence of inventory",
-      "Testing the authorization of recorded transactions",
-      "Evaluating long-term debt balances"
+      "大量取引の数学的精度を検証する場合",
+      "棚卸の物理的存在を確認する場合",
+      "記録取引の承認をテストする場合",
+      "長期負債残高を評価する場合"
     ],
     "correct": 1,
     "explanation": "観察は監査人がプロセスを直接目撃または物品を物理的に視認。棚卸の物理的カウント観察は存在の証拠を提供。ただし観察はカウント時の瞬間のみ。"
@@ -1185,12 +1185,12 @@
   {
     "id": 92,
     "category": "Audit Procedures",
-    "question": "What is the primary limitation of 'inquiry' as an audit procedure?",
+    "question": "監査手続としての「質問」の主な限界は何か。",
     "options": [
-      "It takes too much time",
-      "It cannot be documented",
-      "It cannot be relied upon as the sole audit procedure because responses may be unreliable or biased",
-      "It can only be used in planning, not execution"
+      "時間がかかりすぎる",
+      "文書化できない",
+      "回答が信頼できないまたは偏りがある可能性があるため唯一の監査手続としては依存できない",
+      "計画段階でのみ使用でき、実行段階では使用できない"
     ],
     "correct": 2,
     "explanation": "質問は監査手続として有用だが、回答が不正確、不完全、意図的に誤導的である可能性があるため唯一の証拠源にはできない。他の手続で裏付ける必要。"
@@ -1198,12 +1198,12 @@
   {
     "id": 93,
     "category": "Audit Procedures",
-    "question": "In substantive testing, 'cutoff testing' is performed to verify:",
+    "question": "実質テストにおける「カットオフテスト」は何を検証するために実施されるか。",
     "options": [
-      "That employees are paid correctly",
-      "That transactions are recorded in the correct accounting period",
-      "That the audit is completed on time",
-      "That the company's fiscal year end is appropriate"
+      "従業員が正しく支払われること",
+      "取引が正しい会計期間に記録されること",
+      "監査が期日通りに完了すること",
+      "企業の会計年度末が適切であること"
     ],
     "correct": 1,
     "explanation": "カットオフテストは取引が正しい会計期間に記録されていることを検証。年度末で特に重要で、財務結果を操作するための収益・費用の早期認識や繰延を防止。"
@@ -1211,12 +1211,12 @@
   {
     "id": 94,
     "category": "Audit Procedures",
-    "question": "Which CAAT technique involves analyzing data to identify patterns, anomalies, or outliers?",
+    "question": "パターン、異常、外れ値を識別するためにデータを分析するCAAT技術はどれか。",
     "options": [
-      "Data extraction only",
-      "Data analysis / data mining",
-      "System documentation review",
-      "Physical inspection"
+      "データ抽出のみ",
+      "データ分析／データマイニング",
+      "システム文書のレビュー",
+      "物理的検査"
     ],
     "correct": 1,
     "explanation": "データ分析とデータマイニングは統計的手法とアルゴリズムで大規模データセット内のパターン、異常、関係、外れ値を識別。高リスク領域と不正指標に監査人を集中させる。"
@@ -1224,12 +1224,12 @@
   {
     "id": 95,
     "category": "Audit Procedures",
-    "question": "'Dual testing' in IS auditing refers to:",
+    "question": "IS監査における「デュアルテスト」とは何を指すか。",
     "options": [
-      "Testing two systems simultaneously",
-      "Testing both the technical implementation and the business logic of a control",
-      "Having two auditors test the same control",
-      "Testing both input and output of a system"
+      "2つのシステムを同時にテストすること",
+      "コントロールの技術的実装と業務ロジックの両方をテストすること",
+      "2人の監査人が同じコントロールをテストすること",
+      "システムの入力と出力の両方をテストすること"
     ],
     "correct": 1,
     "explanation": "IS監査のデュアルテストはコントロールの技術的実装(例: アクセス制御構成)と業務ロジック(例: 承認ワークフロー)の両方を評価。両視点からの有効性を確保。"
@@ -1237,12 +1237,12 @@
   {
     "id": 96,
     "category": "Audit Procedures",
-    "question": "When performing a test of details for accounts receivable, the most appropriate procedure is:",
+    "question": "売掛金の明細テストを実施する際、最も適切な手続はどれか。",
     "options": [
-      "Observing the mail room",
-      "Circularization (confirmation of balances directly from debtors)",
-      "Reviewing the sales budget",
-      "Interviewing the sales manager"
+      "郵便室の観察",
+      "循環確認（債務者からの残高確認）",
+      "販売予算のレビュー",
+      "営業マネージャーへの面接"
     ],
     "correct": 1,
     "explanation": "売掛金の明細テストで最も適切な手続は循環確認。債務者に直接確認状を送信し残高確認を依頼。売掛金の存在と正確性の非常に信頼性の高い外部証拠。"
@@ -1250,12 +1250,12 @@
   {
     "id": 97,
     "category": "Audit Procedures",
-    "question": "Which procedure would be MOST effective for detecting unauthorized access to a system?",
+    "question": "システムへの不正アクセスを検出するために最も有効な手続はどれか。",
     "options": [
-      "Reviewing user manuals",
-      "Analyzing system access logs for unusual patterns or times",
-      "Interviewing system users",
-      "Checking hardware specifications"
+      "ユーザーマニュアルのレビュー",
+      "異常なパターンまたは時間帯についてシステムアクセスログの分析",
+      "システムユーザーへの面接",
+      "ハードウェア仕様の確認"
     ],
     "correct": 1,
     "explanation": "不正アクセス検出に最も有効な手続はシステムアクセスログの分析。誰がいつ何をどこから実行したかを示す。通常外のパターン(変な時間帯のアクセス、失敗試行)が不正アクセスを示唆。"
@@ -1263,12 +1263,12 @@
   {
     "id": 98,
     "category": "Audit Procedures",
-    "question": "What is 'Benford's Law' used for in auditing?",
+    "question": "監査において「ベンフォードの法則」は何のために使用されるか。",
     "options": [
-      "Calculating depreciation",
-      "Detecting potential fraud by analyzing the distribution of leading digits in financial data",
-      "Determining materiality thresholds",
-      "Testing inventory valuation methods"
+      "減価償却の計算",
+      "財務データの先頭数字の分布を分析し潜在的な不正を検出すること",
+      "重要性閾値の決定",
+      "棚卸評価方法のテスト"
     ],
     "correct": 1,
     "explanation": "ベンフォードの法則は自然発生データセットで先頭数字が小さい方が出現しやすいことを示す。期待分布からの逸脱はデータ操作や不正を示唆し監査人有用な分析ツール。"
@@ -1276,12 +1276,12 @@
   {
     "id": 99,
     "category": "Audit Procedures",
-    "question": "A 'gap analysis' in IS auditing is used to:",
+    "question": "IS監査における「ギャップ分析」は何のために使用されるか。",
     "options": [
-      "Find unused disk space on servers",
-      "Identify differences between the current state and desired state of controls or standards",
-      "Calculate the time gap between transactions",
-      "Measure network latency"
+      "サーバーの未使用ディスク容量を見つけるため",
+      "コントロールまたは基準の現状と目標状態の差異を識別するため",
+      "取引間の時間ギャップを計算するため",
+      "ネットワークレイテンシを測定するため"
     ],
     "correct": 1,
     "explanation": "ギャップ分析はコントロール、プロセス、または構成の現状を目標状態(規格やベストプラクティス)と比較。識別されたギャップは目標達成に必要な改善領域。"
@@ -1289,12 +1289,12 @@
   {
     "id": 100,
     "category": "Audit Procedures",
-    "question": "Which audit procedure provides evidence about the 'valuation' assertion?",
+    "question": "「評価」アサーションについて証拠を提供する監査手続はどれか。",
     "options": [
-      "Confirming account balances with third parties",
-      "Reviewing subsequent events after the balance sheet date",
-      "Tracing transactions from source documents to the ledger",
-      "Observing physical inventory counts"
+      "第三者との勘定残高確認",
+      "貸借対照表日後の事象のレビュー",
+      "原始証拠書類から元帳への取引のトレーシング",
+      "棚卸の物理的観察"
     ],
     "correct": 1,
     "explanation": "貸借対照表日後の事象のレビューは評価アサーションの証拠を提供。年度後の現金回収で売掛金の実現可能価値を確認し、その後の販売で棚卸評価を確認。"
@@ -1302,12 +1302,12 @@
   {
     "id": 101,
     "category": "Audit Procedures",
-    "question": "What is 'test data' in the context of IS audit?",
+    "question": "IS監査の文脈における「テストデータ」とは何か。",
     "options": [
-      "Data collected during the audit",
-      "Prepared data submitted to a system to verify that it processes correctly according to specified rules",
-      "Data that has been tested and approved for production",
-      "Sample data from the general ledger"
+      "監査中に収集されたデータ",
+      "指定ルールに従って正しく処理することを検証するためシステムに投入される準備済みデータ",
+      "テストされ本番承認されたデータ",
+      "元帳からのサンプルデータ"
     ],
     "correct": 1,
     "explanation": "テストデータは指定ルールに従って正しく処理することを検証するためシステムに投入される架空または特別に準備されたデータ。アプリケーションコントロールが設計通り機能するかをテスト。"
@@ -1315,12 +1315,12 @@
   {
     "id": 102,
     "category": "Audit Procedures",
-    "question": "'Recomputation' as an audit procedure involves:",
+    "question": "監査手続としての「再計算」とは何を含むか。",
     "options": [
-      "Recomputing the audit fee",
-      "Independently checking the mathematical accuracy of calculations performed by the entity",
-      "Calculating the company's tax liability",
-      "Estimating future profits"
+      "監査報酬の再計算",
+      "被監査者が実施した計算の数学的精度を独立して検証すること",
+      "企業の税負債の計算",
+      "将来利益の推定"
     ],
     "correct": 1,
     "explanation": "再計算は監査人が独立して金額(減価償却、利息、未払費用等)を再計算し被監査者の計算が数学的に正確であることを検証。正確性アサーションの信頼性の高い証拠。"
@@ -1328,12 +1328,12 @@
   {
     "id": 103,
     "category": "Audit Procedures",
-    "question": "For testing the completeness of revenue transactions, which procedure is MOST effective?",
+    "question": "収益取引の完全性テストに最も有効な手続はどれか。",
     "options": [
-      "Vouching from the ledger to source documents",
-      "Tracing from shipping documents to the sales journal and ledger",
-      "Reviewing the accounts receivable aging report",
-      "Confirming balances with customers"
+      "元帳から原始書類へのヴォーチング",
+      "出荷書類から売上仕訳帳と元帳へのトレーシング",
+      "売掛金エイジングレポートのレビュー",
+      "顧客との残高確認"
     ],
     "correct": 1,
     "explanation": "収益取引の完全性テストに最も有効な手続は発送書類から売上仕訳帳・元帳へのトレーシング。出荷済み商品がすべて収益として記録されていることをテスト。"
@@ -1341,12 +1341,12 @@
   {
     "id": 104,
     "category": "Audit Procedures",
-    "question": "An 'integrated test facility' (ITF) is:",
+    "question": "「統合テストファシリティ（ITF）」とは何か。",
     "options": [
-      "A physical facility where IT systems are tested",
-      "A technique that processes test transactions alongside live production data within the same system",
-      "A software testing tool for unit testing",
-      "A facility for training IT auditors"
+      "ITシステムがテストされる物理的施設",
+      "同一システム内でテスト取引を本番データと並行して処理する技術",
+      "ユニットテスト用のソフトウェアテストツール",
+      "IT監査人研修用施設"
     ],
     "correct": 1,
     "explanation": "ITFは稼働本番システム内にダミーエンティティ(部門、顧客、仕入先)を作成し実取引と並行してテスト取引を処理。実際の本番環境でアプリケーションコントロールをテストしつつ実データに影響なし。"
@@ -1354,12 +1354,12 @@
   {
     "id": 105,
     "category": "Audit Procedures",
-    "question": "Which type of analytical procedure compares current data with budgeted amounts?",
+    "question": "当期データと予算額を比較する分析手続はどれか。",
     "options": [
-      "Horizontal analysis only",
-      "Vertical analysis only",
-      "Budget vs. actual analysis",
-      "Trend analysis only"
+      "水平分析のみ",
+      "垂直分析のみ",
+      "予算対実績分析",
+      "トレンド分析のみ"
     ],
     "correct": 2,
     "explanation": "予算対実績分析は実績結果と予算期待値を比較。著しい差異は誤謬、運用上の問題、またはビジネス条件の変化を示唆し追加監査調査が必要。"
@@ -1367,12 +1367,12 @@
   {
     "id": 106,
     "category": "Audit Procedures",
-    "question": "When auditing password controls, which procedure would provide the BEST evidence?",
+    "question": "パスワードコントロールを監査する際、最も良い証拠を提供する手続はどれか。",
     "options": [
-      "Asking users about their passwords",
-      "Reviewing the password policy document",
-      "Attempting to log in using common weak passwords",
-      "Reviewing the IT budget for security spending"
+      "ユーザーにパスワードについて質問すること",
+      "パスワードポリシー文書のレビュー",
+      "一般的な弱いパスワードでログインを試みること",
+      "セキュリティ支出のIT予算レビュー"
     ],
     "correct": 2,
     "explanation": "パスワードコントロールのテストで最も良い証拠は一般的な弱いパスワードでログインを試みる実際のアクティブテスト。ポリシー閲覧や質問よりコントロール有効性の直接的な証拠を提供。"
@@ -1380,12 +1380,12 @@
   {
     "id": 107,
     "category": "Audit Procedures",
-    "question": "'Scanning' as a security audit procedure is used to:",
+    "question": "セキュリティ監査手続としての「スキャニング」は何のために使用されるか。",
     "options": [
-      "Scan paper documents into digital format",
-      "Identify vulnerabilities, open ports, and security weaknesses in IT systems",
-      "Scan employee attendance records",
-      "Scan financial statements for errors"
+      "紙文書をデジタル形式にスキャンする",
+      "ITシステムの脆弱性、オープンポート、セキュリティ上の弱点を識別する",
+      "従業員の勤怠記録をスキャンする",
+      "財務諸表のエラーをスキャンする"
     ],
     "correct": 1,
     "explanation": "セキュリティスキャニングは自動化ツールでITシステムの脆弱性、オープンポート、設定不備、セキュリティ弱点を識別。脆弱性スキャン、ポートスキャン、ネットワークスキャンが一般的。"
@@ -1393,12 +1393,12 @@
   {
     "id": 108,
     "category": "Audit Procedures",
-    "question": "What is the purpose of 'substantive analytical procedures'?",
+    "question": "「実質分析手続」の目的は何か。",
     "options": [
-      "To test the design of internal controls",
-      "To detect material misstatements at the assertion level by evaluating financial information through relationships",
-      "To prepare the audit plan",
-      "To communicate with management"
+      "内部統制の設計をテストするため",
+      "関係を通じて財務情報を評価しアサーションレベルの重要な虚偽表示を検出するため",
+      "監査計画を準備するため",
+      "経営陣と通信するため"
     ],
     "correct": 1,
     "explanation": "実質分析手続は財務・非財務データ関係を使用してアサーションレベルの重要な虚偽表示を検出。関係が予測可能でデータが信頼性高い場合に有効。"
@@ -1406,12 +1406,12 @@
   {
     "id": 109,
     "category": "Audit Procedures",
-    "question": "In auditing IT change management, examining the change log for unauthorized changes is an example of:",
+    "question": "IT変更管理の監査において、不正変更について変更ログを検査することはどれの例か。",
     "options": [
-      "Inquiry",
-      "Inspection of records/documents",
-      "Observation",
-      "Reperformance"
+      "質問",
+      "記録/文書の検査",
+      "観察",
+      "再実施"
     ],
     "correct": 1,
     "explanation": "変更ログの検査は記録/文書の検査に該当。変更が適切な承認、テスト、承認手続に従ったか、不正変更がなかったかの証拠。"
@@ -1419,12 +1419,12 @@
   {
     "id": 110,
     "category": "Audit Procedures",
-    "question": "Which procedure is MOST appropriate for verifying the 'rights and obligations' assertion for accounts payable?",
+    "question": "買掛金の「権利・義務」アサーションを検証するために最も適切な手続はどれか。",
     "options": [
-      "Confirming balances with suppliers",
-      "Reviewing vendor contracts and purchase orders",
-      "Observing the receiving department",
-      "Recalculating purchase amounts"
+      "仕入先との残高確認",
+      "仕入先契約と購買発注のレビュー",
+      "受取部門の観察",
+      "購買金額の再計算"
     ],
     "correct": 1,
     "explanation": "権利・義務アサーションは基礎となる契約、協定、法的文書のレビューで最もよくテスト。買掛金の場合、仕入先契約と購買発注のレビューで支払義務を確認。"
@@ -1432,12 +1432,12 @@
   {
     "id": 111,
     "category": "Audit Procedures",
-    "question": "'Journal entry testing' as a fraud detection procedure focuses on:",
+    "question": "不正検出手続としての「仕訳テスト」は何に焦点を当てるか。",
     "options": [
-      "All normal recurring journal entries",
-      "Non-standard, unusual, or end-of-period journal entries that may indicate management override",
-      "Only year-end adjusting entries",
-      "Automatically generated entries only"
+      "すべての通常の定期仕訳",
+      "経営者の回避を示唆する可能性のある非標準、異常、または期末の仕訳",
+      "年末修正仕訳のみ",
+      "自動生成仕訳のみ"
     ],
     "correct": 1,
     "explanation": "仕訳テストは非標準エントリ(異常な時期、丸数字、権限外者のエントリ、収益/利益に影響するエントリ)をターゲット。これらは経営者回避と不正財務報告の一般的手段。"
@@ -1445,12 +1445,12 @@
   {
     "id": 112,
     "category": "Audit Procedures",
-    "question": "What is 'parallel simulation' in CAAT?",
+    "question": "CAATにおける「パラレルシミュレーション」とは何か。",
     "options": [
-      "Running two identical systems simultaneously",
-      "Using auditor-developed software to reprocess client data and compare results with the client system output",
-      "Simulating a disaster recovery scenario",
-      "Testing network bandwidth in parallel"
+      "2つの同一システムを同時に実行すること",
+      "監査人が開発したソフトウェアでクライアントデータを再処理し結果をクライアントシステム出力と比較すること",
+      "ディザスタリカバリーシナリオをシミュレーションすること",
+      "並列でネットワーク帯域幅をテストすること"
     ],
     "correct": 1,
     "explanation": "パラレルシミュレーションは監査人が被監査者のアプリケーションロジックを複製するプログラムを作成し、被監査データを処理して結果をクライアントシステム出力と比較し正確性を検証。"
@@ -1458,12 +1458,12 @@
   {
     "id": 113,
     "category": "Audit Procedures",
-    "question": "Which evidence type from external confirmation is MOST reliable?",
+    "question": "外部確認からの証拠で最も信頼性が高いものはどれか。",
     "options": [
-      "Confirmation received by the client and forwarded to the auditor",
-      "Confirmation sent and received directly by the auditor",
-      "Oral confirmation from the third party",
-      "Email confirmation to the client's email address"
+      "クライアントが受領し監査人に転送された確認",
+      "監査人が直接送受信した確認",
+      "第三者からの口頭確認",
+      "クライアントのメールアドレスへのメール確認"
     ],
     "correct": 1,
     "explanation": "外部確認は監査人が送受信の全プロセスを管理する場合に最も信頼性が高い。被監査者が応答を傍受または改ざんする可能性を排除。"
@@ -1471,12 +1471,12 @@
   {
     "id": 114,
     "category": "Audit Procedures",
-    "question": "'Inquiry of legal counsel' is performed primarily to:",
+    "question": "「弁護士への確認」は主に何のために実施されるか。",
     "options": [
-      "Get legal advice for the auditor",
-      "Identify pending or threatened litigation and claims against the entity",
-      "Verify the entity's compliance with tax laws",
-      "Determine the entity's legal structure"
+      "監査人に法的助言を得るため",
+      "保留中または脅迫されている訴訟と請求を識別するため",
+      "被監査者の税法コンプライアンスを検証するため",
+      "被監査者の法的構造を決定するため"
     ],
     "correct": 1,
     "explanation": "弁護士への確認は保留中または脅迫されている訴訟と請求を識別・評価する監査手続。財務諸表の開示または修正が必要な重要な損失または偶発負債の可能性。"
@@ -1484,12 +1484,12 @@
   {
     "id": 115,
     "category": "Audit Procedures",
-    "question": "For detecting overstatement of inventory, which combination of procedures is MOST effective?",
+    "question": "棚卸の過大計上検出に最も有効な手続の組み合わせはどれか。",
     "options": [
-      "Vouching from the ledger to invoices only",
-      "Physical observation of inventory counts and cutoff testing of receiving and shipping records",
-      "Reviewing inventory reports only",
-      "Analyzing inventory turnover ratios only"
+      "元帳から請求書へのヴォーチングのみ",
+      "棚卸カウントの物理的観察と受渡・発送記録のカットオフテスト",
+      "棚卸報告書のレビューのみ",
+      "棚卸回転率の分析のみ"
     ],
     "correct": 1,
     "explanation": "棚卸の過大計上検出に最も有効な組み合わせは物理観察と受渡・発送記録のカットオフテスト。架空項目または購買の早期認識による棚卸過大計上を効果的に検出。"
@@ -1497,12 +1497,12 @@
   {
     "id": 116,
     "category": "Audit Evidence",
-    "question": "Audit evidence is considered sufficient when it is:",
+    "question": "監査証拠はいつ「十分」と見なされるか。",
     "options": [
-      "Completely accurate in all respects",
-      "Available in adequate quantity to support the audit conclusion",
-      "Obtained from external sources only",
-      "Documented in the audit report"
+      "すべての点で完全に正確である",
+      "監査結論を支持するのに十分な量で利用可能である",
+      "外部ソースからのみ取得されている",
+      "監査報告書に文書化されている"
     ],
     "correct": 1,
     "explanation": "十分性は証拠の量に関連。監査人の結論を支持するのに十分な証拠が収集されたか。誤謬リスク、重要性、利用可能な証拠品質に依存。"
@@ -1510,12 +1510,12 @@
   {
     "id": 117,
     "category": "Audit Evidence",
-    "question": "Which of the following provides the MOST reliable audit evidence?",
+    "question": "最も信頼性の高い監査証拠を提供するものはどれか。",
     "options": [
-      "Internal documents prepared by the client",
-      "External confirmations received directly by the auditor",
-      "Oral representations from management",
-      "Client-prepared analysis spreadsheets"
+      "クライアントが作成した内部文書",
+      "監査人が直接受領する外部確認",
+      "経営陣からの口頭供述",
+      "クライアント作成の分析スプレッドシート"
     ],
     "correct": 1,
     "explanation": "監査人が直接送受信する外部確認は独立第三者からで偏りがなく監査人がプロセスを管理できるため最も信頼性が高い。被監査者の操作リスクを削減。"
@@ -1523,12 +1523,12 @@
   {
     "id": 118,
     "category": "Audit Evidence",
-    "question": "'Appropriateness' of audit evidence relates to its:",
+    "question": "監査証拠の「適切性」とは何に関連するか。",
     "options": [
-      "Quantity",
-      "Relevance and reliability",
-      "Cost-effectiveness",
-      "Date of creation"
+      "量",
+      "関連性と信頼性",
+      "費用対効果",
+      "作成日"
     ],
     "correct": 1,
     "explanation": "適切性は証拠品質の尺度で関連性(テスト中アサーションとの関連)と信頼性(依存可能性)を包含。"
@@ -1536,12 +1536,12 @@
   {
     "id": 119,
     "category": "Audit Evidence",
-    "question": "Which type of audit evidence has the LOWEST reliability?",
+    "question": "最も信頼性が低い監査証拠の種類はどれか。",
     "options": [
-      "External confirmations",
-      "Physically examined documents",
-      "Oral representations from client management",
-      "Auditor's recalculation"
+      "外部確認",
+      "物理的に検査された文書",
+      "クライアント経営陣からの口頭供述",
+      "監査人の再計算"
     ],
     "correct": 2,
     "explanation": "口頭での経営者供述は客観的に検証できず不正確で独立文書化不可のため最も信頼性が低い。常に他のより信頼性の高い証拠で裏付ける必要。"
@@ -1549,12 +1549,12 @@
   {
     "id": 120,
     "category": "Audit Evidence",
-    "question": "Audit working papers serve to:",
+    "question": "監査調書は何のために役立つか。",
     "options": [
-      "Replace the audit report",
-      "Document the audit procedures performed, evidence obtained, and conclusions reached",
-      "Provide legal protection for the auditor exclusively",
-      "Communicate audit results to the public"
+      "監査報告書を代替するため",
+      "実施した監査手続、取得した証拠、到達した結論を文書化するため",
+      "監査人に法的保護を提供するため",
+      "監査結果を一般に伝達するため"
     ],
     "correct": 1,
     "explanation": "監査調書は監査の一次記録で、実施手続、取得証拠、到達結論、監査意見の基盤を文書化。品質レビューをサポートし将来の監査の参考。"
@@ -1562,12 +1562,12 @@
   {
     "id": 121,
     "category": "Audit Evidence",
-    "question": "The concept of 'corroborating evidence' means:",
+    "question": "「裏付証拠」の概念とは何を意味するか。",
     "options": [
-      "Evidence that contradicts the audit findings",
-      "Additional evidence from a different source that supports or confirms the same conclusion",
-      "Evidence that is stored in a secure location",
-      "Evidence that is more than one year old"
+      "監査所見と矛盾する証拠",
+      "異なるソースから同じ結論を支持または確認する追加証拠",
+      "安全な場所に保存された証拠",
+      "1年以上前の証拠"
     ],
     "correct": 1,
     "explanation": "裏付証拠は異なるソースから同じ結論を支持する追加証拠。複数ソースが同一所見を確認することで監査人の結論への信頼性を向上。"
@@ -1575,12 +1575,12 @@
   {
     "id": 122,
     "category": "Audit Evidence",
-    "question": "Which of the following factors does NOT affect the reliability of audit evidence?",
+    "question": "監査証拠の信頼性に影響しない要因はどれか。",
     "options": [
-      "Source of the evidence (external vs. internal)",
-      "Nature of the evidence (visual, documentary, testimonial)",
-      "The auditor's personal preference",
-      "Timeliness of the evidence"
+      "証拠のソース（外部と内部）",
+      "証拠の性質（視覚的、文書的、証言的）",
+      "監査人の個人的な好み",
+      "証拠の時期"
     ],
     "correct": 2,
     "explanation": "監査人の個人的嗜好は証拠の客観的信頼性に影響しない。信頼性はソース、性質、時期、取得状況によって決定。"
@@ -1588,12 +1588,12 @@
   {
     "id": 123,
     "category": "Audit Evidence",
-    "question": "When audit evidence obtained from different sources is inconsistent, the auditor should:",
+    "question": "異なるソースから取得した監査証拠が矛盾する場合、監査人はどうすべきか。",
     "options": [
-      "Disregard the conflicting evidence",
-      "Investigate the inconsistency and perform additional procedures to resolve it",
-      "Choose the evidence that supports the audit opinion",
-      "Report only to management, not the audit committee"
+      "矛盾する証拠を無視する",
+      "矛盾を調査し追加手続を実施して解決する",
+      "監査意見を支持する証拠を選択する",
+      "監査委員会ではなく経営陣にのみ報告する"
     ],
     "correct": 1,
     "explanation": "証拠が矛盾する場合、監査人は追加手続を実行して矛盾を調査。解決は結論に到達する前に不可欠。信頼性のない証拠は監査意見を支持できない。"
@@ -1601,12 +1601,12 @@
   {
     "id": 124,
     "category": "Audit Evidence",
-    "question": "'Best evidence' (original documents) is generally required when:",
+    "question": "「ベストエビデンス」（原本文書）はどのような場合に一般に要求されるか。",
     "options": [
-      "Any amount of financial data is involved",
-      "The document is the primary record of a transaction (e.g., contracts, certificates)",
-      "Evidence is obtained from external sources",
-      "The audit is conducted remotely"
+      "いかなる金額の財務データが含まれる場合",
+      "文書が取引の主要記録（例：契約書、証書）である場合",
+      "証拠が外部ソースから取得される場合",
+      "監査がリモートで実施される場合"
     ],
     "correct": 1,
     "explanation": "ベストエビデンスは原本文書を指す。契約書、株式証券、権利証書などの原本は権利、義務、資産存在の主要証拠。"
@@ -1614,12 +1614,12 @@
   {
     "id": 125,
     "category": "Audit Evidence",
-    "question": "Electronic audit evidence requires special consideration for:",
+    "question": "電子監査証拠は何について特別な考慮が必要か。",
     "options": [
-      "Only the format of the file",
-      "Authenticity, integrity, and completeness of the electronic data",
-      "Only the storage location",
-      "Only the file size"
+      "ファイルの形式のみ",
+      "電子データの真正性、完全性、網羅性",
+      "保存場所のみ",
+      "ファイルサイズのみ"
     ],
     "correct": 1,
     "explanation": "電子証拠は真正性(主張通りか)、完全性(変更されていないか)、網羅性(関連データが全て含まれるか)を検証。証拠保全チェーンとメタデータ保存が重要。"
@@ -1627,12 +1627,12 @@
   {
     "id": 126,
     "category": "Audit Evidence",
-    "question": "Which working paper is typically considered the MOST important?",
+    "question": "通常最も重要と見なされる調書はどれか。",
     "options": [
-      "The time sheet",
-      "The audit program",
-      "The summary (lead) schedule that ties to the financial statements",
-      "The engagement letter"
+      "タイムシート",
+      "監査プログラム",
+      "財務諸表に紐付く要約（リード）スケジュール",
+      "業務契約書"
     ],
     "correct": 2,
     "explanation": "要約(リード)スケジュールは各重要勘定の監査作業を要約し財務諸表数値に直接紐付け監査人の結論到達方法を示すため最も重要な調書。"
@@ -1640,12 +1640,12 @@
   {
     "id": 127,
     "category": "Audit Evidence",
-    "question": "Audit evidence obtained BEFORE the balance sheet date:",
+    "question": "貸借対照表日前に取得した監査証拠はどう扱われるべきか。",
     "options": [
-      "Cannot be used at all",
-      "May be sufficient but may require additional procedures to cover the intervening period",
-      "Is always more reliable than year-end evidence",
-      "Must be corroborated by management representation"
+      "全く使用できない",
+      "十分かもしれないが、期間中をカバーする追加手続が必要な場合がある",
+      "年末の証拠より常に信頼性が高い",
+      "経営者の確認書で裏付けられる必要がある"
     ],
     "correct": 1,
     "explanation": "貸借対照表日前の証拠は使用可能だが、期間中の変化を考慮する必要。証拠日と年度末間のイベントをカバーする追加手続(カットオフテスト、事後レビュー)が必要。"
@@ -1653,12 +1653,12 @@
   {
     "id": 128,
     "category": "Audit Evidence",
-    "question": "A 'management representation letter' provides:",
+    "question": "「経営者確認書」は何を提供するか。",
     "options": [
-      "The primary evidence for all assertions",
-      "Written confirmation from management about their responsibilities and information provided to the auditor",
-      "Evidence that management has approved the audit fee",
-      "Legal protection against lawsuits for the auditor"
+      "すべてのアサーションの主要証拠",
+      "経営者の責任と監査人に提供された情報についての書面確認",
+      "経営者が監査報酬を承認した証拠",
+      "監査人の訴訟に対する法的保護"
     ],
     "correct": 1,
     "explanation": "経営者確認書は財務諸表への経営者責任、提供情報の完全性、監査人への伝達事項を確認。他の監査手続の代替ではなく補助的証拠。"
@@ -1666,12 +1666,12 @@
   {
     "id": 129,
     "category": "Audit Evidence",
-    "question": "Which of the following is considered 'direct evidence'?",
+    "question": "「直接証拠」に該当するものはどれか。",
     "options": [
-      "Hearsay from a third party",
-      "The auditor's own observation of a process or asset",
-      "A summary report prepared by management",
-      "Industry benchmark data"
+      "第三者からの伝聞",
+      "監査人が自ら観察したプロセスまたは資産の証拠",
+      "経営陣が作成した要約レポート",
+      "業界ベンチマークデータ"
     ],
     "correct": 1,
     "explanation": "直接証拠は監査人が観察、検査、または再実施を通じて直接取得する証拠。収集プロセスを監査人が管理するため間接証拠(二手情報)より信頼性が高い。"
@@ -1679,12 +1679,12 @@
   {
     "id": 130,
     "category": "Audit Evidence",
-    "question": "The 'preponderance of evidence' standard in auditing means that:",
+    "question": "監査における「証拠の優越」基準とは何を意味するか。",
     "options": [
-      "100% of evidence must support the conclusion",
-      "The evidence must clearly outweigh contradictory evidence",
-      "At least one source of evidence is sufficient",
-      "Only external evidence is acceptable"
+      "100%の証拠が結論を支持する必要がある",
+      "証拠が矛盾証拠を明確に上回る必要がある",
+      "1つのソースの証拠で十分である",
+      "外部証拠のみが受容可能である"
     ],
     "correct": 1,
     "explanation": "証拠の優越原則は利用可能な証拠が監査人の結論を明確に支持し矛盾証拠を上回ることを意味。絶対的確実性ではなく高い信頼水準。"
@@ -1692,12 +1692,12 @@
   {
     "id": 131,
     "category": "Audit Evidence",
-    "question": "Working papers should be retained for a minimum period specified by:",
+    "question": "調書は最低どの期間保管すべきか。",
     "options": [
-      "The audit client's preferences",
-      "Professional standards, regulations, or legal requirements (typically 5-7 years)",
-      "The auditor's personal judgment",
-      "The tax authority only"
+      "監査クライアントの希望",
+      "職業的基準、規制、または法的要件（通常5-7年）",
+      "監査人の個人的判断",
+      "税務当局のみ"
     ],
     "correct": 1,
     "explanation": "職業的基準と法的要件で調書の最低保管期間を規定。通常監査報告書日から5-7年。管轄と業務により要件は異なる。"
@@ -1705,12 +1705,12 @@
   {
     "id": 132,
     "category": "Audit Evidence",
-    "question": "Which characteristic of evidence makes 'original source documents' more reliable than photocopies?",
+    "question": "原本ソース文書がコピーより信頼性が高い理由となる証拠の特性はどれか。",
     "options": [
-      "They are easier to read",
-      "They cannot be altered or forged",
-      "They are less likely to contain errors or alterations compared to copies",
-      "They are always in color"
+      "読みやすい",
+      "変更または偽造できない",
+      "コピーに比べてエラーまたは変更が含まれる可能性が低い",
+      "常にカラーである"
     ],
     "correct": 2,
     "explanation": "原本文書はコピーが変更、詳細の欠落、または原本の不正確な表現の可能性があるためより信頼性が高い。真正性の高い度合の保証。"
@@ -1718,12 +1718,12 @@
   {
     "id": 133,
     "category": "Audit Evidence",
-    "question": "'Sufficient appropriate audit evidence' means the auditor has obtained:",
+    "question": "「十分適切な監査証拠」とは監査人が何を取得したことを意味するか。",
     "options": [
-      "All possible evidence related to the audit",
-      "Enough quality evidence to reduce audit risk to an acceptably low level",
-      "Evidence that supports every figure in the financial statements exactly",
-      "Evidence that management agrees with"
+      "監査に関連するすべての可能な証拠",
+      "監査リスクを許容可能な低水準に低減する十分な品質の証拠",
+      "財務諸表のすべての数字を正確に支持する証拠",
+      "経営者が同意する証拠"
     ],
     "correct": 1,
     "explanation": "十分適切な監査証拠の基準は監査リスクが許容可能な低水準に低減される閾値。絶対的確実性ではなく結論を支持する十分な品質証拠の収集。"
@@ -1731,12 +1731,12 @@
   {
     "id": 134,
     "category": "Audit Evidence",
-    "question": "When evidence is obtained from an expert, the auditor must evaluate:",
+    "question": "専門家から証拠を取得する場合、監査人は何を評価すべきか。",
     "options": [
-      "The expert's fee only",
-      "The expert's competence, capabilities, and objectivity",
-      "The expert's organizational rank",
-      "The expert's years of experience only"
+      "専門家の報酬のみ",
+      "専門家の能力、能力、客観性",
+      "専門家の組織的地位",
+      "専門家の経験年数のみ"
     ],
     "correct": 1,
     "explanation": "専門家の作業を証拠として利用する場合、専門家の能力(資格、スキル)、ケイパビリティ(リソースと手法)、客観性(偏りの自由)を評価。"
@@ -1744,12 +1744,12 @@
   {
     "id": 135,
     "category": "Audit Evidence",
-    "question": "Which of the following is an example of 'circumstantial evidence'?",
+    "question": "「状況証拠」の例はどれか。",
     "options": [
-      "A signed contract",
-      "A physical inventory count",
-      "Unusual financial ratios that suggest overstatement of revenue",
-      "A bank statement"
+      "署名済み契約書",
+      "棚卸の物理的カウント",
+      "収益の過大計上を示唆する異常な財務比率",
+      "銀行取引明細書"
     ],
     "correct": 2,
     "explanation": "状況証拠は推論に基づき間接的に結論を支持。異常な財務比率(例: 売上高成長が業界平均を大幅に超過)は売上過大計上を示唆するが直接証明しない。"
@@ -1757,12 +1757,12 @@
   {
     "id": 136,
     "category": "Audit Evidence",
-    "question": "'Subsequent discovery of facts' AFTER the audit report date requires the auditor to:",
+    "question": "監査報告書日後に事実が事後発見された場合、監査人はどうすべきか。",
     "options": [
-      "Ignore them if they are minor",
-      "Assess whether the facts existed at the report date and take appropriate action including possible report revision",
-      "Only notify management",
-      "Immediately issue a revised audit report"
+      "軽微であれば無視する",
+      "事実が報告書日当時存在したかを評価し、報告書改訂を含む適切な措置をとる",
+      "経営陣にのみ通知する",
+      "直ちに改訂監査報告書を発行する"
     ],
     "correct": 1,
     "explanation": "報告書日後に報告書日当時存在した事実が発見された場合、監査人は重要性を評価し経営陣とガバナンス責任者と協議し、報告書改訂を含む適切な措置。"
@@ -1770,12 +1770,12 @@
   {
     "id": 137,
     "category": "Audit Evidence",
-    "question": "The 'documentation' standard requires that working papers:",
+    "question": "「文書化」基準は調書がどのようにあるべきことを要求するか。",
     "options": [
-      "Be prepared by the audit partner personally",
-      "Sufficiently detail the work performed so an experienced auditor with no prior involvement can understand it",
-      "Be in paper format only",
-      "Be submitted to the client for review"
+      "監査パートナーが個人的に作成すること",
+      "事前の関与がない経験豊富な監査人が理解できる程度の十分な詳細",
+      "紙形式のみであること",
+      "クライアントのレビューに提出されること"
     ],
     "correct": 1,
     "explanation": "調書文書化基準は事前の関与のない経験豊富な監査人が手続の性質、時期、範囲、結果と到達結論を理解できる程度の十分な詳細。"
@@ -1783,12 +1783,12 @@
   {
     "id": 138,
     "category": "Audit Evidence",
-    "question": "Which factor would MOST likely reduce the quantity of audit evidence needed?",
+    "question": "必要な監査証拠の量を最も減少させる可能性が高い要因はどれか。",
     "options": [
-      "A higher assessed risk of material misstatement",
-      "A strong system of internal control reducing control risk",
-      "Larger balances in accounts",
-      "A new client engagement"
+      "重要な虚偽表示リスクの評価が高いこと",
+      "強力な内部統制システムが統制リスクを低減すること",
+      "勘定残高が大きいこと",
+      "新規クライアント業務であること"
     ],
     "correct": 1,
     "explanation": "強力な内部統制は統制リスクを低減し必要な実質証拠量を削減。評価リスクが低いほど許容可能な低い監査リスク達成に必要な証拠量が少ない。"
@@ -1796,12 +1796,12 @@
   {
     "id": 139,
     "category": "Audit Evidence",
-    "question": "'Third-party evidence' obtained directly by the auditor is more reliable because:",
+    "question": "監査人が直接取得した「第三者証拠」がより信頼性が高い理由は何か。",
     "options": [
-      "It is always free of errors",
-      "It comes from an independent source outside the entity's control",
-      "It is less expensive to obtain",
-      "It requires less documentation"
+      "常にエラーがないから",
+      "被監査者の管理外の独立ソースから取得されるから",
+      "取得コストが低いから",
+      "文書化が少なくて済むから"
     ],
     "correct": 1,
     "explanation": "第三者証拠は被監査者の管理と影響の外にあるソースから取得されるためより信頼性が高い。外部確認を被監査者が容易に操作できないため監査結論の支持により信頼。"
@@ -1809,12 +1809,12 @@
   {
     "id": 140,
     "category": "Audit Evidence",
-    "question": "Metadata in electronic audit evidence includes information about:",
+    "question": "電子監査証拠のメタデータは何についての情報を含むか。",
     "options": [
-      "The financial amounts only",
-      "When, how, and by whom the data was created, modified, and accessed",
-      "The business meaning of the data only",
-      "The data's physical storage location only"
+      "金額のみ",
+      "データの作成、変更、アクセスがいつ、どのように、誰によって行われたか",
+      "データのビジネス上の意味のみ",
+      "データの物理保存場所のみ"
     ],
     "correct": 1,
     "explanation": "メタデータは電子データについていつ、どのように、誰によって作成・変更・アクセスされたかのコンテキストを提供。電子証拠の真正性と完全性評価に不可欠。"
@@ -1822,12 +1822,12 @@
   {
     "id": 141,
     "category": "Compliance & Legal",
-    "question": "J-SOX (Financial Instruments and Exchange Act) requires management to:",
+    "question": "J-SOX（金融商品取引法）は経営者に何を要求するか。",
     "options": [
-      "Prepare tax returns only",
-      "Report on the effectiveness of internal controls over financial reporting",
-      "Comply with environmental regulations only",
-      "Report on employee satisfaction"
+      "税申告書の準備のみ",
+      "財務報告の内部統制の有効性についての報告",
+      "環境規制へのコンプライアンスのみ",
+      "従業員満足度についての報告"
     ],
     "correct": 1,
     "explanation": "J-SOXは上場企業に財務報告の内部統制(ICFR)の有効性を評価・報告することを要求。経営者がコントロール有効であることを認証し重大な弱点を開示。"
@@ -1835,12 +1835,12 @@
   {
     "id": 142,
     "category": "Compliance & Legal",
-    "question": "The APPI (Act on the Protection of Personal Information) in Japan requires organizations to:",
+    "question": "日本の個人情報保護法（APPI）は組織に何を要求するか。",
     "options": [
-      "Collect all available personal information",
-      "Specify the purpose of use and obtain consent before collecting personal information",
-      "Share personal information freely with partners",
-      "Destroy personal information within 30 days"
+      "利用可能なすべての個人情報を収集すること",
+      "利用目的を明確にし、個人情報を収集する前に同意を取得すること",
+      "パートナーと自由に個人情報を共有すること",
+      "30日以内に個人情報を破棄すること"
     ],
     "correct": 1,
     "explanation": "APPIは組織に個人情報の利用目的を明確に特定し、データ主体の同意を取得し、セキュリティ対策を実装し、利用を記載目的に限定することを要求。"
@@ -1848,12 +1848,12 @@
   {
     "id": 143,
     "category": "Compliance & Legal",
-    "question": "Under the FIEA (Financial Instruments and Exchange Act), what is required for companies issuing securities?",
+    "question": "金融商品取引法（FIEA）の下で証券を発行する企業に何が要求されるか。",
     "options": [
-      "Only internal control reporting",
-      "Disclosure of financial information, including securities reports and quarterly reviews",
-      "Only annual financial statements",
-      "Voluntary disclosure only"
+      "内部統制報告のみ",
+      "証券報告書と四半期レビューを含む財務情報の開示",
+      "年次財務諸表のみ",
+      "任意の開示のみ"
     ],
     "correct": 1,
     "explanation": "FIEAは上場企業に証券報告書、半期報告書、四半期レビュー、重要事象報告書を含む継続的開示を義務付け。透明で適時な財務情報による投資家保護を目的。"
@@ -1861,12 +1861,12 @@
   {
     "id": 144,
     "category": "Compliance & Legal",
-    "question": "GDPR's principle of 'data minimization' requires that personal data collected must be:",
+    "question": "GDPRの「データ最小化」原則は収集される個人データがどのようにあるべきことを要求するか。",
     "options": [
-      "Stored for the maximum possible time",
-      "Adequate, relevant, and limited to what is necessary for the specified purpose",
-      "Encrypted at all times",
-      "Shared with all government agencies"
+      "可能な限り長く保存される",
+      "指定目的に必要で十分なものである",
+      "常に暗号化されている",
+      "すべての政府機関と共有される"
     ],
     "correct": 1,
     "explanation": "データ最小化は指定目的に直接関連し必要な個人データのみを収集すること。過剰データの収集や処理に不要な超過期間の保持を防止。"
@@ -1874,12 +1874,12 @@
   {
     "id": 145,
     "category": "Compliance & Legal",
-    "question": "Which of the following is required by Japan's Corporate Governance Code?",
+    "question": "日本のコーポレートガバナンス・コードで要求されるものはどれか。",
     "options": [
-      "All directors must be independent",
-      "Companies should establish a framework for constructive dialogue with shareholders",
-      "Companies must have female board representation only",
-      "Annual re-election of all directors"
+      "すべての取締役が独立していること",
+      "企業が株主との建設的対話の枠組みを確立すること",
+      "女性の取締役会参加のみを要求すること",
+      "全取締役の年次再選"
     ],
     "correct": 1,
     "explanation": "日本のコーポレートガバナンス・コードは株主との建設的対話の枠組み構築、取締役会の独立性と多様性確保、持ち合い分析、継承計画開示を推奨。"
@@ -1887,12 +1887,12 @@
   {
     "id": 146,
     "category": "Compliance & Legal",
-    "question": "Under J-SOX, a 'material weakness' in internal controls must be:",
+    "question": "J-SOXにおいて内部統制の「重大な弱点」はどうすべきか。",
     "options": [
-      "Fixed within 30 days",
-      "Disclosed in the annual securities report",
-      "Reported to the board only (not publicly)",
-      "Fixed before the next audit cycle begins"
+      "30日以内に修正すること",
+      "年次証券報告書で開示すること",
+      "取締役会にのみ報告し（公開しない）",
+      "次の監査サイクル開始前に修正すること"
     ],
     "correct": 1,
     "explanation": "J-SOXは財務報告の内部統制の重大な弱点を年次証券報告書で開示することを要求。この公開開示で投資家に重要な統制欠陥情報を提供。"
@@ -1900,12 +1900,12 @@
   {
     "id": 147,
     "category": "Compliance & Legal",
-    "question": "The 'privacy by design' principle in GDPR means:",
+    "question": "GDPRにおける「プライバシー・バイ・デザイン」原則とは何を意味するか。",
     "options": [
-      "Only designing secure buildings",
-      "Integrating data protection into the design of systems and processes from the beginning",
-      "Designing marketing campaigns that respect privacy",
-      "Creating privacy policies as an afterthought"
+      "安全な建物を設計することのみ",
+      "システムとプロセスの設計の当初からデータ保護を統合すること",
+      "プライバシーを尊重するマーケティングキャンペーンの設計",
+      "事後対応としてプライバシーポリシーを作成すること"
     ],
     "correct": 1,
     "explanation": "プライバシー・バイ・デザインはデータ保護をITシステムとビジネス実践の設計・アーキテクチャに最初から組み込むことを要求。事後対応ではなく事前予防。"
@@ -1913,12 +1913,12 @@
   {
     "id": 148,
     "category": "Compliance & Legal",
-    "question": "What is the maximum penalty under GDPR for serious data protection violations?",
+    "question": "GDPRの下で重大なデータ保護違反の最大罰金はいくらか。",
     "options": [
-      "1 million EUR",
-      "10 million EUR or 2% of global annual turnover",
-      "20 million EUR or 4% of global annual turnover",
-      "No financial penalties, only warnings"
+      "100万EUR",
+      "1,000万EURまたは世界年間売上高の2%",
+      "2,000万EURまたは世界年間売上高の4%",
+      "金銭的罰金なし、警告のみ"
     ],
     "correct": 2,
     "explanation": "GDPRは基本処理原則への違反や有効な同意の取得失敗等の重大な違反に対し2,000万EURまたは世界年間売上高の4%のいずれか高い方までの行政罰金を規定。"
@@ -1926,12 +1926,12 @@
   {
     "id": 149,
     "category": "Compliance & Legal",
-    "question": "Japan's Unfair Competition Prevention Act prohibits:",
+    "question": "日本の不正競争防止法は何を禁止するか。",
     "options": [
-      "All forms of competition",
-      "Acts of unfair competition including trade secret misappropriation and false representations",
-      "Price competition between companies",
-      "Competition from foreign companies"
+      "すべての形態の競争",
+      "営業秘密の不正取得や虚偽表示を含む不正競争行為",
+      "企業間の価格競争",
+      "外国企業からの競争"
     ],
     "correct": 1,
     "explanation": "不正競争防止法は営業秘密の不正取得、虚偽または誤解を招く表示、周知の営業表示の無断使用等の特定の不正行為を禁止。"
@@ -1939,12 +1939,12 @@
   {
     "id": 150,
     "category": "Compliance & Legal",
-    "question": "IS auditor independence requires the auditor to:",
+    "question": "IS監査人の独立性には何が要求されるか。",
     "options": [
-      "Have no knowledge of the client's industry",
-      "Be free from conflicts of interest that could impair objectivity",
-      "Not communicate with management",
-      "Not charge fees for the audit"
+      "クライアントの業界についての知識がないこと",
+      "客観性を損なう可能性のある利益相反から自由であること",
+      "経営陣と通信しないこと",
+      "監査に報酬を請求しないこと"
     ],
     "correct": 1,
     "explanation": "監査人の独立性とは関係、利益、または状況が客観性を損なう可能性があるものからの自由。金融的利益、雇用関係、その他偏りを生む接続を含む。"
@@ -1952,12 +1952,12 @@
   {
     "id": 151,
     "category": "Compliance & Legal",
-    "question": "Under APPI, a 'personal information protection officer' is required for organizations that:",
+    "question": "APPIの下で「個人情報保護責任者」はどの組織に必要か。",
     "options": [
-      "Have more than 100 employees only",
-      "Handle personal information above specified thresholds (typically 5,000+ individuals)",
-      "Are listed companies only",
-      "Operate in the financial sector only"
+      "100人以上の従業員のみを持つ組織",
+      "指定閾値（通常5,000名以上）を超える個人情報を取り扱う組織",
+      "上場企業のみ",
+      "金融部門のみで運営する組織"
     ],
     "correct": 1,
     "explanation": "APPIは指定閾値(通常5,000名以上の個人)を超える個人情報を取り扱う組織に個人情報保護責任者の任命を義務付け。"
@@ -1965,12 +1965,12 @@
   {
     "id": 152,
     "category": "Compliance & Legal",
-    "question": "The Corporate Governance Code in Japan recommends that boards include:",
+    "question": "日本のコーポレートガバナンス・コードは取締役会に何を含むことを推奨するか。",
     "options": [
-      "Only executive directors",
-      "A sufficient number of independent directors to ensure effective oversight",
-      "Only government-appointed directors",
-      "Directors from competing companies"
+      "執行取締役のみ",
+      "効果的監督のための十分な数の独立社外取締役",
+      "政府任命の取締役のみ",
+      "競合企業からの取締役"
     ],
     "correct": 1,
     "explanation": "日本のコーポレートガバナンス・コードは取締役会に効果的監督のため十分な数の独立社外取締役を含むことを推奨。取締役会の客観性と説明責任を強化。"
@@ -1978,12 +1978,12 @@
   {
     "id": 153,
     "category": "Compliance & Legal",
-    "question": "'Cross-shareholding' under Japan's Corporate Governance Code should be:",
+    "question": "日本のコーポレートガバナンス・コードにおける「持ち合い株式」はどうすべきか。",
     "options": [
-      "Mandated for all listed companies",
-      "Disclosed and reviewed with a policy for reduction where not justified",
-      "Eliminated entirely within one year",
-      "Increased to improve corporate relationships"
+      "すべての上場企業に義務付ける",
+      "開示し正当化できない場合は削減方針で見直す",
+      "1年以内に完全に排除する",
+      "企業関係を改善するために増やす"
     ],
     "correct": 1,
     "explanation": "コードは持ち合い株式の開示とその根拠説明を要求。ビジネス上の利益または株主利益との整合がない持ち合いの削減方針を持つべき。"
@@ -1991,12 +1991,12 @@
   {
     "id": 154,
     "category": "Compliance & Legal",
-    "question": "GDPR requires a 'Data Protection Impact Assessment' (DPIA) for processing that is:",
+    "question": "GDPRはどのような処理について「データ保護影響評価（DPIA）」を要求するか。",
     "options": [
-      "Any processing of personal data",
-      "Likely to result in a high risk to individuals' rights and freedoms",
-      "Only for processing by large corporations",
-      "Only for processing health data"
+      "個人データのいかなる処理",
+      "個人の権利と自由に高いリスクをもたらす可能性がある処理",
+      "大企業による処理のみ",
+      "健康データの処理のみ"
     ],
     "correct": 1,
     "explanation": "GDPRは個人データの処理が個人の権利と自由に対する高いリスクをもたらす可能性がある場合にDPIAを要求。体系的プロファイリング、大規模センシティブデータ処理、新技術使用等。"
@@ -2004,12 +2004,12 @@
   {
     "id": 155,
     "category": "Compliance & Legal",
-    "question": "Under J-SOX, the external auditor's opinion on internal controls is:",
+    "question": "J-SOXの下で外部監査人の内部統制に関する意見はどう扱われるか。",
     "options": [
-      "Optional",
-      "Required - the auditor must opine on whether the company's internal controls are effective",
-      "Only required for financial companies",
-      "Required every three years"
+      "任意",
+      "義務 - 監査人は会社の内部統制が有効かについて意見を表明する必要がある",
+      "金融企業にのみ義務",
+      "3年に1回義務"
     ],
     "correct": 1,
     "explanation": "J-SOX下で外部監査人は財務諸表自体に対する意見に加え、会社の内部統制が有効であるかについての別の意見を提供することが義務。"
@@ -2017,12 +2017,12 @@
   {
     "id": 156,
     "category": "Compliance & Legal",
-    "question": "The 'right to be forgotten' under GDPR allows individuals to:",
+    "question": "GDPRの下での「忘れられる権利」は個人に何を許可するか。",
     "options": [
-      "Delete any information about themselves from the internet",
-      "Request erasure of their personal data under certain conditions",
-      "Block all search engine results about themselves",
-      "Delete their social media accounts permanently"
+      "インターネット上の自分に関するすべての情報を削除すること",
+      "一定条件下で個人データの消去を要求すること",
+      "自分に関するすべての検索エンジン結果をブロックすること",
+      "ソーシャルメディアアカウントを永久に削除すること"
     ],
     "correct": 1,
     "explanation": "消去権(忘れられる権利)はデータが不要になった場合、同意撤回後、または違法処理された場合に個人データの削除を要求。一定の例外あり。"
@@ -2030,12 +2030,12 @@
   {
     "id": 157,
     "category": "Compliance & Legal",
-    "question": "Which ethical principle requires auditors to maintain confidentiality of client information?",
+    "question": "監査人にクライアント情報の機密保持を要求する倫理原則はどれか。",
     "options": [
-      "Independence",
-      "Integrity",
-      "Confidentiality",
-      "Professional competence"
+      "独立性",
+      "誠実性",
+      "機密保持",
+      "専門的能力"
     ],
     "correct": 2,
     "explanation": "機密保持の職業的倫理原則は監査人がクライアント情報の機密性を維持することを要求。"
@@ -2043,12 +2043,12 @@
   {
     "id": 158,
     "category": "Compliance & Legal",
-    "question": "Under FIEA, 'insider trading' is prohibited. Which activity constitutes insider trading?",
+    "question": "FIEAの下で「インサイダー取引」は禁止されている。インサイダー取引に該当する行為はどれか。",
     "options": [
-      "Trading based on publicly available information",
-      "Trading securities while in possession of material non-public information about the issuer",
-      "Trading any securities as an employee of the company",
-      "Buying shares of your own employer"
+      "公開情報に基づく取引",
+      "発行体に関する重要な非公開情報を保有した状態での証券取引",
+      "会社の従業員としての証券取引",
+      "自分の雇用主の株式購入"
     ],
     "correct": 1,
     "explanation": "インサイダー取引は公開されていない重要情報を保有した状態で証券を取引すること。そのような情報を個人利益のために使用(または共有)することはFIEAで禁止され、重い罰則がある。"
@@ -2056,12 +2056,12 @@
   {
     "id": 159,
     "category": "Compliance & Legal",
-    "question": "A 'whistleblower protection' under Japanese law protects employees who:",
+    "question": "日本法の下での「公益通報者保護」はどの従業員を保護するか。",
     "options": [
-      "Complain about their salary",
-      "Report illegal acts or violations of compliance rules in good faith",
-      "Disagree with management decisions",
-      "Request workplace transfers"
+      "給与について不満を言う従業員",
+      "誠実に違法行為やコンプライアンス規則違反を報告する従業員",
+      "経営陣の決定に同意しない従業員",
+      "職場転換を要求する従業員"
     ],
     "correct": 1,
     "explanation": "日本の公益通報者保護法は誠実に法律、規則、制度の違反を報告する従業員を保護。公益通報者への報復は禁止され、企業の不正行為の報告を奨励。"
@@ -2069,12 +2069,12 @@
   {
     "id": 160,
     "category": "Compliance & Legal",
-    "question": "GDPR's 'lawful basis for processing' requires organizations to have a valid legal ground such as:",
+    "question": "GDPRの「処理の適法根拠」は組織にどのような有効な法的根拠を要求するか。",
     "options": [
-      "Any business need",
-      "Consent, contractual necessity, legal obligation, vital interests, public task, or legitimate interests",
-      "Only consent",
-      "Only contractual necessity"
+      "いかなるビジネスニーズ",
+      "同意、契約上の必要性、法的義務、重要利益、公的任務、または正当な利益",
+      "同意のみ",
+      "契約上の必要性のみ"
     ],
     "correct": 1,
     "explanation": "GDPRは6つの選択肢から有効な適法根拠を要求: 同意、契約上の必要性、法的義務、重要利益、公的任務、正当な利益。他の保護措置にかかわらず適法根拠なしの処理は違法。"
@@ -2082,10 +2082,10 @@
   {
     "id": 161,
     "category": "Compliance & Legal",
-    "question": "Under J-SOX, management's assessment of ICFR must be based on a recognized framework such as:",
+    "question": "J-SOXの下で経営者のICFR評価はどのような認知されたフレームワークに基づく必要があるか。",
     "options": [
-      "The company's own internal framework only",
-      "COSO Internal Control - Integrated Framework",
+      "会社独自の内部フレームワークのみ",
+      "COSO内部統制 - 統合フレームワーク",
       "ISO 27001",
       "ITIL v4"
     ],
@@ -2095,12 +2095,12 @@
   {
     "id": 162,
     "category": "Compliance & Legal",
-    "question": "Japan's 'My Number Act' (Social Security and Tax Number System) requires:",
+    "question": "日本の「マイナンバー法」は何を要求するか。",
     "options": [
-      "All employees to memorize their tax ID",
-      "Individuals to have a unique identification number used for social security and tax administration",
-      "Companies to assign employee numbers",
-      "Only government agencies to use identification numbers"
+      "すべての従業員が税IDを暗記すること",
+      "社会保障と税行政で使用される一意識別番号を個人に持たせること",
+      "企業が従業員番号を割り当てること",
+      "政府機関のみが識別番号を使用すること"
     ],
     "correct": 1,
     "explanation": "マイナンバー法は日本の全居住者に12桁の一意識別番号を付与し、社会保障、税、災害対策行政で使用。個人情報保護を確保しつつ行政効率の向上を図る。"
@@ -2108,12 +2108,12 @@
   {
     "id": 163,
     "category": "Compliance & Legal",
-    "question": "An auditor discovers evidence of illegal acts by the client. Under professional standards, the auditor should:",
+    "question": "監査人がクライアントの違法行為の証拠を発見した場合、職業的基準の下でどうすべきか。",
     "options": [
-      "Ignore it if it does not affect the financial statements",
-      "Consider the legal and professional implications, discuss with management and possibly the audit committee",
-      "Immediately report to law enforcement without notifying management",
-      "Resign from the engagement immediately"
+      "財務諸表に影響しない場合無視する",
+      "法的・職業的影響を検討し、経営陣と協議し監査委員会に報告することを検討する",
+      "経営陣に通知せず直ちに法執行機関に報告する",
+      "直ちに業務から辞退する"
     ],
     "correct": 1,
     "explanation": "監査人が違法行為の証拠を発見した場合、財務諸表への影響を検討し、適切なレベルの経営陣(必要なら監査委員会まで)と協議し、外部当事者への報告が必要かを評価。"
@@ -2121,12 +2121,12 @@
   {
     "id": 164,
     "category": "Compliance & Legal",
-    "question": "The 'integrity' ethical principle in auditing requires auditors to:",
+    "question": "監査における「誠実性」倫理原則は監査人に何を要求するか。",
     "options": [
-      "Follow all client instructions",
-      "Be straightforward and honest in all professional and business relationships",
-      "Never disagree with management",
-      "Accept all audit engagements offered"
+      "すべてのクライアント指示に従うこと",
+      "すべての職業的・ビジネス関係で率直かつ正直であること",
+      "経営陣と意見が対立しないこと",
+      "提供されるすべての監査業務を受諾すること"
     ],
     "correct": 1,
     "explanation": "誠実性は監査人が正直で率直であり、職業的懐疑心を維持し、実質的に虚偽または誤解を招く情報や適切な理解に必要な情報を省略・隠蔽する情報に関与しないことを要求。"
@@ -2134,12 +2134,12 @@
   {
     "id": 165,
     "category": "Compliance & Legal",
-    "question": "Under APPI, 'sensitive information requiring special care' includes:",
+    "question": "APPIの下で「要配慮個人情報」には何が含まれるか。",
     "options": [
-      "All customer contact information",
-      "Race, creed, social status, medical history, criminal records, and similar data",
-      "Company financial data",
-      "Employee work schedules"
+      "すべての顧客連絡先情報",
+      "人種、信条、社会的身分、病歴、犯罪歴および同様のデータ",
+      "企業の財務データ",
+      "従業員の勤務スケジュール"
     ],
     "correct": 1,
     "explanation": "APPIは人種、信条、社会的身分、病歴、犯罪歴、犯罪被害事実等を「要配慮個人情報」として分類。これらには強化された取扱いと保護が必要。"
@@ -2147,12 +2147,12 @@
   {
     "id": 166,
     "category": "Information Systems Audit",
-    "question": "IT general controls (ITGC) are important because they:",
+    "question": "IT一般統制（ITGC）が重要な理由は何か。",
     "options": [
-      "Replace the need for application controls",
-      "Create the environment in which application controls operate effectively",
-      "Are only needed for financial systems",
-      "Are only relevant for large organizations"
+      "アプリケーションコントロールの必要性を代替するから",
+      "アプリケーションコントロールが効果的に機能する環境を作成するから",
+      "財務システムにのみ必要だから",
+      "大規模組織にのみ関連するから"
     ],
     "correct": 1,
     "explanation": "ITGCは信頼性の高いIT処理の基盤を作成。有効な一般統制(アクセス管理、変更管理、運用、システム開発)がなければ、アプリケーションコントロールは設計に関わらず信頼できない。"
@@ -2160,12 +2160,12 @@
   {
     "id": 167,
     "category": "Information Systems Audit",
-    "question": "An 'access control review' in IS audit should verify that:",
+    "question": "IS監査における「アクセス制御レビュー」は何を検証すべきか。",
     "options": [
-      "All employees have access to all systems",
-      "Access rights are appropriate to job responsibilities and follow the principle of least privilege",
-      "Access is granted permanently without review",
-      "The IT department controls all access approvals"
+      "すべての従業員がすべてのシステムにアクセスできること",
+      "アクセス権が職務責任に適切で最小権限の原則に従っていること",
+      "レビューなしに永続的にアクセスが付与されること",
+      "IT部門がすべてのアクセス承認を管理すること"
     ],
     "correct": 1,
     "explanation": "アクセス制御レビューはユーザーが職務に必要なアクセスのみを持ち(最小権限の原則)、アクセスが適切に承認され、孤立アカウントと過度な権限が特定・対処されることを検証。"
@@ -2173,12 +2173,12 @@
   {
     "id": 168,
     "category": "Information Systems Audit",
-    "question": "A 'disaster recovery plan' (DRP) primarily addresses:",
+    "question": "「ディザスタリカバリ計画（DRP）」は主に何に対処するか。",
     "options": [
-      "Preventing disasters from occurring",
-      "Restoring IT systems and operations after a disruptive event",
-      "Daily data backup procedures",
-      "Employee safety during emergencies"
+      "災害の発生を防止すること",
+      "重大な中断後にITシステムと運用を復旧すること",
+      "日常的なデータバックアップ手続",
+      "緊急時の従業員安全"
     ],
     "correct": 1,
     "explanation": "DRPは災害または重大な中断後にITシステム、データ、運用の復旧に焦点。復旧手順、リソース要件、システムの優先順位付けを含みビジネス継続を確保。"
@@ -2186,12 +2186,12 @@
   {
     "id": 169,
     "category": "Information Systems Audit",
-    "question": "'Business continuity planning' (BCP) differs from DRP in that BCP:",
+    "question": "「事業継続計画（BCP）」はDRPとどう異なるか。",
     "options": [
-      "Only covers IT systems",
-      "Addresses the continuation of all critical business operations, not just IT recovery",
-      "Is the same as DRP",
-      "Only applies to financial institutions"
+      "ITシステムのみをカバーする",
+      "IT復旧だけでなくすべての重要ビジネス運作の継続に対処する",
+      "DRPと同じ",
+      "金融機関にのみ適用される"
     ],
     "correct": 1,
     "explanation": "BCPはDRPより広範で、すべての重要ビジネス運作(ITに限らない)の継続をカバー。手作業の回避策、代替施設、人員配置計画、中断中の通信戦略を含む。"
@@ -2199,12 +2199,12 @@
   {
     "id": 170,
     "category": "Information Systems Audit",
-    "question": "Which backup strategy ensures the shortest recovery time?",
+    "question": "最短の復旧時間を確保するバックアップ戦略はどれか。",
     "options": [
-      "Full backup weekly",
-      "Incremental backup daily",
-      "Continuous data protection (CDP)",
-      "Differential backup daily"
+      "週次フルバックアップ",
+      "日次増分バックアップ",
+      "継続的データ保護（CDP）",
+      "日次差分バックアップ"
     ],
     "correct": 2,
     "explanation": "CDP(Continuous Data Protection)は全データ変更をリアルタイムで捕捉し、任意の時点への最小データ損失で復旧を可能にする。最短の復旧時間と最低のRPOを提供。"
@@ -2212,12 +2212,12 @@
   {
     "id": 171,
     "category": "Information Systems Audit",
-    "question": "In system development audit, 'user acceptance testing' (UAT) verifies that:",
+    "question": "システム開発監査における「ユーザー受入テスト（UAT）」は何を検証するか。",
     "options": [
-      "The system meets technical specifications",
-      "The system meets business requirements and is fit for its intended purpose",
-      "The system is free of all bugs",
-      "The system can handle maximum user load"
+      "システムが技術仕様を満たすこと",
+      "システムがビジネス要件を満たし意図した目的に適合すること",
+      "システムにバグが一切ないこと",
+      "システムが最大ユーザー負荷に耐えられること"
     ],
     "correct": 1,
     "explanation": "UATはエンドユーザーがシステムがビジネス要件を満たし実世界のシナリオで期待通り動作することを検証。本番移行前の最終テストフェーズ。"
@@ -2225,12 +2225,12 @@
   {
     "id": 172,
     "category": "Information Systems Audit",
-    "question": "The 'segregation of duties' principle in system development means:",
+    "question": "システム開発における「職務の分離」の原則とは何か。",
     "options": [
-      "Each developer should work on only one project",
-      "The roles of programmer, tester, and production operator should be separated",
-      "Developers should not use version control",
-      "All code must be reviewed by external auditors"
+      "各開発者が1つのプロジェクトのみで作業すること",
+      "プログラマー、テスター、本番運用者の役割を分離すること",
+      "開発者がバージョン管理を使用しないこと",
+      "すべてのコードが外部監査人にレビューされること"
     ],
     "correct": 1,
     "explanation": "システム開発の職務の分離はコード作成者(開発者)、テスト担当者(QA)、本番への移行者(運用)を分離。不正なコードが本番システムに到達するのを防止。"
@@ -2238,12 +2238,12 @@
   {
     "id": 173,
     "category": "Information Systems Audit",
-    "question": "A 'vulnerability assessment' in IS audit identifies:",
+    "question": "IS監査における「脆弱性評価」は何を識別するか。",
     "options": [
-      "Only hardware failures",
-      "Security weaknesses in systems that could be exploited by threats",
-      "Performance bottlenecks in the network",
-      "Software licensing violations"
+      "ハードウェア障害のみ",
+      "脅威によって悪用される可能性のあるシステムのセキュリティ上の弱点",
+      "ネットワークのパフォーマンスボトルネック",
+      "ソフトウェアライセンス違反"
     ],
     "correct": 1,
     "explanation": "脆弱性評価はシステムのセキュリティ上の弱点(設定不備、未パッチ、デフォルトパスワード、不要サービス)を体系的に識別。脆弱性の悪用を試みるペネトレーションテストとは異なる。"
@@ -2251,12 +2251,12 @@
   {
     "id": 174,
     "category": "Information Systems Audit",
-    "question": "The 'principle of least privilege' for access controls means:",
+    "question": "アクセス制御の「最小権限の原則」とは何を意味するか。",
     "options": [
-      "All users should have the minimum access level possible",
-      "Users should be granted only the minimum access necessary to perform their job functions",
-      "Only administrators should have system access",
-      "Access should be denied by default for all requests"
+      "すべてのユーザーに可能な限り最小のアクセスレベルを付与すること",
+      "ユーザーに職務遂行に必要な最小限のアクセスのみを付与すること",
+      "管理者のみがシステムアクセスを持つこと",
+      "すべてのリクエストに対しデフォルトでアクセスを拒否すること"
     ],
     "correct": 1,
     "explanation": "最小権限の原則はユーザーに職務責任に必要な最小のアクセス権を付与すること。不正アクセス、偶発的損害、侵害されたアカウントの潜在的影響のリスクを削減。"
@@ -2264,12 +2264,12 @@
   {
     "id": 175,
     "category": "Information Systems Audit",
-    "question": "In IT operations audit, reviewing 'job scheduling' ensures that:",
+    "question": "IT運用監査における「ジョブスケジューリング」のレビューは何を確保するか。",
     "options": [
-      "Employees are working efficiently",
-      "Batch processing jobs run correctly, on schedule, and with appropriate error handling",
-      "IT staff are properly compensated",
-      "System updates are scheduled quarterly"
+      "従業員が効率的に作業していること",
+      "バッチジョブが適切にスケジュールされ、適切なエラー処理で実行されること",
+      "ITスタッフが適切に報酬されていること",
+      "システム更新が四半期ごとにスケジュールされていること"
     ],
     "correct": 1,
     "explanation": "ジョブスケジューリングレビューはバッチジョブが適切にスケジュールされ、時間通りに実行され、適切なエラー処理を持ち、正常に完了し、期待出力を生成することを検証。"
@@ -2277,12 +2277,12 @@
   {
     "id": 176,
     "category": "Information Systems Audit",
-    "question": "What is 'penetration testing' in the context of IS audit?",
+    "question": "IS監査の文脈における「ペネトレーションテスト」とは何か。",
     "options": [
-      "Testing system performance under heavy load",
-      "Actively attempting to exploit vulnerabilities to assess the security of systems",
-      "Testing network bandwidth capacity",
-      "Testing database query performance"
+      "高負荷下でのシステムパフォーマンステスト",
+      "システムのセキュリティを評価するために脆弱性を積極的に悪用すること",
+      "ネットワーク帯域容量のテスト",
+      "データベースクエリパフォーマンスのテスト"
     ],
     "correct": 1,
     "explanation": "ペネトレーションテストはシステム、ネットワーク、アプリケーションの脆弱性を悪用する正当な試み。悪意のある攻撃者が悪用可能なセキュリティ上の弱点を特定するため現実の攻撃をシミュレート。"
@@ -2290,12 +2290,12 @@
   {
     "id": 177,
     "category": "Information Systems Audit",
-    "question": "An IS auditor reviewing database security should check that:",
+    "question": "データベースセキュリティをレビューするIS監査人は何を確認すべきか。",
     "options": [
-      "All databases use the same password",
-      "Database access is controlled, sensitive data is encrypted, and audit trails are maintained",
-      "Databases are accessible from the internet without restriction",
-      "Only the DBA has any database access"
+      "すべてのデータベースが同じパスワードを使用すること",
+      "データベースアクセスが制御され、機密データが暗号化され、監査ログが維持されること",
+      "データベースがインターネットから制限なくアクセス可能であること",
+      "DBAのみがデータベースアクセスを持つこと"
     ],
     "correct": 1,
     "explanation": "データベースセキュリティレビューはアクセス制御(最小権限)、機密データの暗号化、アクセスと変更の監査ログ、適切な認証メカニズム、定期的なセキュリティパッチを検証。"
@@ -2303,12 +2303,12 @@
   {
     "id": 178,
     "category": "Information Systems Audit",
-    "question": "The 'recovery time objective' (RTO) is:",
+    "question": "「復旧時間目標（RTO）」とは何か。",
     "options": [
-      "The time required to install backup software",
-      "The maximum acceptable time to restore a system after a disruption",
-      "The time needed to perform a daily backup",
-      "The time employees need to return to work after a disaster"
+      "バックアップソフトウェアのインストールに必要な時間",
+      "中断後にシステムを復旧する最大許容時間",
+      "日次バックアップの実行に必要な時間",
+      "災害後に従業員が復帰するのに必要な時間"
     ],
     "correct": 1,
     "explanation": "RTOは中断後に許容できない結果を回避するためビジネスプロセスが復旧されなければならない最大許容時間。復旧戦略の選択と必要なDR投資を決定。"
@@ -2316,12 +2316,12 @@
   {
     "id": 179,
     "category": "Information Systems Audit",
-    "question": "'Data integrity controls' in application systems ensure that:",
+    "question": "アプリケーションシステムにおける「データ完全性コントロール」は何を確保するか。",
     "options": [
-      "Data is stored on reliable hardware only",
-      "Data is accurate, complete, and consistent throughout its lifecycle",
-      "Data is only accessible during business hours",
-      "Data is always encrypted"
+      "データが信頼性の高いハードウェアにのみ保存されること",
+      "データがライフサイクル全体を通じて正確、完全、一貫していること",
+      "データが営業時間中のみアクセス可能であること",
+      "データが常に暗号化されていること"
     ],
     "correct": 1,
     "explanation": "データ完全性コントロール(入力検証、参照完全性、チェックサム、照合)はデータが入力から処理、保存、出力まで正確、完全、一貫していることを確保。"
@@ -2329,12 +2329,12 @@
   {
     "id": 180,
     "category": "Information Systems Audit",
-    "question": "In change management audit, what is the PRIMARY risk of emergency changes?",
+    "question": "変更管理監査において緊急変更の主なリスクは何か。",
     "options": [
-      "They cost more than normal changes",
-      "They may bypass standard testing and approval procedures, increasing the risk of errors",
-      "They are performed by junior staff",
-      "They only affect non-critical systems"
+      "通常の変更よりコストが高い",
+      "標準的なテストと承認手続をバイパスしエラーリスクが増加すること",
+      "ジュニアスタッフによって実施される",
+      "非重要システムにのみ影響する"
     ],
     "correct": 1,
     "explanation": "緊急変更はサービスを迅速に復旧するため通常のテスト、文書化、承認プロセスをバイパスすることが多い。新たなエラーや脆弱性の導入リスクが大幅に増加し、実装後にレビューと正式化が必要。"
@@ -2342,12 +2342,12 @@
   {
     "id": 181,
     "category": "Information Systems Audit",
-    "question": "'Network segmentation' as a security control:",
+    "question": "セキュリティコントロールとしての「ネットワークセグメンテーション」とは何か。",
     "options": [
-      "Improves network speed only",
-      "Divides the network into zones to limit the spread of breaches and restrict access between segments",
-      "Connects all network devices to a single switch",
-      "Eliminates the need for firewalls"
+      "ネットワーク速度のみを改善する",
+      "ネットワークをゾーンに分割し侵害の拡大を制限しセグメント間のアクセスを制限する",
+      "すべてのネットワークデバイスを単一スイッチに接続する",
+      "ファイアウォールの必要性を排除する"
     ],
     "correct": 1,
     "explanation": "ネットワークセグメンテーションはネットワークをそれぞれ独自のセキュリティコントロールを持つ小さなゾーンまたはセグメントに分割。攻撃者の横移動を制限し、侵害を影響セグメントに封じ込める。"
@@ -2355,12 +2355,12 @@
   {
     "id": 182,
     "category": "Information Systems Audit",
-    "question": "A 'configuration management database' (CMDB) is used to:",
+    "question": "「構成管理データベース（CMDB）」は何のために使用されるか。",
     "options": [
-      "Store only software licenses",
-      "Maintain a comprehensive inventory of IT assets and their relationships",
-      "Store only employee records",
-      "Manage only network passwords"
+      "ソフトウェアライセンスのみの保存",
+      "IT資産とその関係の包括的なインベントリの維持",
+      "従業員記録のみの保存",
+      "ネットワークパスワードのみの管理"
     ],
     "correct": 1,
     "explanation": "CMDBはIT資産(ハードウェア、ソフトウェア、構成)とそれらの関係を保存する中央リポジトリ。ITサービス管理をサポートしIT環境の効果的な管理に役立つ。"
@@ -2368,12 +2368,12 @@
   {
     "id": 183,
     "category": "Information Systems Audit",
-    "question": "Which control is MOST effective for preventing unauthorized program changes?",
+    "question": "不正なプログラム変更を防止するために最も有効なコントロールはどれか。",
     "options": [
-      "Monthly code reviews",
-      "Restricting production access to authorized personnel with formal change approval processes",
-      "Annual security audits",
-      "Developer self-certification"
+      "月次コードレビュー",
+      "本番アクセスを権限のある担当者に制限し正式な変更承認プロセスを使用すること",
+      "年次セキュリティ監査",
+      "開発者の自己認証"
     ],
     "correct": 1,
     "explanation": "本番システムへのアクセスを権限のある担当者に制限し、正式な変更承認プロセスと組み合わせることが最も有効なコントロール。開発者が適切な承認、テストなしで本番コードを直接変更することを防止。"
@@ -2381,12 +2381,12 @@
   {
     "id": 184,
     "category": "Information Systems Audit",
-    "question": "'Encryption at rest' protects data by:",
+    "question": "「保存時暗号化」はデータをどのように保護するか。",
     "options": [
-      "Encrypting data only during transmission",
-      "Encrypting data stored on disk or other storage media",
-      "Encrypting data in the CPU cache only",
-      "Encrypting backup tapes only"
+      "転送中のデータのみ暗号化する",
+      "ディスクまたはその他の保存メディアに保存されたデータを暗号化する",
+      "CPUキャッシュ内のデータのみ暗号化する",
+      "バックアップテープのみ暗号化する"
     ],
     "correct": 1,
     "explanation": "保存時暗号化は物理メディア(HDD、SSD、テープ、クラウドストレージ)に保存されたデータを暗号化鍵なしでは読めない形式に変換して保護。物理的盗難やストレージメディアへの不正アクセスから保護。"
@@ -2394,12 +2394,12 @@
   {
     "id": 185,
     "category": "Information Systems Audit",
-    "question": "In IS audit, 'system logging' should capture:",
+    "question": "IS監査において「システムロギング」は何を捕捉すべきか。",
     "options": [
-      "Only error messages",
-      "All significant system events including access, changes, errors, and security events",
-      "Only user login times",
-      "Only system performance metrics"
+      "エラーメッセージのみ",
+      "アクセス、変更、エラー、セキュリティイベントを含むすべての重要なシステムイベント",
+      "ユーザーログイン時間のみ",
+      "システムパフォーマンス指標のみ"
     ],
     "correct": 1,
     "explanation": "システムログはすべての重要イベントを捕捉すべき: ユーザーアクセス(成功・失敗)、データ変更、システムエラー、セキュリティイベント、構成変更、管理アクション。監査証跡、トラブルシューティング、フォレンジック調査をサポート。"
@@ -2407,12 +2407,12 @@
   {
     "id": 186,
     "category": "Information Systems Audit",
-    "question": "'Multi-factor authentication' (MFA) requires:",
+    "question": "「多要素認証（MFA）」は何を要求するか。",
     "options": [
-      "A very long password",
-      "Two or more independent authentication factors (e.g., something you know, have, are)",
-      "Multiple user accounts for each person",
-      "Authentication by multiple administrators"
+      "非常に長いパスワード",
+      "2つ以上の独立した認証要素（知識、所持、生体認証）",
+      "各人に複数のユーザーアカウント",
+      "複数の管理者による認証"
     ],
     "correct": 1,
     "explanation": "MFAは3カテゴリから2つ以上の独立した認証要素を要求: 知識(パスワード)、所持(トークン、電話)、生体認証。不正アクセスのリスクを大幅に削減。"
@@ -2420,12 +2420,12 @@
   {
     "id": 187,
     "category": "Information Systems Audit",
-    "question": "An IS auditor testing backup procedures should verify that:",
+    "question": "バックアップ手続をテストするIS監査人は何を検証すべきか。",
     "options": [
-      "Backups are stored in the same location as the original data",
-      "Backups are performed regularly, stored offsite, and can be successfully restored",
-      "Backups are always full (never incremental)",
-      "Only the IT manager can initiate backups"
+      "バックアップが元データと同じ場所に保存されること",
+      "バックアップが定期的に実施され、オフサイトに保存され、正常にリストアできること",
+      "バックアップが常にフル（増分でない）こと",
+      "ITマネージャーのみがバックアップを開始できること"
     ],
     "correct": 1,
     "explanation": "バックアップテストは定期的なバックアップスケジュール、ディザスタリカバリ用のオフサイト保存、成功するリストア能力(最も重要なテスト)、適切な暗号化、保持ポリシーを検証。"
@@ -2433,12 +2433,12 @@
   {
     "id": 188,
     "category": "Information Systems Audit",
-    "question": "What is 'SQL injection' and how can it be prevented?",
+    "question": "「SQLインジェクション」とは何か、またどのように防止できるか。",
     "options": [
-      "A hardware failure prevented by redundant systems",
-      "An attack where malicious SQL code is inserted into input fields, prevented by input validation and parameterized queries",
-      "A network attack prevented by firewalls",
-      "A social engineering attack prevented by training"
+      "冗長システムで防止されるハードウェア障害",
+      "入力フィールドに悪意のあるSQLコードが挿入される攻撃。入力検証とパラメータ化クエリで防止",
+      "ファイアウォールで防止されるネットワーク攻撃",
+      "研修で防止されるソーシャルエンジニアリング攻撃"
     ],
     "correct": 1,
     "explanation": "SQLインジェクションは不適切な入力検証を悪用しアプリケーションの入力フィールドから悪意のあるSQLコマンドを挿入。対策にはパラメータ化クエリ、ストアドプロシージャ、入力検証、ORMフレームワークの使用。"
@@ -2446,12 +2446,12 @@
   {
     "id": 189,
     "category": "Information Systems Audit",
-    "question": "'Virtualization security' in IS audit should address:",
+    "question": "IS監査における「仮想化セキュリティ」は何に対処すべきか。",
     "options": [
-      "Only physical server security",
-      "Hypervisor security, VM isolation, virtual network security, and VM lifecycle management",
-      "Only guest OS patching",
-      "Only storage virtualization"
+      "物理サーバーセキュリティのみ",
+      "ハイパーバイザセキュリティ、VM分離、仮想ネットワークセキュリティ、VMライフサイクル管理",
+      "ゲストOSパッチ適用のみ",
+      "ストレージ仮想化のみ"
     ],
     "correct": 1,
     "explanation": "仮想化セキュリティはハイパーバイザ(VM間の攻撃面)、VM分離、仮想ネットワーク(仮想スイッチ、ファイアウォール)、VMイメージ管理、仮想化プラットフォーム自体のセキュリティに対応すべき。"
@@ -2459,12 +2459,12 @@
   {
     "id": 190,
     "category": "Information Systems Audit",
-    "question": "In IS audit, what is a 'privilege escalation' attack?",
+    "question": "IS監査における「権限昇格」攻撃とは何か。",
     "options": [
-      "An attack that increases network bandwidth",
-      "An attack where an attacker gains higher-level access rights than authorized",
-      "An attack that speeds up system processing",
-      "An attack that creates additional user accounts"
+      "ネットワーク帯域幅を増加させる攻撃",
+      "攻撃者が権限を超えるより高位のアクセス権を取得する攻撃",
+      "システム処理を加速させる攻撃",
+      "追加のユーザーアカウントを作成する攻撃"
     ],
     "correct": 1,
     "explanation": "権限昇格は攻撃者が昇格されたアクセス権(例: 一般ユーザーから管理者)を取得する場合に発生。脆弱性、設定不備、弱いアクセス制御の悪用によりシステムの広範な制御を取得。"
@@ -2472,12 +2472,12 @@
   {
     "id": 191,
     "category": "Information Systems Audit",
-    "question": "The 'recovery point objective' (RPO) defines:",
+    "question": "「復旧点目標（RPO）」は何を定義するか。",
     "options": [
-      "The minimum hardware requirements for recovery",
-      "The maximum acceptable amount of data loss measured in time",
-      "The physical location of backup storage",
-      "The number of people needed for disaster recovery"
+      "復旧に必要な最小ハードウェア要件",
+      "時間で測定された最大許容データ損失量",
+      "バックアップ保存の物理的場所",
+      "ディザスタリカバリに必要な人数"
     ],
     "correct": 1,
     "explanation": "RPOは最大許容データ損失量を時間の点として定義(例: 1時間、24時間)。バックアップ頻度を決定 - RPOが1時間なら1時間ごとのバックアップが必要。"
@@ -2485,12 +2485,12 @@
   {
     "id": 192,
     "category": "Information Systems Audit",
-    "question": "A 'firewall' in network security primarily:",
+    "question": "ネットワークセキュリティにおける「ファイアウォール」は主に何を行うか。",
     "options": [
-      "Prevents hardware failures",
-      "Monitors and controls incoming and outgoing network traffic based on predefined security rules",
-      "Accelerates network speed",
-      "Manages user passwords"
+      "ハードウェア障害を防止する",
+      "予定セキュリティルールに基づいてネットワークトラフィックを監視・制御する",
+      "ネットワーク速度を加速する",
+      "ユーザーパスワードを管理する"
     ],
     "correct": 1,
     "explanation": "ファイアウォールは予定セキュリティルールに基づいてネットワークトラフィックを監視・フィルタリングし、信頼ネットワークと非信頼ネットワーク間の障壁として機能。"
@@ -2498,12 +2498,12 @@
   {
     "id": 193,
     "category": "Information Systems Audit",
-    "question": "'Identity and access management' (IAM) systems should support all of the following EXCEPT:",
+    "question": "「アイデンティティ・アクセス管理（IAM）」システムは次のうちどれ以外をサポートすべきか。",
     "options": [
-      "User provisioning and deprovisioning",
-      "Role-based access control",
-      "Ignoring access request approvals",
-      "Access certification and review"
+      "ユーザーのプロビジョニングとデプロビジョニング",
+      "ロールベースアクセス制御",
+      "アクセス承認プロセスの無視",
+      "アクセス認証とレビュー"
     ],
     "correct": 2,
     "explanation": "IAMシステムはユーザーライフサイクル管理、RBAC、アクセス認証、SSO、アクセスレビューをサポート。アクセス承認プロセスを無視するのではなく強制。"
@@ -2511,12 +2511,12 @@
   {
     "id": 194,
     "category": "Information Systems Audit",
-    "question": "In reviewing an organization's patch management process, the IS auditor should verify that:",
+    "question": "組織のパッチ管理プロセスをレビューする際、IS監査人は何を検証すべきか。",
     "options": [
-      "Patches are applied only to servers",
-      "Critical security patches are applied in a timely manner with proper testing before deployment",
-      "Patches are applied immediately without testing",
-      "Patching is the sole responsibility of the CIO"
+      "パッチがサーバーのみに適用されること",
+      "重要セキュリティパッチが適切なテストの後適時に適用されること",
+      "パッチがテストなしに直ちに適用されること",
+      "パッチ管理がCIOの唯一の責任であること"
     ],
     "correct": 1,
     "explanation": "効果的パッチ管理は必要パッチの適時特定、展開前の適切なテスト、重要セキュリティパッチの優先順位付け、文書化、パッチの正常適用確認を必要とする。"
@@ -2524,12 +2524,12 @@
   {
     "id": 195,
     "category": "Information Systems Audit",
-    "question": "'Container security' considerations for Docker/Kubernetes environments include:",
+    "question": "Docker/Kubernetes環境における「コンテナセキュリティ」の考慮事項には何が含まれるか。",
     "options": [
-      "Only image size optimization",
-      "Image vulnerability scanning, runtime security, secrets management, and network policies",
-      "Only CPU allocation",
-      "Only storage volume management"
+      "イメージサイズの最適化のみ",
+      "イメージ脆弱性スキャン、ランタイムセキュリティ、シークレット管理、ネットワークポリシー",
+      "CPU割り当てのみ",
+      "ストレージボリューム管理のみ"
     ],
     "correct": 1,
     "explanation": "コンテナセキュリティには脆弱性スキャン、シークレット管理、コンテナ間ネットワークポリシー、ランタイム監視、オーケストレーションプラットフォーム(Kubernetes)の保護が必要。"
@@ -2537,12 +2537,12 @@
   {
     "id": 196,
     "category": "Audit Reporting",
-    "question": "The primary purpose of an audit report is to:",
+    "question": "監査報告書の主な目的は何か。",
     "options": [
-      "Detail every procedure performed",
-      "Communicate the auditor's findings, conclusions, and recommendations to stakeholders",
-      "Document the audit fee",
-      "Provide legal protection for the auditor"
+      "実施したすべての手続を詳細に記述すること",
+      "監査人の所見、結論、推奨事項をステークホルダーに伝達すること",
+      "監査報酬を文書化すること",
+      "監査人の法的保護を提供すること"
     ],
     "correct": 1,
     "explanation": "監査報告書は監査人の意見、所見、推奨事項を経営陣とガバナンス責任者に伝達。ステークホルダーに保証を提供し実行可能な推奨事項を通じて改善を推進。"
@@ -2550,12 +2550,12 @@
   {
     "id": 197,
     "category": "Audit Reporting",
-    "question": "A 'qualified opinion' in an audit report indicates:",
+    "question": "監査報告書における「限定意見」は何を示すか。",
     "options": [
-      "The financial statements are perfectly accurate",
-      "The financial statements are fairly presented except for specific matters that are material but not pervasive",
-      "The financial statements are completely unreliable",
-      "The auditor was unable to complete the audit"
+      "財務諸表が完全に正確である",
+      "財務諸表は特定の事項を除いて概ね適正に表示されている（重要だが遍在しない）",
+      "財務諸表が完全に信頼できない",
+      "監査人が監査を完了できなかった"
     ],
     "correct": 1,
     "explanation": "限定意見は監査人が誤謬が重要だが遍在せず、または十分適切な証拠を取得できないが影響が遍在しないと判断した場合に付与。"
@@ -2563,12 +2563,12 @@
   {
     "id": 198,
     "category": "Audit Reporting",
-    "question": "An 'adverse opinion' is issued when:",
+    "question": "「否定的意見」はどのような場合に発行されるか。",
     "options": [
-      "Minor errors are found in the financial statements",
-      "Misstatements are both material and pervasive to the financial statements",
-      "The audit is completed on time",
-      "The auditor disagrees with management on one issue"
+      "財務諸表に軽微なエラーがある場合",
+      "誤謬が財務諸表に対して重要かつ遍在する場合",
+      "監査が期日通りに完了した場合",
+      "監査人が経営陣と一問題で意見が対立した場合"
     ],
     "correct": 1,
     "explanation": "否定的意見は最も否定的な意見で、誤謬が重要かつ遍在し財務諸表を根本的に歪め適正表示と見なせない場合に発行。"
@@ -2576,12 +2576,12 @@
   {
     "id": 199,
     "category": "Audit Reporting",
-    "question": "A 'disclaimer of opinion' occurs when:",
+    "question": "「意見表明不能」はどのような場合に発生するか。",
     "options": [
-      "The auditor agrees with all financial statements",
-      "The auditor is unable to obtain sufficient appropriate audit evidence to form an opinion",
-      "The auditor wants to avoid liability",
-      "The financial statements have minor issues"
+      "監査人がすべての財務諸表に同意する場合",
+      "監査人が意見を形成するための十分適切な監査証拠を取得できない場合",
+      "監査人が責任を回避したい場合",
+      "財務諸表に軽微な問題がある場合"
     ],
     "correct": 1,
     "explanation": "意見表明不能は監査人が範囲制限により十分適切な証拠を取得できない場合、または重要な不確実性が存在し意見形成が不可能な場合に発行。"
@@ -2589,12 +2589,12 @@
   {
     "id": 200,
     "category": "Audit Reporting",
-    "question": "A 'management letter' (also called 'letter of recommendations') typically contains:",
+    "question": "「経営者あて手紙」には通常何が含まれるか。",
     "options": [
-      "The audit opinion",
-      "Internal control deficiencies and improvement recommendations, often less severe than those reported to the board",
-      "Only the financial statements",
-      "Legal threats for non-compliance"
+      "監査意見",
+      "内部統制の欠陥と改善推奨（通常取締役会報告より深刻度が低い）",
+      "財務諸表のみ",
+      "不コンプライアンスに対する法的脅威"
     ],
     "correct": 1,
     "explanation": "経営者あて手紙は内部統制の欠陥、運用改善、推奨事項を経営陣に伝達。取締役会報告が必要なレベルの重大な弱点には至らないが重要な所見を対象。"
@@ -2602,12 +2602,12 @@
   {
     "id": 201,
     "category": "Audit Reporting",
-    "question": "In an audit finding, the 'condition' refers to:",
+    "question": "監査所見における「条件」とは何を指すか。",
     "options": [
-      "What should be (the criteria)",
-      "What actually exists (the current state of affairs)",
-      "Why the condition exists",
-      "What should be done to fix it"
+      "あるべき姿（基準）",
+      "実際に存在するもの（現在の状態）",
+      "条件が存在する理由",
+      "修正のために何をすべきか"
     ],
     "correct": 1,
     "explanation": "監査所見フレームワーク(条件-基準-原因-影響-推奨)で条件は実際に存在するものを記述。監査中に観察され期待される基準から逸脱する現在の状態。"
@@ -2615,12 +2615,12 @@
   {
     "id": 202,
     "category": "Audit Reporting",
-    "question": "In an audit finding, the 'criteria' refers to:",
+    "question": "監査所見における「基準」とは何を指すか。",
     "options": [
-      "What actually exists",
-      "The standard, expectation, or benchmark against which the condition is measured",
-      "The root cause of the problem",
-      "The proposed solution"
+      "実際に存在するもの",
+      "条件を測定する基準、期待、またはベンチマーク",
+      "問題の根本原因",
+      "提案された解決策"
     ],
     "correct": 1,
     "explanation": "基準は期待される状態または基準(あるべき姿)を定義。現在の条件と比較されるポリシー、基準、規制、ベストプラクティス、契約上の要件。"
@@ -2628,12 +2628,12 @@
   {
     "id": 203,
     "category": "Audit Reporting",
-    "question": "In an audit finding, the 'cause' identifies:",
+    "question": "監査所見における「原因」は何を識別するか。",
     "options": [
-      "What is wrong",
-      "The standard being violated",
-      "The underlying reason why the condition differs from the criteria",
-      "The financial impact"
+      "何が間違っているか",
+      "違反されている基準",
+      "条件が基準と異なる根本的な理由",
+      "財務的影響"
     ],
     "correct": 2,
     "explanation": "原因は条件と基準の間のギャップの根本的な理由を識別。効果的推奨事項の策定に原因の理解が重要で、問題の根本に対応し症状への対処に終わらない。"
@@ -2641,12 +2641,12 @@
   {
     "id": 204,
     "category": "Audit Reporting",
-    "question": "In an audit finding, the 'effect' describes:",
+    "question": "監査所見における「影響」は何を記述するか。",
     "options": [
-      "The criteria being violated",
-      "What is wrong",
-      "The impact or consequence of the condition (risk, financial loss, regulatory penalty)",
-      "The recommended action"
+      "違反されている基準",
+      "何が間違っているか",
+      "条件のインパクトまたは結果（リスク、財務損失、規制裁罰）",
+      "推奨される措置"
     ],
     "correct": 2,
     "explanation": "影響は所見のインパクトを定量化または記述: 財務損失、規制リスク、運用中断、評判毀損、リスクエクスポージャーの増大。重大度による所見の優先順位付けに役立つ。"
@@ -2654,12 +2654,12 @@
   {
     "id": 205,
     "category": "Audit Reporting",
-    "question": "An 'unmodified (clean) opinion' indicates that:",
+    "question": "「無修正（クリーン）意見」は何を示すか。",
     "options": [
-      "No errors were found at all",
-      "The financial statements are presented fairly in all material respects in accordance with the applicable framework",
-      "The auditor found immaterial issues only",
-      "Management has excellent internal controls"
+      "エラーが全く見つからなかった",
+      "財務諸表が適用財務報告基準に準拠してすべての重要点で適正に表示されている",
+      "監査人が非重要な問題のみを見つけた",
+      "経営陣が優れた内部統制を持っている"
     ],
     "correct": 1,
     "explanation": "無修正(クリーン)意見は監査人が財務諸表が適用財務報告基準に準拠して作成されすべての重要点で真実かつ適正な見解を示すと判断したことを意味。"
@@ -2667,12 +2667,12 @@
   {
     "id": 206,
     "category": "Audit Reporting",
-    "question": "Follow-up on previously reported audit findings is important to:",
+    "question": "以前報告された監査所見のフォローアップが重要な理由は何か。",
     "options": [
-      "Create additional audit work",
-      "Verify that management has taken corrective action and that the remediation is effective",
-      "Increase the audit fee",
-      "Document only what management said they would do"
+      "追加の監査作業を作成するため",
+      "経営者が是正措置を講じ、修復が有効であることを検証するため",
+      "監査報酬を増やすため",
+      "経営陣が実施すると述べたことのみを文書化するため"
     ],
     "correct": 1,
     "explanation": "フォローアップは経営者が合意した是正措置を実施し、それらが元の所見の解決に有効であることを検証。監査ループを閉じ監査推奨が実際の改善に繋がることを確保。"
@@ -2680,12 +2680,12 @@
   {
     "id": 207,
     "category": "Audit Reporting",
-    "question": "The 'emphasis of matter' paragraph in an audit report is used to:",
+    "question": "監査報告書の「強調事項」段落は何のために使用されるか。",
     "options": [
-      "Qualify the audit opinion",
-      "Draw attention to matters presented or disclosed in the financial statements that are of such importance they require emphasis",
-      "Report a material weakness in internal controls",
-      "Describe audit scope limitations"
+      "監査意見を限定するため",
+      "財務諸表に提示または開示された事項で重要性が高く強調を要するものに注意を向けるため",
+      "内部統制の重大な弱点を報告するため",
+      "監査範囲の制限を記述するため"
     ],
     "correct": 1,
     "explanation": "強調事項段落は財務諸表ですでに開示されている重要事項を強調。監査意見を変更せず読者の注意を関連当事者取引や後発事象等の重要開示に向け。"
@@ -2693,12 +2693,12 @@
   {
     "id": 208,
     "category": "Audit Reporting",
-    "question": "Which finding attribute is MOST important for management to prioritize corrective action?",
+    "question": "経営陣が是正措置の優先順位付けに最も重要な所見属性はどれか。",
     "options": [
-      "The condition (what is wrong)",
-      "The effect (impact/consequence)",
-      "The criteria (standard)",
-      "The audit procedure used"
+      "条件（何が間違っているか）",
+      "影響（インパクト/結果）",
+      "基準（基準）",
+      "使用された監査手続"
     ],
     "correct": 1,
     "explanation": "影響(インパクト)は優先順位付けに最も重要。リスク、財務損失、ビジネスインパクトを定量化する。最大の潜在的影響を持つ所見を先に対応すべき。"
@@ -2706,12 +2706,12 @@
   {
     "id": 209,
     "category": "Audit Reporting",
-    "question": "A 'key audit matter' (KAM) in an ISA 700 (Revised) report relates to:",
+    "question": "ISA 700（改訂）報告書における「監査上の重要事項（KAM）」は何に関連するか。",
     "options": [
-      "Minor issues found during the audit",
-      "Matters of most significance in the audit of the current period's financial statements",
-      "Historical findings from prior audits",
-      "Matters related to audit fees only"
+      "監査中に発見された軽微な問題",
+      "当期財務諸表の監査で最も重要性の高い事項",
+      "以前の監査からの過去の所見",
+      "監査報酬のみに関連する事項"
     ],
     "correct": 1,
     "explanation": "KAM(監査上の重要事項)は当期監査で最も重要性の高い事項で監査人の重要な注意を要したもの。財務諸表利用者に伝達し監査報告書の情報性を高める。"
@@ -2719,12 +2719,12 @@
   {
     "id": 210,
     "category": "Audit Reporting",
-    "question": "When should an audit finding be escalated to the audit committee?",
+    "question": "監査所見はいつ監査委員会にエスカレーションすべきか。",
     "options": [
-      "For all findings regardless of severity",
-      "When the finding involves senior management, fraud, material weakness, or significant risk",
-      "Only when the client requests it",
-      "Never - findings are reported to management only"
+      "深刻度に関わらずすべての所見",
+      "所見が上級経営陣、不正、重大な弱点、または重要なリスクを含む場合",
+      "クライアントが要求した場合のみ",
+      "エスカレーションしない - 所見は経営陣にのみ報告する"
     ],
     "correct": 1,
     "explanation": "不正(特に経営者関与)、重大な弱点、重要な範囲制限、経営陣との不一致、監査人の独立性に影響する事項を含む所見は監査委員会にエスカレーションすべき。"
@@ -2732,12 +2732,12 @@
   {
     "id": 211,
     "category": "Audit Reporting",
-    "question": "The 'going concern' assumption in audit reporting means:",
+    "question": "監査報告における「継続企業」の仮定とは何を意味するか。",
     "options": [
-      "The company will continue to grow rapidly",
-      "The entity will continue in operation for the foreseeable future (typically 12 months)",
-      "The company will merge with another entity",
-      "The auditor will continue to work for the client"
+      "企業が急速に成長し続けること",
+      "事業体が可及的長期間（通常12ヶ月）継続して事業を営むこと",
+      "企業が別の事業体と合併すること",
+      "監査人がクライアントのために継続して働くこと"
     ],
     "correct": 1,
     "explanation": "継続企業の仮定は財務諸表作成の基礎。事業体が可及的長期間(少なくとも12ヶ月)継続して事業を営むこと。継続企業に関する重要な不確実性は開示を必要とし監査意見に影響。"
@@ -2745,12 +2745,12 @@
   {
     "id": 212,
     "category": "Audit Reporting",
-    "question": "A 'material weakness' must be reported to:",
+    "question": "「重大な弱点」は誰に報告すべきか。",
     "options": [
-      "Management only",
-      "Management and those charged with governance (audit committee/board)",
-      "Only the external auditor",
-      "The general public immediately"
+      "経営陣のみ",
+      "経営陣とガバナンス責任者（監査委員会/取締役会）",
+      "外部監査人のみ",
+      "直ちに一般大衆"
     ],
     "correct": 1,
     "explanation": "重大な弱点は経営陣とガバナンス責任者に書面で伝達しなければならない。J-SOXとSOX下では重大な弱点も年次証券報告書で公的に開示。"
@@ -2758,12 +2758,12 @@
   {
     "id": 213,
     "category": "Audit Reporting",
-    "question": "An 'other matter' paragraph in an audit report differs from 'emphasis of matter' in that it:",
+    "question": "監査報告書における「その他の事項」段落は「強調事項」とどう異なるか。",
     "options": [
-      "Is more serious",
-      "Relates to matters other than those presented or disclosed in the financial statements",
-      "Qualifies the audit opinion",
-      "Is always required in every report"
+      "より深刻である",
+      "財務諸表に提示・開示されていない事項に関連する",
+      "監査意見を限定する",
+      "すべての報告書で常に必要"
     ],
     "correct": 1,
     "explanation": "その他の事項段落は財務諸表に提示・開示されていない問題に対処し、強調事項はすでに開示された事項に関連。両方とも意見を変更せず注意を促すが異なるタイプの事項に対応。"
@@ -2771,12 +2771,12 @@
   {
     "id": 214,
     "category": "Audit Reporting",
-    "question": "The effectiveness of an audit report can be measured by:",
+    "question": "監査報告書の有効性は何で測定できるか。",
     "options": [
-      "The number of pages",
-      "Whether management implements the recommendations and whether the report is clear, concise, and actionable",
-      "The speed of report issuance",
-      "The number of findings identified"
+      "ページ数",
+      "経営陣が推奨を実施するか、報告書が明確で簡潔で実行可能か",
+      "報告書発行の速度",
+      "識別された所見の数"
     ],
     "correct": 1,
     "explanation": "報告書の有効性は最終的に肯定的な変化(経営者が推奨を実施)に繋がるかで測定。明確で実行可能な推奨を提供する報告書は改善を推進しやすい。"
@@ -2784,12 +2784,12 @@
   {
     "id": 215,
     "category": "Audit Reporting",
-    "question": "When writing audit recommendations, they should be:",
+    "question": "監査推奨事項を記述する際、どのようにあるべきか。",
     "options": [
-      "Vague to allow management flexibility",
-      "Specific, actionable, feasible, and address the root cause",
-      "Brief one-liners only",
-      "Punitive in nature"
+      "経営陣の柔軟性のために曖昧である",
+      "具体的、実行可能、実現可能で、根本原因に対処する",
+      "簡潔な一行のみ",
+      "罰則的な性質"
     ],
     "correct": 1,
     "explanation": "効果的推奨事項は具体的、実行可能、実現可能、根本原因に対処。症状への対処で終わらない。"
@@ -2797,12 +2797,12 @@
   {
     "id": 216,
     "category": "Audit Reporting",
-    "question": "A 'significant deficiency' in reporting is:",
+    "question": "報告における「重要な欠陥」とは何か。",
     "options": [
-      "More severe than a material weakness",
-      "A deficiency less severe than a material weakness but important enough to merit attention by those charged with governance",
-      "A finding that does not require any action",
-      "An immaterial clerical error"
+      "重大な弱点より深刻",
+      "重大な弱点より深刻度が低いがガバナンス責任者の注意に値する統制欠陥",
+      "措置を必要としない所見",
+      "非重要な事務的エラー"
     ],
     "correct": 1,
     "explanation": "重要な欠陥は重大な弱点より深刻度が低いがガバナンス責任者の注意に値するため報告すべき内部統制の欠陥または欠陥の組み合わせ。"
@@ -2810,12 +2810,12 @@
   {
     "id": 217,
     "category": "Audit Reporting",
-    "question": "The 'audit opinion' paragraph in the audit report states the auditor's conclusion about whether:",
+    "question": "監査報告書の「監査意見」段落は何についての監査人の結論を示すか。",
     "options": [
-      "The company is profitable",
-      "The financial statements are prepared in accordance with the applicable financial reporting framework",
-      "Management is competent",
-      "The company will succeed in the future"
+      "企業が収益性があること",
+      "財務諸表が適用財務報告基準に準拠して作成されていること",
+      "経営陣が有能であること",
+      "企業が将来成功すること"
     ],
     "correct": 1,
     "explanation": "意見段落は監査人の職業的判断により財務諸表が適用財務報告基準に準拠して作成されすべての重要点で真実かつ適正な見解を示すかを記述。"
@@ -2823,12 +2823,12 @@
   {
     "id": 218,
     "category": "Audit Reporting",
-    "question": "'Trend analysis' in audit reporting helps identify:",
+    "question": "監査報告における「トレンド分析」は何の識別に役立つか。",
     "options": [
-      "Only past audit findings",
-      "Patterns of recurring issues that may indicate systemic control weaknesses",
-      "Only financial trends",
-      "Only IT system performance issues"
+      "過去の監査所見のみ",
+      "体系的な統制の弱点を示唆する反復する問題のパターン",
+      "財務トレンドのみ",
+      "ITシステムパフォーマンスの問題のみ"
     ],
     "correct": 1,
     "explanation": "複数監査サイクルの傾向分析は反復する問題、悪化する統制状態、持続的な不コンプライアンスを識別。戦略的注意を必要とする体系的問題を示唆。"
@@ -2836,12 +2836,12 @@
   {
     "id": 219,
     "category": "Audit Reporting",
-    "question": "A 'scope limitation' in an audit may result in:",
+    "question": "監査における「範囲制限」は何をもたらす可能性があるか。",
     "options": [
-      "An unmodified opinion with additional disclosure",
-      "A qualified opinion or disclaimer of opinion depending on materiality and pervasiveness",
-      "An adverse opinion",
-      "No impact on the audit report"
+      "追加開示を伴う無修正意見",
+      "重要性と遍在性に応じた限定意見または意見表明不能",
+      "否定的意見",
+      "監査報告書への影響なし"
     ],
     "correct": 1,
     "explanation": "範囲制限は監査人の十分な証拠の収集能力を制限。制限が重要だが遍在しない場合、限定意見。重要かつ遍在する場合、意見表明不能。"
@@ -2849,12 +2849,12 @@
   {
     "id": 220,
     "category": "Audit Reporting",
-    "question": "The 'basis for modification' paragraph in an audit report:",
+    "question": "監査報告書における「修正の基礎」段落は何をするか。",
     "options": [
-      "Describes the audit methodology",
-      "Explains the circumstances that led to a modified opinion (qualified, adverse, or disclaimer)",
-      "Lists all audit procedures performed",
-      "Describes the company's industry"
+      "監査方法論を記述する",
+      "修正意見（限定、否定的意見、または意見表明不能）に至った事情を説明する",
+      "実施したすべての監査手続をリストする",
+      "企業の業界を記述する"
     ],
     "correct": 1,
     "explanation": "修正当ての基礎段落は監査人が修正意見を発行するに至った特定の事情を説明。限定、否定的意見、または意見表明不能の理由について透明性を提供。"
@@ -2862,12 +2862,12 @@
   {
     "id": 221,
     "category": "Fraud Detection",
-    "question": "The three elements of the 'fraud triangle' are:",
+    "question": "「不正のトライアングル」の3要素は何か。",
     "options": [
-      "Theft, deception, concealment",
-      "Pressure (incentive), opportunity, and rationalization",
-      "Planning, execution, cover-up",
-      "Detection, investigation, prosecution"
+      "窃盗、欺瞞、隠蔽",
+      "圧力（動機）、機会、正当化",
+      "計画、実行、隠蔽",
+      "検出、調査、起訴"
     ],
     "correct": 1,
     "explanation": "不正のトライアングルは不正発生の理由を説明: 圧力または動機(財務ストレス、目標)、機会(弱い統制)、正当化(行動の合理化)。不正リスク要因の特定に役立つ。"
@@ -2875,12 +2875,12 @@
   {
     "id": 222,
     "category": "Fraud Detection",
-    "question": "Which of the following is a 'red flag' for financial statement fraud?",
+    "question": "財務諸表不正の「レッドフラッグ」とはどれか。",
     "options": [
-      "Steady revenue growth consistent with industry",
-      "Significant unusual or highly complex transactions, especially near year-end",
-      "Declining but clearly explained expenses",
-      "Consistent profit margins"
+      "業界と一致する安定した収益成長",
+      "特に期末近くの異常または高度に複雑な取引",
+      "明確に説明された減少する費用",
+      "一貫した利益率"
     ],
     "correct": 1,
     "explanation": "レッドフラッグには期末の異常または複雑な取引、重要な関連当事者取引、説明不能な収益成長、業界変動にかかわらない一貫した利益率、情報提供の渋りが含まれる。"
@@ -2888,12 +2888,12 @@
   {
     "id": 223,
     "category": "Fraud Detection",
-    "question": "'Forensic auditing' differs from regular auditing in that it:",
+    "question": "「フォレンジック監査」は通常の監査とどう異なるか。",
     "options": [
-      "Uses the same procedures as regular auditing",
-      "Specializes in investigating fraud with potential for legal proceedings, using specialized techniques",
-      "Only focuses on tax compliance",
-      "Only examines financial statements"
+      "通常の監査と同じ手続を使用する",
+      "法的措置の可能性を持つ不正調査に特化し、専門技術を使用する",
+      "税コンプライアンスにのみ焦点",
+      "財務諸表のみを検査する"
     ],
     "correct": 1,
     "explanation": "フォレンジック監査は会計、監査、調査スキルを組み合わせ不正と紛争を調査。証拠収集の法的基準に従い専門家証言を含み通常の監査を超える専門技術を使用。"
@@ -2901,12 +2901,12 @@
   {
     "id": 224,
     "category": "Fraud Detection",
-    "question": "Data analytics techniques for fraud detection include all EXCEPT:",
+    "question": "不正検出のためのデータ分析手法でないものはどれか。",
     "options": [
-      "Benford's Law analysis",
-      "Duplicate payment detection",
-      "Calculating normal depreciation",
-      "Stratification and gap analysis"
+      "ベンフォードの法則分析",
+      "重複支払検出",
+      "通常の減価償却の計算",
+      "層化とギャップ分析"
     ],
     "correct": 2,
     "explanation": "通常の減価償却計算は標準的な会計手続きで不正検出技術ではない。ベンフォードの法則、重複検出、層化、ギャップ分析、異常検出はすべてデータ分析手法。"
@@ -2914,12 +2914,12 @@
   {
     "id": 225,
     "category": "Fraud Detection",
-    "question": "A 'whistleblower hotline' is most effective for detecting:",
+    "question": "「公益通報ホットライン」はどのような不正検出に最も有効か。",
     "options": [
-      "Routine accounting errors",
-      "Fraud involving management override or collusion (which is harder to detect through normal testing)",
-      "Computer hardware failures",
-      "Market fluctuations"
+      "日常的な会計エラー",
+      "経営者の回避または共謀を含む不正（通常テストでは検出困難）",
+      "コンピュータハードウェア障害",
+      "市場変動"
     ],
     "correct": 1,
     "explanation": "公益通報ホットラインは経営者回避または従業員間の共謀を含む不正の発見に有効。複数の人が不正を隠蔽するシナリオは通常手続では検出が困難。"
@@ -2927,12 +2927,12 @@
   {
     "id": 226,
     "category": "Fraud Detection",
-    "question": "'Asset misappropriation' fraud includes:",
+    "question": "「資産不正使用」不正には何が含まれるか。",
     "options": [
-      "Improper revenue recognition",
-      "Theft of company assets such as cash, inventory, or supplies",
-      "Earnings manipulation",
-      "Improper expense capitalization"
+      "不適切な収益認識",
+      "現金、棚卸、用品などの会社資産の窃取",
+      "利益操作",
+      "不適切な費用資本化"
     ],
     "correct": 1,
     "explanation": "資産不正使用は最も一般的な職業上の不正で会社資産の窃取または不正使用。現金スキミング、在庫窃取、不正経費請求、給与不正が含まれる。"
@@ -2940,12 +2940,12 @@
   {
     "id": 227,
     "category": "Fraud Detection",
-    "question": "Which audit procedure is MOST effective for detecting fictitious revenue?",
+    "question": "架空収益検出に最も有効な監査手続はどれか。",
     "options": [
-      "Reviewing the company's marketing materials",
-      "Analyzing revenue by customer with subsequent cash receipts testing and confirming with customers",
-      "Counting office furniture",
-      "Interviewing the CEO"
+      "会社のマーケティング資料のレビュー",
+      "顧客別の収益分析、後続現金回収テスト、顧客確認",
+      "オフィス家具のカウント",
+      "CEOへの面接"
     ],
     "correct": 1,
     "explanation": "架空収益は収益分析(異常パターン)、後続現金回収テスト(真正な収益は現金回収に繋がる)、顧客確認(報告された販売が真正であることの検証)で最もよく検出。"
@@ -2953,12 +2953,12 @@
   {
     "id": 228,
     "category": "Fraud Detection",
-    "question": "'Professional skepticism' in the context of fraud means:",
+    "question": "不正の文脈における「職業的懐疑心」とは何を意味するか。",
     "options": [
-      "Trusting all management representations",
-      "Questioning assumptions, critically evaluating evidence, and being alert to conditions that may indicate misstatement",
-      "Suspecting every transaction is fraudulent",
-      "Refusing to accept any evidence from management"
+      "すべての経営者供述を信じること",
+      "仮定を疑問視し、証拠を批判的に評価し、誤謬を示唆する条件に警戒すること",
+      "すべての取引が不正であると疑うこと",
+      "経営陣からの証拠を一切受け入れないこと"
     ],
     "correct": 1,
     "explanation": "職業的懐疑心は疑問を持つ心を維持し、証拠を批判的に評価し、矛盾証拠に警戒し、情報を額面通り受け取らないことを含む。すべてを不信するのではなく、油断しないことを意味。"
@@ -2966,12 +2966,12 @@
   {
     "id": 229,
     "category": "Fraud Detection",
-    "question": "'Corporate fraud' (financial statement fraud) typically involves:",
+    "question": "「企業不正」（財務諸表不正）は通常何を含むか。",
     "options": [
-      "An individual employee stealing small amounts",
-      "Intentional misstatement of financial statements to deceive stakeholders (typically by management)",
-      "Accidental errors in financial reporting",
-      "Failure to file tax returns on time"
+      "個人従業員による少額の窃取",
+      "ステークホルダーを欺くための財務諸表の意図的な虚偽表示（通常経営者による）",
+      "財務報告の偶発的エラー",
+      "税申告書の期日遅れ"
     ],
     "correct": 1,
     "explanation": "財務諸表不正は投資家、債権者、他のステークホルダーを欺くための財務諸表の意図的操作。通常経営者が関与し早期収益認識、隠蔽費用、資産過大計上等の手法を含む。"
@@ -2979,12 +2979,12 @@
   {
     "id": 230,
     "category": "Fraud Detection",
-    "question": "Which of the following is a common 'corruption' scheme?",
+    "question": "一般的な「汚職」スキームはどれか。",
     "options": [
-      "Extending customer payment terms legitimately",
-      "Bribery, kickbacks, or conflicts of interest in awarding contracts",
-      "Offering employee discounts",
-      "Donating to charity on behalf of the company"
+      "適正に顧客支払期間を延長すること",
+      "贈賄、キックバック、または契約付与における利益相反",
+      "従業員割引の提供",
+      "会社を代表して慈善団体への寄付"
     ],
     "correct": 1,
     "explanation": "汚職スキームには贈賄(決定に影響を与えるための支払い)、キックバック(契約と引き換えのベンダーへの支払い)、利益相反(開示されていない個人的関係を持つ者への契約付与)が含まれる。"
@@ -2992,12 +2992,12 @@
   {
     "id": 231,
     "category": "Fraud Detection",
-    "question": "In data analytics, 'duplicate payment detection' identifies:",
+    "question": "データ分析における「重複支払検出」は何を識別するか。",
     "options": [
-      "Payments made twice to the same vendor for the same amount, invoice, or date",
-      "Multiple payments to different vendors",
-      "All large payments",
-      "All payments made on weekends"
+      "同一ベンダーに同じ金額、請求書、または日付で2回支払われた支払い",
+      "異なるベンダーへの複数の支払い",
+      "すべての大口支払い",
+      "週末に行われたすべての支払い"
     ],
     "correct": 1,
     "explanation": "重複支払検出は類似属性(同一ベンダー、金額、請求書番号、日付)を共有する支払いを識別するアルゴリズムを使用。エラーまたは意図的不正スキームを示唆。"
@@ -3005,12 +3005,12 @@
   {
     "id": 232,
     "category": "Fraud Detection",
-    "question": "The 'fraud diamond' extends the fraud triangle by adding:",
+    "question": "「不正のダイヤモンド」は不正のトライアングルに何を追加したか。",
     "options": [
-      "Detection",
-      "Capability (the ability to commit fraud based on position, intelligence, or confidence)",
-      "Technology",
-      "Evidence"
+      "検出",
+      "能力（地位、知性、または自信に基づく不正実行能力）",
+      "テクノロジー",
+      "証拠"
     ],
     "correct": 1,
     "explanation": "不正のダイヤモンドは伝統的なトライアングルに「能力」を追加。圧力、機会、正当化があっても不正には実行者に実行能力(地位、知性、自信)が必要。"
@@ -3018,12 +3018,12 @@
   {
     "id": 233,
     "category": "Fraud Detection",
-    "question": "'Ghost employees' on the payroll is an example of:",
+    "question": "給与台帳上の「ゴースト従業員」は何の例か。",
     "options": [
-      "Financial statement fraud",
-      "Asset misappropriation through payroll fraud",
-      "Corruption",
-      "Vendor fraud"
+      "財務諸表不正",
+      "給与不正を通じた資産不正使用",
+      "汚職",
+      "ベンダー不正"
     ],
     "correct": 1,
     "explanation": "ゴースト従業員は架空の人物が給与台帳に追加され給与が加害者に転送されるもの。給与を通じた資産不正使用。給与リストと現役従業員記録の比較で検出可能。"
@@ -3031,12 +3031,12 @@
   {
     "id": 234,
     "category": "Fraud Detection",
-    "question": "An auditor has a responsibility to plan and perform the audit to obtain 'reasonable assurance' about:",
+    "question": "監査人は何について「合理的保証」を得るため監査を計画・実施する責任があるか。",
     "options": [
-      "Eliminating all fraud",
-      "Whether material misstatement due to fraud has occurred",
-      "Whether any employee has ever acted dishonestly",
-      "Whether the company will remain profitable"
+      "すべての不正を排除すること",
+      "不正による重要な虚偽表示が発生したかどうか",
+      "従業員が不誠実に振る舞ったかどうか",
+      "企業が収益性を維持するかどうか"
     ],
     "correct": 1,
     "explanation": "監査人は財務諸表が不正による重要な虚偽表示から自由であることについて合理的保証を得る責任がある。不正リスクの評価、対応手続の設計、職業的懐疑心の維持。"
@@ -3044,12 +3044,12 @@
   {
     "id": 235,
     "category": "Fraud Detection",
-    "question": "Which analytical procedure is MOST useful for detecting overstated inventory?",
+    "question": "棚卸の過大計上検出に最も有用な分析手続はどれか。",
     "options": [
-      "Reviewing employee timecards",
-      "Comparing inventory turnover ratios with industry benchmarks and prior periods",
-      "Analyzing sales tax returns",
-      "Reviewing vendor contracts"
+      "従業員タイムカードのレビュー",
+      "棚卸回転率の業界ベンチマークおよび前期との比較",
+      "売上税申告書の分析",
+      "仕入先契約のレビュー"
     ],
     "correct": 1,
     "explanation": "在庫回転率が業界基準または前期から大幅に逸脱する場合は過大計上(架空在庫)を示唆。粗利益マージン分析と組み合わせると在庫不正検出の強力な分析手続。"
@@ -3057,12 +3057,12 @@
   {
     "id": 236,
     "category": "Emerging Topics",
-    "question": "In cloud auditing, the 'shared responsibility model' means:",
+    "question": "クラウド監査における「共有責任モデル」とは何を意味するか。",
     "options": [
-      "The cloud provider is responsible for everything",
-      "Both the cloud provider and the customer have distinct security responsibilities depending on the service model",
-      "The customer is responsible for everything",
-      "Security is not needed in the cloud"
+      "クラウドプロバイダーがすべてに責任がある",
+      "クラウドプロバイダーと顧客がサービスモデルに応じてそれぞれのセキュリティ責任を持つ",
+      "顧客がすべてに責任がある",
+      "クラウドではセキュリティが不要"
     ],
     "correct": 1,
     "explanation": "共有責任モデルではクラウドプロバイダーがインフラ(物理、ネットワーク、ホスト)を保護し顧客がアプリケーション、データ、アイデンティティ、アクセス管理を保護。"
@@ -3070,12 +3070,12 @@
   {
     "id": 237,
     "category": "Emerging Topics",
-    "question": "When auditing AI/ML systems, which aspect is MOST challenging to assess?",
+    "question": "AI/MLシステムを監査する際、評価が最も困難な側面はどれか。",
     "options": [
-      "The programming language used",
-      "The explainability and transparency of model decisions (black box problem)",
-      "The hardware specifications",
-      "The training data file format"
+      "使用されるプログラミング言語",
+      "モデル決定の説明可能性と透明性（ブラックボックス問題）",
+      "ハードウェア仕様",
+      "訓練データのファイル形式"
     ],
     "correct": 1,
     "explanation": "AI/MLモデルは意思決定プロセスが透明でない「ブラックボックス」として動作することが多い。監査人はモデル結論の理解、バイアス評価、複雑なニューラルネットワークの論理検証に課題。"
@@ -3083,12 +3083,12 @@
   {
     "id": 238,
     "category": "Emerging Topics",
-    "question": "A 'cybersecurity audit' should evaluate:",
+    "question": "「サイバーセキュリティ監査」は何を評価すべきか。",
     "options": [
-      "Only the company's website",
-      "The organization's security policies, practices, and controls to protect information assets from threats",
-      "Only employee password habits",
-      "Only hardware inventory"
+      "会社のウェブサイトのみ",
+      "脅威から情報資産を保護する組織のセキュリティポリシー、慣行、コントロール",
+      "従業員のパスワード習慣のみ",
+      "ハードウェアインベントリのみ"
     ],
     "correct": 1,
     "explanation": "サイバーセキュリティ監査はセキュリティポリシー、アクセス制御、ネットワークセキュリティ、インシデント対応能力、脆弱性管理、セキュリティ意識、基準へのコンプライアンスを包括的に評価。"
@@ -3096,12 +3096,12 @@
   {
     "id": 239,
     "category": "Emerging Topics",
-    "question": "ESG (Environmental, Social, Governance) audit primarily focuses on:",
+    "question": "ESG（環境・社会・ガバナンス）監査は主に何に焦点を当てるか。",
     "options": [
-      "Financial statement accuracy only",
-      "Verifying the accuracy and completeness of an organization's ESG disclosures and compliance with ESG frameworks",
-      "IT system performance",
-      "Employee salary fairness only"
+      "財務諸表の正確性のみ",
+      "組織のESG開示の正確性・完全性とESGフレームワークへのコンプライアンスの検証",
+      "ITシステムパフォーマンス",
+      "従業員給与の公平性のみ"
     ],
     "correct": 1,
     "explanation": "ESG監査はESG開示が正確、完全、関連フレームワーク(GRI、SASB、TCFD)に準拠していることを検証。環境影響、社会的責任、ガバナンス実践をカバー。"
@@ -3109,12 +3109,12 @@
   {
     "id": 240,
     "category": "Emerging Topics",
-    "question": "In cloud auditing, what is a 'right to audit' clause?",
+    "question": "クラウド監査における「監査権」条項とは何か。",
     "options": [
-      "The customer's right to access the cloud provider's financial statements",
-      "A contractual provision allowing the customer (or their auditor) to perform audits of the cloud provider's controls and practices",
-      "The cloud provider's right to audit the customer",
-      "A legal requirement in all cloud contracts"
+      "顧客のクラウドプロバイダー財務諸表へのアクセス権",
+      "顧客またはその監査人がクラウドプロバイダーのコントロールと慣行を監査できる契約条項",
+      "クラウドプロバイダーの顧客監査権",
+      "すべてのクラウド契約での法的要件"
     ],
     "correct": 1,
     "explanation": "監査権条項はクラウドサービス契約で顧客またはその監査人がプロバイダーのセキュリティコントロール、プロセス、コンプライアンスを検査できるようにする。"
@@ -3122,12 +3122,12 @@
   {
     "id": 241,
     "category": "Emerging Topics",
-    "question": "When auditing machine learning models, 'model bias' refers to:",
+    "question": "機械学習モデルを監査する際、「モデルバイアス」とは何を指すか。",
     "options": [
-      "The model being too slow",
-      "Systematic errors in model outputs that unfairly disadvantage certain groups or populations",
-      "The model requiring too much memory",
-      "The model being overtrained"
+      "モデルが遅すぎること",
+      "特定のグループや集団を不当に不利益にする体系的エラー",
+      "モデルがメモリを過度に必要とすること",
+      "モデルが過学習されていること"
     ],
     "correct": 1,
     "explanation": "モデルバイアスはAI/MLシステムが特定の人口統計グループに対して体系的に不公平な結果を生成する場合に発生。監査人はモデルの公平な結果生成を評価すべき。"
@@ -3135,12 +3135,12 @@
   {
     "id": 242,
     "category": "Emerging Topics",
-    "question": "A 'zero trust' security architecture is based on the principle that:",
+    "question": "「ゼロトラスト」セキュリティアーキテクチャはどの原則に基づくか。",
     "options": [
-      "All internal network traffic is trusted",
-      "No entity (user, device, or system) is automatically trusted, regardless of location, and must be continuously verified",
-      "Only external traffic requires authentication",
-      "Trust is established once and never rechecked"
+      "すべての内部ネットワークトラフィックが信頼される",
+      "いかなるエンティティ（ユーザー、デバイス、システム）も位置に依存せず自動的に信頼されず継続的に検証される",
+      "外部トラフィックのみが認証を必要とする",
+      "信頼は一度確立され再確認されない"
     ],
     "correct": 1,
     "explanation": "ゼロトラストは従来のネットワーク境界の内外に脅威が存在すると仮定。すべてのアクセス要求が認証、承認され、継続的に検証されることを要求。要求者の位置に依存しない。"
@@ -3148,12 +3148,12 @@
   {
     "id": 243,
     "category": "Emerging Topics",
-    "question": "ISO 27001 certification for a cloud service provider provides assurance that:",
+    "question": "クラウドサービスプロバイダーのISO 27001認証は何の保証を提供するか。",
     "options": [
-      "The provider guarantees zero security incidents",
-      "The provider's information security management system meets international standards (but does not guarantee specific outcomes)",
-      "The customer's data is immune to all threats",
-      "The provider is the cheapest option"
+      "プロバイダーがゼロセキュリティインシデントを保証する",
+      "プロバイダーの情報セキュリティ管理システムが国際基準を満たす（ただし特定の結果は保証しない）",
+      "顧客データがすべての脅威から免疫である",
+      "プロバイダーが最安価な選択肢である"
     ],
     "correct": 1,
     "explanation": "ISO 27001認証はプロバイダーが情報セキュリティリスク管理への体系的アプローチを実装したことを実証。ただし認証はセキュリティインシデントの不存在を保証しない。"
@@ -3161,12 +3161,12 @@
   {
     "id": 244,
     "category": "Emerging Topics",
-    "question": "In ESG auditing, the 'S' (Social) component typically covers:",
+    "question": "ESG監査における「S」（社会）コンポーネントは通常何をカバーするか。",
     "options": [
-      "Supply chain sustainability only",
-      "Labor practices, human rights, diversity and inclusion, community impact, and product safety",
-      "Company stock performance",
-      "Building energy efficiency"
+      "サプライチェーンの持続可能性のみ",
+      "労働慣行、人権、多様性と包摂、コミュニティへの影響、製品安全",
+      "企業の株式パフォーマンス",
+      "建物のエネルギー効率"
     ],
     "correct": 1,
     "explanation": "ESGのS(社会)コンポーネントは人的資本管理(多様性、賃金、研修)、労働権、サプライチェーン労働基準、コミュニティ関係、製品安全性、データプライバシーをカバー。"
@@ -3174,12 +3174,12 @@
   {
     "id": 245,
     "category": "Emerging Topics",
-    "question": "'DevSecOps' integrates security into:",
+    "question": "「DevSecOps」はセキュリティをどこに統合するか。",
     "options": [
-      "Only the development phase",
-      "Every phase of the DevOps lifecycle (plan, develop, build, test, release, deploy, operate, monitor)",
-      "Only the deployment phase",
-      "Only the operations phase"
+      "開発フェーズのみ",
+      "DevOpsライフサイクルのすべてのフェーズ（計画、開発、ビルド、テスト、リリース、デプロイ、運用、監視）",
+      "デプロイフェーズのみ",
+      "運用フェーズのみ"
     ],
     "correct": 1,
     "explanation": "DevSecOpsはセキュリティ実践をソフトウェア開発ライフサイクルの全フェーズに統合し、セキュリティを事後対応ではなく共有責任にする。"
@@ -3187,12 +3187,12 @@
   {
     "id": 246,
     "category": "Emerging Topics",
-    "question": "When auditing a SaaS provider, which is the PRIMARY audit consideration?",
+    "question": "SaaSプロバイダーを監査する際、主要な監査考慮事項はどれか。",
     "options": [
-      "The physical server model",
-      "Data security, availability, and processing integrity controls provided by the vendor",
-      "The programming language used",
-      "The color scheme of the user interface"
+      "物理サーバーモデル",
+      "ベンダーが提供するデータセキュリティ、可用性、処理完全性コントロール",
+      "使用されるプログラミング言語",
+      "ユーザーインターフェースの配色"
     ],
     "correct": 1,
     "explanation": "SaaS監査ではデータセキュリティ(暗号化、アクセス制御)、サービス可用性(稼働時間、ディザスタリカバリ)、処理完全性が主要焦点。顧客はプロバイダーのコントロールに大きく依存。"
@@ -3200,12 +3200,12 @@
   {
     "id": 247,
     "category": "Emerging Topics",
-    "question": "'Ransomware' preparedness for an organization should include:",
+    "question": "組織の「ランサムウェア」対策には何が含まれるべきか。",
     "options": [
-      "Only paying the ransom when attacked",
-      "Regular backups, incident response planning, employee awareness training, and network segmentation",
-      "Only installing antivirus software",
-      "Only relying on the IT department"
+      "攻撃された場合に身代金を支払うことのみ",
+      "定期的バックアップ、インシデント対応計画、従業員意識研修、ネットワークセグメンテーション",
+      "アンチウイルスソフトウェアのインストールのみ",
+      "IT部門のみに依存すること"
     ],
     "correct": 1,
     "explanation": "ランサムウェア対策には複数層が必要: 定期的にテストされたバックアップ(オフライン・不変)、インシデント対応計画、従業員意識研修、ネットワークセグメンテーション、エンドポイント検出。"
@@ -3213,12 +3213,12 @@
   {
     "id": 248,
     "category": "Emerging Topics",
-    "question": "AI audit challenges include all of the following EXCEPT:",
+    "question": "AI監査の課題でないものはどれか。",
     "options": [
-      "Model explainability and transparency",
-      "Training data quality and representativeness",
-      "The programming language syntax",
-      "Model governance and lifecycle management"
+      "モデルの説明可能性と透明性",
+      "訓練データの品質と代表性",
+      "プログラミング言語の構文",
+      "モデルガバナンスとライフサイクル管理"
     ],
     "correct": 2,
     "explanation": "AI監査の課題にはモデル透明性、データ品質、バイアス検出、経時的なモデル性能劣化、ガバナンスフレームワーク、規制コンプライアンスが含まれる。プログラミング言語の構文は監査課題ではない。"
@@ -3226,12 +3226,12 @@
   {
     "id": 249,
     "category": "Emerging Topics",
-    "question": "TCFD (Task Force on Climate-related Financial Disclosures) recommendations require disclosure of:",
+    "question": "TCFD（気候関連財務情報開示タスクフォース）の推奨事項は何の開示を要求するか。",
     "options": [
-      "Only carbon emission data",
-      "Governance, strategy, risk management, and metrics/targets related to climate change",
-      "Only environmental lawsuits",
-      "Only employee commute patterns"
+      "二酸化炭素排出データのみ",
+      "気候変動に関するガバナンス、戦略、リスク管理、指標・目標",
+      "環境訴訟のみ",
+      "従業員の通勤パターンのみ"
     ],
     "correct": 1,
     "explanation": "TCFDは4つの開示の柱を推奨: ガバナンス(取締役会監督)、戦略(気候リスク/機会)、リスク管理(識別/評価プロセス)、指標/目標(測定可能な気候関連指標と目標)。"
@@ -3239,12 +3239,12 @@
   {
     "id": 250,
     "category": "Emerging Topics",
-    "question": "A 'SOC 2 Type II' report for a cloud service provider provides:",
+    "question": "クラウドサービスプロバイダーの「SOC 2 Type II」レポートは何を提供するか。",
     "options": [
-      "A financial statement opinion",
-      "An independent opinion on the design and operating effectiveness of controls over a specified period",
-      "A security vulnerability scan result",
-      "A list of all the provider's customers"
+      "財務諸表に対する意見",
+      "指定期間におけるコントロールの設計と運用有効性に関する独立した意見",
+      "セキュリティ脆弱性スキャン結果",
+      "プロバイダーのすべての顧客のリスト"
     ],
     "correct": 1,
     "explanation": "SOC 2 Type IIレポートはサービス組織のコントロールの設計と運用有効性に関する独立監査人の意見を指定期間(通常6-12ヶ月)にわたり提供。"
