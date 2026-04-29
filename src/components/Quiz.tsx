@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import questionsData from '../data/au-exam.json';
+import { getBookmarks, toggleBookmark, isBookmarked } from '../utils/storage';
 
 interface Question {
   id: number;
@@ -52,6 +53,7 @@ export default function Quiz() {
   const [showExplanation, setShowExplanation] = useState(false);
   const [stats, setStats] = useState<Stats>({ total: 0, correct: 0, byCategory: {} });
   const [wrongIds, setWrongIds] = useState<number[]>([]);
+  const [bookmarked, setBookmarked] = useState(false);
 
   useEffect(() => {
     try {
@@ -78,6 +80,10 @@ export default function Quiz() {
 
   const q = filtered[currentIdx];
   const progress = filtered.length > 0 ? ((currentIdx + 1) / filtered.length) * 100 : 0;
+
+  useEffect(() => {
+    setBookmarked(q ? isBookmarked(q.id) : false);
+  }, [currentIdx, q, selectedCategory, mode]);
 
   function handleSelect(opt: number) {
     if (selected !== null) return;
@@ -111,6 +117,7 @@ export default function Quiz() {
       setCurrentIdx(i => i + 1);
       setSelected(null);
       setShowExplanation(false);
+      setBookmarked(filtered[currentIdx + 1] ? isBookmarked(filtered[currentIdx + 1].id) : false);
     }
   }
 
@@ -181,7 +188,16 @@ export default function Quiz() {
         <div className="space-y-4">
           <div className="flex justify-between items-center text-xs text-dark-400">
             <span>{categoryNames[q.category] || q.category}</span>
-            <span>{currentIdx + 1} / {filtered.length}</span>
+            <div className="flex items-center gap-3">
+              <button
+                onClick={() => { toggleBookmark(q.id); setBookmarked(isBookmarked(q.id)); }}
+                className={`text-lg transition-colors ${bookmarked ? 'text-yellow-400' : 'text-dark-500 hover:text-yellow-400'}`}
+                title={bookmarked ? 'ブックマーク解除' : 'ブックマーク'}
+              >
+                {bookmarked ? '★' : '☆'}
+              </button>
+              <span>{currentIdx + 1} / {filtered.length}</span>
+            </div>
           </div>
 
           <p className="text-base leading-relaxed">{q.question}</p>

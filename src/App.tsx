@@ -1,11 +1,15 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Quiz from './components/Quiz';
 import CalcTraining from './components/CalcTraining';
 import SubjectBTraining from './components/SubjectBTraining';
 import Progress from './components/Progress';
+import Bookmarks from './components/Bookmarks';
+
+import { getBookmarks } from './utils/storage';
 
 const tabs = [
   { key: 'quiz', label: '科目A問題集' },
+  { key: 'bookmarks', label: '⭐️ ブックマーク' },
   { key: 'calc', label: '計算トレーニング' },
   { key: 'subjectB', label: '科目Bトレーニング' },
   { key: 'progress', label: '進捗' },
@@ -15,6 +19,14 @@ type TabKey = (typeof tabs)[number]['key'];
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<TabKey>('quiz');
+  const [bookmarkCount, setBookmarkCount] = useState(0);
+
+  useEffect(() => {
+    const updateCount = () => setBookmarkCount(getBookmarks().length);
+    updateCount();
+    const interval = setInterval(updateCount, 1000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="min-h-screen bg-dark-950 text-dark-50">
@@ -35,6 +47,9 @@ export default function App() {
                     : 'border-transparent text-dark-300 hover:text-dark-100 hover:border-dark-500'
                 }`}
               >
+                {tab.key === 'bookmarks' && bookmarkCount > 0 && (
+                  <span className="inline-flex items-center justify-center w-4 h-4 text-[10px] rounded-full bg-yellow-500 text-dark-950 mr-1">{bookmarkCount}</span>
+                )}
                 {tab.label}
               </button>
             ))}
@@ -44,6 +59,7 @@ export default function App() {
 
       <main className="max-w-3xl mx-auto px-4 py-6">
         {activeTab === 'quiz' && <Quiz />}
+        {activeTab === 'bookmarks' && <Bookmarks />}
         {activeTab === 'calc' && <CalcTraining />}
         {activeTab === 'subjectB' && <SubjectBTraining />}
         {activeTab === 'progress' && <Progress />}
