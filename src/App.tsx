@@ -2,17 +2,21 @@ import { useState, useCallback } from 'react';
 import HomePage from './pages/HomePage';
 import QuizSelectPage from './pages/QuizSelectPage';
 import QuizPlayPage from './pages/QuizPlayPage';
+import TermsPage from './pages/TermsPage';
+import TextbookSelectPage from './pages/TextbookSelectPage';
+import TextbookViewPage from './pages/TextbookViewPage';
 import CalcTraining from './components/CalcTraining';
 import SubjectBTraining from './components/SubjectBTraining';
 import Progress from './components/Progress';
 import Bookmarks from './components/Bookmarks';
 
-type Page = 'home' | 'quiz-select' | 'quiz-play' | 'calc' | 'subjectB' | 'bookmarks' | 'progress';
+type Page = 'home' | 'quiz-select' | 'quiz-play' | 'terms' | 'textbook-select' | 'textbook-view' | 'calc' | 'subjectB' | 'bookmarks' | 'progress';
 
 export default function App() {
   const [page, setPage] = useState<Page>('home');
   const [quizCategory, setQuizCategory] = useState<string>('all');
   const [quizMode, setQuizMode] = useState<'normal' | 'wrong'>('normal');
+  const [textbookCategory, setTextbookCategory] = useState<string>('');
 
   const navigate = useCallback((p: Page) => setPage(p), []);
 
@@ -44,6 +48,22 @@ export default function App() {
             category={quizCategory}
             mode={quizMode}
             onBack={() => navigate('quiz-select')}
+          />
+        )}
+        {page === 'terms' && <TermsPage onBack={() => navigate('home')} />}
+        {page === 'textbook-select' && (
+          <TextbookSelectPage
+            onBack={() => navigate('home')}
+            onSelectCategory={(cat) => {
+              setTextbookCategory(cat);
+              navigate('textbook-view');
+            }}
+          />
+        )}
+        {page === 'textbook-view' && textbookCategory && (
+          <TextbookViewPage
+            category={textbookCategory}
+            onBack={() => navigate('textbook-select')}
           />
         )}
         {page === 'calc' && <CalcTraining />}

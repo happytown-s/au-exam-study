@@ -2,14 +2,14 @@ import { useEffect, useState } from 'react';
 import { getBookmarks } from '../utils/storage';
 
 interface HomePageProps {
-  onNavigate: (page: 'quiz-select' | 'calc' | 'subjectB' | 'bookmarks' | 'progress') => void;
+  onNavigate: (page: 'quiz-select' | 'terms' | 'textbook-select' | 'calc' | 'subjectB' | 'bookmarks' | 'progress') => void;
 }
 
 interface CardConfig {
   emoji: string;
   title: string;
   description: string;
-  page: 'quiz-select' | 'calc' | 'subjectB' | 'bookmarks' | 'progress';
+  page: 'quiz-select' | 'terms' | 'textbook-select' | 'calc' | 'subjectB' | 'bookmarks' | 'progress';
   badge?: string;
 }
 
@@ -28,6 +28,18 @@ export default function HomePage({ onNavigate }: HomePageProps) {
       title: '科目A問題',
       description: 'カテゴリ別ドリル',
       page: 'quiz-select',
+    },
+    {
+      emoji: '📖',
+      title: '単語帳',
+      description: '監査用語を学ぶ（201語）',
+      page: 'terms',
+    },
+    {
+      emoji: '📚',
+      title: 'テキスト',
+      description: 'カテゴリ別の解説を読む',
+      page: 'textbook-select',
     },
     {
       emoji: '🧮',
